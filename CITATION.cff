@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the associated LROT study and identify this local code snapshot using its supplied file manifests. The existing collective contributor entry is retained."
+title: "LROT: ligand-receptor-guided optimal transport for spatial transcriptomics slice alignment"
+abstract: "Reference implementation of LROT, which embeds a manually specified gene-pair compatibility prior as a third cost channel in an entropy-regularised fused Gromov-Wasserstein framework for spatial transcriptomics section alignment, together with locked figure assets and selected saved results; the numerical execution wrapper is source-bound and its portable loading has been verified; fixed-case evidence does not establish full-repository end-to-end reproduction."
+type: software
+authors:
+  - name: "LROT authors"
+license: MIT
+version: "paper-aligned-release-candidate"
+keywords:
+  - spatial transcriptomics
+  - optimal transport
+  - Gromov-Wasserstein
+  - ligand-receptor
+  - section alignment
+  - 3D reconstruction

@@ -1,0 +1,177 @@
+{
+  "local_version": "paper-aligned-release-candidate",
+  "published": false,
+  "companion_attachments_SHA256": {
+    "LROT_Supplementary_Tables_S11_S12.xlsx": "b358671aacadaff261db283b94ee8ce91a00f364097d843c176bbc1c1c539de3",
+    "Supplementary_File_S2_synthetic_seed_pairs.csv": "f3375d3e4817316bb623ace6b47ccdc3d7a20eb82ad04e1fcaa2e3b4ad272183"
+  },
+  "third_party_resource_permissions": "Resource-specific upstream declarations and notices are recorded in data/external_sources.json: STAligner source MIT, matching CellChat source GPL-3. CellChat binaries remain external; project MIT does not relicense them. Other unresolved resource histories remain scoped in their original evidence.",
+  "third_party_resource_public_redistribution_approved": false,
+  "schema_version": 2,
+  "code_package_definition": "RELEASE_FILES.txt plus MANIFEST.sha256 and MANIFEST_size.txt; raw inputs and manuscripts excluded.",
+  "document_sha256": {
+    "main": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+    "supplement": "e5ffa2849d1d028a580f74667efafa3ce2965979d3d5f746c7f87ca874a4c62e"
+  },
+  "pdf_sha256": {
+    "main": "ee7a3888df0b61ad08f3a9bc0df95555f465abd0428d9c44c68dc5f6a9203176",
+    "supplement": "0c8a7a9a4c50db839c00aee70abd0406e1d7b1a02d8a65434ff41fd29c38d4c0"
+  },
+  "pdf_sync_pending": true,
+  "document_hash_role": "Legacy document_sha256 and pdf_sha256 fields identify the preserved historical baseline only, not the current or final manuscripts/PDFs. External documents are not runtime inputs or bundled files.",
+  "document_sync_audit": "figures/current_release/FINAL_PAPER_IMAGE_INDEX.csv",
+  "document_sync_report": "provenance/release_alignment.json",
+  "numerical_source_binding": "paper_protocol/source_binding.json",
+  "scientific_baseline": "s19_posthoc_reconstruction_20261009_180830",
+  "current_verification": "provenance/reproduction_acceptance/summary.json",
+  "full_repository_end_to_end_certified": false,
+  "data_manifest": "data/input_files.json",
+  "historical_metadata_policy": "Earlier administrative metadata retained in local pre-edit backup. Experimental records, arrays, source bindings and assets remain in the package.",
+  "packaging_revision": {
+    "date": "2026-10-15",
+    "scope": "Consolidated current figure assets/inputs and named result directories; updated current pins and documentation. Historical evidence, fixed numerical sources, raw data and selected image bytes preserved.",
+    "experiments_executed": false,
+    "paper_documents_modified": false,
+    "selected_images_changed": false,
+    "png_count": 34,
+    "path_relocations": "provenance/path_relocations.json"
+  },
+  "documentation_revision": {
+    "date": "2026-10-15",
+    "entrypoint_table": "docs/figure_entrypoints.md",
+    "entrypoint_table_zh": "docs/figure_entrypoints_zh.md",
+    "scope": "Figure/task commands, primary inputs and verification boundaries; documentation only.",
+    "experiments_executed": false,
+    "scientific_files_changed": false,
+    "readme_overview_revision": {
+      "date": "2026-10-15",
+      "scope": "Input/output summary, recorded environment, F2 retained-result example and citation readiness; method/data descriptions preserved.",
+      "new_experiments_run": false,
+      "fresh_environment_installation_tested": false
+    },
+    "release_finish_revision": {
+      "date": "2026-10-15",
+      "scope": "Current ignore/attribute paths, explicit attachment identifiers, historical document-baseline scope and external-source obtainability status.",
+      "scientific_files_changed": false,
+      "network_or_upload_performed": false
+    }
+  },
+  "historical_document_baseline": {
+    "document_sha256": {
+      "main": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+      "supplement": "e5ffa2849d1d028a580f74667efafa3ce2965979d3d5f746c7f87ca874a4c62e"
+    },
+    "pdf_sha256": {
+      "main": "ee7a3888df0b61ad08f3a9bc0df95555f465abd0428d9c44c68dc5f6a9203176",
+      "supplement": "0c8a7a9a4c50db839c00aee70abd0406e1d7b1a02d8a65434ff41fd29c38d4c0"
+    },
+    "recorded_pdf_sync_pending": false,
+    "image_identity_report": "provenance/release_alignment.json",
+    "role": "Preserved earlier document/image-identity baseline; does not identify or certify the mutable current manuscripts/PDFs."
+  },
+  "document_finalization": {
+    "status": "pending_author_finalization",
+    "current_pdfs_are_final": false,
+    "final_document_sha256": null,
+    "final_pdf_sha256": null,
+    "historical_sync_report_is_current_certification": false,
+    "policy": "The author may revise the working documents/PDFs. Confirm final identities and figure/caption consistency only after author finalization; no current final-PDF certification.",
+    "paper_documents_modified_in_this_revision": true,
+    "modification_scope": "Targeted comparator/GO evidence text and S9/S14/S22 cells only; equations, references and images unchanged."
+  },
+  "external_source_resolution": {
+    "date": "2026-10-15",
+    "manifest": "data/external_sources.json",
+    "guide": "docs/external_resources.md",
+    "cellchat_matching_public_RDA_verified": true,
+    "cellchat_derived_PKL_byte_exact_rebuild_verified": true,
+    "cellchat_binaries_bundled": false,
+    "staligner_offline_source_recipe_bundled_under_upstream_MIT": true,
+    "all_six_reconstructed_training_source_hashes_match": true,
+    "historical_acquisition_installation_and_patch_authorship_recovered": false,
+    "fresh_dependency_environment_installation_tested": true,
+    "paper_or_existing_results_changed": false,
+    "fixed_source_rebuild_training_verification": "provenance/f3_staligner/source_rebuild_verification.json",
+    "authorized_public_source_network_verification_performed": true,
+    "private_content_sent_or_uploaded": false,
+    "subsequent_clean_environment_evidence": "provenance/clean_environment/verification.json"
+  },
+  "third_party_resource_public_redistribution_approved_scope": "The false legacy flag applies to CellChatDB and other raw-input binaries, which remain excluded. The explicitly included upstream STAligner source recipe is distributed separately under its retained MIT notice. Fixed GO/MGI data are now bundled in data/go under their retained CC BY 4.0 attribution and source notices; the legacy false flag is not a denial of those specific upstream terms.",
+  "clean_environment_verification": {
+    "date": "2026-10-15",
+    "evidence": "provenance/clean_environment/verification.json",
+    "dependency_inventory": "provenance/clean_environment/installed_dependencies.json",
+    "installation_guide": "docs/clean_environment.md",
+    "fresh_venv_dependency_installation_tested": true,
+    "system_site_packages_inherited": false,
+    "scope": "F2 saved drawing/four fresh diagnostic curves; F3 saved scoring/complete fixed training; same Windows computer, Python3.10.11 CPU",
+    "whole_repository_certified": false
+  },
+  "targeted_evidence_closure": {
+    "date": "2026-10-16",
+    "GO": "provenance/go_enrichment/verification.json",
+    "external_comparators": "provenance/comparator_audit/verification.json",
+    "DLPFC": "provenance/dlpfc_comparators/comparison.json",
+    "LROT_core_and_paper_equations_changed": false,
+    "all_paper_experiments_certified": false,
+    "fresh_DLPFC_table_accuracy": [
+      0.586,
+      0.525
+    ],
+    "historical_DLPFC_accuracy_retained": [
+      0.58,
+      0.518
+    ],
+    "publication_metadata_still_pending": true,
+    "independent_saved_result_checks": "provenance/comparator_audit/independent_checks.json",
+    "working_document_checkpoint": {
+      "date": "2026-10-16",
+      "document_sha256": {
+        "LROT Ligand–Receptor-Guided Optimal Transport for Spatial Transcriptomics Serial-Section Alignment.docx": "ffa6aef9904473f9abe0e47b652a828e021842ab8e51f744e5682cc5fbf59bed",
+        "Supplementary Material.docx": "93cb8c550b4462da9f8fb2a1ceb0f01fe8069ba5af3da48ec58c997bfe1aad66"
+      },
+      "pdf_sha256": {
+        "main": "625ed532be7a93364066cae8fe29d3ef1e01a49637f3c894a89d0e22709644e4",
+        "supplement": "79f4a513edf0e61c67fe30eb2498c893609654a6ad39f0be149da67ab1893e35"
+      },
+      "working_PDF_sync_verified": true,
+      "protected_equations_images_citations_unchanged": true,
+      "final_author_approval_or_final_PDF_certification": false
+    }
+  },
+  "pdf_sync_pending_role": "Pending final-author document/PDF identity. The scoped 2026-10-16 working checkpoint is synchronized and is recorded separately.",
+  "selected_result_verification": {
+    "date": "2026-10-16",
+    "evidence": "provenance/final_verification_20261016/summary.json",
+    "guide": "docs/final_verification.md",
+    "raw_input_bound_saved_plans_scored": 58,
+    "whole_paper_end_to_end_certified": false
+  },
+  "local_packaging": {
+    "date": "2026-10-21",
+    "scope": "Independent repository root with bundled fixed GO inputs and S1; original scientific sources/results/assets retained.",
+    "source_snapshot_identifier_preserved": true,
+    "formal_software_version_assigned": false,
+    "public_host_or_archive_identifier_assigned": false,
+    "scientific_sources_results_and_assets_changed": false,
+    "code_manifest": "MANIFEST.sha256",
+    "outer_manifest": null,
+    "layout_guide": "docs/repository_upload.md"
+  },
+  "standalone_repository": {
+    "repository_root": ".",
+    "data_manifest": "data/input_files.json",
+    "input_identity_names": "data/dlpfc_sample_aliases.json",
+    "bundled_file_sha256": {
+      "data/go/go-basic.obo": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+      "data/go/mgi.gaf.gz": "9b7613f786f9f805531a8f6768f310220d28c82095f938e1212c86f39596ce30",
+      "supplementary_files/LROT_Supplementary_Tables_S11_S12.xlsx": "b358671aacadaff261db283b94ee8ce91a00f364097d843c176bbc1c1c539de3",
+      "lrot_output/s23_support/Supplementary_File_S2_synthetic_seed_pairs.csv": "f3375d3e4817316bb623ace6b47ccdc3d7a20eb82ad04e1fcaa2e3b4ad272183"
+    },
+    "code_only_outer_directory_required": false,
+    "raw_tissue_and_CellChatDB_binaries_external": true,
+    "scientific_algorithms_priors_weights_results_and_approved_images_changed": false,
+    "formal_version_or_doi_assigned": false,
+    "historical_provenance_metadata_preserved": true
+  }
+}

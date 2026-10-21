@@ -1,0 +1,30 @@
+{
+  "scope": "Current display names and original sample identities; not a change to input arrays or historical run IDs.",
+  "official_metadata_url": "https://raw.githubusercontent.com/LieberInstitute/HumanPilot/master/Analysis/visium_dlpfc_pilot_sample_metrics.tsv",
+  "metadata_fields": [
+    "Variable/header sample IDs",
+    "Brain.Number"
+  ],
+  "mapping_basis": "Official sample-metrics table inspected in the preceding data-source check; no fresh network request in this packaging step.",
+  "donors": [
+    {
+      "official_name": "Br5292",
+      "selected_section_ids": [
+        "151507",
+        "151508",
+        "151509"
+      ],
+      "retained_run_alias": "Br8325"
+    },
+    {
+      "official_name": "Br5595",
+      "selected_section_ids": [
+        "151669",
+        "151670",
+        "151671"
+      ],
+      "retained_run_alias": "Br6423"
+    }
+  ],
+  "policy": "Use official names in current explanations. Preserve original run keys, code identifiers, array order, filenames and numerical evidence; resolve identities through section IDs and file/array hashes."
+}

@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Word/temp files
+~$*
+*.tmp
+
+# Raw inputs: see data/README.md; exclude from the code release
+cancer_data/*
+!cancer_data/README.md
+!cancer_data/BREAST_SHA256SUMS.txt
+dlpfc_data/*
+!dlpfc_data/README.md
+# Only the frozen allowlisted GO resource bundle is included.
+/data/go/*
+!/data/go/go-basic.obo
+!/data/go/mgi.gaf.gz
+!/data/go/README.md
+!/data/go/SOURCE.json
+!/data/go/preparation.json
+!/data/go/SHA256SUMS.txt
+
+# Large regenerable intermediates; retained required arrays remain tracked
+# Current producer and consolidated paths (historical paths follow).
+/lrot_output/lrot_data_breast_cancer_truecoord.npz
+/lrot_output/lrot_data_dlpfc_fullscale.npz
+/lrot_output/arrays/lrot_data_breast_cancer_truecoord.npz
+/lrot_output/arrays/lrot_data_dlpfc_fullscale.npz
+lrot_output/数据_npz/lrot_data_breast_cancer_truecoord.npz
+lrot_output/数据_npz/lrot_data_dlpfc_fullscale.npz
+
+# Regenerated PNGs: keep the numeric inputs and one official S23 figure
+/lrot_output/_中间产物/_S14_panelA_new.png
+/lrot_output/_中间产物/_S14_panelB_new.png
+/lrot_output/s23_support/supplementary_paired_difference.png
+/lrot_output/S23_support/supplementary_paired_difference.png
+
+# Historical audit assets retained locally but omitted from the public code package
+/lrot_output/_中间产物/_img_orig/
+/lrot_output/_中间产物/S17_support/lr_program_control.json
+/lrot_output/_中间产物/S17_support/lr_program_control_summary.txt
+/lrot_output/cellchat_validation/_log_lr_sens.txt
+/lrot_output/验证_CellChatDB重建/_log_lr_sens.txt
+/figures/strip_stale_supp_titles.py
+
+# Retained local review files, excluded from release and accidental git add
+/figures/historical/
+/figures/supplement/history/figure_manifest_before_selected_records.json
+/provenance/f7_prospective/portable_prepare.diff
+
+# Locally retained third-party inputs; redistribution not authorized by project licence
+/data/CellChatDB.mouse.rda
+/data/CellChatDB_mouse_lr.pkl
+
+# Superseded raster exports; current figure selection is the release allowlist
+/figures/current_release/label_templates/
+/figures/supplement/templates/
+/figures/supplement/templates_selected/
+/figures/supplement/confirmed_panels/
+/figures/supplement/s19_posthoc/S19_template.png
+/figures/current_release/evidence/F2_panel_F_current_code_native_layout.png
+/figures/current_release/inputs/F2_panel_F_current_code_reconstruction.png
+/figures/current_release/saved_inputs/F2_panel_F_current_code_reconstruction.png
+/lrot_output/lrot_cancer_ablation_scan_truecoord.png
+/lrot_output/lrot_cancer_erbb2_ablation_truecoord.png
+/lrot_output/figures_png/*.png
+
+# Historical raw-data/result names remain ignored when regenerated locally
+/lrot_output/figures_png/

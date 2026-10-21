@@ -1,0 +1,7 @@
+# SHA-256 for the breast-cancer raw inputs used in the 2026-10-03 reproduction audit.
+# Paths are relative to LROT_DATA_DIR (or cancer_data/ when no override is set).
+# Source: 10x Genomics spatial-exp 1.1.0, Block A Sections 1 and 2.
+b3cbb6ead60afad848ebcc07a34835613d9d2d79e416ad8300b210d9de584b65  V1_Breast_Cancer_Block_A_Section_1.h5
+e325b4e53f0036a71904cea6b7cd65945f10c25cf2ef8e2f681de9ac1ff7766c  V1_Breast_Cancer_Block_A_Section_2.h5
+284f439570700a566512e469cddfb1bc59ac135b523a74c806a4fb59d41c2547  V1_Breast_Cancer_Block_A_Section_1/spatial/tissue_positions_list.csv
+80538920046f498129b5d867cef0c0597ea9a8765e461f64ee3e156028c246fc  V1_Breast_Cancer_Block_A_Section_2/spatial/tissue_positions_list.csv

@@ -1,0 +1,31 @@
+# Release hashes bind exact bytes. Disable automatic text conversion for
+# every file, including mixed LF/CRLF saved records and their hash references.
+* -text
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.npz  binary
+*.npy  binary
+*.pkl  binary
+*.rda  binary
+*.h5   binary
+*.xlsx binary
+*.zip  binary
+
+# Preserve exact archived result bytes; some recorded tables use CRLF.
+RELEASE_FILES.txt -text whitespace=cr-at-eol
+experiments/synthetic_design_manifest.json -text whitespace=cr-at-eol
+lrot_output/s17_support/lr_program_control.json -text whitespace=cr-at-eol
+lrot_output/s17_support/lr_program_control_summary.txt -text whitespace=cr-at-eol
+lrot_output/s23_support/Supplementary_File_S2_synthetic_seed_pairs.csv -text whitespace=cr-at-eol
+lrot_output/s23_support/historical_archive_reconstruction_check.json -text whitespace=cr-at-eol
+lrot_output/s23_support/synthetic_seed_registry.json -text whitespace=cr-at-eol
+lrot_output/s23_support/synthetic_seed_summary.json -text whitespace=cr-at-eol
+lrot_output/lrot_cancer_ablation_scan_truecoord_results.json -text whitespace=cr-at-eol
+lrot_output/lrot_cancer_erbb2_ablation_truecoord_results.json -text whitespace=cr-at-eol
+lrot_output/lrot_cancer_erbb2_ablation_truecoord_results.txt -text whitespace=cr-at-eol
+lrot_output/lrot_cancer_truecoord_results.txt -text whitespace=cr-at-eol
+lrot_output/lrot_preproc_sensitivity_breast_matched_results.json -text whitespace=cr-at-eol
+lrot_output/lrot_preproc_sensitivity_breast_matched_results.txt -text whitespace=cr-at-eol
+lrot_output/lrot_preproc_sensitivity_results.txt -text whitespace=cr-at-eol
