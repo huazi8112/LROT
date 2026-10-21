@@ -1,0 +1,22 @@
+{
+  "status": "exact_saved_asset_redraw_from_historical_plan_and_later_matched_mask_summary",
+  "historical_source_npz_sha256": "5599a3ca51f245ed16d646fd8b4a46170121091727f91c4a63cf1435c0633690",
+  "historical_source_scope": "Older plan/coordinates/loss/top pairs; source full NPZ not in code package.",
+  "plot_only_npz_sha256": "11eb7ea491ae09c739aaba20c90ccba9bc4485b8b7f35da5bea6f890a762d3fa",
+  "matched_summary_path": "lrot_output/lrot_cancer_truecoord_results.txt",
+  "matched_summary_sha256": "1fb6a3c5be9979c2809d1daeea10d7105617687435d3722c37d8b3f1fa77ba45",
+  "approved_image_sha256": "9b642e65963e32c09aa74f19bfcc14e4e4c9833a22f308e7d0995792004c3e37",
+  "exact_saved_redraw_sha256": "9b642e65963e32c09aa74f19bfcc14e4e4c9833a22f308e7d0995792004c3e37",
+  "prospective_fixed_mask_results": {
+    "FGW_entropy": 5.849528636550965,
+    "LROT_entropy": 5.817591851227303,
+    "FGW_iterations": 9,
+    "LROT_iterations": 9,
+    "LROT_max_abs_diff_to_historical_P": 1.284531779928628e-07
+  },
+  "ordered_barcode_sha256": {
+    "A": "4a00c99a227b610b10cb3d6a9c85d646c2ecdbe963726006d1b7befd16ec931b",
+    "B": "257188af6dcefdb98967f2c02bdd2e79255a1c951b14ac5b3880a62f4bb1b4f0"
+  },
+  "scope": "Image byte reproduction from mixed retained records and separate prospective matched-mask rerun. It does not make the historical archived P a saved matched-mask result or certify raw H5-to-solver reproduction."
+}

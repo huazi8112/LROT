@@ -1,0 +1,1473 @@
+{
+  "mean_rows": [
+    {
+      "gamma": 0.0,
+      "entropy": 6.017434338118531,
+      "same_mass": 0.36221034468789465,
+      "soft_ari": 0.3035144773074894,
+      "soft_acc": 0.5225,
+      "Neurotrophin / Growth Factor": 0.28281551632384494,
+      "Ephrin / Semaphorin": 0.211639531738332,
+      "Chemokine / Cytokine": 0.04682879833737854,
+      "Non-LR Control": 0.21814368681077417
+    },
+    {
+      "gamma": 0.02,
+      "entropy": 5.946689540022831,
+      "same_mass": 0.3640951651560814,
+      "soft_ari": 0.2987420134258022,
+      "soft_acc": 0.521,
+      "Neurotrophin / Growth Factor": 0.3569007057791791,
+      "Ephrin / Semaphorin": 0.32248860672115254,
+      "Chemokine / Cytokine": 0.11746510775555105,
+      "Non-LR Control": 0.22559937989304085
+    },
+    {
+      "gamma": 0.05,
+      "entropy": 5.633453989463427,
+      "same_mass": 0.3646357456981613,
+      "soft_ari": 0.28221277197345207,
+      "soft_acc": 0.5185,
+      "Neurotrophin / Growth Factor": 0.3937346990638614,
+      "Ephrin / Semaphorin": 0.40993860820378136,
+      "Chemokine / Cytokine": 0.21826277954218914,
+      "Non-LR Control": 0.22237631008811728
+    },
+    {
+      "gamma": 0.1,
+      "entropy": 4.996237461407961,
+      "same_mass": 0.3608961441280518,
+      "soft_ari": 0.24786110241058779,
+      "soft_acc": 0.505,
+      "Neurotrophin / Growth Factor": 0.38494690727087433,
+      "Ephrin / Semaphorin": 0.43200971033878777,
+      "Chemokine / Cytokine": 0.27552153814712027,
+      "Non-LR Control": 0.20095636169466313
+    },
+    {
+      "gamma": 0.15,
+      "entropy": 4.601595879876021,
+      "same_mass": 0.3558711071425954,
+      "soft_ari": 0.2219927573293744,
+      "soft_acc": 0.492,
+      "Neurotrophin / Growth Factor": 0.3633240745882267,
+      "Ephrin / Semaphorin": 0.42317276388809744,
+      "Chemokine / Cytokine": 0.28291834609940214,
+      "Non-LR Control": 0.18235483696510815
+    },
+    {
+      "gamma": 0.2,
+      "entropy": 4.393331873782597,
+      "same_mass": 0.3516467843699502,
+      "soft_ari": 0.20481275455179798,
+      "soft_acc": 0.47850000000000004,
+      "Neurotrophin / Growth Factor": 0.34762916772883845,
+      "Ephrin / Semaphorin": 0.41379799339283085,
+      "Chemokine / Cytokine": 0.28499227942589106,
+      "Non-LR Control": 0.16874602244784886
+    },
+    {
+      "gamma": 0.3,
+      "entropy": 4.193592163006998,
+      "same_mass": 0.3467129648361824,
+      "soft_ari": 0.19174765037105893,
+      "soft_acc": 0.47150000000000003,
+      "Neurotrophin / Growth Factor": 0.33706180844074024,
+      "Ephrin / Semaphorin": 0.4117976047477375,
+      "Chemokine / Cytokine": 0.2881865289189385,
+      "Non-LR Control": 0.1534776555214768
+    },
+    {
+      "gamma": 0.5,
+      "entropy": 3.953279575989493,
+      "same_mass": 0.3430467927670532,
+      "soft_ari": 0.1802502117094321,
+      "soft_acc": 0.4635,
+      "Neurotrophin / Growth Factor": 0.3450702897543543,
+      "Ephrin / Semaphorin": 0.43127650872303863,
+      "Chemokine / Cytokine": 0.2962779408322703,
+      "Non-LR Control": 0.14245020194857685
+    }
+  ],
+  "provenance": [
+    {
+      "key": "d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508",
+          "g": 0.0
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 6.01187467362836,
+        "soft_acc": 0.57,
+        "soft_ari": 0.4160097856351517,
+        "same_mass": 0.3766470709347676
+      },
+      "sha256": "541ecf0e475d9562a90289949b2c8181f0d6b716fe4bf1f863d79a59560858d8",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c.json"
+    },
+    {
+      "key": "bb74c9221394385949aafb77057cc199c9fcfb05cc476514e9aaf02ec0a65e09",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508",
+          "g": 0.02,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "params": {
+          "gamma": 0.02,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.02,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 5.938020242283732,
+        "soft_acc": 0.574,
+        "soft_ari": 0.41464969832705134,
+        "same_mass": 0.3786080876340174
+      },
+      "sha256": "52e7a1d36a165456b459137586d9c099adb08d7934652e49bd3b92b92b763fb4",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/bb74c9221394385949aafb77057cc199c9fcfb05cc476514e9aaf02ec0a65e09.json"
+    },
+    {
+      "key": "8c0a077b8a4ccb8568586a919204da213dd1194b6bd144a91ace2affde7492de",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508",
+          "g": 0.05,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "params": {
+          "gamma": 0.05,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.05,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 5.612549611826802,
+        "soft_acc": 0.577,
+        "soft_ari": 0.3972229002444624,
+        "same_mass": 0.37895518858818833
+      },
+      "sha256": "a9ea23367d0aec79196f6c8be91f2d5a4d5bfee5c0445511ec017eb26be7d8ff",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/8c0a077b8a4ccb8568586a919204da213dd1194b6bd144a91ace2affde7492de.json"
+    },
+    {
+      "key": "5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508",
+          "g": 0.1,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.952397108531448,
+        "soft_acc": 0.555,
+        "soft_ari": 0.3440948512709325,
+        "same_mass": 0.37417448987740304
+      },
+      "sha256": "cf837244ef2b65ef47b609adc3955979678ff09804fc782dde5c7f4abaa6e390",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed.json"
+    },
+    {
+      "key": "7fc53ea2d4929818c9494f0f41f60115a06af36e755594dd825b335448fa1272",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508",
+          "g": 0.15,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "params": {
+          "gamma": 0.15,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.15,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.538921439032032,
+        "soft_acc": 0.543,
+        "soft_ari": 0.31027246957823845,
+        "same_mass": 0.3682782086560553
+      },
+      "sha256": "7480b0c0a6ae6c849bd7e555dff92132443f7e3fc86a96a97c5e97f469735aea",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/7fc53ea2d4929818c9494f0f41f60115a06af36e755594dd825b335448fa1272.json"
+    },
+    {
+      "key": "389b20e3109ee7acc66710af37790d7f9e628ecadc0fe7540648fc645af80687",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508",
+          "g": 0.2,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "params": {
+          "gamma": 0.2,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.2,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.315009345305291,
+        "soft_acc": 0.531,
+        "soft_ari": 0.29188049156605744,
+        "same_mass": 0.3633746346089312
+      },
+      "sha256": "a79a81665ce0ab1c563e712a2518854cdc24226337bfeedb8f02c9015d5de0f5",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/389b20e3109ee7acc66710af37790d7f9e628ecadc0fe7540648fc645af80687.json"
+    },
+    {
+      "key": "d08906673468e242d97c8fb4a1543d691553ffabe4e4bd37b408cda0c9dd222f",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508",
+          "g": 0.3,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "params": {
+          "gamma": 0.3,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.3,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.097874512458855,
+        "soft_acc": 0.52,
+        "soft_ari": 0.27117365328549886,
+        "same_mass": 0.3570397817363831
+      },
+      "sha256": "19d86f85158b88f1803fe450c2398ee1041530cf6850460719174d47778b4f93",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/d08906673468e242d97c8fb4a1543d691553ffabe4e4bd37b408cda0c9dd222f.json"
+    },
+    {
+      "key": "5d7e33b1399f1a741e1c43a24ba30f89feee8252a52e402e74db8e7cc2d3d854",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508",
+          "g": 0.5,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "params": {
+          "gamma": 0.5,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.5,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 3.864944993309786,
+        "soft_acc": 0.507,
+        "soft_ari": 0.2501369745926574,
+        "same_mass": 0.3520942919476391
+      },
+      "sha256": "197e4cff3535767fea2406415f15c6928eea10610b51e24cddd4e821cc3b6284",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/5d7e33b1399f1a741e1c43a24ba30f89feee8252a52e402e74db8e7cc2d3d854.json"
+    },
+    {
+      "key": "3a040e7c23d554be9e56f318621c103cdd9837b05b3a017570acbed3b7c07b75",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509",
+          "g": 0.0
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 6.022994002616096,
+        "soft_acc": 0.475,
+        "soft_ari": 0.19101916897982718,
+        "same_mass": 0.3477736184410216
+      },
+      "sha256": "833b7456952e6d933d68f086f57b2a70ccdd87305fe055190e6e4b45e281bba3",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/3a040e7c23d554be9e56f318621c103cdd9837b05b3a017570acbed3b7c07b75.json"
+    },
+    {
+      "key": "6564fa3f231a2bb4464ac1f81b837f2b876b80aaedebb6bb8bebc68236b6fb71",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509",
+          "g": 0.02,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "de1b3a99abbd5a2e345c1ccdaad6e365dc62f793f15605c7826d771db3de0070",
+        "params": {
+          "gamma": 0.02,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.02,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 5.955358837771424,
+        "soft_acc": 0.468,
+        "soft_ari": 0.18283432852455303,
+        "same_mass": 0.34958224267814547
+      },
+      "sha256": "d5347c5e90caa5d3b521cc778c72772f446d1f8afbbece9ca3d2be0a84e051ef",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/6564fa3f231a2bb4464ac1f81b837f2b876b80aaedebb6bb8bebc68236b6fb71.json"
+    },
+    {
+      "key": "6634b1b3ac090e1f2c5c9609882faf3b14624caa44739802380826b2ae514024",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509",
+          "g": 0.05,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "de1b3a99abbd5a2e345c1ccdaad6e365dc62f793f15605c7826d771db3de0070",
+        "params": {
+          "gamma": 0.05,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.05,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 5.654358367115145,
+        "soft_acc": 0.46,
+        "soft_ari": 0.16720264370244178,
+        "same_mass": 0.35031630280813436
+      },
+      "sha256": "56ecf95852ef0cf41d5af143a7a6b7e6a260e60ddba3de754d82acfbf90f526f",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/6634b1b3ac090e1f2c5c9609882faf3b14624caa44739802380826b2ae514024.json"
+    },
+    {
+      "key": "7c1dd2ea5c32d6aea649332e0106dc3b8c729137370cdbbeaf728b4978f7a093",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509",
+          "g": 0.1,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "de1b3a99abbd5a2e345c1ccdaad6e365dc62f793f15605c7826d771db3de0070",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 5.040077814337682,
+        "soft_acc": 0.455,
+        "soft_ari": 0.1516273535502431,
+        "same_mass": 0.3476177983787006
+      },
+      "sha256": "aa497da546e625523e3d26ac20e58885fbaf49dae92cf65b1527f96690302b65",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/7c1dd2ea5c32d6aea649332e0106dc3b8c729137370cdbbeaf728b4978f7a093.json"
+    },
+    {
+      "key": "2f38577bcf99a6131e668dcd2283fe615b8144d28cdbf32c84a6541dad5a7d1b",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509",
+          "g": 0.15,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "de1b3a99abbd5a2e345c1ccdaad6e365dc62f793f15605c7826d771db3de0070",
+        "params": {
+          "gamma": 0.15,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.15,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.6642703209059775,
+        "soft_acc": 0.441,
+        "soft_ari": 0.13371304508051032,
+        "same_mass": 0.3434640056291353
+      },
+      "sha256": "ef81ec3532c395090db79108e550b9df88051e12a55f91d49513672c811ff378",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/2f38577bcf99a6131e668dcd2283fe615b8144d28cdbf32c84a6541dad5a7d1b.json"
+    },
+    {
+      "key": "f3c0d0ce46a17a58cd66b8cca6f616867bdd1fcc80755d89aac13c009da912b1",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509",
+          "g": 0.2,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "de1b3a99abbd5a2e345c1ccdaad6e365dc62f793f15605c7826d771db3de0070",
+        "params": {
+          "gamma": 0.2,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.2,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.471654402741064,
+        "soft_acc": 0.426,
+        "soft_ari": 0.11774501753753852,
+        "same_mass": 0.33991893413096913
+      },
+      "sha256": "c90f1be9c56889b3c71367cacbdb90899af574efdbfc37e7f3fcef24c561f86d",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/f3c0d0ce46a17a58cd66b8cca6f616867bdd1fcc80755d89aac13c009da912b1.json"
+    },
+    {
+      "key": "d1fd1be2af529561192b7da59fa4d019d7128f0b7c34bd850c1ec7a5ce67be45",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509",
+          "g": 0.3,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "de1b3a99abbd5a2e345c1ccdaad6e365dc62f793f15605c7826d771db3de0070",
+        "params": {
+          "gamma": 0.3,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.3,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.289309818948541,
+        "soft_acc": 0.423,
+        "soft_ari": 0.112321647456619,
+        "same_mass": 0.33638614793598187
+      },
+      "sha256": "b3af96696e9d1e2161c6fa72148a2d73422d7a1df05990c0201a480b3c5d31c5",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/d1fd1be2af529561192b7da59fa4d019d7128f0b7c34bd850c1ec7a5ce67be45.json"
+    },
+    {
+      "key": "84c82a58fb1cd559ede53212c3abc9d807ef9a714ba2456c67551cb55063dce4",
+      "driver": "pathway_activity_dlpfc.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "pathway_activity_dlpfc.py:analyze_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509",
+          "g": 0.5,
+          "name": "Non-LR Control"
+        },
+        "pathway_activity_dlpfc.py:main": {},
+        "pathway_activity_dlpfc.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "de1b3a99abbd5a2e345c1ccdaad6e365dc62f793f15605c7826d771db3de0070",
+        "params": {
+          "gamma": 0.5,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.5,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.041614163072679,
+        "soft_acc": 0.42,
+        "soft_ari": 0.1103634488262068,
+        "same_mass": 0.3339992935864673
+      },
+      "sha256": "f5c325a19103952c1c40497dd9dc788fe2907ba5463e4d833ef17b8bd0b4b569",
+      "evidence_relative": "pathway_activity_dlpfc/evidence/84c82a58fb1cd559ede53212c3abc9d807ef9a714ba2456c67551cb55063dce4.json"
+    }
+  ],
+  "pair_ids": [
+    "151507-151508",
+    "151508-151509"
+  ],
+  "aggregation": "equal weight of the two adjacent pairs, one donor; A seed42/B seed99"
+}

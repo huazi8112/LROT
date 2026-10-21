@@ -1,0 +1,10 @@
+{
+  "replicate": "2",
+  "seed_A": "1001",
+  "seed_B": "2001",
+  "fgw_accuracy": "0.654",
+  "lrot_accuracy": "0.649",
+  "delta_lrot_minus_fgw": "-0.0050000000000000044",
+  "fgw_elapsed_seconds": "66.17",
+  "lrot_elapsed_seconds": "52.22"
+}

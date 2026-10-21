@@ -1,0 +1,296 @@
+[
+  {
+    "call": 1,
+    "resource": "Full LR Database",
+    "gamma": 0.1,
+    "alpha": 0.5,
+    "outer_iterations": 9,
+    "accepted": true,
+    "key": "950a18051de364b191383be975afb47f0b1f046f64df138022024b2b7d6f42a6",
+    "file_sha256": "c014259a9801a896399375e68514502e202215a1f3978517d86a3d1bcdafa20c",
+    "parameters": {
+      "gamma": 0.1,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "alpha": 0.5,
+      "max_iter": 200,
+      "lr_step": 50,
+      "tol": 1e-05,
+      "verbose": false,
+      "lr_gene_list": null,
+      "return_diagnostics": true,
+      "strict": false,
+      "inner_max_iter": 10000,
+      "marginal_abs_tol": 1e-08,
+      "marginal_rel_tol": 1e-05
+    },
+    "input_identity": {
+      "A": {
+        "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+        "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+        "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+      },
+      "B": {
+        "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+        "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+        "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+      },
+      "lr": "1e6eebd512a1dc809d46523a256d69d72a2c8fb5aef1d81fbabaaf15387b41db",
+      "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+    },
+    "metrics": {
+      "entropy": 3.927911146983717,
+      "soft_acc": 0.712,
+      "soft_ari": 0.5195865958933218,
+      "same_mass": 0.6751475005107027
+    },
+    "seed_explicitly_recorded": false,
+    "stop_reason": "outer_tolerance"
+  },
+  {
+    "call": 2,
+    "resource": "Full LR Database",
+    "gamma": 1.0,
+    "alpha": 0.0,
+    "outer_iterations": 39,
+    "accepted": true,
+    "key": "413d015ffe2b7eb47c3fe4f17405dbbebe07b43476ef88f6d30b607087eea728",
+    "file_sha256": "6f70374c188f2db71bd69ea93de36ea3f97343dda0d4e8e50e6736853fb4c6e5",
+    "parameters": {
+      "gamma": 1.0,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "alpha": 0.0,
+      "max_iter": 200,
+      "lr_step": 50,
+      "tol": 1e-05,
+      "verbose": false,
+      "lr_gene_list": null,
+      "return_diagnostics": true,
+      "strict": false,
+      "inner_max_iter": 10000,
+      "marginal_abs_tol": 1e-08,
+      "marginal_rel_tol": 1e-05
+    },
+    "input_identity": {
+      "A": {
+        "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+        "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+        "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+      },
+      "B": {
+        "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+        "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+        "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+      },
+      "lr": "1e6eebd512a1dc809d46523a256d69d72a2c8fb5aef1d81fbabaaf15387b41db",
+      "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+    },
+    "metrics": {
+      "entropy": 4.12727057483171,
+      "soft_acc": 0.232,
+      "soft_ari": 0.17558069316508923,
+      "same_mass": 0.19883962927403498
+    },
+    "seed_explicitly_recorded": false,
+    "stop_reason": "outer_tolerance"
+  },
+  {
+    "call": 3,
+    "resource": "Shuffled LR",
+    "gamma": 0.1,
+    "alpha": 0.5,
+    "outer_iterations": 9,
+    "accepted": true,
+    "key": "68fbff673fa70e537f8bcfae0b4d636dd23b0bb7b981fa7af02eab1b359e71f8",
+    "file_sha256": "af2262edb237fa33a1f2ce24f91c353a955ee1075b3731ac61ae455eab5873d1",
+    "parameters": {
+      "gamma": 0.1,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "alpha": 0.5,
+      "max_iter": 200,
+      "lr_step": 50,
+      "tol": 1e-05,
+      "verbose": false,
+      "lr_gene_list": null,
+      "return_diagnostics": true,
+      "strict": false,
+      "inner_max_iter": 10000,
+      "marginal_abs_tol": 1e-08,
+      "marginal_rel_tol": 1e-05
+    },
+    "input_identity": {
+      "A": {
+        "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+        "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+        "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+      },
+      "B": {
+        "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+        "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+        "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+      },
+      "lr": "5f2eb862e68961b0bf5dc06a2637299a509c90d29983c67364140ceae27f2cca",
+      "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+    },
+    "metrics": {
+      "entropy": 3.7564408487176544,
+      "soft_acc": 0.701,
+      "soft_ari": 0.5111245081770993,
+      "same_mass": 0.6758305150333221
+    },
+    "seed_explicitly_recorded": false,
+    "stop_reason": "outer_tolerance"
+  },
+  {
+    "call": 4,
+    "resource": "Shuffled LR",
+    "gamma": 1.0,
+    "alpha": 0.0,
+    "outer_iterations": 121,
+    "accepted": true,
+    "key": "984813ef47f586cc2fdf1a01f6fb76b1afa075441cb04677d4275d67be718eee",
+    "file_sha256": "7f9c1dba190d45e4e57d2c215c31fc10c5661b4668c373c6213c3a95e8fc058d",
+    "parameters": {
+      "gamma": 1.0,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "alpha": 0.0,
+      "max_iter": 200,
+      "lr_step": 50,
+      "tol": 1e-05,
+      "verbose": false,
+      "lr_gene_list": null,
+      "return_diagnostics": true,
+      "strict": false,
+      "inner_max_iter": 10000,
+      "marginal_abs_tol": 1e-08,
+      "marginal_rel_tol": 1e-05
+    },
+    "input_identity": {
+      "A": {
+        "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+        "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+        "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+      },
+      "B": {
+        "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+        "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+        "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+      },
+      "lr": "5f2eb862e68961b0bf5dc06a2637299a509c90d29983c67364140ceae27f2cca",
+      "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+    },
+    "metrics": {
+      "entropy": 3.78973207563302,
+      "soft_acc": 0.069,
+      "soft_ari": 0.2311560338103904,
+      "same_mass": 0.08344037652305795
+    },
+    "seed_explicitly_recorded": false,
+    "stop_reason": "outer_tolerance"
+  },
+  {
+    "call": 5,
+    "resource": "Adhesion Only",
+    "gamma": 0.1,
+    "alpha": 0.5,
+    "outer_iterations": 9,
+    "accepted": true,
+    "key": "a74906e4d52c25651556e7832fe0d935c1f7db5c1389a961e3d580841a577944",
+    "file_sha256": "af04e079d503a4c2cda15cdd340b353ce9c34aa469cb7b66f11a8024df4c2d2e",
+    "parameters": {
+      "gamma": 0.1,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "alpha": 0.5,
+      "max_iter": 200,
+      "lr_step": 50,
+      "tol": 1e-05,
+      "verbose": false,
+      "lr_gene_list": null,
+      "return_diagnostics": true,
+      "strict": false,
+      "inner_max_iter": 10000,
+      "marginal_abs_tol": 1e-08,
+      "marginal_rel_tol": 1e-05
+    },
+    "input_identity": {
+      "A": {
+        "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+        "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+        "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+      },
+      "B": {
+        "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+        "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+        "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+      },
+      "lr": "624f4fd4aff557d19db40f22e95cba13abfd45679f3292ed52daa2d78635142d",
+      "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+    },
+    "metrics": {
+      "entropy": 3.7134866024622473,
+      "soft_acc": 0.706,
+      "soft_ari": 0.5136322115883912,
+      "same_mass": 0.6758654126888789
+    },
+    "seed_explicitly_recorded": false,
+    "stop_reason": "outer_tolerance"
+  },
+  {
+    "call": 6,
+    "resource": "Adhesion Only",
+    "gamma": 1.0,
+    "alpha": 0.0,
+    "outer_iterations": 40,
+    "accepted": true,
+    "key": "0735945d16042247b8eb51791e1e01ccb58656823f9fed4e4346f620d2791b8b",
+    "file_sha256": "2cfa8208517368936f06b4578b248c45dc823210e6db160b29842819c4dec4f8",
+    "parameters": {
+      "gamma": 1.0,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "alpha": 0.0,
+      "max_iter": 200,
+      "lr_step": 50,
+      "tol": 1e-05,
+      "verbose": false,
+      "lr_gene_list": null,
+      "return_diagnostics": true,
+      "strict": false,
+      "inner_max_iter": 10000,
+      "marginal_abs_tol": 1e-08,
+      "marginal_rel_tol": 1e-05
+    },
+    "input_identity": {
+      "A": {
+        "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+        "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+        "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+      },
+      "B": {
+        "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+        "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+        "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+      },
+      "lr": "624f4fd4aff557d19db40f22e95cba13abfd45679f3292ed52daa2d78635142d",
+      "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+    },
+    "metrics": {
+      "entropy": 4.910914323330687,
+      "soft_acc": 0.147,
+      "soft_ari": 0.35638651064050403,
+      "same_mass": 0.1572831107587502
+    },
+    "seed_explicitly_recorded": false,
+    "stop_reason": "outer_tolerance"
+  }
+]

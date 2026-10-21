@@ -1,0 +1,2033 @@
+{
+  "points": [
+    {
+      "size": 250,
+      "method": "Expr OT only",
+      "acc": 0.784,
+      "entropy": 1.4629941461683251,
+      "cost": 0.48716980741619575,
+      "solve_time": 1.969527244567871,
+      "lr_time": 0.0,
+      "peak_mb": 159.81640625,
+      "call": 1,
+      "P_shape": [
+        250,
+        250
+      ],
+      "P_sha256": "f075e26860e13b84e3f5ce420fc23cd1cc5ce4d93061bf8d2fa301f388c1fd6f",
+      "recorded_runtime_seconds": 0.12896943092346191,
+      "evidence_sha256": "73cf872f9dc21cefadbab003427fdf1c828f52d172f3e0162810b93366da68ae",
+      "input_identity": {
+        "A": {
+          "coords": "8d95062904623ad9cf4c1a9c48a80d7a5a56fc050fa1d2ea8d2ec6e392c376b2",
+          "expr": "27edccb36c5dcbce0304e9f4ed5aaef1d2504edce8723f2385e4e4fdca6c6830",
+          "region_labels": "d1f62357d968b99b4b032db8d819956f79ad58ee5b89a95abcb5f52e593c042f"
+        },
+        "B": {
+          "coords": "247fcf17252a6b87f2f80a40300b1ce8ca38863d52d738c6100a1b49d92fbfb7",
+          "expr": "dbf228d97288d32f1d6168ddf1a80744a598fcd7fcbfbc8881132a766effc337",
+          "region_labels": "54e692637314531e14e4710151e6a9af2b19403f8ebc65dbd849fecea1798106"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "90a00115870798705e5d4e889043a0a662e2a912d9049ab0c95d296ff75b9e85",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/f9acda1e561881bb6a777a28d03d252498902b9fc88ab734f0eb7cfde81e4377.json"
+    },
+    {
+      "size": 250,
+      "method": "FGW (γ=0)",
+      "acc": 0.808,
+      "entropy": 2.9196950544523146,
+      "cost": 0.5026769060290075,
+      "solve_time": 0.1824359893798828,
+      "lr_time": 0.0,
+      "peak_mb": 167.21484375,
+      "call": 2,
+      "P_shape": [
+        250,
+        250
+      ],
+      "P_sha256": "9c86fc189fbaa1fe76ab821e68c9ac99dbe0d20eb7544a3a511a79233ee8ed7c",
+      "recorded_runtime_seconds": 0.14008069038391113,
+      "evidence_sha256": "68c15c5eb2b51f06f7256e51c5ab362b261229cd1c0fb7079aafffaf1a591e1c",
+      "input_identity": {
+        "A": {
+          "coords": "8d95062904623ad9cf4c1a9c48a80d7a5a56fc050fa1d2ea8d2ec6e392c376b2",
+          "expr": "27edccb36c5dcbce0304e9f4ed5aaef1d2504edce8723f2385e4e4fdca6c6830",
+          "region_labels": "d1f62357d968b99b4b032db8d819956f79ad58ee5b89a95abcb5f52e593c042f"
+        },
+        "B": {
+          "coords": "247fcf17252a6b87f2f80a40300b1ce8ca38863d52d738c6100a1b49d92fbfb7",
+          "expr": "dbf228d97288d32f1d6168ddf1a80744a598fcd7fcbfbc8881132a766effc337",
+          "region_labels": "54e692637314531e14e4710151e6a9af2b19403f8ebc65dbd849fecea1798106"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "90a00115870798705e5d4e889043a0a662e2a912d9049ab0c95d296ff75b9e85",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/d90512cd915f1b4f8b42629e4ffbcee28b196b4e6b18a4358abb3ac537d10041.json"
+    },
+    {
+      "size": 250,
+      "method": "LROT (γ=0.1)",
+      "acc": 0.808,
+      "entropy": 2.7418812953886813,
+      "cost": 0.5024878730627992,
+      "solve_time": 0.1871962547302246,
+      "lr_time": 0.0020325183868408203,
+      "peak_mb": 167.1796875,
+      "call": 3,
+      "P_shape": [
+        250,
+        250
+      ],
+      "P_sha256": "287d0b6896cb2e45c57edee6d654236e8640a57664b11a287d3ee26ecb33cdb4",
+      "recorded_runtime_seconds": 0.13975763320922852,
+      "evidence_sha256": "533e9fac1d01a6075b237722151716154116be67033de8b2b3bd32f77ba3a94b",
+      "input_identity": {
+        "A": {
+          "coords": "8d95062904623ad9cf4c1a9c48a80d7a5a56fc050fa1d2ea8d2ec6e392c376b2",
+          "expr": "27edccb36c5dcbce0304e9f4ed5aaef1d2504edce8723f2385e4e4fdca6c6830",
+          "region_labels": "d1f62357d968b99b4b032db8d819956f79ad58ee5b89a95abcb5f52e593c042f"
+        },
+        "B": {
+          "coords": "247fcf17252a6b87f2f80a40300b1ce8ca38863d52d738c6100a1b49d92fbfb7",
+          "expr": "dbf228d97288d32f1d6168ddf1a80744a598fcd7fcbfbc8881132a766effc337",
+          "region_labels": "54e692637314531e14e4710151e6a9af2b19403f8ebc65dbd849fecea1798106"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "9e7e2fe2dc88f3c31db38a6aaa56b42c135ab2096fe702f9c40f6162eac58eaf",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/1a84b47f0d16e0ca457a6120492b78286279737d4e149bcfb946801f2537fe94.json"
+    },
+    {
+      "size": 500,
+      "method": "Expr OT only",
+      "acc": 0.732,
+      "entropy": 1.6070164777735005,
+      "cost": 0.46521561837011305,
+      "solve_time": 1.1388850212097168,
+      "lr_time": 0.0,
+      "peak_mb": 191.06640625,
+      "call": 4,
+      "P_shape": [
+        500,
+        500
+      ],
+      "P_sha256": "3f47608809fef5f13a1b88e21e6334ca60a2b28d7b19317415ce793df949e82e",
+      "recorded_runtime_seconds": 1.012988805770874,
+      "evidence_sha256": "d2cef9514a80a38ba1a361259374a7ac70467e6edbd79b7e87be0b2166b527d2",
+      "input_identity": {
+        "A": {
+          "coords": "d1d3bfd071e7317d2ab765e64cba8a436d34fee32c487d27f80acbb6727744f1",
+          "expr": "66e6609fc2d8b120ff9641dbb48d7f93e439f1b1e6d1f3f3487cee918d8d88bb",
+          "region_labels": "700acea77a8f35d5a4fc6f840bef26cc94b4a9ac78c77304fa2478568de5bd81"
+        },
+        "B": {
+          "coords": "78e1eddd2ea5855332eef28547778e6b341efbe9a41a188e514abfd6e2f4f63f",
+          "expr": "9abc80d1a99ebc7f905cb968d3eece6a18fdc6e79ee0a06e7299bc1bf9cf11fb",
+          "region_labels": "aa1e26f38b3bdd886c5e6b6cb2d7e98e2190ce83a5394476c2eb175367397173"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "6044f5bb724b7c56b37ef37c9743a3cf683d9c3e443cde4b8e6d7fe5afb4751d",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/e6c0b0029f90abac3b9cf9264ec2833bfd52fe6a7f05d387249104119a47a745.json"
+    },
+    {
+      "size": 500,
+      "method": "FGW (γ=0)",
+      "acc": 0.738,
+      "entropy": 3.405303819592865,
+      "cost": 0.4804043720841281,
+      "solve_time": 0.7319293022155762,
+      "lr_time": 0.0,
+      "peak_mb": 192.7421875,
+      "call": 5,
+      "P_shape": [
+        500,
+        500
+      ],
+      "P_sha256": "cc28ce8c4211bc719332cb5f6e18c9e0e3e52486e5982e65217ab51f207780f4",
+      "recorded_runtime_seconds": 0.5947463512420654,
+      "evidence_sha256": "80377ae77cb8dc3b45181d4d2bbd77c6e078d4bf57aba63cd4ddd2ca03c8dd1a",
+      "input_identity": {
+        "A": {
+          "coords": "d1d3bfd071e7317d2ab765e64cba8a436d34fee32c487d27f80acbb6727744f1",
+          "expr": "66e6609fc2d8b120ff9641dbb48d7f93e439f1b1e6d1f3f3487cee918d8d88bb",
+          "region_labels": "700acea77a8f35d5a4fc6f840bef26cc94b4a9ac78c77304fa2478568de5bd81"
+        },
+        "B": {
+          "coords": "78e1eddd2ea5855332eef28547778e6b341efbe9a41a188e514abfd6e2f4f63f",
+          "expr": "9abc80d1a99ebc7f905cb968d3eece6a18fdc6e79ee0a06e7299bc1bf9cf11fb",
+          "region_labels": "aa1e26f38b3bdd886c5e6b6cb2d7e98e2190ce83a5394476c2eb175367397173"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "6044f5bb724b7c56b37ef37c9743a3cf683d9c3e443cde4b8e6d7fe5afb4751d",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/741d01476cfd85cbb74734471a93546e39050d4b60513ef01ff9cb8166782fd4.json"
+    },
+    {
+      "size": 500,
+      "method": "LROT (γ=0.1)",
+      "acc": 0.736,
+      "entropy": 3.3404439000157944,
+      "cost": 0.4807619246041621,
+      "solve_time": 0.8575668334960938,
+      "lr_time": 0.07098102569580078,
+      "peak_mb": 192.6171875,
+      "call": 6,
+      "P_shape": [
+        500,
+        500
+      ],
+      "P_sha256": "e7da715e235d164ed66766a4196a29c4c73c8bb30aa8044d3001c3161806c676",
+      "recorded_runtime_seconds": 0.7212510108947754,
+      "evidence_sha256": "9cd6ff12f4f892d2f2f54b1c6fe35355343ec3ceffebd5b38eaba36bbf72722c",
+      "input_identity": {
+        "A": {
+          "coords": "d1d3bfd071e7317d2ab765e64cba8a436d34fee32c487d27f80acbb6727744f1",
+          "expr": "66e6609fc2d8b120ff9641dbb48d7f93e439f1b1e6d1f3f3487cee918d8d88bb",
+          "region_labels": "700acea77a8f35d5a4fc6f840bef26cc94b4a9ac78c77304fa2478568de5bd81"
+        },
+        "B": {
+          "coords": "78e1eddd2ea5855332eef28547778e6b341efbe9a41a188e514abfd6e2f4f63f",
+          "expr": "9abc80d1a99ebc7f905cb968d3eece6a18fdc6e79ee0a06e7299bc1bf9cf11fb",
+          "region_labels": "aa1e26f38b3bdd886c5e6b6cb2d7e98e2190ce83a5394476c2eb175367397173"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "b001caa872b090d006b15cbc0125a9ac28201fb28953c6f93eb5549a6e853efa",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/ae67b36bc7ce81932c91b9c7d6f2d99d99afb3cd55dfca24f0ea1497ff124c7a.json"
+    },
+    {
+      "size": 1000,
+      "method": "Expr OT only",
+      "acc": 0.685,
+      "entropy": 1.7766534274905983,
+      "cost": 0.4951800073268826,
+      "solve_time": 5.918203830718994,
+      "lr_time": 0.0,
+      "peak_mb": 286.31640625,
+      "call": 7,
+      "P_shape": [
+        1000,
+        1000
+      ],
+      "P_sha256": "c9b6e1b2c0298d40f9579a744d0e1d4cb681fff309c9187aba902d0c4e526a7e",
+      "recorded_runtime_seconds": 5.456981182098389,
+      "evidence_sha256": "c70d95a5a8eceb71773fff4640593d9f696e1dd56f544ff766d1dd6733986e8a",
+      "input_identity": {
+        "A": {
+          "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+          "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+          "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+        },
+        "B": {
+          "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+          "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+          "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/1bf8c550646f2f1900115f26949c662f21870133fd3117066111c0b2bbd447ed.json"
+    },
+    {
+      "size": 1000,
+      "method": "FGW (γ=0)",
+      "acc": 0.711,
+      "entropy": 4.035129516620103,
+      "cost": 0.5137891675364805,
+      "solve_time": 3.4047913551330566,
+      "lr_time": 0.0,
+      "peak_mb": 289.17578125,
+      "call": 8,
+      "P_shape": [
+        1000,
+        1000
+      ],
+      "P_sha256": "b55197909b23a8f0f804c3d97386e93507b6e8658795c0d260115d3deede6aeb",
+      "recorded_runtime_seconds": 2.9416983127593994,
+      "evidence_sha256": "8308a37525545f752857d0be6bdd8f972bfaf6cef89c9cf091da4eeebdf78880",
+      "input_identity": {
+        "A": {
+          "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+          "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+          "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+        },
+        "B": {
+          "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+          "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+          "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/9cde9d4c0da5bedea2284daa0f7f795840b4906ebeee826a6838ad2c5d2026fa.json"
+    },
+    {
+      "size": 1000,
+      "method": "LROT (γ=0.1)",
+      "acc": 0.712,
+      "entropy": 3.927911145016715,
+      "cost": 0.513092081150559,
+      "solve_time": 3.153949499130249,
+      "lr_time": 0.2138066291809082,
+      "peak_mb": 294.03515625,
+      "call": 9,
+      "P_shape": [
+        1000,
+        1000
+      ],
+      "P_sha256": "92379aac222ae92a8128916340a135bf38677857b421c2f22bb4dde082693d92",
+      "recorded_runtime_seconds": 2.7200090885162354,
+      "evidence_sha256": "f024081ece32f7ed445df1cc991ec0592e6cde28975316e316a5b08b80199b61",
+      "input_identity": {
+        "A": {
+          "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+          "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+          "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+        },
+        "B": {
+          "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+          "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+          "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "1e6eebd512a1dc809d46523a256d69d72a2c8fb5aef1d81fbabaaf15387b41db",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/950a18051de364b191383be975afb47f0b1f046f64df138022024b2b7d6f42a6.json"
+    },
+    {
+      "size": 2000,
+      "method": "Expr OT only",
+      "acc": 0.694,
+      "entropy": 1.883498584806684,
+      "cost": 0.4790524379728423,
+      "solve_time": 21.087372064590454,
+      "lr_time": 0.0,
+      "peak_mb": 647.625,
+      "call": 10,
+      "P_shape": [
+        2000,
+        2000
+      ],
+      "P_sha256": "c2b213a5cb7638d3e97d2dcad6351c0512f8e6f3f7d8210b96dcdd4b35fe6613",
+      "recorded_runtime_seconds": 19.431442737579346,
+      "evidence_sha256": "46e401d4146600de98f5d407ad3a999ca6e9e33a54cb1c4e6353119796297e6a",
+      "input_identity": {
+        "A": {
+          "coords": "c71cba91bf39e7e31ac6fb451c89aa345cfa9e56fb4305659ba7f1c74108566d",
+          "expr": "e579dd90e1b17abffce669015c683a52acb6cca89af5ba05be3db7736c1e3d1e",
+          "region_labels": "1a7d0a46bfb32110b689f4bf8fd3d9ea1fdc3892abc24382810dd40959aa2ce5"
+        },
+        "B": {
+          "coords": "1b24a14339504a7fc51afcf993b4694b986e7989937b2517cf9f20d9e4d682e6",
+          "expr": "8dc7b67c303d3e1d072a81b7423a3096d32a3e9c14f2117be7bfe754bd51e3ff",
+          "region_labels": "f1c1ae2960fa87541827c545624a7de3f2ee971380d176bd8d05b2f7dfba5ec7"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "428a6ab004438edb15d8d24fb3776a30a84664db45b9a60b8ccf1f9fd486a7e4",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/8e6e20a6d96c4a386240a20915616c20ce15c37b2df59661476225ccdc05c80e.json"
+    },
+    {
+      "size": 2000,
+      "method": "FGW (γ=0)",
+      "acc": 0.706,
+      "entropy": 4.410001863611281,
+      "cost": 0.49769261342212484,
+      "solve_time": 13.332456111907959,
+      "lr_time": 0.0,
+      "peak_mb": 686.890625,
+      "call": 11,
+      "P_shape": [
+        2000,
+        2000
+      ],
+      "P_sha256": "63b93dacb56cbd9586fd5e8c8d8ffa1f7464a96095957e0bd344a36c1d8e0f1d",
+      "recorded_runtime_seconds": 11.57329273223877,
+      "evidence_sha256": "1443d2e2528a17d8077d0c2f6e21fc580ceaa16df8f295e156a78ebadc106930",
+      "input_identity": {
+        "A": {
+          "coords": "c71cba91bf39e7e31ac6fb451c89aa345cfa9e56fb4305659ba7f1c74108566d",
+          "expr": "e579dd90e1b17abffce669015c683a52acb6cca89af5ba05be3db7736c1e3d1e",
+          "region_labels": "1a7d0a46bfb32110b689f4bf8fd3d9ea1fdc3892abc24382810dd40959aa2ce5"
+        },
+        "B": {
+          "coords": "1b24a14339504a7fc51afcf993b4694b986e7989937b2517cf9f20d9e4d682e6",
+          "expr": "8dc7b67c303d3e1d072a81b7423a3096d32a3e9c14f2117be7bfe754bd51e3ff",
+          "region_labels": "f1c1ae2960fa87541827c545624a7de3f2ee971380d176bd8d05b2f7dfba5ec7"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "428a6ab004438edb15d8d24fb3776a30a84664db45b9a60b8ccf1f9fd486a7e4",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/58c3e2c6c6520b86c193958aeb2567362e717113527456b866a854abbf0803aa.json"
+    },
+    {
+      "size": 2000,
+      "method": "LROT (γ=0.1)",
+      "acc": 0.702,
+      "entropy": 4.311900802485964,
+      "cost": 0.49831002658388696,
+      "solve_time": 13.327388525009155,
+      "lr_time": 0.8441524505615234,
+      "peak_mb": 681.6796875,
+      "call": 12,
+      "P_shape": [
+        2000,
+        2000
+      ],
+      "P_sha256": "623b5b2f4fbe0670c79878fd45fbcd271c13af366ba2064c8bf56b6fba3459db",
+      "recorded_runtime_seconds": 11.377179622650146,
+      "evidence_sha256": "69d0330b4ad1ef9cbf0908b764d0afe1d7a15424ede17b9a13865235559d05e5",
+      "input_identity": {
+        "A": {
+          "coords": "c71cba91bf39e7e31ac6fb451c89aa345cfa9e56fb4305659ba7f1c74108566d",
+          "expr": "e579dd90e1b17abffce669015c683a52acb6cca89af5ba05be3db7736c1e3d1e",
+          "region_labels": "1a7d0a46bfb32110b689f4bf8fd3d9ea1fdc3892abc24382810dd40959aa2ce5"
+        },
+        "B": {
+          "coords": "1b24a14339504a7fc51afcf993b4694b986e7989937b2517cf9f20d9e4d682e6",
+          "expr": "8dc7b67c303d3e1d072a81b7423a3096d32a3e9c14f2117be7bfe754bd51e3ff",
+          "region_labels": "f1c1ae2960fa87541827c545624a7de3f2ee971380d176bd8d05b2f7dfba5ec7"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "6f5390c3469d119536da338ee890bc3810462a49f2bb54dade3ef2aa6c3652bc",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/700fc6613ba8342415e5d29e45d8516b0bb25ca7ac24d7bad3eb494093ce51f4.json"
+    },
+    {
+      "size": 4000,
+      "method": "Expr OT only",
+      "acc": 0.59725,
+      "entropy": 2.1558676535519616,
+      "cost": 0.5027149939487073,
+      "solve_time": 94.92212009429932,
+      "lr_time": 0.0,
+      "peak_mb": 2164.8984375,
+      "call": 13,
+      "P_shape": [
+        4000,
+        4000
+      ],
+      "P_sha256": "abdaf6c8b1ce079792b5c03cdfd4d9f1c7bbfc2cdcff21ff4925477e9132b844",
+      "recorded_runtime_seconds": 87.97276377677917,
+      "evidence_sha256": "7e85e0ec3286c2c39bc073cd9248c4adc407cf9ec31d63a59060b759a6b120f1",
+      "input_identity": {
+        "A": {
+          "coords": "e8b1b6a7fdd8b2256ba92608b90a596335997265faa724eb5554b4f82a7a30d6",
+          "expr": "a128a85c7b7572108d065ae6d7e55fdd89f71a617db9399f0eb0b5bbf08cb304",
+          "region_labels": "c5710a0fa8a571d5cd2845e6586ff77f4568973b4a5a06b2c554442e9f0e295b"
+        },
+        "B": {
+          "coords": "f94e3eb587a3797bc2f4591bd463e26bbdda3c2365a711892b181f450c948e1f",
+          "expr": "c81c76f0e33cd630c788f2713b077639b3d112505df2c553ad2c4bf083158b71",
+          "region_labels": "40c73f22ea1b75cab62afb96139d0e346cbd5328913666f4cf5d3f75d4768c79"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "0277c9fe1a7c221be5ad9e20a002342f5d0d8b14b71a084258c1a4cb5edc046a",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/bd7df70bfcda84500b7d406089d757b5a3c3d64499d03a537a2d87defe371f16.json"
+    },
+    {
+      "size": 4000,
+      "method": "FGW (γ=0)",
+      "acc": 0.6135,
+      "entropy": 5.1851404185874275,
+      "cost": 0.5269781734052721,
+      "solve_time": 85.56944727897644,
+      "lr_time": 0.0,
+      "peak_mb": 2250.4765625,
+      "call": 14,
+      "P_shape": [
+        4000,
+        4000
+      ],
+      "P_sha256": "bdb80eeda687512dd55bd6bb4587d83b9ad66139d970e01eb68c9eef0d6b2162",
+      "recorded_runtime_seconds": 78.60393714904785,
+      "evidence_sha256": "edbec7e2033cb54dd23025a9e4f4b26ff37d6a673dbcd2d19fbae06a0bcb7549",
+      "input_identity": {
+        "A": {
+          "coords": "e8b1b6a7fdd8b2256ba92608b90a596335997265faa724eb5554b4f82a7a30d6",
+          "expr": "a128a85c7b7572108d065ae6d7e55fdd89f71a617db9399f0eb0b5bbf08cb304",
+          "region_labels": "c5710a0fa8a571d5cd2845e6586ff77f4568973b4a5a06b2c554442e9f0e295b"
+        },
+        "B": {
+          "coords": "f94e3eb587a3797bc2f4591bd463e26bbdda3c2365a711892b181f450c948e1f",
+          "expr": "c81c76f0e33cd630c788f2713b077639b3d112505df2c553ad2c4bf083158b71",
+          "region_labels": "40c73f22ea1b75cab62afb96139d0e346cbd5328913666f4cf5d3f75d4768c79"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "0277c9fe1a7c221be5ad9e20a002342f5d0d8b14b71a084258c1a4cb5edc046a",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/9f4234ac9826632a93042ebb55baaa5e10010ab586271f83e6f0adb8d3b22583.json"
+    },
+    {
+      "size": 4000,
+      "method": "LROT (γ=0.1)",
+      "acc": 0.612,
+      "entropy": 5.076113961127816,
+      "cost": 0.5261694116827962,
+      "solve_time": 85.65081405639648,
+      "lr_time": 3.13236927986145,
+      "peak_mb": 2247.93359375,
+      "call": 15,
+      "P_shape": [
+        4000,
+        4000
+      ],
+      "P_sha256": "7c7ddd0a29d7ad02fcf63431ae2f49f0cbcf5dbee72de6f5ccdab707266690db",
+      "recorded_runtime_seconds": 78.72503590583801,
+      "evidence_sha256": "62a99a70bb95d9a4dce4d7a738d790a4b681e7c29225505c77d4dc0a77bb2d53",
+      "input_identity": {
+        "A": {
+          "coords": "e8b1b6a7fdd8b2256ba92608b90a596335997265faa724eb5554b4f82a7a30d6",
+          "expr": "a128a85c7b7572108d065ae6d7e55fdd89f71a617db9399f0eb0b5bbf08cb304",
+          "region_labels": "c5710a0fa8a571d5cd2845e6586ff77f4568973b4a5a06b2c554442e9f0e295b"
+        },
+        "B": {
+          "coords": "f94e3eb587a3797bc2f4591bd463e26bbdda3c2365a711892b181f450c948e1f",
+          "expr": "c81c76f0e33cd630c788f2713b077639b3d112505df2c553ad2c4bf083158b71",
+          "region_labels": "40c73f22ea1b75cab62afb96139d0e346cbd5328913666f4cf5d3f75d4768c79"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "27244855425e3c3f9fd4373f03d563351b34838719f897643abaf4118ade2b2a",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "evidence_relative": "lrot_scaling/evidence/872379235667c189532c779292c76680ca78ae26fefd3e59c37613b30f060a3b.json"
+    }
+  ],
+  "provenance": [
+    {
+      "key": "f9acda1e561881bb6a777a28d03d252498902b9fc88ab734f0eb7cfde81e4377",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "Expr OT only"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "8d95062904623ad9cf4c1a9c48a80d7a5a56fc050fa1d2ea8d2ec6e392c376b2",
+          "expr": "27edccb36c5dcbce0304e9f4ed5aaef1d2504edce8723f2385e4e4fdca6c6830",
+          "region_labels": "d1f62357d968b99b4b032db8d819956f79ad58ee5b89a95abcb5f52e593c042f"
+        },
+        "B": {
+          "coords": "247fcf17252a6b87f2f80a40300b1ce8ca38863d52d738c6100a1b49d92fbfb7",
+          "expr": "dbf228d97288d32f1d6168ddf1a80744a598fcd7fcbfbc8881132a766effc337",
+          "region_labels": "54e692637314531e14e4710151e6a9af2b19403f8ebc65dbd849fecea1798106"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "90a00115870798705e5d4e889043a0a662e2a912d9049ab0c95d296ff75b9e85",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.0,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 1.0,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 1.4629941466190348,
+        "soft_acc": 0.784,
+        "soft_ari": 0.5964040242392862,
+        "same_mass": 0.7597976518412007
+      },
+      "sha256": "73cf872f9dc21cefadbab003427fdf1c828f52d172f3e0162810b93366da68ae",
+      "evidence_relative": "lrot_scaling/evidence/f9acda1e561881bb6a777a28d03d252498902b9fc88ab734f0eb7cfde81e4377.json"
+    },
+    {
+      "key": "d90512cd915f1b4f8b42629e4ffbcee28b196b4e6b18a4358abb3ac537d10041",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "FGW (γ=0)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "8d95062904623ad9cf4c1a9c48a80d7a5a56fc050fa1d2ea8d2ec6e392c376b2",
+          "expr": "27edccb36c5dcbce0304e9f4ed5aaef1d2504edce8723f2385e4e4fdca6c6830",
+          "region_labels": "d1f62357d968b99b4b032db8d819956f79ad58ee5b89a95abcb5f52e593c042f"
+        },
+        "B": {
+          "coords": "247fcf17252a6b87f2f80a40300b1ce8ca38863d52d738c6100a1b49d92fbfb7",
+          "expr": "dbf228d97288d32f1d6168ddf1a80744a598fcd7fcbfbc8881132a766effc337",
+          "region_labels": "54e692637314531e14e4710151e6a9af2b19403f8ebc65dbd849fecea1798106"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "90a00115870798705e5d4e889043a0a662e2a912d9049ab0c95d296ff75b9e85",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 2.9196950549757794,
+        "soft_acc": 0.808,
+        "soft_ari": 0.6597598542623456,
+        "same_mass": 0.7589148430120372
+      },
+      "sha256": "68c15c5eb2b51f06f7256e51c5ab362b261229cd1c0fb7079aafffaf1a591e1c",
+      "evidence_relative": "lrot_scaling/evidence/d90512cd915f1b4f8b42629e4ffbcee28b196b4e6b18a4358abb3ac537d10041.json"
+    },
+    {
+      "key": "1a84b47f0d16e0ca457a6120492b78286279737d4e149bcfb946801f2537fe94",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "LROT (γ=0.1)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "8d95062904623ad9cf4c1a9c48a80d7a5a56fc050fa1d2ea8d2ec6e392c376b2",
+          "expr": "27edccb36c5dcbce0304e9f4ed5aaef1d2504edce8723f2385e4e4fdca6c6830",
+          "region_labels": "d1f62357d968b99b4b032db8d819956f79ad58ee5b89a95abcb5f52e593c042f"
+        },
+        "B": {
+          "coords": "247fcf17252a6b87f2f80a40300b1ce8ca38863d52d738c6100a1b49d92fbfb7",
+          "expr": "dbf228d97288d32f1d6168ddf1a80744a598fcd7fcbfbc8881132a766effc337",
+          "region_labels": "54e692637314531e14e4710151e6a9af2b19403f8ebc65dbd849fecea1798106"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "9e7e2fe2dc88f3c31db38a6aaa56b42c135ab2096fe702f9c40f6162eac58eaf",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 2.741881295929425,
+        "soft_acc": 0.808,
+        "soft_ari": 0.6617284784827591,
+        "same_mass": 0.7589654601278214
+      },
+      "sha256": "533e9fac1d01a6075b237722151716154116be67033de8b2b3bd32f77ba3a94b",
+      "evidence_relative": "lrot_scaling/evidence/1a84b47f0d16e0ca457a6120492b78286279737d4e149bcfb946801f2537fe94.json"
+    },
+    {
+      "key": "e6c0b0029f90abac3b9cf9264ec2833bfd52fe6a7f05d387249104119a47a745",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "Expr OT only"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "d1d3bfd071e7317d2ab765e64cba8a436d34fee32c487d27f80acbb6727744f1",
+          "expr": "66e6609fc2d8b120ff9641dbb48d7f93e439f1b1e6d1f3f3487cee918d8d88bb",
+          "region_labels": "700acea77a8f35d5a4fc6f840bef26cc94b4a9ac78c77304fa2478568de5bd81"
+        },
+        "B": {
+          "coords": "78e1eddd2ea5855332eef28547778e6b341efbe9a41a188e514abfd6e2f4f63f",
+          "expr": "9abc80d1a99ebc7f905cb968d3eece6a18fdc6e79ee0a06e7299bc1bf9cf11fb",
+          "region_labels": "aa1e26f38b3bdd886c5e6b6cb2d7e98e2190ce83a5394476c2eb175367397173"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "6044f5bb724b7c56b37ef37c9743a3cf683d9c3e443cde4b8e6d7fe5afb4751d",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.0,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 1.0,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 1.60701647858022,
+        "soft_acc": 0.732,
+        "soft_ari": 0.6217381722023096,
+        "same_mass": 0.7389516803371958
+      },
+      "sha256": "d2cef9514a80a38ba1a361259374a7ac70467e6edbd79b7e87be0b2166b527d2",
+      "evidence_relative": "lrot_scaling/evidence/e6c0b0029f90abac3b9cf9264ec2833bfd52fe6a7f05d387249104119a47a745.json"
+    },
+    {
+      "key": "741d01476cfd85cbb74734471a93546e39050d4b60513ef01ff9cb8166782fd4",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "FGW (γ=0)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "d1d3bfd071e7317d2ab765e64cba8a436d34fee32c487d27f80acbb6727744f1",
+          "expr": "66e6609fc2d8b120ff9641dbb48d7f93e439f1b1e6d1f3f3487cee918d8d88bb",
+          "region_labels": "700acea77a8f35d5a4fc6f840bef26cc94b4a9ac78c77304fa2478568de5bd81"
+        },
+        "B": {
+          "coords": "78e1eddd2ea5855332eef28547778e6b341efbe9a41a188e514abfd6e2f4f63f",
+          "expr": "9abc80d1a99ebc7f905cb968d3eece6a18fdc6e79ee0a06e7299bc1bf9cf11fb",
+          "region_labels": "aa1e26f38b3bdd886c5e6b6cb2d7e98e2190ce83a5394476c2eb175367397173"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "6044f5bb724b7c56b37ef37c9743a3cf683d9c3e443cde4b8e6d7fe5afb4751d",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 3.405303821192598,
+        "soft_acc": 0.738,
+        "soft_ari": 0.6534854091914598,
+        "same_mass": 0.7392780629185307
+      },
+      "sha256": "80377ae77cb8dc3b45181d4d2bbd77c6e078d4bf57aba63cd4ddd2ca03c8dd1a",
+      "evidence_relative": "lrot_scaling/evidence/741d01476cfd85cbb74734471a93546e39050d4b60513ef01ff9cb8166782fd4.json"
+    },
+    {
+      "key": "ae67b36bc7ce81932c91b9c7d6f2d99d99afb3cd55dfca24f0ea1497ff124c7a",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "LROT (γ=0.1)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "d1d3bfd071e7317d2ab765e64cba8a436d34fee32c487d27f80acbb6727744f1",
+          "expr": "66e6609fc2d8b120ff9641dbb48d7f93e439f1b1e6d1f3f3487cee918d8d88bb",
+          "region_labels": "700acea77a8f35d5a4fc6f840bef26cc94b4a9ac78c77304fa2478568de5bd81"
+        },
+        "B": {
+          "coords": "78e1eddd2ea5855332eef28547778e6b341efbe9a41a188e514abfd6e2f4f63f",
+          "expr": "9abc80d1a99ebc7f905cb968d3eece6a18fdc6e79ee0a06e7299bc1bf9cf11fb",
+          "region_labels": "aa1e26f38b3bdd886c5e6b6cb2d7e98e2190ce83a5394476c2eb175367397173"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "b001caa872b090d006b15cbc0125a9ac28201fb28953c6f93eb5549a6e853efa",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 3.3404439016859335,
+        "soft_acc": 0.736,
+        "soft_ari": 0.646150918659724,
+        "same_mass": 0.7389250550869773
+      },
+      "sha256": "9cd6ff12f4f892d2f2f54b1c6fe35355343ec3ceffebd5b38eaba36bbf72722c",
+      "evidence_relative": "lrot_scaling/evidence/ae67b36bc7ce81932c91b9c7d6f2d99d99afb3cd55dfca24f0ea1497ff124c7a.json"
+    },
+    {
+      "key": "1bf8c550646f2f1900115f26949c662f21870133fd3117066111c0b2bbd447ed",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "Expr OT only"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+          "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+          "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+        },
+        "B": {
+          "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+          "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+          "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.0,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 1.0,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 1.776653429703574,
+        "soft_acc": 0.685,
+        "soft_ari": 0.4655070823976366,
+        "same_mass": 0.6748351108031021
+      },
+      "sha256": "c70d95a5a8eceb71773fff4640593d9f696e1dd56f544ff766d1dd6733986e8a",
+      "evidence_relative": "lrot_scaling/evidence/1bf8c550646f2f1900115f26949c662f21870133fd3117066111c0b2bbd447ed.json"
+    },
+    {
+      "key": "9cde9d4c0da5bedea2284daa0f7f795840b4906ebeee826a6838ad2c5d2026fa",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "FGW (γ=0)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+          "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+          "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+        },
+        "B": {
+          "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+          "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+          "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.035129518507972,
+        "soft_acc": 0.711,
+        "soft_ari": 0.5271955855852443,
+        "same_mass": 0.6762375977019189
+      },
+      "sha256": "8308a37525545f752857d0be6bdd8f972bfaf6cef89c9cf091da4eeebdf78880",
+      "evidence_relative": "lrot_scaling/evidence/9cde9d4c0da5bedea2284daa0f7f795840b4906ebeee826a6838ad2c5d2026fa.json"
+    },
+    {
+      "key": "950a18051de364b191383be975afb47f0b1f046f64df138022024b2b7d6f42a6",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "LROT (γ=0.1)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+          "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+          "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+        },
+        "B": {
+          "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+          "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+          "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "1e6eebd512a1dc809d46523a256d69d72a2c8fb5aef1d81fbabaaf15387b41db",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 3.927911146983717,
+        "soft_acc": 0.712,
+        "soft_ari": 0.5195865958933218,
+        "same_mass": 0.6751475005107027
+      },
+      "sha256": "f024081ece32f7ed445df1cc991ec0592e6cde28975316e316a5b08b80199b61",
+      "evidence_relative": "lrot_scaling/evidence/950a18051de364b191383be975afb47f0b1f046f64df138022024b2b7d6f42a6.json"
+    },
+    {
+      "key": "8e6e20a6d96c4a386240a20915616c20ce15c37b2df59661476225ccdc05c80e",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "Expr OT only"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "c71cba91bf39e7e31ac6fb451c89aa345cfa9e56fb4305659ba7f1c74108566d",
+          "expr": "e579dd90e1b17abffce669015c683a52acb6cca89af5ba05be3db7736c1e3d1e",
+          "region_labels": "1a7d0a46bfb32110b689f4bf8fd3d9ea1fdc3892abc24382810dd40959aa2ce5"
+        },
+        "B": {
+          "coords": "1b24a14339504a7fc51afcf993b4694b986e7989937b2517cf9f20d9e4d682e6",
+          "expr": "8dc7b67c303d3e1d072a81b7423a3096d32a3e9c14f2117be7bfe754bd51e3ff",
+          "region_labels": "f1c1ae2960fa87541827c545624a7de3f2ee971380d176bd8d05b2f7dfba5ec7"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "428a6ab004438edb15d8d24fb3776a30a84664db45b9a60b8ccf1f9fd486a7e4",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.0,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 1.0,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 1.8834985891532499,
+        "soft_acc": 0.694,
+        "soft_ari": 0.51774751067477,
+        "same_mass": 0.6860406079501338
+      },
+      "sha256": "46e401d4146600de98f5d407ad3a999ca6e9e33a54cb1c4e6353119796297e6a",
+      "evidence_relative": "lrot_scaling/evidence/8e6e20a6d96c4a386240a20915616c20ce15c37b2df59661476225ccdc05c80e.json"
+    },
+    {
+      "key": "58c3e2c6c6520b86c193958aeb2567362e717113527456b866a854abbf0803aa",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "FGW (γ=0)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "c71cba91bf39e7e31ac6fb451c89aa345cfa9e56fb4305659ba7f1c74108566d",
+          "expr": "e579dd90e1b17abffce669015c683a52acb6cca89af5ba05be3db7736c1e3d1e",
+          "region_labels": "1a7d0a46bfb32110b689f4bf8fd3d9ea1fdc3892abc24382810dd40959aa2ce5"
+        },
+        "B": {
+          "coords": "1b24a14339504a7fc51afcf993b4694b986e7989937b2517cf9f20d9e4d682e6",
+          "expr": "8dc7b67c303d3e1d072a81b7423a3096d32a3e9c14f2117be7bfe754bd51e3ff",
+          "region_labels": "f1c1ae2960fa87541827c545624a7de3f2ee971380d176bd8d05b2f7dfba5ec7"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "428a6ab004438edb15d8d24fb3776a30a84664db45b9a60b8ccf1f9fd486a7e4",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.410001868867477,
+        "soft_acc": 0.706,
+        "soft_ari": 0.5573413011216103,
+        "same_mass": 0.6865971586112348
+      },
+      "sha256": "1443d2e2528a17d8077d0c2f6e21fc580ceaa16df8f295e156a78ebadc106930",
+      "evidence_relative": "lrot_scaling/evidence/58c3e2c6c6520b86c193958aeb2567362e717113527456b866a854abbf0803aa.json"
+    },
+    {
+      "key": "700fc6613ba8342415e5d29e45d8516b0bb25ca7ac24d7bad3eb494093ce51f4",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "LROT (γ=0.1)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "c71cba91bf39e7e31ac6fb451c89aa345cfa9e56fb4305659ba7f1c74108566d",
+          "expr": "e579dd90e1b17abffce669015c683a52acb6cca89af5ba05be3db7736c1e3d1e",
+          "region_labels": "1a7d0a46bfb32110b689f4bf8fd3d9ea1fdc3892abc24382810dd40959aa2ce5"
+        },
+        "B": {
+          "coords": "1b24a14339504a7fc51afcf993b4694b986e7989937b2517cf9f20d9e4d682e6",
+          "expr": "8dc7b67c303d3e1d072a81b7423a3096d32a3e9c14f2117be7bfe754bd51e3ff",
+          "region_labels": "f1c1ae2960fa87541827c545624a7de3f2ee971380d176bd8d05b2f7dfba5ec7"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "6f5390c3469d119536da338ee890bc3810462a49f2bb54dade3ef2aa6c3652bc",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.3119008078860315,
+        "soft_acc": 0.702,
+        "soft_ari": 0.5583741035637116,
+        "same_mass": 0.6857497885894859
+      },
+      "sha256": "69d0330b4ad1ef9cbf0908b764d0afe1d7a15424ede17b9a13865235559d05e5",
+      "evidence_relative": "lrot_scaling/evidence/700fc6613ba8342415e5d29e45d8516b0bb25ca7ac24d7bad3eb494093ce51f4.json"
+    },
+    {
+      "key": "bd7df70bfcda84500b7d406089d757b5a3c3d64499d03a537a2d87defe371f16",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "Expr OT only"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "e8b1b6a7fdd8b2256ba92608b90a596335997265faa724eb5554b4f82a7a30d6",
+          "expr": "a128a85c7b7572108d065ae6d7e55fdd89f71a617db9399f0eb0b5bbf08cb304",
+          "region_labels": "c5710a0fa8a571d5cd2845e6586ff77f4568973b4a5a06b2c554442e9f0e295b"
+        },
+        "B": {
+          "coords": "f94e3eb587a3797bc2f4591bd463e26bbdda3c2365a711892b181f450c948e1f",
+          "expr": "c81c76f0e33cd630c788f2713b077639b3d112505df2c553ad2c4bf083158b71",
+          "region_labels": "40c73f22ea1b75cab62afb96139d0e346cbd5328913666f4cf5d3f75d4768c79"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "0277c9fe1a7c221be5ad9e20a002342f5d0d8b14b71a084258c1a4cb5edc046a",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.0,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 1.0,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.0,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 1.0,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 2.155867665235243,
+        "soft_acc": 0.59725,
+        "soft_ari": 0.35175709070659106,
+        "same_mass": 0.5878258977159561
+      },
+      "sha256": "7e85e0ec3286c2c39bc073cd9248c4adc407cf9ec31d63a59060b759a6b120f1",
+      "evidence_relative": "lrot_scaling/evidence/bd7df70bfcda84500b7d406089d757b5a3c3d64499d03a537a2d87defe371f16.json"
+    },
+    {
+      "key": "9f4234ac9826632a93042ebb55baaa5e10010ab586271f83e6f0adb8d3b22583",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "FGW (γ=0)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "e8b1b6a7fdd8b2256ba92608b90a596335997265faa724eb5554b4f82a7a30d6",
+          "expr": "a128a85c7b7572108d065ae6d7e55fdd89f71a617db9399f0eb0b5bbf08cb304",
+          "region_labels": "c5710a0fa8a571d5cd2845e6586ff77f4568973b4a5a06b2c554442e9f0e295b"
+        },
+        "B": {
+          "coords": "f94e3eb587a3797bc2f4591bd463e26bbdda3c2365a711892b181f450c948e1f",
+          "expr": "c81c76f0e33cd630c788f2713b077639b3d112505df2c553ad2c4bf083158b71",
+          "region_labels": "40c73f22ea1b75cab62afb96139d0e346cbd5328913666f4cf5d3f75d4768c79"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "0277c9fe1a7c221be5ad9e20a002342f5d0d8b14b71a084258c1a4cb5edc046a",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 5.185140426638622,
+        "soft_acc": 0.6135,
+        "soft_ari": 0.4247787353422644,
+        "same_mass": 0.5916435791522616
+      },
+      "sha256": "edbec7e2033cb54dd23025a9e4f4b26ff37d6a673dbcd2d19fbae06a0bcb7549",
+      "evidence_relative": "lrot_scaling/evidence/9f4234ac9826632a93042ebb55baaa5e10010ab586271f83e6f0adb8d3b22583.json"
+    },
+    {
+      "key": "872379235667c189532c779292c76680ca78ae26fefd3e59c37613b30f060a3b",
+      "driver": "lrot_scaling.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "lrot_scaling.py:run_method": {
+          "method": "LROT (γ=0.1)"
+        },
+        "lrot_scaling.py:main": {},
+        "lrot_scaling.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "e8b1b6a7fdd8b2256ba92608b90a596335997265faa724eb5554b4f82a7a30d6",
+          "expr": "a128a85c7b7572108d065ae6d7e55fdd89f71a617db9399f0eb0b5bbf08cb304",
+          "region_labels": "c5710a0fa8a571d5cd2845e6586ff77f4568973b4a5a06b2c554442e9f0e295b"
+        },
+        "B": {
+          "coords": "f94e3eb587a3797bc2f4591bd463e26bbdda3c2365a711892b181f450c948e1f",
+          "expr": "c81c76f0e33cd630c788f2713b077639b3d112505df2c553ad2c4bf083158b71",
+          "region_labels": "40c73f22ea1b75cab62afb96139d0e346cbd5328913666f4cf5d3f75d4768c79"
+        },
+        "gene_names_A": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "gene_names_B": {
+          "list_length": 150,
+          "ordered_json_sha256": "d632380c5903c5e2a121a061000c7e3f56bae5944ff05c804fd69ba2fd6dcec1"
+        },
+        "lr": "27244855425e3c3f9fd4373f03d563351b34838719f897643abaf4118ade2b2a",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": null,
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": null,
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 5.076113969624054,
+        "soft_acc": 0.612,
+        "soft_ari": 0.41846457915795376,
+        "same_mass": 0.5916122297496395
+      },
+      "sha256": "62a99a70bb95d9a4dce4d7a738d790a4b681e7c29225505c77d4dc0a77bb2d53",
+      "evidence_relative": "lrot_scaling/evidence/872379235667c189532c779292c76680ca78ae26fefd3e59c37613b30f060a3b.json"
+    }
+  ],
+  "time_field": "solve_time",
+  "time_scope": "outer solver-call wall clock; LR-strength preparation separate; one local observation per scale/method"
+}

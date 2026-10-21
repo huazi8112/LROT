@@ -1,0 +1,225 @@
+{
+  "scope": "Redraw of published Table S18 values; no solver execution or new full-precision plan scoring",
+  "source_docx_sha256": "32e1fa8eee5090654f9767ee6a17efebaa49ace3688c8c7985e92bf074e63a34",
+  "source_table": "Supplementary Table S18",
+  "precision": "Entropy/mass 4 decimals; soft ARI/accuracy 3 decimals, exactly as reported in the selected table",
+  "sampling": "42/99 per pair; distinct from second-pair score analysis",
+  "rows": [
+    {
+      "pair": "151507–151508",
+      "gamma": "0",
+      "entropy": "6.0119",
+      "same_mass": "0.3766",
+      "soft_ari": "0.416",
+      "soft_acc": "0.570",
+      "max_relative_residual": "5.12e-06"
+    },
+    {
+      "pair": "151507–151508",
+      "gamma": "0.02",
+      "entropy": "5.9380",
+      "same_mass": "0.3786",
+      "soft_ari": "0.415",
+      "soft_acc": "0.574",
+      "max_relative_residual": "5.10e-06"
+    },
+    {
+      "pair": "151507–151508",
+      "gamma": "0.05",
+      "entropy": "5.6125",
+      "same_mass": "0.3790",
+      "soft_ari": "0.397",
+      "soft_acc": "0.577",
+      "max_relative_residual": "5.23e-06"
+    },
+    {
+      "pair": "151507–151508",
+      "gamma": "0.1",
+      "entropy": "4.9524",
+      "same_mass": "0.3742",
+      "soft_ari": "0.344",
+      "soft_acc": "0.555",
+      "max_relative_residual": "6.25e-06"
+    },
+    {
+      "pair": "151507–151508",
+      "gamma": "0.15",
+      "entropy": "4.5389",
+      "same_mass": "0.3683",
+      "soft_ari": "0.310",
+      "soft_acc": "0.543",
+      "max_relative_residual": "9.15e-07"
+    },
+    {
+      "pair": "151507–151508",
+      "gamma": "0.2",
+      "entropy": "4.3150",
+      "same_mass": "0.3634",
+      "soft_ari": "0.292",
+      "soft_acc": "0.531",
+      "max_relative_residual": "8.09e-06"
+    },
+    {
+      "pair": "151508–151509",
+      "gamma": "0",
+      "entropy": "6.0230",
+      "same_mass": "0.3478",
+      "soft_ari": "0.191",
+      "soft_acc": "0.475",
+      "max_relative_residual": "1.52e-06"
+    },
+    {
+      "pair": "151508–151509",
+      "gamma": "0.02",
+      "entropy": "5.9554",
+      "same_mass": "0.3496",
+      "soft_ari": "0.183",
+      "soft_acc": "0.468",
+      "max_relative_residual": "1.78e-06"
+    },
+    {
+      "pair": "151508–151509",
+      "gamma": "0.05",
+      "entropy": "5.6544",
+      "same_mass": "0.3503",
+      "soft_ari": "0.167",
+      "soft_acc": "0.460",
+      "max_relative_residual": "2.09e-06"
+    },
+    {
+      "pair": "151508–151509",
+      "gamma": "0.1",
+      "entropy": "5.0401",
+      "same_mass": "0.3476",
+      "soft_ari": "0.152",
+      "soft_acc": "0.455",
+      "max_relative_residual": "2.35e-06"
+    },
+    {
+      "pair": "151508–151509",
+      "gamma": "0.15",
+      "entropy": "4.6643",
+      "same_mass": "0.3435",
+      "soft_ari": "0.134",
+      "soft_acc": "0.441",
+      "max_relative_residual": "5.39e-06"
+    },
+    {
+      "pair": "151508–151509",
+      "gamma": "0.2",
+      "entropy": "4.4717",
+      "same_mass": "0.3399",
+      "soft_ari": "0.118",
+      "soft_acc": "0.426",
+      "max_relative_residual": "5.05e-06"
+    },
+    {
+      "pair": "151669–151670",
+      "gamma": "0",
+      "entropy": "6.2253",
+      "same_mass": "0.5575",
+      "soft_ari": "0.345",
+      "soft_acc": "0.672",
+      "max_relative_residual": "3.58e-07"
+    },
+    {
+      "pair": "151669–151670",
+      "gamma": "0.02",
+      "entropy": "6.1553",
+      "same_mass": "0.5611",
+      "soft_ari": "0.373",
+      "soft_acc": "0.686",
+      "max_relative_residual": "6.45e-07"
+    },
+    {
+      "pair": "151669–151670",
+      "gamma": "0.05",
+      "entropy": "5.9008",
+      "same_mass": "0.5635",
+      "soft_ari": "0.377",
+      "soft_acc": "0.683",
+      "max_relative_residual": "1.08e-06"
+    },
+    {
+      "pair": "151669–151670",
+      "gamma": "0.1",
+      "entropy": "5.4152",
+      "same_mass": "0.5628",
+      "soft_ari": "0.400",
+      "soft_acc": "0.690",
+      "max_relative_residual": "4.07e-06"
+    },
+    {
+      "pair": "151669–151670",
+      "gamma": "0.15",
+      "entropy": "5.0956",
+      "same_mass": "0.5600",
+      "soft_ari": "0.392",
+      "soft_acc": "0.687",
+      "max_relative_residual": "2.80e-07"
+    },
+    {
+      "pair": "151669–151670",
+      "gamma": "0.2",
+      "entropy": "4.9048",
+      "same_mass": "0.5573",
+      "soft_ari": "0.374",
+      "soft_acc": "0.681",
+      "max_relative_residual": "2.95e-07"
+    },
+    {
+      "pair": "151670–151671",
+      "gamma": "0",
+      "entropy": "6.3551",
+      "same_mass": "0.5009",
+      "soft_ari": "0.543",
+      "soft_acc": "0.763",
+      "max_relative_residual": "1.01e-07"
+    },
+    {
+      "pair": "151670–151671",
+      "gamma": "0.02",
+      "entropy": "6.2942",
+      "same_mass": "0.5030",
+      "soft_ari": "0.551",
+      "soft_acc": "0.764",
+      "max_relative_residual": "1.10e-07"
+    },
+    {
+      "pair": "151670–151671",
+      "gamma": "0.05",
+      "entropy": "6.0483",
+      "same_mass": "0.5031",
+      "soft_ari": "0.563",
+      "soft_acc": "0.766",
+      "max_relative_residual": "1.17e-07"
+    },
+    {
+      "pair": "151670–151671",
+      "gamma": "0.1",
+      "entropy": "5.5751",
+      "same_mass": "0.4980",
+      "soft_ari": "0.541",
+      "soft_acc": "0.756",
+      "max_relative_residual": "1.96e-07"
+    },
+    {
+      "pair": "151670–151671",
+      "gamma": "0.15",
+      "entropy": "5.2750",
+      "same_mass": "0.4908",
+      "soft_ari": "0.499",
+      "soft_acc": "0.737",
+      "max_relative_residual": "2.23e-08"
+    },
+    {
+      "pair": "151670–151671",
+      "gamma": "0.2",
+      "entropy": "5.1046",
+      "same_mass": "0.4851",
+      "soft_ari": "0.450",
+      "soft_acc": "0.716",
+      "max_relative_residual": "9.02e-07"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "go": "GO:0048514",
+      "term": "blood vessel morphogenesis",
+      "a": 47,
+      "c": 424,
+      "p": 4.355570628010226e-56,
+      "padj": 1.2704328407780226e-53
+    },
+    {
+      "go": "GO:0001525",
+      "term": "angiogenesis",
+      "a": 42,
+      "c": 298,
+      "p": 2.453946844916992e-54,
+      "padj": 6.390778711833824e-52
+    },
+    {
+      "go": "GO:0001568",
+      "term": "blood vessel development",
+      "a": 49,
+      "c": 547,
+      "p": 5.367977328290418e-54,
+      "padj": 1.3497686440653008e-51
+    },
+    {
+      "go": "GO:0050767",
+      "term": "regulation of neurogenesis",
+      "a": 46,
+      "c": 485,
+      "p": 1.357806626462847e-51,
+      "padj": 3.1939115871506715e-49
+    },
+    {
+      "go": "GO:0071363",
+      "term": "cellular response to growth factor stimulus",
+      "a": 47,
+      "c": 530,
+      "p": 2.1246765908011058e-51,
+      "padj": 4.918457682578306e-49
+    },
+    {
+      "go": "GO:0007411",
+      "term": "axon guidance",
+      "a": 39,
+      "c": 263,
+      "p": 3.4544718879531455e-51,
+      "padj": 7.871877814673231e-49
+    },
+    {
+      "go": "GO:0007169",
+      "term": "cell surface receptor protein tyrosine kinase signaling pathway",
+      "a": 45,
+      "c": 457,
+      "p": 3.836453246333462e-51,
+      "padj": 8.60782063761957e-49
+    },
+    {
+      "go": "GO:0097485",
+      "term": "neuron projection guidance",
+      "a": 39,
+      "c": 265,
+      "p": 4.7288651415670516e-51,
+      "padj": 1.0449358973426345e-48
+    },
+    {
+      "go": "GO:0048667",
+      "term": "cell morphogenesis involved in neuron differentiation",
+      "a": 45,
+      "c": 519,
+      "p": 1.3409217838303988e-48,
+      "padj": 2.5397406877120176e-46
+    },
+    {
+      "go": "GO:0007409",
+      "term": "axonogenesis",
+      "a": 42,
+      "c": 408,
+      "p": 2.3616468976673376e-48,
+      "padj": 4.41567414815134e-46
+    },
+    {
+      "go": "GO:0050920",
+      "term": "regulation of chemotaxis",
+      "a": 35,
+      "c": 230,
+      "p": 3.543699315157091e-46,
+      "padj": 6.226663953283254e-44
+    },
+    {
+      "go": "GO:0061138",
+      "term": "morphogenesis of a branching epithelium",
+      "a": 34,
+      "c": 207,
+      "p": 5.006979928566586e-46,
+      "padj": 8.693070866454177e-44
+    },
+    {
+      "go": "GO:0061564",
+      "term": "axon development",
+      "a": 42,
+      "c": 470,
+      "p": 1.0409803369201842e-45,
+      "padj": 1.765308980656275e-43
+    },
+    {
+      "go": "GO:0006935",
+      "term": "chemotaxis",
+      "a": 38,
+      "c": 326,
+      "p": 1.1997156026568729e-45,
+      "padj": 2.011109465419291e-43
+    },
+    {
+      "go": "GO:0042330",
+      "term": "taxis",
+      "a": 38,
+      "c": 328,
+      "p": 1.5275168469051387e-45,
+      "padj": 2.531512010825516e-43
+    }
+  ],
+  "verification": "previous saved-count Fisher/BH check; upstream resource versions remain unclosed"
+}

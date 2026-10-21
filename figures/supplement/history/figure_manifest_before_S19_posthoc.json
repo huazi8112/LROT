@@ -1,0 +1,875 @@
+{
+  "version": "selected-saved-record-review-20261009",
+  "candidate_docx_sha256": "ff42d59d1c28e9c38dd72d935d04aac654350957762c79b663bd093aa26bddd2",
+  "no_experiments": true,
+  "font_sha256": {
+    "arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+  },
+  "figures": [
+    {
+      "id": "S1",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "6d3da912d2eab8dea65d5c435072ca47c5b5aadc9214dc1f13d1b052921b6102",
+      "caption": "Figure S1. Historical fixed controlled realization, numerically revalidated (A/B seeds 42/123; four synthetic regions). (A) Region-vote accuracy versus γ. (B) Expression transport cost. This illustrative pair is separate from the 30 controlled-simulation pairs in Figure S23 and Table S16; it does not summarize seed robustness.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S1.png",
+        "sha256": "6d3da912d2eab8dea65d5c435072ca47c5b5aadc9214dc1f13d1b052921b6102"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S1. Historical fixed controlled realization, numerically revalidated (A/B seeds 42/123; four synthetic regions). (A) Region-vote accuracy versus γ. (B) Expression transport cost. This illustrative pair is separate from the 30 controlled-simulation pairs in Figure S23 and Table S16; it does not summarize seed robustness.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S2",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "33159ff79a40fc2749c30e701e39a2749499e333763501627507af6a9c62b924",
+      "caption": "Figure S2. Selected saved-record LR-resource sensitivity, with the original eight-panel organization. (A–B) Accuracy and entropy at γ=.1. (C) Entropy in the expression-free setting (α=0, β=.3, γ=1); geometry remains active. (D) Accepted outer iterations under the recorded settings α=.5, γ=.1 and α=0, γ=1 (β=.3 in both): 9/39, 9/121, 9/40 for full, shuffled and adhesion LR resources, respectively. These stopping diagnostics are not elapsed times or a speed comparison. (E) Saved fraction of the 1,000×1,000 plan entries above mass 10⁻¹⁰; this display has not been independently recounted from arrays. (F) Resource size. (G–H) Curated and CellChatDB.mouse entropy and accuracy at γ=.1/.2. Only 22/38 pairs have symbols in both simulated matrices; this is not an expression-detection count. Full/shuffled/adhesion accuracies at γ=1 are .232/.069/.147. Entropy describes dispersion, not correctness. A/C/E/H use the selected current records; retained panels and D have separate provenance. This version choice does not establish that an older figure was wrong.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets_selected/S2.png",
+        "sha256": "33159ff79a40fc2749c30e701e39a2749499e333763501627507af6a9c62b924"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates_selected/S2.png",
+        "sha256": "52a6a4e094b140541294d2db164544dd1189d6c480f3b2e3bf64753eecba72fe"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs_selected/S2.json",
+          "sha256": "dd46a5498e2d3c0dd80cb2c8a0cf0d9d0ed50b04be3132f627304dde14b4742d"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "B",
+          "path": "figures/supplement_20261008/confirmed_panels/S2_B.png",
+          "sha256": "26d9f8c017b6f4b1c3e239f336f5f756251254feb092d7253575157f6eeb6bd0",
+          "baseline_crop": [
+            1490,
+            0,
+            2980,
+            1247
+          ],
+          "baseline_image_sha256": "52a6a4e094b140541294d2db164544dd1189d6c480f3b2e3bf64753eecba72fe",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        },
+        {
+          "panel": "F",
+          "path": "figures/supplement_20261008/confirmed_panels/S2_F.png",
+          "sha256": "55f6cabc6d2c5f7461ad17430c1d7966e813ea2082d93d39f0b599aa5d0c36f6",
+          "baseline_crop": [
+            2980,
+            1247,
+            4470,
+            2494
+          ],
+          "baseline_image_sha256": "52a6a4e094b140541294d2db164544dd1189d6c480f3b2e3bf64753eecba72fe",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        },
+        {
+          "panel": "G",
+          "path": "figures/supplement_20261008/confirmed_panels/S2_G.png",
+          "sha256": "7147018fc62e01e4e1c8bb92b03dca80eb89bb9b5ebf496f1ebee3f7209bc403",
+          "baseline_crop": [
+            0,
+            2494,
+            2235,
+            4022
+          ],
+          "baseline_image_sha256": "52a6a4e094b140541294d2db164544dd1189d6c480f3b2e3bf64753eecba72fe",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        },
+        {
+          "panel": "D",
+          "path": "figures/supplement_20261008/confirmed_panels/S2_D.png",
+          "sha256": "766cdc2b2579f3e6259606aa8097a60f1dd39ce6970e2991ef28d829cdc39c9d",
+          "meaning": "current recorded iteration panel; only parameter text strips changed; no bars redrawn",
+          "patch_supported": true,
+          "template": {
+            "path": "figures/supplement_20261008/templates/S2_D_parameter_labels_before.png",
+            "sha256": "30d76c5cfcdc3043cf30fc59381a37e110bcbfce7754119dfb6c96e855fe8f50"
+          },
+          "records": [
+            {
+              "path": "figures/supplement_20261008/inputs/S2D_accepted_diagnostics.json",
+              "sha256": "41d64e81b7fde368ee2e79b63e68e53e26b33ee4577737436cbdfd677f3282df"
+            }
+          ],
+          "patch_script": "figures/patch_s2d_labels.py",
+          "crop_in_candidate": [
+            0,
+            1131,
+            1344,
+            2138
+          ],
+          "parameter_text_masks": [
+            [
+              982,
+              183,
+              1283,
+              261
+            ],
+            [
+              982,
+              283,
+              1283,
+              361
+            ]
+          ]
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image disabled; confirmed B/D/F/G assets exportable; D supports label-only patch",
+      "parameters_and_statistics_in_caption": "Figure S2. Revalidated LR-resource sensitivity, with the original eight-panel organization. (A–B) Accuracy and entropy at γ=.1. (C) Entropy in the expression-free setting (α=0, β=.3, γ=1); geometry remains active. (D) Accepted outer iterations under the recorded settings α=.5, γ=.1 and α=0, γ=1 (β=.3 in both): 9/39, 9/121, 9/40 for full, shuffled and adhesion LR resources, respectively. These stopping diagnostics are not elapsed times or a speed comparison. (E) Plan support above mass 10⁻¹⁰. (F) Resource size. (G–H) Curated and CellChatDB.mouse entropy and accuracy at γ=.1/.2. Only 22/38 pairs have symbols in both simulated matrices; this is not an expression-detection count. Full/shuffled/adhesion accuracies at γ=1 are .232/.069/.147. Entropy describes dispersion, not correctness.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement_20261008/selected_panel_config.json",
+        "sha256": "8de15ad232f4d8804ee1c94684eb018d3f4ac309ccc40ef7fde7fa5f2b5034cf"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "b227e224fe0bde3de90ad1bdbac5aa8b15fd7267042fbcf2dc293ef88d248772"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution",
+      "retained_selected_panel": "H: selected numerical values match baseline, pixels retained"
+    },
+    {
+      "id": "S3",
+      "status": "approved_asset",
+      "treatment": "result_based_local_revision",
+      "embedded_sha256": "9888f6cb14e09fc4bfd43332081584ab7f70554e4041f31ac84cdba0f06c8134",
+      "caption": "Figure S3. Recomputed GO biological-process enrichment of the unchanged 109 LR genes. (A) Fifteen displayed terms satisfy ≥5 hits, adjusted p<10⁻⁵ and background fraction ≤2%, ranked by adjusted p. Length is the hit count; colour and bracketed values are −log₁₀(adjusted p); asterisks indicate adjusted p<.05. The .05 threshold lies outside this colour scale. (B) The same seven LR-family groups and original palette. The corrected analysis uses 27,431 annotated background genes, foreground-versus-complement Fisher tests and BH across all 14,584 background-supported BP terms, including zero-hit terms. Counts and annotations characterize the resource, not communication in the measured sections (Note S16).",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S3.png",
+        "sha256": "9888f6cb14e09fc4bfd43332081584ab7f70554e4041f31ac84cdba0f06c8134"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates/S3.png",
+        "sha256": "c399c165cd1b0e487b02ead833e1a86d020fdcd02dce5bbce45f2a1b65c1c964",
+        "role": "archived source template only; not a current performance result or publication image"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs/S3_go_display_rows.json",
+          "sha256": "d9b1c4f9e1e5bdabafdc055034132915c2fa026da1df12924c7af290dab80595"
+        }
+      ],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S3. Recomputed GO biological-process enrichment of the unchanged 109 LR genes. (A) Fifteen displayed terms satisfy ≥5 hits, adjusted p<10⁻⁵ and background fraction ≤2%, ranked by adjusted p. Length is the hit count; colour and bracketed values are −log₁₀(adjusted p); asterisks indicate adjusted p<.05. The .05 threshold lies outside this colour scale. (B) The same seven LR-family groups and original palette. The corrected analysis uses 27,431 annotated background genes, foreground-versus-complement Fisher tests and BH across all 14,584 background-supported BP terms, including zero-hit terms. Counts and annotations characterize the resource, not communication in the measured sections (Note S16).",
+      "record_render_supported": false
+    },
+    {
+      "id": "S4",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "4f918c8dc8d9914c49b6117dd23f02be2ac52da4615946b314d69a513ec1b0ce",
+      "caption": "Figure S4. Selected saved-record pathway-agreement and dispersion scans. (A) Mean transported-program correlations over 20 technical simulation seeds; the right axis is row entropy. (B–C) Two Br8325 adjacent pairs, given equal weight (one donor), using 42/99 sampling for each pair. LR-associated agreement, non-LR agreement, layer-vote accuracy and same-layer mass need not move together. The vertical marker is the tested default γ=.1, not an independently validated optimum. Increasing agreement with features used in the prior is not independent evidence of communication. No spot-level significance test or universal guidance threshold is inferred. In C, soft-vote accuracy is .5225 at γ=0 and .4635 at γ=.5.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets_selected/S4.png",
+        "sha256": "4f918c8dc8d9914c49b6117dd23f02be2ac52da4615946b314d69a513ec1b0ce"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates_selected/S4.png",
+        "sha256": "6fff1f1cc7c03f4e582687ccde5454f8207df124bf4f466a9dde164b32f1dc02"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs_selected/S4.json",
+          "sha256": "b739d41010c787704c44ef02ea36ba665fac759c3d0ebdb8f0f8d4b2a0991bc3"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "A",
+          "path": "figures/supplement_20261008/confirmed_panels/S4_A.png",
+          "sha256": "7d5ebeabd89c205bd12e69fd7abd9ad46d3ec631808952e16065bc136614e0f7",
+          "baseline_crop": [
+            0,
+            0,
+            3561,
+            2016
+          ],
+          "baseline_image_sha256": "6fff1f1cc7c03f4e582687ccde5454f8207df124bf4f466a9dde164b32f1dc02",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S4. Revalidated pathway-agreement and dispersion scans. (A) Mean transported-program correlations over 20 technical simulation seeds; the right axis is row entropy. (B–C) Two Br8325 adjacent pairs, averaged descriptively, using 42/99 sampling for each pair. LR-associated agreement, non-LR agreement, layer-vote accuracy and same-layer mass need not move together. The vertical marker is the tested default γ=.1, not an independently validated optimum. Increasing agreement with features used in the prior is not independent evidence of communication. No spot-level significance test or universal guidance threshold is inferred.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement_20261008/selected_panel_config.json",
+        "sha256": "8de15ad232f4d8804ee1c94684eb018d3f4ac309ccc40ef7fde7fa5f2b5034cf"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "b227e224fe0bde3de90ad1bdbac5aa8b15fd7267042fbcf2dc293ef88d248772"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution"
+    },
+    {
+      "id": "S5",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "bd1cc896665ae3c7b365f7f9a99d6ad5b42afeaa0f787667efd38f015157b4c0",
+      "caption": "Figure S5. Selected saved-record α×β grid at γ=.1 for the realistic seed-42 input. (A) Plan entropy. (B) Region-vote accuracy. All 15 configurations and their γ=0 comparators pass numerical acceptance. Lower entropy is concentration, not a correctness ranking; this single labelled grid is exploratory.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets_selected/S5.png",
+        "sha256": "bd1cc896665ae3c7b365f7f9a99d6ad5b42afeaa0f787667efd38f015157b4c0"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates_selected/S5.png",
+        "sha256": "2f01dc5bd656b571beef6cdd7106dff6d13fd17771c69c8f1b65bce8111733bf"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs_selected/S5.json",
+          "sha256": "8ba5dc5f23a8da085bc62cd143574c5577327e76241f35917280fcb55d05ea6d"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S5. Revalidated α×β grid at γ=.1 for the realistic seed-42 input. (A) Plan entropy. (B) Region-vote accuracy. All 15 configurations and their γ=0 comparators pass numerical acceptance. Lower entropy is concentration, not a correctness ranking; this single labelled grid is exploratory.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement_20261008/selected_panel_config.json",
+        "sha256": "8de15ad232f4d8804ee1c94684eb018d3f4ac309ccc40ef7fde7fa5f2b5034cf"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "b227e224fe0bde3de90ad1bdbac5aa8b15fd7267042fbcf2dc293ef88d248772"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution"
+    },
+    {
+      "id": "S6",
+      "status": "approved_asset",
+      "treatment": "result_based_local_revision",
+      "embedded_sha256": "ee7e80b293cb011615e2b8e45ea0d55b8513ac71f183e4af2b70501952c7f8a9",
+      "caption": "Figure S6. Recorded local CPU timings for five OT configurations on one realistic seed-42 input (1,000 spots per section). Bars show the mean of three serial calls per method; error bars are sample SD (ddof=1), and the vertical axis is logarithmic. LROT, soft FGW, tested PASTE, tested PASTE2 and expression-only OT means are 3.339, 3.147, 9.995, 4.979 and 5.794 s, respectively. Records specify one process, two CPU threads and no checkpoint reuse. The numerical records support these local durations; the unavailable timer driver prevents independent confirmation of the precise treatment of preparation, diagnostics, plan hashing and output writes. These protocol-specific observations support no general speed ranking. PASTE denotes the tested installed paste_math implementation; tested PASTE and PASTE2 use KL and α=.1, with complete-overlap mass s=1 for PASTE2. STAligner training is a different task and is excluded (Note S25).",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S6.png",
+        "sha256": "ee7e80b293cb011615e2b8e45ea0d55b8513ac71f183e4af2b70501952c7f8a9"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates/S6.png",
+        "sha256": "81570821b5c2bafb4543981d306c6089ad0862e7599688d31c3c0c3cde6720c3",
+        "role": "archived source template only; not a current performance result or publication image"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs/S6_serial_observations.json",
+          "sha256": "0e515bec1de2bba3f3bd3842aa72f9a31b0e24e706a267e01323a24f833d0247"
+        }
+      ],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S6. Recorded local CPU timings for five OT configurations on one realistic seed-42 input (1,000 spots per section). Bars show the mean of three serial calls per method; error bars are sample SD (ddof=1), and the vertical axis is logarithmic. LROT, soft FGW, tested PASTE, tested PASTE2 and expression-only OT means are 3.339, 3.147, 9.995, 4.979 and 5.794 s, respectively. Records specify one process, two CPU threads and no checkpoint reuse. The numerical records support these local durations; the unavailable timer driver prevents independent confirmation of the precise treatment of preparation, diagnostics, plan hashing and output writes. These protocol-specific observations support no general speed ranking. PASTE denotes the tested installed paste_math implementation; tested PASTE and PASTE2 use KL and α=.1, with complete-overlap mass s=1 for PASTE2. STAligner training is a different task and is excluded (Note S25).",
+      "record_render_supported": false
+    },
+    {
+      "id": "S7",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "2a71b5cb2ce921e6375accad44eb7f5ad6c0357f0e8b3b1f8808ceca81278d9e",
+      "caption": "Figure S7. Selected saved-record scaling over 250–4,000 spots per section, with 150 simulated genes and seed 42. (A) Outer solver-call wall time (the saved solve_time field) from one local run per size and method; LR-strength preparation is excluded and reported separately in Table S1. This differs from the inner numerical timer and is not a repeated isolated speed benchmark. (B) Region-vote accuracy. All 15 plans pass marginal and outer stopping checks. Expression-only OT is a reference, not a guaranteed runtime lower bound. Computational effort depends on both dimensions and convergence; this scan does not prove a universal speed ranking or asymptotic exponent. A and B use the same 15 saved records. No timing dispersion or speed ranking is inferred.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets_selected/S7.png",
+        "sha256": "2a71b5cb2ce921e6375accad44eb7f5ad6c0357f0e8b3b1f8808ceca81278d9e"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates_selected/S7.png",
+        "sha256": "5039c731d9bf9b0eb68a1d0cd820f27cbdb08bdf82edc0f99bd1a8fdf4fd1f84"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs_selected/S7.json",
+          "sha256": "3c604d23f266450e4cbe003cce6b35c5c82cf38d70a5f3951b0f87f09841fda0"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S7. Revalidated scaling over 250–4,000 spots per section, with 150 simulated genes and seed 42. (A) Observed numerical computation time from one audited run per size and method; these are not repeated isolated speed benchmarks. (B) Region-vote accuracy. All 15 plans pass marginal and outer stopping checks. Expression-only OT is a reference, not a guaranteed runtime lower bound. Computational effort depends on both dimensions and convergence; this scan does not prove a universal speed ranking or asymptotic exponent.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement_20261008/selected_panel_config.json",
+        "sha256": "8de15ad232f4d8804ee1c94684eb018d3f4ac309ccc40ef7fde7fa5f2b5034cf"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "b227e224fe0bde3de90ad1bdbac5aa8b15fd7267042fbcf2dc293ef88d248772"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution"
+    },
+    {
+      "id": "S8",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "83164b5049ca97c6542bd4cb09ef275178b795257442d78097973c3ffcc8711c",
+      "caption": "Figure S8. Twenty paired realistic simulation seeds (1–20). Box plots and individual points show region-vote accuracy for soft FGW, LROT γ=.1, the two tested PASTE2 configurations, KL and Euclidean, at α=.1 with uniform marginals and complete-overlap transported mass s≈1. These are four configurations, not four separate packages; no PASTE arm is shown. Labels give mean ± sample SD. The reference is 1/6 and the accuracy axis starts at zero. Across these 20 seeds, LROT had numerically higher accuracy than the two tested PASTE2 configurations. This is configuration-specific descriptive evidence and does not establish a general ranking. These are technical simulation repetitions conditional on the generator and protocols, not independent biological samples. The selected current LROT mean is .740 (unrounded .74045). External per-seed input binding remains incomplete.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets_selected/S8.png",
+        "sha256": "83164b5049ca97c6542bd4cb09ef275178b795257442d78097973c3ffcc8711c"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates_selected/S8.png",
+        "sha256": "ec12fd8957e20f7f1999ed51825440487deb03eab87d1c0afafc313f61c08b0e"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs_selected/S8.json",
+          "sha256": "d71ea02352ea2fa0e7dfdb7f16a6a66445e324aecf84ee49c1e26eccf9d0a546"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S8. Twenty paired realistic simulation seeds (1–20). Box plots and individual points show region-vote accuracy for soft FGW, LROT γ=.1, tested PASTE2 KL and Euclidean at α=.1. Labels give mean ± sample SD. The reference is 1/6 and the accuracy axis starts at zero. Across these 20 seeds, LROT had numerically higher accuracy than the two tested PASTE2 configurations. This is configuration-specific descriptive evidence and does not establish a general ranking. These are technical simulation repetitions conditional on the generator and protocols, not independent biological samples.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement_20261008/selected_panel_config.json",
+        "sha256": "8de15ad232f4d8804ee1c94684eb018d3f4ac309ccc40ef7fde7fa5f2b5034cf"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "b227e224fe0bde3de90ad1bdbac5aa8b15fd7267042fbcf2dc293ef88d248772"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution"
+    },
+    {
+      "id": "S9",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "58cd6fea4cb9240b03a86884052f724e3e0a2bed9be9adc877d5bc7723231f5b",
+      "caption": "Figure S9. Selected saved-record full-scale versus 1,000-spot alignment for Br8325 151507–151508. (A) Row entropy. (B) Same-layer mass. (C) Accepted outer iterations for sampled FGW/LROT (16/19) and full-scale FGW/LROT (16/17). This is a selected current stopping record, not elapsed time or certification of the archived display. Full scale uses 4,221×4,381 labelled spots and gives 14.4% entropy reduction at γ=.1, with mass .3882→.3885 and soft ARI .431→.410. Similar mass does not establish unchanged accuracy. Single audit-time and memory observations are separately recorded; they are not external-method speed benchmarks.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets_selected/S9.png",
+        "sha256": "58cd6fea4cb9240b03a86884052f724e3e0a2bed9be9adc877d5bc7723231f5b"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates_selected/S9.png",
+        "sha256": "a22da7eec3fb0674a435132ef9d1598364ab518c4cba6a6206695ea093b37a7d"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs_selected/S9.json",
+          "sha256": "2029755e1aef0f299c94ca868c8cbcda708e4b903f3f3faf3d4047f64e09e11e"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "A",
+          "path": "figures/supplement_20261008/confirmed_panels/S9_A.png",
+          "sha256": "0b511086b78c63ead2a8df43d7f4e2ed29e1be6f3450a3f76f7bd32a178f1ae9",
+          "baseline_crop": [
+            0,
+            0,
+            1288,
+            1257
+          ],
+          "baseline_image_sha256": "a22da7eec3fb0674a435132ef9d1598364ab518c4cba6a6206695ea093b37a7d",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        },
+        {
+          "panel": "B",
+          "path": "figures/supplement_20261008/confirmed_panels/S9_B.png",
+          "sha256": "03ad0fe412c130b7dba6442bad230845fc0d740e6ce8248a70c91670e3ae5a92",
+          "baseline_crop": [
+            1288,
+            0,
+            2577,
+            1257
+          ],
+          "baseline_image_sha256": "a22da7eec3fb0674a435132ef9d1598364ab518c4cba6a6206695ea093b37a7d",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S9. Revalidated full-scale versus 1,000-spot alignment for Br8325 151507–151508. (A) Row entropy. (B) Same-layer mass. (C) Accepted outer iterations, replacing a comparison of differently timed archived runs. Full scale uses 4,221×4,381 labelled spots and gives 14.4% entropy reduction at γ=.1, with mass .3882→.3885 and soft ARI .431→.410. Similar mass does not establish unchanged accuracy. Single audit-time and memory observations are separately recorded; they are not external-method speed benchmarks.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement_20261008/selected_panel_config.json",
+        "sha256": "8de15ad232f4d8804ee1c94684eb018d3f4ac309ccc40ef7fde7fa5f2b5034cf"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "b227e224fe0bde3de90ad1bdbac5aa8b15fd7267042fbcf2dc293ef88d248772"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution"
+    },
+    {
+      "id": "S10",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "6ff38e017b1cac54c36976c9b41a77fdc0a64cdf9977e9aef5d94bb1298bae9b",
+      "caption": "Figure S10. Revalidated label-free proxy analysis, with the same two-panel structure. (A) Breast-cancer maximum-row-weight deciles versus transcriptomic agreement; FGW ρ=.075 and LROT ρ=−.029 (3,000 source spots). (B) DLPFC sharpness deciles versus layer correctness; associations remain near zero (1,000 spots). Correlations and decile means are descriptive under spatial dependence. Neither maximum row weight nor transcriptomic agreement is calibrated correctness, and breast cancer lacks correspondence ground truth.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S10.png",
+        "sha256": "6ff38e017b1cac54c36976c9b41a77fdc0a64cdf9977e9aef5d94bb1298bae9b"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S10. Revalidated label-free proxy analysis, with the same two-panel structure. (A) Breast-cancer maximum-row-weight deciles versus transcriptomic agreement; FGW ρ=.075 and LROT ρ=−.029 (3,000 source spots). (B) DLPFC sharpness deciles versus layer correctness; associations remain near zero (1,000 spots). Correlations and decile means are descriptive under spatial dependence. Neither maximum row weight nor transcriptomic agreement is calibrated correctness, and breast cancer lacks correspondence ground truth.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S11",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "875f5792573a5191bac1b2504182df8aee76f99fdc4ee63e5dd193069a55948b",
+      "caption": "Figure S11. Standard batch and coordinate-rotation scans with fixed defaults (α=.5, β=.3, γ=.1), retaining the baseline images. (A–C) LROT accuracy, FGW accuracy and LROT row entropy under per-gene multiplicative, log1p-additive and per-spot multiplicative perturbations at σ=.1/.15/.2/.3/.4/.5. (D) Accuracy at rotations 2°/5°/10°/15°/20°/25°; the dashed marker denotes the default 5°. Means in A–D use five technical seeds (42/1042/2042/3042/4042), and error bars are SD computed with denominator n (ddof=0). The five additional zero-strength spot controls are excluded from standard σ=.5 summaries. (E) Mean row entropy across rotations; no error bars are displayed. These simulated perturbations do not establish equivalence or robustness to arbitrary batch effects; stronger expression stress is shown separately in Figure S15.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S11.png",
+        "sha256": "875f5792573a5191bac1b2504182df8aee76f99fdc4ee63e5dd193069a55948b"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S11. Standard batch and coordinate-rotation scans with fixed defaults (α=.5, β=.3, γ=.1), retaining the baseline images. (A–C) LROT accuracy, FGW accuracy and LROT row entropy under per-gene multiplicative, log1p-additive and per-spot multiplicative perturbations at σ=.1/.15/.2/.3/.4/.5. (D) Accuracy at rotations 2°/5°/10°/15°/20°/25°; the dashed marker denotes the default 5°. Means in A–D use five technical seeds (42/1042/2042/3042/4042), and error bars are SD computed with denominator n (ddof=0). The five additional zero-strength spot controls are excluded from standard σ=.5 summaries. (E) Mean row entropy across rotations; no error bars are displayed. These simulated perturbations do not establish equivalence or robustness to arbitrary batch effects; stronger expression stress is shown separately in Figure S15.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S12",
+      "status": "approved_asset",
+      "treatment": "label_patch_of_baseline_asset",
+      "embedded_sha256": "aa83ad485f5bdcca19e889f183a2b581e05f683babe9466600fb06ac5d72cd9e",
+      "caption": "Figure S12. Recorded stopping histories on realistic seed 42, with the baseline curves and panel organization retained. (A) Package-reported CG loss from the tested installed PASTE (paste_math) implementation at α=.1/.5: final values −274.061/−148.122 and accuracies .199/.194. Extending the iteration cap from 200 to 1,000 leaves the stopped results unchanged. (B) Soft-FGW/LROT weighted-cost diagnostics, omitting the entropy term, at accuracies .711/.712. A and B are different metrics and their numerical magnitudes must not be compared. Zero-based iteration indices are retained from the baseline display. Marginal feasibility and stopping status are checked separately; plateaus do not establish global optimality, correct matching or the reason for configuration-specific accuracy.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S12.png",
+        "sha256": "aa83ad485f5bdcca19e889f183a2b581e05f683babe9466600fb06ac5d72cd9e"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates/S12.png",
+        "sha256": "3f84be9287969df02a71ac593475a5c885b6a34b7776b618fa8063deed49cc13",
+        "role": "archived source template only; not a current performance result or publication image"
+      },
+      "records": [],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S12. Recorded stopping histories on realistic seed 42, with the baseline curves and panel organization retained. (A) Package-reported CG loss from the tested installed PASTE (paste_math) implementation at α=.1/.5: final values −274.061/−148.122 and accuracies .199/.194. Extending the iteration cap from 200 to 1,000 leaves the stopped results unchanged. (B) Soft-FGW/LROT weighted-cost diagnostics, omitting the entropy term, at accuracies .711/.712. A and B are different metrics and their numerical magnitudes must not be compared. Zero-based iteration indices are retained from the baseline display. Marginal feasibility and stopping status are checked separately; plateaus do not establish global optimality, correct matching or the reason for configuration-specific accuracy.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S13",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "74978c3886a148d448bfece863617ea56285f2d210a3fddfe92d26b3fbabd260",
+      "caption": "Figure S13. Within- and cross-layer transport in two adjacent Br8325 section pairs (151507→151508; 151508→151509; 1,000 spots per section; A/B seeds 42/99 per pair). (A) Equal-weight mean of the two pair-specific same-layer conditional proportions. Each proportion divides same-layer mass by all mass emitted from that source layer. (B) Same-/cross-layer mass ratio for each pair; the arithmetic means of the two ratios are FGW 0.569 and LROT 0.565, not ratios of pooled masses. The pairs share section 151508 and are descriptive observations from one donor, not independent donor replicates. Lower within-layer entropy indicates concentration, not correctness or calibration.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S13.png",
+        "sha256": "74978c3886a148d448bfece863617ea56285f2d210a3fddfe92d26b3fbabd260"
+      },
+      "template": null,
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs/S13_checked_aggregation.json",
+          "sha256": "15df50993f478fde47bc9a35266ee310079a54e840b999895854a446bd365d08"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "complete Oct04 baseline asset export only; not independent result regeneration",
+      "parameters_and_statistics_in_caption": "Figure S13. Within- and cross-layer transport in two adjacent Br8325 section pairs (151507→151508; 151508→151509; 1,000 spots per section; A/B seeds 42/99 per pair). (A) Equal-weight mean of the two pair-specific same-layer conditional proportions. Each proportion divides same-layer mass by all mass emitted from that source layer. (B) Same-/cross-layer mass ratio for each pair; the arithmetic means of the two ratios are FGW 0.569 and LROT 0.565, not ratios of pooled masses. The pairs share section 151508 and are descriptive observations from one donor, not independent donor replicates. Lower within-layer entropy indicates concentration, not correctness or calibration.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S14",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "89f554d1144d1f294644b6fb555f548bc6323f3bbeddd9a3edbae02d16144b89",
+      "caption": "Figure S14. Matched-mask breast-cancer sensitivity, retaining two vertically stacked panels. All arms use the same 115-symbol expression exclusion. (A) Full, ERBB2/HER2-removal and ERBB2/HER2-only entropy reductions relative to matched FGW. (B) Change in reduction after each of 12 family removals, in percentage points relative to full LR. The ±.1 pp band is descriptive, not a significance threshold. Removing ERBB2/HER2 or adhesion raises reduction by .480/.230 pp. Symbol membership and resource weights are not measured communication or causal pathway effects.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S14.png",
+        "sha256": "89f554d1144d1f294644b6fb555f548bc6323f3bbeddd9a3edbae02d16144b89"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S14. Matched-mask breast-cancer sensitivity, retaining two vertically stacked panels. All arms use the same 115-symbol expression exclusion. (A) Full, ERBB2/HER2-removal and ERBB2/HER2-only entropy reductions relative to matched FGW. (B) Change in reduction after each of 12 family removals, in percentage points relative to full LR. The ±.1 pp band is descriptive, not a significance threshold. Removing ERBB2/HER2 or adhesion raises reduction by .480/.230 pp. Symbol membership and resource weights are not measured communication or causal pathway effects.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S15",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "95269d2aa2f7466067115556a98c3dfb3f572c3939b0c6eb5e5547b5cc05cc0d",
+      "caption": "Figure S15. Selected saved-record cost diagnosis and failure domain, preserving the two-by-two composition. (A) Normalized weighted cost shares at the final plan. (B) Saved mean absolute changes in independently normalized cost matrices, with no added error bars. Cg is evaluated at each condition’s final plan as gromov_cost(DA,DB)−2 DA P DBᵀ, then divided by its own maximum; it is a plan-dependent linearized geometry cost, not a fixed raw-distance matrix. Ce and Cl are likewise normalized. These are surrogates, omit entropy and do not certify a global optimum. (C–D) Region-vote accuracy and row entropy across the log1p-additive stress grid σ=0–1.5, using four α values and the FGW α=.5 reference. C/D use the selected saved means and sample SD (ddof=1) over five unique technical seeds (42/1042/2042/3042/4042). Saved population SD is converted by √(5/4); duplicate diagnostic calls do not add replicates. A remains the retained baseline panel, and B has only the saved σ=.3/.5 conditions. Accuracy deteriorates under strong stress; mild-perturbation stability cannot be generalized to arbitrary batch effects.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets_selected/S15.png",
+        "sha256": "95269d2aa2f7466067115556a98c3dfb3f572c3939b0c6eb5e5547b5cc05cc0d"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates_selected/S15.png",
+        "sha256": "e4da840ad2d951c0bdab130e12629bb39aa256aa69aeb16b3d81733e05fbb11a"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs_selected/S15.json",
+          "sha256": "102c605da5a17d59b72c749ff6919da8d4667631ecd4423df732dee2c74f9ece"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S15. Revalidated cost diagnosis and failure domain, preserving the two-by-two composition. (A) Normalized weighted cost shares at the final plan. (B) Mean absolute matrix changes relative to unperturbed inputs. These are surrogates, omit entropy and do not certify a global optimum. (C–D) Region-vote accuracy and row entropy across the log1p-additive stress grid σ=0–1.5, using four α values and the FGW α=.5 reference. Means and sample SD use five technical seeds. Accuracy deteriorates under strong stress; mild-perturbation stability cannot be generalized to arbitrary batch effects.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement_20261008/selected_panel_config.json",
+        "sha256": "8de15ad232f4d8804ee1c94684eb018d3f4ac309ccc40ef7fde7fa5f2b5034cf"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "b227e224fe0bde3de90ad1bdbac5aa8b15fd7267042fbcf2dc293ef88d248772"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution"
+    },
+    {
+      "id": "S16",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "a892bc832f517b132fcc161535236f4463c0b0087a85d6753508e357011f65e3",
+      "caption": "Figure S16. Revalidated expression-feature-mask control. The original four-arm, two-panel display compares FGW/LROT when LR genes are excluded or all genes are used. Bars are five-seed means; error bars are SD across the five seeds (ddof=0). (A) Region-vote accuracy (axis 0.55–0.80). (B) Row entropy in nats. Limited differences in these conditions do not establish accuracy equivalence, statistical independence of cost channels or robustness to every feature-selection protocol.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S16.png",
+        "sha256": "a892bc832f517b132fcc161535236f4463c0b0087a85d6753508e357011f65e3"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S16. Revalidated expression-feature-mask control. The original four-arm, two-panel display compares FGW/LROT when LR genes are excluded or all genes are used. Bars are five-seed means; error bars are SD across the five seeds (ddof=0). (A) Region-vote accuracy (axis 0.55–0.80). (B) Row entropy in nats. Limited differences in these conditions do not establish accuracy equivalence, statistical independence of cost channels or robustness to every feature-selection protocol.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S17",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac",
+      "caption": "Figure S17. Matched FGW/LROT parameter and regularization controls. (A–B) Default and best observed labelled-grid accuracy for historical/realistic inputs; the baseline panels are retained. Best is exploratory, not an independently validated setting. (C) Entropy and accuracy annotations from the selected saved diagnostics at multipliers .5/1/2, applied to both reg_ot and reg_gw, with realistic seed42. This is not a common effective-ε comparison. Reused accepted diagnostics do not constitute fresh independent runs. (D–F) Baseline spatial-LR-program present/absent controls: D/E show accuracy and F shows paired entropy reduction for three technical seeds (42/43/44). The displayed contrasts compare γ=.1 with FGW γ=0; the full numerical record additionally contains γ=.2. Error bars in the retained D–F panels are SD with denominator n (ddof=0). These technical controls do not increase biological replication; concentration can persist without an accuracy advantage.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets_selected/S17.png",
+        "sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates_selected/S17.png",
+        "sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs_selected/S17.json",
+          "sha256": "8cdbe5d9a15c5399d869f2c389fbd19ffa94c83ac0104f2100961322b2b3a201"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "A",
+          "path": "figures/supplement_20261008/confirmed_panels/S17_A.png",
+          "sha256": "38165158b558370c22d4974739b36c6bb6b99a39f7ebfa8ee5c04bcb9ffd6b14",
+          "baseline_crop": [
+            0,
+            0,
+            1525,
+            1212
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        },
+        {
+          "panel": "B",
+          "path": "figures/supplement_20261008/confirmed_panels/S17_B.png",
+          "sha256": "f51a7bab5aba5b62cbac546554435a83208c57a34883855fc93198e868d48381",
+          "baseline_crop": [
+            1525,
+            0,
+            3050,
+            1212
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        },
+        {
+          "panel": "D",
+          "path": "figures/supplement_20261008/confirmed_panels/S17_D.png",
+          "sha256": "bfb63e260d0e1f24e1ab97e951115fc06ec961c7202978b163e263eb1eb29ce8",
+          "baseline_crop": [
+            1525,
+            1212,
+            3050,
+            2423
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        },
+        {
+          "panel": "E",
+          "path": "figures/supplement_20261008/confirmed_panels/S17_E.png",
+          "sha256": "40792307c2c9e62b7b9965a51c0f75b8b141b6991036e9b4fc94b8588d60218f",
+          "baseline_crop": [
+            0,
+            2423,
+            1525,
+            3635
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        },
+        {
+          "panel": "F",
+          "path": "figures/supplement_20261008/confirmed_panels/S17_F.png",
+          "sha256": "39f2910bf8ea24058130d08aec03014db1b5063b5b3506060826cdacd2ec334a",
+          "baseline_crop": [
+            1525,
+            2423,
+            3050,
+            3635
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S17. Matched FGW/LROT parameter and regularization controls. (A–B) Default and best observed labelled-grid accuracy for historical/realistic inputs; the baseline panels are retained. Best is exploratory, not an independently validated setting. (C) Entropy at regularization multipliers .5/1/2 in the current working panel. (D–F) Baseline spatial-LR-program present/absent controls: D/E show accuracy and F shows paired entropy reduction for three technical seeds (42/43/44). The displayed contrasts compare γ=.1 with FGW γ=0; the full numerical record additionally contains γ=.2. Error bars in the retained D–F panels are SD with denominator n (ddof=0). These technical controls do not increase biological replication; concentration can persist without an accuracy advantage.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement_20261008/selected_panel_config.json",
+        "sha256": "8de15ad232f4d8804ee1c94684eb018d3f4ac309ccc40ef7fde7fa5f2b5034cf"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "b227e224fe0bde3de90ad1bdbac5aa8b15fd7267042fbcf2dc293ef88d248772"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution"
+    },
+    {
+      "id": "S18",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "6d8a67bbd10e0d8aaa92f544a4ef628196091c2a60d6d9f03d566326dd79fda5",
+      "caption": "Figure S18. Revalidated main-alignment γ scans in four adjacent pairs from two donors. D1-P1/P2 denote 151507–151508/151508–151509; D2-P1/P2 denote 151669–151670/151670–151671. Each main-alignment pair uses 42/99, distinct from second-pair score-validation sampling. (A–D) Row entropy, soft ARI and same-layer mass. (E–F) Signed differences use FGW−LROT. At γ=.1, same-layer changes span −.002844 to +.005353; ARI changes have mixed signs. Four pairs are not four independent donors, and the scan does not validate a universally favourable γ.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S18.png",
+        "sha256": "6d8a67bbd10e0d8aaa92f544a4ef628196091c2a60d6d9f03d566326dd79fda5"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S18. Revalidated main-alignment γ scans in four adjacent pairs from two donors. D1-P1/P2 denote 151507–151508/151508–151509; D2-P1/P2 denote 151669–151670/151670–151671. Each main-alignment pair uses 42/99, distinct from second-pair score-validation sampling. (A–D) Row entropy, soft ARI and same-layer mass. (E–F) Signed differences use FGW−LROT. At γ=.1, same-layer changes span −.002844 to +.005353; ARI changes have mixed signs. Four pairs are not four independent donors, and the scan does not validate a universally favourable γ.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S19",
+      "status": "pending",
+      "treatment": "retained_working_display_B_pending_plan_coordinate_binding",
+      "embedded_sha256": "df5b3a60c66fc27544f4da25431c8fe2e07a23a770fbaa42a19a4b394771f77d",
+      "caption": "Figure S19. Retained full-scale DLPFC working display, preserving the original layer palette and before/after composition. A is the approved retained panel. B remains pending: the old display has not been bound to the accepted plan and ordered coordinate arrays. Its apparent barycentric mapping cannot certify the accepted full-scale result. Target layer colours are annotations, not inferred labels. Numerical checks in Figure S9 have separate saved-result provenance; they do not close the display-to-plan binding. Panel B is not visually or numerically accepted for a submission-ready version.",
+      "asset": null,
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "A",
+          "path": "figures/supplement_20261008/confirmed_panels/S19_A.png",
+          "sha256": "d6e79365b9edb93f86d3f90f165207f0e9708704c7de9e76b19fd25a05f26e67",
+          "baseline_crop": [
+            0,
+            0,
+            3846,
+            3907
+          ],
+          "baseline_image_sha256": "7260d21f9c65cdabe24c17d0f053d09528d108cc94936762a5b34a378d6e5a79",
+          "meaning": "baseline asset crop only; no numerical regeneration"
+        }
+      ],
+      "pending_panels": [
+        "B"
+      ],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S19. Full-scale DLPFC tissue display reconstructed from the accepted γ=.1 plan, retaining before/after panels, spatial window and original layer palette. (A) Filled 151507 spots and outlined 151508 spots after the imposed 2°/translation perturbation. (B) Column-normalized OT barycentric mapping of 151508 into the 151507 frame; grey points are reference tissue. Layer colours come from target annotations, not inferred labels. The display shows layer-level organization and does not establish exact correspondence or absence of barycentric compression (quantitative checks in Figure S9).",
+      "record_render_supported": false,
+      "scientific_verification": "A approved retained asset; B not certified by accepted plan"
+    },
+    {
+      "id": "S20",
+      "status": "approved_asset",
+      "treatment": "label_patch_of_baseline_asset",
+      "embedded_sha256": "68e3eb57a1bfa9f084247efe55c317c988eea323d1dd2fede17784f130d6401a",
+      "caption": "Figure S20. Realistic seed-42 illustration with the baseline three-row/two-column panels and colours retained. (A–B) Source/target positions before and after LROT. (C) A 50×50 plan excerpt on a logarithmic colour scale. (D) Top 30 source spots by mean LR compatibility; colour denotes compatibility, not measured signalling activity. (E) Row-entropy distributions for FGW/LROT. (F) The same source spots at raw (z=0) and barycentrically mapped (z=1) display states. The z levels are display states, not independently measured serial sections or a separate reconstruction experiment. Compatibility, hotspots and low entropy do not establish biological communication or calibration.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S20.png",
+        "sha256": "68e3eb57a1bfa9f084247efe55c317c988eea323d1dd2fede17784f130d6401a"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates/S20.png",
+        "sha256": "597ff3b253886094348220fb554ed409f7ee2ba0251cd17615fbc69ad2d829fc",
+        "role": "archived source template only; not a current performance result or publication image"
+      },
+      "records": [],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S20. Realistic seed-42 illustration with the baseline three-row/two-column panels and colours retained. (A–B) Source/target positions before and after LROT. (C) A 50×50 plan excerpt on a logarithmic colour scale. (D) Top 30 source spots by mean LR compatibility; colour denotes compatibility, not measured signalling activity. (E) Row-entropy distributions for FGW/LROT. (F) The same source spots at raw (z=0) and barycentrically mapped (z=1) display states. The z levels are display states, not independently measured serial sections or a separate reconstruction experiment. Compatibility, hotspots and low entropy do not establish biological communication or calibration.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S21",
+      "status": "approved_asset",
+      "treatment": "result_based_local_revision",
+      "embedded_sha256": "573bf38197fd93380f978681666a604225b764e105eb61ffb8ee9d909fec5cbe",
+      "caption": "Figure S21. Current local realistic seed-42 γ ablation (α=.5, β=.3), retaining the baseline four-panel layout, chart types and colours. (A) Region-vote accuracy, including .703 at γ=.5 and .672 at γ=1. (B) Expression transport cost from the saved result records. (C) Mean row entropy independently recomputed from the six saved plans. (D) Accepted outer iterations (9/9/9/10/10/12), replacing the archived runtime panel; local serial timings are in Figure S6. The archived γ=1 accuracy .747 is a separate historical result: its original plan is unavailable, so it is not a matched comparison with .672. The expression-cost records were not independently recalculated from full-precision expression inputs. Lower entropy at high guidance is not an accuracy gain.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S21.png",
+        "sha256": "573bf38197fd93380f978681666a604225b764e105eb61ffb8ee9d909fec5cbe"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates/S21.png",
+        "sha256": "331b981926218ccb659e389aa6cd18f4f6aa6c60ef4336e43d8c3cdb58df237c",
+        "role": "archived source template only; not a current performance result or publication image"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs/S21_verified_result_rows.json",
+          "sha256": "7f098896875de467bcb4aad6515f116f69938bdaf1d9532d9320e12144f7b430"
+        }
+      ],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S21. Current local realistic seed-42 γ ablation (α=.5, β=.3), retaining the baseline four-panel layout, chart types and colours. (A) Region-vote accuracy, including .703 at γ=.5 and .672 at γ=1. (B) Expression transport cost from the saved result records. (C) Mean row entropy independently recomputed from the six saved plans. (D) Accepted outer iterations (9/9/9/10/10/12), replacing the archived runtime panel; local serial timings are in Figure S6. The archived γ=1 accuracy .747 is a separate historical result: its original plan is unavailable, so it is not a matched comparison with .672. The expression-cost records were not independently recalculated from full-precision expression inputs. Lower entropy at high guidance is not an accuracy gain.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S22",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "680f335cae7bf6d360716736c7e1f9e9a70ef5b5ff28b8544bf18ca100346fd3",
+      "caption": "Figure S22. Three-section DLPFC reconstruction, retaining the complete baseline image and its original six-panel layout and palette. Section sampling is 42/99/99, preserving the shared 151508 subset across adjacent pairs. (A–B) Unaligned and LROT barycentric stacks. (C) Row entropy by pair, with reductions 17.6%/15.7%. (D–F) Layer-centre distance matrices for unaligned/LROT/FGW stacks, displayed at baseline integer precision with a common colour scale in pixels. Barycentric geometry is a layer-level summary; small centre distances do not establish spot accuracy, anatomical volume recovery or an advantage over FGW.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S22.png",
+        "sha256": "680f335cae7bf6d360716736c7e1f9e9a70ef5b5ff28b8544bf18ca100346fd3"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S22. Three-section DLPFC reconstruction, retaining the complete baseline image and its original six-panel layout and palette. Section sampling is 42/99/99, preserving the shared 151508 subset across adjacent pairs. (A–B) Unaligned and LROT barycentric stacks. (C) Row entropy by pair, with reductions 17.6%/15.7%. (D–F) Layer-centre distance matrices for unaligned/LROT/FGW stacks, displayed at baseline integer precision with a common colour scale in pixels. Barycentric geometry is a layer-level summary; small centre distances do not establish spot accuracy, anatomical volume recovery or an advantage over FGW.",
+      "record_render_supported": false
+    },
+    {
+      "id": "S23",
+      "status": "approved_asset",
+      "treatment": "result_based_local_revision",
+      "embedded_sha256": "bb3ca029f41cdaa122734365e4a5447c935788c398aab450e07d439eaf144955",
+      "caption": "* Accuracy is the region-mapping consistency (soft matching); LROT uses γ=0.1, β=0.3 and α=0.5, consistent with the main experiments.",
+      "asset": {
+        "path": "figures/supplement_20261008/assets/S23.png",
+        "sha256": "bb3ca029f41cdaa122734365e4a5447c935788c398aab450e07d439eaf144955"
+      },
+      "template": {
+        "path": "figures/supplement_20261008/templates/S23.png",
+        "sha256": "18e8c57f63bff8646d66a0e556393334fd62249375dc74f7bc823acc3b8c730e",
+        "role": "archived source template only; not a current performance result or publication image"
+      },
+      "records": [
+        {
+          "path": "figures/supplement_20261008/inputs/S23_1001_2001_FGW.json",
+          "sha256": "bccac8ca7faf04e269e4482e3dd071f0d47a5d82eb17c9339436bea2da898f09"
+        },
+        {
+          "path": "figures/supplement_20261008/inputs/S23_1001_2001_LROT.json",
+          "sha256": "b2712036163cc3f1870db5994895d606e14d476e0f989fd5270e4c3f20b18c29"
+        },
+        {
+          "path": "figures/supplement_20261008/inputs/S23_archived_second_point.json",
+          "sha256": "3c8323cad5617f585c69a72bc3086a66c00f17713c784e2d112c2f7ab2595493"
+        }
+      ],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S23. Controlled benchmark with 30 fixed simulation seed pairs (1000–1029/2000–2029), excluding historical 42/123. The baseline layout, palette, remaining points and axes are retained; only the second pair is updated to the accepted record: FGW .655, LROT .649, difference −.006. Points show paired LROT−soft-FGW accuracy differences. The displayed mean is +.140 and the 95% paired t interval is +.056 to +.224; 24 pairs are positive and six negative. The revised pair is supported by result-record binding, not independent rescoring of its saved plan. Technical simulation repetitions do not establish biological communication, calibration or prospective registration.",
+      "record_render_supported": false
+    }
+  ],
+  "experimental_reproduction_certified": false,
+  "patch_interpretation": {
+    "S12": "Paste the frozen approved label strips only; preserve underlying curve pixels. Numerical text is an approved raster asset, not a newly recomputed result.",
+    "S20": "Semantic titles only, all underlying scientific pixels retained.",
+    "S21": "Previously independently checked entropy values are retained; native JSON entropy differs about 1e-9 and is recorded separately."
+  },
+  "review_only": true,
+  "remaining_pending_panels": [
+    "S19B"
+  ],
+  "record_render_scope": "Eight full canvases composed from 16 selected saved-record panels and retained baseline pixels; not new experiments or historical error certification."
+}

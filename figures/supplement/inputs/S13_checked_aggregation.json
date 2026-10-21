@@ -1,0 +1,147 @@
+{
+  "source_sha256": "5b9963458b619a3cce3813aff5b89d87043aabb62d60096e2140e2c3cd1fc84e",
+  "rows": [
+    {
+      "return_position_one_based": 1,
+      "method": "FGW",
+      "same": 0.3766470709347677,
+      "cross": 0.6233529290652323,
+      "ratio": 0.6042276427570176,
+      "per_layer": {
+        "L1": 0.5878566355162499,
+        "L2": 0.1496117564762261,
+        "L3": 0.4711592423516576,
+        "L4": 0.13667730741925038,
+        "L5": 0.31282244171950707,
+        "L6": 0.27990384538281,
+        "WM": 0.32614900683518494
+      },
+      "P_shape": [
+        1000,
+        1000
+      ],
+      "P_array_sha256": "839f2910cd74d75d495f0a4d8a10c41e7f01153a9cd53e0201751020a00dcaff",
+      "layer_denominator_values_saved": false,
+      "sample_names_in_return_context": false,
+      "labels_or_sampling_order_in_return_record": false
+    },
+    {
+      "return_position_one_based": 1,
+      "method": "LROT",
+      "same": 0.374174489877403,
+      "cross": 0.625825510122597,
+      "ratio": 0.5978894816929139,
+      "per_layer": {
+        "L1": 0.5792573899113236,
+        "L2": 0.15921402215809904,
+        "L3": 0.47021839096361434,
+        "L4": 0.1366405681072701,
+        "L5": 0.3147258000096845,
+        "L6": 0.2722931609681931,
+        "WM": 0.3171228444992419
+      },
+      "P_shape": [
+        1000,
+        1000
+      ],
+      "P_array_sha256": "d9b4b1c4837e221aee2b7a7a4dea54a9dcb7c8407d229ef741be4d218c8ac044",
+      "layer_denominator_values_saved": false,
+      "sample_names_in_return_context": false,
+      "labels_or_sampling_order_in_return_record": false
+    },
+    {
+      "return_position_one_based": 2,
+      "method": "FGW",
+      "same": 0.34777361844102167,
+      "cross": 0.6522263815589784,
+      "ratio": 0.5332099839472283,
+      "per_layer": {
+        "L1": 0.5246216299536696,
+        "L2": 0.20915559460137112,
+        "L3": 0.4510548840013549,
+        "L4": 0.11059331730993609,
+        "L5": 0.15640146818788,
+        "L6": 0.18122695650071718,
+        "WM": 0.6846088801932676
+      },
+      "P_shape": [
+        1000,
+        1000
+      ],
+      "P_array_sha256": "10993ac9e7ed64eeaf1f243388a831ec8de03ce52362c15e623b6b4e19afb700",
+      "layer_denominator_values_saved": false,
+      "sample_names_in_return_context": false,
+      "labels_or_sampling_order_in_return_record": false
+    },
+    {
+      "return_position_one_based": 2,
+      "method": "LROT",
+      "same": 0.3476177983787006,
+      "cross": 0.6523822016212995,
+      "ratio": 0.532843780095167,
+      "per_layer": {
+        "L1": 0.524038734647041,
+        "L2": 0.2156940976241033,
+        "L3": 0.4543025234711034,
+        "L4": 0.10945897144676467,
+        "L5": 0.15210199341897493,
+        "L6": 0.18130246043370024,
+        "WM": 0.6706843031996295
+      },
+      "P_shape": [
+        1000,
+        1000
+      ],
+      "P_array_sha256": "de8cca822b2d27bef7d5f911314b5e7f4080facc5012ef89c535889fa1cfaf1f",
+      "layer_denominator_values_saved": false,
+      "sample_names_in_return_context": false,
+      "labels_or_sampling_order_in_return_record": false
+    }
+  ],
+  "aggregate": {
+    "FGW": {
+      "mean_ratio": 0.5687188133521229,
+      "mean_same": 0.3622103446878947,
+      "mean_cross": 0.6377896553121054,
+      "per_layer_equal_pair_mean": {
+        "L1": 0.5562391327349597,
+        "L2": 0.1793836755387986,
+        "L3": 0.4611070631765063,
+        "L4": 0.12363531236459324,
+        "L5": 0.23461195495369352,
+        "L6": 0.2305654009417636,
+        "WM": 0.5053789435142263
+      },
+      "mean_within_layer_entropy": 4.72734946031648,
+      "ratio_of_pooled_equal_pair_masses": 0.5679150511004217,
+      "mean_ratio_3dp": "0.569"
+    },
+    "LROT": {
+      "mean_ratio": 0.5653666308940404,
+      "mean_same": 0.3608961441280518,
+      "mean_cross": 0.6391038558719482,
+      "per_layer_equal_pair_mean": {
+        "L1": 0.5516480622791823,
+        "L2": 0.18745405989110117,
+        "L3": 0.46226045721735887,
+        "L4": 0.12304976977701738,
+        "L5": 0.23341389671432972,
+        "L6": 0.22679781070094668,
+        "WM": 0.4939035738494357
+      },
+      "mean_within_layer_entropy": 3.7669947524604077,
+      "ratio_of_pooled_equal_pair_masses": 0.5646909196560402,
+      "mean_ratio_3dp": "0.565"
+    }
+  },
+  "code_source": "Prior authorized repository backup; exact experiments/dlpfc_layer_ratio.py member only",
+  "code_sha256": "db203bd063af34258a37ba9bae2f593491a6c4feff397283edc684aa3dc56f54",
+  "per_layer_denominator_definition": "sum of globally normalized plan mass departing source-layer rows; numerator is mass from those rows to same-labeled target columns",
+  "A_aggregation_definition": "unweighted arithmetic mean of the two already-computed per-pair conditional masses, not pooled mass or equal-layer weighting",
+  "B_definition": "two per-pair same/cross ratios; old caption .569/.565 is arithmetic mean of the two ratios",
+  "old_B_reason_withdrawn": "Baseline B already shows the two pairs; it was not an aggregate-only panel.",
+  "numeric_denominators_independently_recomputed": false,
+  "historical_runtime_code_binding_proved": false,
+  "image_recommendation": "Retain baseline A/B; source-barcode/denominator evidence deficits are separate from image treatment.",
+  "asset_is_retained_not_regenerated": true
+}

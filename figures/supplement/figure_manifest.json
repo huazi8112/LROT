@@ -1,0 +1,1462 @@
+{
+  "version": "supplement-S2D-layout-repair-20261010",
+  "candidate_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+  "no_experiments": true,
+  "font_sha256": {
+    "arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+  },
+  "figures": [
+    {
+      "id": "S1",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "6d3da912d2eab8dea65d5c435072ca47c5b5aadc9214dc1f13d1b052921b6102",
+      "caption": "Figure S1. Fixed controlled realization (A/B seeds 42/123; four regions). (A) Region-vote accuracy versus γ. (B) Expression transport cost. Numerical revalidation applies to this illustrative pair; the separate 30-pair assessment is in Figure S23 and Table S16.",
+      "asset": {
+        "path": "figures/supplement/assets/S1.png",
+        "sha256": "6d3da912d2eab8dea65d5c435072ca47c5b5aadc9214dc1f13d1b052921b6102"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S1. Fixed controlled realization (A/B seeds 42/123; four regions). (A) Region-vote accuracy versus γ. (B) Expression transport cost. Numerical revalidation applies to this illustrative pair; the separate 30-pair assessment is in Figure S23 and Table S16.",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "6d3da912d2eab8dea65d5c435072ca47c5b5aadc9214dc1f13d1b052921b6102",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S2",
+      "status": "approved_asset",
+      "treatment": "saved_record_redraw_of_S2D_on_original_eight_panel_canvas; other panel pixels unchanged; title-only layout revision; plot body pixels unchanged",
+      "embedded_sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a",
+      "caption": "Figure S2. LR-resource sensitivity. (A–B) Accuracy/entropy at γ=0.1. (C) Expression-free entropy (α=0, β=0.3, γ=1; geometry active). (D) Accepted outer counts at γ=0.1/1: full 9/39, shuffled 9/121, adhesion 9/40 (α=0.5/0, β=0.3). (E) Saved fraction above 10⁻¹⁰, not independently recounted. (F) Resource size. (G–H) Implemented/CellChatDB.mouse entropy/accuracy at γ=0.1/0.2; symbol-matched counts are 22/38, not detected-expression counts. At γ=1, full/shuffled/adhesion accuracy is 0.232/0.069/0.147 (Table S6). A/C/E/H use selected current records; retained panels and D have separate provenance.",
+      "asset": {
+        "path": "figures/supplement/assets/S2.png",
+        "sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S2.png",
+        "sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S2.json",
+          "sha256": "dd46a5498e2d3c0dd80cb2c8a0cf0d9d0ed50b04be3132f627304dde14b4742d"
+        },
+        {
+          "path": "figures/supplement/inputs/S2D_accepted_diagnostics.json",
+          "sha256": "41d64e81b7fde368ee2e79b63e68e53e26b33ee4577737436cbdfd677f3282df"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "B",
+          "baseline_crop": [
+            1490,
+            0,
+            2980,
+            1247
+          ],
+          "baseline_image_sha256": "52a6a4e094b140541294d2db164544dd1189d6c480f3b2e3bf64753eecba72fe",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S2_B.png",
+            "sha256_at_recording": "26d9f8c017b6f4b1c3e239f336f5f756251254feb092d7253575157f6eeb6bd0",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S2.png",
+            "sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a"
+          },
+          "crop_box": [
+            1490,
+            0,
+            2980,
+            1247
+          ],
+          "sha256": "d30e85fadf809c80edfbef39db9244668804c49797c0403d52633f4671f33697"
+        },
+        {
+          "panel": "F",
+          "baseline_crop": [
+            2980,
+            1247,
+            4470,
+            2494
+          ],
+          "baseline_image_sha256": "52a6a4e094b140541294d2db164544dd1189d6c480f3b2e3bf64753eecba72fe",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S2_F.png",
+            "sha256_at_recording": "55f6cabc6d2c5f7461ad17430c1d7966e813ea2082d93d39f0b599aa5d0c36f6",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S2.png",
+            "sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a"
+          },
+          "crop_box": [
+            2980,
+            1247,
+            4470,
+            2494
+          ],
+          "sha256": "9dfdabbb56e1903cff5412c2af3d678c06c5d070e846710a939e2607f33d6e6c"
+        },
+        {
+          "panel": "G",
+          "baseline_crop": [
+            0,
+            2494,
+            2235,
+            4022
+          ],
+          "baseline_image_sha256": "52a6a4e094b140541294d2db164544dd1189d6c480f3b2e3bf64753eecba72fe",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S2_G.png",
+            "sha256_at_recording": "7147018fc62e01e4e1c8bb92b03dca80eb89bb9b5ebf496f1ebee3f7209bc403",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S2.png",
+            "sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a"
+          },
+          "crop_box": [
+            0,
+            2494,
+            2235,
+            4022
+          ],
+          "sha256": "e057c08997d3cc561c6af3699daa929c8f721c3670807e3361041ae198e7cb07"
+        },
+        {
+          "panel": "D",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "panel_box": [
+            0,
+            1247,
+            1490,
+            2494
+          ],
+          "axes_box": [
+            180,
+            97,
+            1467,
+            1097
+          ],
+          "matched_axes_box": "E",
+          "records": [
+            {
+              "path": "figures/supplement/inputs/S2D_accepted_diagnostics.json",
+              "sha256": "41d64e81b7fde368ee2e79b63e68e53e26b33ee4577737436cbdfd677f3282df"
+            }
+          ],
+          "patch_supported": false,
+          "historical_asset": {
+            "sha256": "766cdc2b2579f3e6259606aa8097a60f1dd39ce6970e2991ef28d829cdc39c9d",
+            "status": "archived outside repository; superseded raster, not runtime input",
+            "original_repository_path": "figures/supplement/confirmed_panels/S2_D.png"
+          },
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S2_D.png",
+            "sha256_at_recording": "712eea88ba5870b192fe9f8e9282dfd4ae6c8b30b3f66e98f795dd0880b7722a",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S2.png",
+            "sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a"
+          },
+          "crop_box": [
+            0,
+            1247,
+            1490,
+            2494
+          ],
+          "sha256": "51dd13910f6d9034311af626e27263d4d5df325d7e7e67c5c44c52e2a1cfd198"
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "saved-record rendering enabled; S2D redrawn at standard panel size; superseded D rasters archived outside repository",
+      "parameters_and_statistics_in_caption": "Figure S2. LR-resource sensitivity. (A–B) Accuracy/entropy at γ=0.1. (C) Expression-free entropy (α=0, β=0.3, γ=1; geometry active). (D) Accepted outer counts at γ=0.1/1: full 9/39, shuffled 9/121, adhesion 9/40 (α=0.5/0, β=0.3). (E) Saved fraction above 10⁻¹⁰, not independently recounted. (F) Resource size. (G–H) Implemented/CellChatDB.mouse entropy/accuracy at γ=0.1/0.2; symbol-matched counts are 22/38, not detected-expression counts. At γ=1, full/shuffled/adhesion accuracy is 0.232/0.069/0.147 (Table S6). A/C/E/H use selected current records; retained panels and D have separate provenance.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement/selected_panel_config.json",
+        "sha256": "b2e3e7241401743b9a230ba159adac18adc412f7f5b3b8fed080ea6efa41c507"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "52a2786b6d9bf6bbf5e9a25bd114ab3c4a09397dbc956a5c3a3c94de099d522e"
+      },
+      "scientific_verification": "saved scalar records and six accepted S2D diagnostics; no raw-array audit or experiment execution",
+      "retained_selected_panel": "H: selected numerical values match baseline, pixels retained",
+      "previous_asset": {
+        "original_repository_path": "figures/supplement/assets_selected/S2.png",
+        "sha256": "33159ff79a40fc2749c30e701e39a2749499e333763501627507af6a9c62b924",
+        "status": "archived outside repository; not a runtime input or distributed asset",
+        "archive_record": "External local cleanup archive retains original bytes and path/hash mapping; no personal archive path distributed."
+      },
+      "record_render_scope": "S2 panels A/C/E/H from selected saved records, D from six accepted saved diagnostics, B/F/G/H baseline pixels retained where configured; no solver",
+      "historical_D_asset": {
+        "sha256": "766cdc2b2579f3e6259606aa8097a60f1dd39ce6970e2991ef28d829cdc39c9d",
+        "former_fit": "contain into a 1490x1247 cell, leaving white padding; retained for history only",
+        "original_repository_path": "figures/supplement/confirmed_panels/S2_D.png",
+        "status": "archived outside repository; superseded raster, not runtime input"
+      },
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      },
+      "title_layout_validation": {
+        "validation": "figures/supplement/validation/title_layout.json",
+        "sha256": "9af598e42dab3e09ba1899466570d1cfaf67e23da637e0256fca02e08b937b13"
+      }
+    },
+    {
+      "id": "S3",
+      "status": "approved_asset",
+      "treatment": "result_based_local_revision",
+      "embedded_sha256": "9888f6cb14e09fc4bfd43332081584ab7f70554e4041f31ac84cdba0f06c8134",
+      "caption": "Figure S3. GO biological-process enrichment of 109 LR genes. (A) Fifteen terms with ≥5 hits, adjusted p<10⁻⁵ and background fraction ≤2%, ranked by adjusted p. Bar length: hits; colour/brackets: −log₁₀(adjusted p); asterisks: adjusted p<0.05 (outside the colour scale). (B) Retained seven-family display; group assignments are not a summed unique-gene count. Fisher tests use 27,431 background genes and BH correction over 14,584 supported BP terms, including zero-hit terms (Note S16). Enrichment characterizes the resource, not measured communication.",
+      "asset": {
+        "path": "figures/supplement/assets/S3.png",
+        "sha256": "9888f6cb14e09fc4bfd43332081584ab7f70554e4041f31ac84cdba0f06c8134"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S3.png",
+        "sha256": "9888f6cb14e09fc4bfd43332081584ab7f70554e4041f31ac84cdba0f06c8134"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S3_go_display_rows.json",
+          "sha256": "d9b1c4f9e1e5bdabafdc055034132915c2fa026da1df12924c7af290dab80595"
+        }
+      ],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S3. GO biological-process enrichment of 109 LR genes. (A) Fifteen terms with ≥5 hits, adjusted p<10⁻⁵ and background fraction ≤2%, ranked by adjusted p. Bar length: hits; colour/brackets: −log₁₀(adjusted p); asterisks: adjusted p<0.05 (outside the colour scale). (B) Retained seven-family display; group assignments are not a summed unique-gene count. Fisher tests use 27,431 background genes and BH correction over 14,584 supported BP terms, including zero-hit terms (Note S16). Enrichment characterizes the resource, not measured communication.",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "9888f6cb14e09fc4bfd43332081584ab7f70554e4041f31ac84cdba0f06c8134",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S4",
+      "status": "approved_asset",
+      "treatment": "Panel A redrawn from retained four-decimal summaries with separated annotation/legend; B/C pixels unchanged",
+      "embedded_sha256": "7651aedfd266ebc23d8979d31df5ac556ebd4872a356ecc58e287fb2d3a32d95",
+      "caption": "Figure S4. Pathway agreement and dispersion. (A) Means over 20 technical simulation seeds; row entropy uses the right axis. (B–C) Equal-weight means of two Br8325 pairs (42/99 sampling per pair; one donor). In C, vote accuracy is 0.5225 at γ=0 and 0.4635 at γ=0.5. The γ=0.1 marker is the tested default, not a validated optimum. LR-feature agreement is not independent communication evidence; no spot-level inference or universal threshold is implied (Note S8). Panel A is redrawn from retained four-decimal summaries.",
+      "asset": {
+        "path": "figures/supplement/assets/S4.png",
+        "sha256": "7651aedfd266ebc23d8979d31df5ac556ebd4872a356ecc58e287fb2d3a32d95"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S4.png",
+        "sha256": "7651aedfd266ebc23d8979d31df5ac556ebd4872a356ecc58e287fb2d3a32d95"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S4.json",
+          "sha256": "b739d41010c787704c44ef02ea36ba665fac759c3d0ebdb8f0f8d4b2a0991bc3"
+        },
+        {
+          "path": "figures/supplement/inputs/S4_panel_A_summary.json",
+          "sha256": "486ae41f3b853216e05d3fbba03855bedc7ace3a67fd295402bb1abadd84b158"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "A",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "box": [
+            0,
+            0,
+            3561,
+            2016
+          ],
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S4_A.png",
+            "sha256_at_recording": "78632da51b408d0a155c7726c9f65e82cea13e4e73bb892a490353174fe7bfaf",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S4.png",
+            "sha256": "7651aedfd266ebc23d8979d31df5ac556ebd4872a356ecc58e287fb2d3a32d95"
+          },
+          "crop_box": [
+            0,
+            0,
+            3561,
+            2016
+          ],
+          "sha256": "78632da51b408d0a155c7726c9f65e82cea13e4e73bb892a490353174fe7bfaf"
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "saved-summary rendering supported; no experiment execution",
+      "parameters_and_statistics_in_caption": "Figure S4. Pathway agreement and dispersion. (A) Means over 20 technical simulation seeds; row entropy uses the right axis. (B–C) Equal-weight means of two Br8325 pairs (42/99 sampling per pair; one donor). In C, vote accuracy is 0.5225 at γ=0 and 0.4635 at γ=0.5. The γ=0.1 marker is the tested default, not a validated optimum. LR-feature agreement is not independent communication evidence; no spot-level inference or universal threshold is implied (Note S8). Panel A is redrawn from retained four-decimal summaries.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement/inputs/S4_panel_A_summary.json",
+        "sha256": "486ae41f3b853216e05d3fbba03855bedc7ace3a67fd295402bb1abadd84b158"
+      },
+      "record_renderer": {
+        "path": "figures/render_s4_saved.py",
+        "sha256": "6978c892c14bb86dfdb39903520336871cd258a79f8494450d0d9086244bb4fe"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution",
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终校订版.docx",
+        "baseline_docx_sha256": "4a5b7a52b17ee59b7756b35373f4afd4040de24b0b74c455229cdce372aa9691",
+        "embedded_image_sha256": "7651aedfd266ebc23d8979d31df5ac556ebd4872a356ecc58e287fb2d3a32d95",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      },
+      "panel_A_summary": {
+        "path": "figures/supplement/inputs/S4_panel_A_summary.json",
+        "sha256": "486ae41f3b853216e05d3fbba03855bedc7ace3a67fd295402bb1abadd84b158"
+      },
+      "previous_title_layout_validation": {
+        "validation": "figures/supplement/validation/title_layout.json",
+        "sha256": "9af598e42dab3e09ba1899466570d1cfaf67e23da637e0256fca02e08b937b13"
+      },
+      "layout_validation": {
+        "path": "figures/supplement/validation/S4_saved_summary_layout.json",
+        "sha256": "17bf4b1d0b9ae7d77fce0d5a09ad62e3a64e1efcea4e446d2c455f7f3295ca47"
+      }
+    },
+    {
+      "id": "S5",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "bd1cc896665ae3c7b365f7f9a99d6ad5b42afeaa0f787667efd38f015157b4c0",
+      "caption": "Figure S5. Realistic seed-42 α×β grid at γ=0.1. (A) Plan entropy. (B) Region-vote accuracy. All 15 settings and matched γ=0 controls pass numerical acceptance. The labelled grid is exploratory; concentration does not rank correctness.",
+      "asset": {
+        "path": "figures/supplement/assets/S5.png",
+        "sha256": "bd1cc896665ae3c7b365f7f9a99d6ad5b42afeaa0f787667efd38f015157b4c0"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S5.png",
+        "sha256": "bd1cc896665ae3c7b365f7f9a99d6ad5b42afeaa0f787667efd38f015157b4c0"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S5.json",
+          "sha256": "8ba5dc5f23a8da085bc62cd143574c5577327e76241f35917280fcb55d05ea6d"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S5. Realistic seed-42 α×β grid at γ=0.1. (A) Plan entropy. (B) Region-vote accuracy. All 15 settings and matched γ=0 controls pass numerical acceptance. The labelled grid is exploratory; concentration does not rank correctness.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement/selected_panel_config.json",
+        "sha256": "b2e3e7241401743b9a230ba159adac18adc412f7f5b3b8fed080ea6efa41c507"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "52a2786b6d9bf6bbf5e9a25bd114ab3c4a09397dbc956a5c3a3c94de099d522e"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution",
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "bd1cc896665ae3c7b365f7f9a99d6ad5b42afeaa0f787667efd38f015157b4c0",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S6",
+      "status": "approved_asset",
+      "treatment": "result_based_local_revision",
+      "embedded_sha256": "ee7e80b293cb011615e2b8e45ea0d55b8513ac71f183e4af2b70501952c7f8a9",
+      "caption": "Figure S6. Local timings on realistic seed 42 (1,000 spots/section). Bars: three-call means; error bars: sample SD (ddof=1); log axis. LROT/soft FGW/PASTE/PASTE2/expression-only OT means are 3.339/3.147/9.995/4.979/5.794 s. One process and two CPU threads were specified, without checkpoint reuse. Tested PASTE (paste_math) and PASTE2 use KL, α=0.1; PASTE2 uses s=1. Timer boundaries remain unverified; STAligner training is a different task (Note S25; Table S23).",
+      "asset": {
+        "path": "figures/supplement/assets/S6.png",
+        "sha256": "ee7e80b293cb011615e2b8e45ea0d55b8513ac71f183e4af2b70501952c7f8a9"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S6.png",
+        "sha256": "ee7e80b293cb011615e2b8e45ea0d55b8513ac71f183e4af2b70501952c7f8a9"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S6_serial_observations.json",
+          "sha256": "0e515bec1de2bba3f3bd3842aa72f9a31b0e24e706a267e01323a24f833d0247"
+        }
+      ],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S6. Local timings on realistic seed 42 (1,000 spots/section). Bars: three-call means; error bars: sample SD (ddof=1); log axis. LROT/soft FGW/PASTE/PASTE2/expression-only OT means are 3.339/3.147/9.995/4.979/5.794 s. One process and two CPU threads were specified, without checkpoint reuse. Tested PASTE (paste_math) and PASTE2 use KL, α=0.1; PASTE2 uses s=1. Timer boundaries remain unverified; STAligner training is a different task (Note S25; Table S23).",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "ee7e80b293cb011615e2b8e45ea0d55b8513ac71f183e4af2b70501952c7f8a9",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S7",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "2a71b5cb2ce921e6375accad44eb7f5ad6c0357f0e8b3b1f8808ceca81278d9e",
+      "caption": "Figure S7. Scaling on 150-gene simulated inputs (seed 42). (A) Outer solve_time over 250–4,000 spots, excluding separately listed LR preparation. (B) Region-vote accuracy. All 15 records pass marginal/stopping checks (Table S1). One observation per size/method supplies no timing dispersion or asymptotic exponent; expression-only OT is not a guaranteed runtime lower bound.",
+      "asset": {
+        "path": "figures/supplement/assets/S7.png",
+        "sha256": "2a71b5cb2ce921e6375accad44eb7f5ad6c0357f0e8b3b1f8808ceca81278d9e"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S7.png",
+        "sha256": "2a71b5cb2ce921e6375accad44eb7f5ad6c0357f0e8b3b1f8808ceca81278d9e"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S7.json",
+          "sha256": "3c604d23f266450e4cbe003cce6b35c5c82cf38d70a5f3951b0f87f09841fda0"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S7. Scaling on 150-gene simulated inputs (seed 42). (A) Outer solve_time over 250–4,000 spots, excluding separately listed LR preparation. (B) Region-vote accuracy. All 15 records pass marginal/stopping checks (Table S1). One observation per size/method supplies no timing dispersion or asymptotic exponent; expression-only OT is not a guaranteed runtime lower bound.",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement/selected_panel_config.json",
+        "sha256": "b2e3e7241401743b9a230ba159adac18adc412f7f5b3b8fed080ea6efa41c507"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "52a2786b6d9bf6bbf5e9a25bd114ab3c4a09397dbc956a5c3a3c94de099d522e"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution",
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "2a71b5cb2ce921e6375accad44eb7f5ad6c0357f0e8b3b1f8808ceca81278d9e",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S8",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas; title-only layout revision; plot body pixels unchanged",
+      "embedded_sha256": "4ecb66e5de082a7c47e6c1838bbc590f8cd0be85b0461553c387e4ea860b5987",
+      "caption": "Figure S8. Accuracy over 20 paired realistic seeds (1–20). Four arms: soft FGW, LROT γ=0.1 and PASTE2 KL/Euclidean (α=0.1, uniform marginals, s≈1); no PASTE arm. Labels show mean±sample SD; reference is 1/6. LROT mean is 0.740 (unrounded 0.74045). Its higher values than both tested PASTE2 settings are descriptive; external per-seed input binding remains incomplete (Notes S4/S19).",
+      "asset": {
+        "path": "figures/supplement/assets/S8.png",
+        "sha256": "4ecb66e5de082a7c47e6c1838bbc590f8cd0be85b0461553c387e4ea860b5987"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S8.png",
+        "sha256": "4ecb66e5de082a7c47e6c1838bbc590f8cd0be85b0461553c387e4ea860b5987"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S8.json",
+          "sha256": "d71ea02352ea2fa0e7dfdb7f16a6a66445e324aecf84ee49c1e26eccf9d0a546"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S8. Accuracy over 20 paired realistic seeds (1–20). Four arms: soft FGW, LROT γ=0.1 and PASTE2 KL/Euclidean (α=0.1, uniform marginals, s≈1); no PASTE arm. Labels show mean±sample SD; reference is 1/6. LROT mean is 0.740 (unrounded 0.74045). Its higher values than both tested PASTE2 settings are descriptive; external per-seed input binding remains incomplete (Notes S4/S19).",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement/selected_panel_config.json",
+        "sha256": "b2e3e7241401743b9a230ba159adac18adc412f7f5b3b8fed080ea6efa41c507"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "52a2786b6d9bf6bbf5e9a25bd114ab3c4a09397dbc956a5c3a3c94de099d522e"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution",
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "4ecb66e5de082a7c47e6c1838bbc590f8cd0be85b0461553c387e4ea860b5987",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      },
+      "title_layout_validation": {
+        "validation": "figures/supplement/validation/title_layout.json",
+        "sha256": "9af598e42dab3e09ba1899466570d1cfaf67e23da637e0256fca02e08b937b13"
+      }
+    },
+    {
+      "id": "S9",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "58cd6fea4cb9240b03a86884052f724e3e0a2bed9be9adc877d5bc7723231f5b",
+      "caption": "Figure S9. Sampled/full-scale Br8325 151507–151508. (A) Row entropy. (B) Same-layer mass. (C) Accepted outer counts: sampled FGW/LROT 16/19; full-scale 16/17. Full scale uses 4,221×4,381 labelled spots; at γ=0.1, entropy decreases 14.4%, mass changes 0.3882→0.3885 and soft ARI 0.431→0.410. Counts are not timings; similar mass does not establish unchanged accuracy (Note S22).",
+      "asset": {
+        "path": "figures/supplement/assets/S9.png",
+        "sha256": "58cd6fea4cb9240b03a86884052f724e3e0a2bed9be9adc877d5bc7723231f5b"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S9.png",
+        "sha256": "58cd6fea4cb9240b03a86884052f724e3e0a2bed9be9adc877d5bc7723231f5b"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S9.json",
+          "sha256": "347c51395077fb4f489c061bb865f9f8cba65f41c8622252b6d1467c7d6e137f"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "A",
+          "baseline_crop": [
+            0,
+            0,
+            1288,
+            1257
+          ],
+          "baseline_image_sha256": "a22da7eec3fb0674a435132ef9d1598364ab518c4cba6a6206695ea093b37a7d",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S9_A.png",
+            "sha256_at_recording": "0b511086b78c63ead2a8df43d7f4e2ed29e1be6f3450a3f76f7bd32a178f1ae9",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S9.png",
+            "sha256": "58cd6fea4cb9240b03a86884052f724e3e0a2bed9be9adc877d5bc7723231f5b"
+          },
+          "crop_box": [
+            0,
+            0,
+            1288,
+            1257
+          ],
+          "sha256": "0b511086b78c63ead2a8df43d7f4e2ed29e1be6f3450a3f76f7bd32a178f1ae9"
+        },
+        {
+          "panel": "B",
+          "baseline_crop": [
+            1288,
+            0,
+            2577,
+            1257
+          ],
+          "baseline_image_sha256": "a22da7eec3fb0674a435132ef9d1598364ab518c4cba6a6206695ea093b37a7d",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S9_B.png",
+            "sha256_at_recording": "03ad0fe412c130b7dba6442bad230845fc0d740e6ce8248a70c91670e3ae5a92",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S9.png",
+            "sha256": "58cd6fea4cb9240b03a86884052f724e3e0a2bed9be9adc877d5bc7723231f5b"
+          },
+          "crop_box": [
+            1288,
+            0,
+            2577,
+            1257
+          ],
+          "sha256": "03ad0fe412c130b7dba6442bad230845fc0d740e6ce8248a70c91670e3ae5a92"
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S9. Sampled/full-scale Br8325 151507–151508. (A) Row entropy. (B) Same-layer mass. (C) Accepted outer counts: sampled FGW/LROT 16/19; full-scale 16/17. Full scale uses 4,221×4,381 labelled spots; at γ=0.1, entropy decreases 14.4%, mass changes 0.3882→0.3885 and soft ARI 0.431→0.410. Counts are not timings; similar mass does not establish unchanged accuracy (Note S22).",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement/selected_panel_config.json",
+        "sha256": "b2e3e7241401743b9a230ba159adac18adc412f7f5b3b8fed080ea6efa41c507"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "52a2786b6d9bf6bbf5e9a25bd114ab3c4a09397dbc956a5c3a3c94de099d522e"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution",
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "58cd6fea4cb9240b03a86884052f724e3e0a2bed9be9adc877d5bc7723231f5b",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S10",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "6ff38e017b1cac54c36976c9b41a77fdc0a64cdf9977e9aef5d94bb1298bae9b",
+      "caption": "Figure S10. Label-free proxy analysis. (A) Breast-cancer sharpness versus transcriptomic agreement (3,000 spots; FGW/LROT ρ=0.075/−0.029). (B) DLPFC sharpness versus layer correctness (1,000 spots; near-zero associations). Decile means and correlations are descriptive under spatial dependence. Neither sharpness nor expression agreement is calibrated correctness (Note S7).",
+      "asset": {
+        "path": "figures/supplement/assets/S10.png",
+        "sha256": "6ff38e017b1cac54c36976c9b41a77fdc0a64cdf9977e9aef5d94bb1298bae9b"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S10. Label-free proxy analysis. (A) Breast-cancer sharpness versus transcriptomic agreement (3,000 spots; FGW/LROT ρ=0.075/−0.029). (B) DLPFC sharpness versus layer correctness (1,000 spots; near-zero associations). Decile means and correlations are descriptive under spatial dependence. Neither sharpness nor expression agreement is calibrated correctness (Note S7).",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "6ff38e017b1cac54c36976c9b41a77fdc0a64cdf9977e9aef5d94bb1298bae9b",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S11",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "875f5792573a5191bac1b2504182df8aee76f99fdc4ee63e5dd193069a55948b",
+      "caption": "Figure S11. Batch/rotation scans (α=0.5, β=0.3, γ=0.1). (A–C) LROT accuracy, FGW accuracy and LROT entropy under gene-wise multiplicative, log1p-additive and spot-wise multiplicative perturbations (σ=0.1/0.15/0.2/0.3/0.4/0.5). (D) Accuracy at 2°/5°/10°/15°/20°/25°; marker: default 5°. A–D show five-seed means (42/1042/2042/3042/4042) and population SD (ddof=0). (E) Rotation-entropy means without error bars. Five zero-strength spot controls are excluded from standard σ=0.5 summaries. Stronger stress is in Figure S15 (Note S9).",
+      "asset": {
+        "path": "figures/supplement/assets/S11.png",
+        "sha256": "875f5792573a5191bac1b2504182df8aee76f99fdc4ee63e5dd193069a55948b"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S11. Batch/rotation scans (α=0.5, β=0.3, γ=0.1). (A–C) LROT accuracy, FGW accuracy and LROT entropy under gene-wise multiplicative, log1p-additive and spot-wise multiplicative perturbations (σ=0.1/0.15/0.2/0.3/0.4/0.5). (D) Accuracy at 2°/5°/10°/15°/20°/25°; marker: default 5°. A–D show five-seed means (42/1042/2042/3042/4042) and population SD (ddof=0). (E) Rotation-entropy means without error bars. Five zero-strength spot controls are excluded from standard σ=0.5 summaries. Stronger stress is in Figure S15 (Note S9).",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "875f5792573a5191bac1b2504182df8aee76f99fdc4ee63e5dd193069a55948b",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S12",
+      "status": "approved_asset",
+      "treatment": "label_patch_of_baseline_asset",
+      "embedded_sha256": "aa83ad485f5bdcca19e889f183a2b581e05f683babe9466600fb06ac5d72cd9e",
+      "caption": "Figure S12. Realistic seed-42 histories. (A) Installed PASTE CG loss at α=0.1/0.5: final loss −274.061/−148.122; accuracy 0.199/0.194. Caps of 200/1,000 give identical stopped results. (B) Soft-FGW/LROT weighted-cost diagnostics without entropy (accuracy 0.711/0.712). The quantities and magnitudes differ; zero-based display indices are retained. Marginal/stopping checks are separate from global optimality or matching correctness.",
+      "asset": {
+        "path": "figures/supplement/assets/S12.png",
+        "sha256": "aa83ad485f5bdcca19e889f183a2b581e05f683babe9466600fb06ac5d72cd9e"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S12.png",
+        "sha256": "aa83ad485f5bdcca19e889f183a2b581e05f683babe9466600fb06ac5d72cd9e"
+      },
+      "records": [],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S12. Realistic seed-42 histories. (A) Installed PASTE CG loss at α=0.1/0.5: final loss −274.061/−148.122; accuracy 0.199/0.194. Caps of 200/1,000 give identical stopped results. (B) Soft-FGW/LROT weighted-cost diagnostics without entropy (accuracy 0.711/0.712). The quantities and magnitudes differ; zero-based display indices are retained. Marginal/stopping checks are separate from global optimality or matching correctness.",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "aa83ad485f5bdcca19e889f183a2b581e05f683babe9466600fb06ac5d72cd9e",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S13",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "74978c3886a148d448bfece863617ea56285f2d210a3fddfe92d26b3fbabd260",
+      "caption": "Figure S13. Two adjacent Br8325 pairs (151507→151508; 151508→151509; 1,000 spots; seeds 42/99 per pair). (A) Equal-weight means of pair-specific same-layer conditional proportions, normalized by each source layer’s emitted mass. (B) Pair-specific same-/cross-layer ratios; their arithmetic means are FGW/LROT 0.569/0.565, not ratios of pooled masses. Shared sections represent one donor; within-layer concentration is not correctness (Note S10).",
+      "asset": {
+        "path": "figures/supplement/assets/S13.png",
+        "sha256": "74978c3886a148d448bfece863617ea56285f2d210a3fddfe92d26b3fbabd260"
+      },
+      "template": null,
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S13_checked_aggregation.json",
+          "sha256": "15df50993f478fde47bc9a35266ee310079a54e840b999895854a446bd365d08"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "complete Oct04 baseline asset export only; not independent result regeneration",
+      "parameters_and_statistics_in_caption": "Figure S13. Two adjacent Br8325 pairs (151507→151508; 151508→151509; 1,000 spots; seeds 42/99 per pair). (A) Equal-weight means of pair-specific same-layer conditional proportions, normalized by each source layer’s emitted mass. (B) Pair-specific same-/cross-layer ratios; their arithmetic means are FGW/LROT 0.569/0.565, not ratios of pooled masses. Shared sections represent one donor; within-layer concentration is not correctness (Note S10).",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "74978c3886a148d448bfece863617ea56285f2d210a3fddfe92d26b3fbabd260",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S14",
+      "status": "approved_asset",
+      "treatment": "saved_result_annotation_repair",
+      "embedded_sha256": "0d47028d84712330397792d4747d68c9fd0be2b063cfd3e32528a5854cc81e14",
+      "caption": "Figure S14. Breast-cancer sensitivity with matched 115-symbol expression exclusions. (A) Full, ERBB2/HER2-removal and ERBB2/HER2-only entropy reductions versus matched FGW. (B) Reduction changes after 12 family removals, in percentage points. ERBB2/HER2 and adhesion removal add 0.480/0.230 pp; ±0.1 pp is descriptive, not significant. These single-pair contrasts do not establish causal pathway effects (Note S11).",
+      "asset": {
+        "path": "figures/supplement/assets/S14.png",
+        "sha256": "0d47028d84712330397792d4747d68c9fd0be2b063cfd3e32528a5854cc81e14"
+      },
+      "template": null,
+      "records": [
+        {
+          "path": "lrot_output/lrot_cancer_erbb2_ablation_truecoord_results.json",
+          "sha256": "fe5ab87d01bec160c5c432470731cfb94505c00b6ea59f8acea949c32760d1dc"
+        },
+        {
+          "path": "lrot_output/lrot_cancer_ablation_scan_truecoord_results.json",
+          "sha256": "67568cb7a2c9b29b1a97d571c803657bb047696df117223bab301ea09d9e9320"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "Direct rebuild_s14.py saved-result plotting verified; official entry asset export only",
+      "parameters_and_statistics_in_caption": "Figure S14. Breast-cancer sensitivity with matched 115-symbol expression exclusions. (A) Full, ERBB2/HER2-removal and ERBB2/HER2-only entropy reductions versus matched FGW. (B) Reduction changes after 12 family removals, in percentage points. ERBB2/HER2 and adhesion removal add 0.480/0.230 pp; ±0.1 pp is descriptive, not significant. These single-pair contrasts do not establish causal pathway effects (Note S11).",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "0d47028d84712330397792d4747d68c9fd0be2b063cfd3e32528a5854cc81e14",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      },
+      "previous_asset_sha256": "89f554d1144d1f294644b6fb555f548bc6323f3bbeddd9a3edbae02d16144b89",
+      "previous_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "dff507296d7697073333f6e3d2cb897cdd903b3e15ed4f861e01094acc6ade68",
+        "embedded_image_ordinal_1_based": 14,
+        "embedded_image_sha256": "89f554d1144d1f294644b6fb555f548bc6323f3bbeddd9a3edbae02d16144b89",
+        "embedded_image_size_px": [
+          4980,
+          3027
+        ],
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      },
+      "annotation_revision": {
+        "scope": "S14 annotation only; saved scalars plotted without experiment or solver execution",
+        "previous_image_sha256": "89f554d1144d1f294644b6fb555f548bc6323f3bbeddd9a3edbae02d16144b89",
+        "image_sha256": "0d47028d84712330397792d4747d68c9fd0be2b063cfd3e32528a5854cc81e14",
+        "previous_supplement_sha256": "4f0680c3d86d22465692582c99b09523c2e9057371f5ae43b663f6737e519989",
+        "supplement_sha256": "cec7e2d0dd8c10b9baca854837cd67080a4397961aeb0291eaad879affb4b9af",
+        "main_sha256": "954eefee10d381efefd962ed683d8e3641cc05d3a3fa6251ffb6ccfb9f1b6303",
+        "plot_script": {
+          "path_at_recording": "figures/rebuild_s14.py",
+          "sha256_at_recording": "2c53ecad0e8bbf838db336b0e910d336cf0a13ffcf005c05f45a3c89f3104b05",
+          "scope": "Historical annotation-revision script identity; current wrapper changed since that record",
+          "current_source_identity": {
+            "path": "figures/rebuild_s14.py",
+            "sha256": "5f041e4b7ac4efa3382fa7c129c7421e2729c1bea5fe31196a203502d2035c2a",
+            "scope": "Current source hash only; not a new S14 experimental verification"
+          }
+        },
+        "saved_results": [
+          {
+            "path": "lrot_output/lrot_cancer_erbb2_ablation_truecoord_results.json",
+            "sha256": "fe5ab87d01bec160c5c432470731cfb94505c00b6ea59f8acea949c32760d1dc"
+          },
+          {
+            "path": "lrot_output/lrot_cancer_ablation_scan_truecoord_results.json",
+            "sha256": "67568cb7a2c9b29b1a97d571c803657bb047696df117223bab301ea09d9e9320"
+          }
+        ],
+        "all_12_family_changes_labelled": true,
+        "small_nonzero_values_use_scientific_notation": true,
+        "numeric_results_changed": false,
+        "solver_or_experiment_run": false,
+        "official_records_mode_supported": false,
+        "direct_saved_result_plot_verified": true,
+        "pdf_pages": 37,
+        "S14_figure_and_caption_page": 8,
+        "label_precision": "3 significant digits; scientific notation for 0 < abs(delta) < 0.001 pp",
+        "environment": {
+          "python_executable": "../.venv/Scripts/python.exe",
+          "numpy": "2.2.6",
+          "matplotlib": "3.10.7",
+          "Pillow": "12.0.0"
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "status": "approved_asset",
+      "treatment": "Saved-record plot; title and axis wording corrected; scientific values and plot pixels unchanged.",
+      "embedded_sha256": "99c3416c60706d7f80fd2209c498fce21276ffa754207e9b8186c7b3617b67b2",
+      "caption": "Figure S15. Cost diagnostics and failure domain. (A) Normalized weighted-cost shares at the final plan, omitting entropy; the revised labels do not imply global optimality. (B) Mean absolute changes of independently normalized costs, without error bars. Cg=gromov_cost(DA,DB)−2 DA P DBᵀ, divided by its own maximum at each final plan; Ce/Cl are also normalized. B uses saved σ=0.3/0.5 conditions; all data pixels in A are retained. (C–D) Accuracy/entropy under log1p-additive stress σ=0–1.5 for four α values and FGW α=0.5. Five unique seeds (42/1042/2042/3042/4042) supply means/sample SD; conversion from population SD is √(5/4). Duplicate calls are not repeats (Notes S9/S20).",
+      "asset": {
+        "path": "figures/supplement/assets/S15.png",
+        "sha256": "99c3416c60706d7f80fd2209c498fce21276ffa754207e9b8186c7b3617b67b2"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S15.png",
+        "sha256": "99c3416c60706d7f80fd2209c498fce21276ffa754207e9b8186c7b3617b67b2"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S15.json",
+          "sha256": "102c605da5a17d59b72c749ff6919da8d4667631ecd4423df732dee2c74f9ece"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S15. Cost diagnostics and failure domain. (A) Normalized weighted-cost shares at the final plan, omitting entropy; the revised labels do not imply global optimality. (B) Mean absolute changes of independently normalized costs, without error bars. Cg=gromov_cost(DA,DB)−2 DA P DBᵀ, divided by its own maximum at each final plan; Ce/Cl are also normalized. B uses saved σ=0.3/0.5 conditions; all data pixels in A are retained. (C–D) Accuracy/entropy under log1p-additive stress σ=0–1.5 for four α values and FGW α=0.5. Five unique seeds (42/1042/2042/3042/4042) supply means/sample SD; conversion from population SD is √(5/4). Duplicate calls are not repeats (Notes S9/S20).",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement/selected_panel_config.json",
+        "sha256": "b2e3e7241401743b9a230ba159adac18adc412f7f5b3b8fed080ea6efa41c507"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "52a2786b6d9bf6bbf5e9a25bd114ab3c4a09397dbc956a5c3a3c94de099d522e"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution",
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "99c3416c60706d7f80fd2209c498fce21276ffa754207e9b8186c7b3617b67b2",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      },
+      "previous_asset_sha256": "95269d2aa2f7466067115556a98c3dfb3f572c3939b0c6eb5e5547b5cc05cc0d",
+      "annotation_renderer": {
+        "path": "figures/repair_supplement_annotations.py",
+        "sha256": "8a78383e56319b6d521f57fc9367fb9f7399ecd8be5261a596d4535a6f5ee1b3"
+      }
+    },
+    {
+      "id": "S16",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "a892bc832f517b132fcc161535236f4463c0b0087a85d6753508e357011f65e3",
+      "caption": "Figure S16. Expression-feature-mask control. FGW/LROT exclude LR genes or use all genes. Bars: five-seed means; error bars: population SD (ddof=0). (A) Region-vote accuracy (axis 0.55–0.80). (B) Row entropy (nats). Small differences do not establish accuracy equivalence, cost-channel independence or arbitrary feature-selection robustness (Note S4).",
+      "asset": {
+        "path": "figures/supplement/assets/S16.png",
+        "sha256": "a892bc832f517b132fcc161535236f4463c0b0087a85d6753508e357011f65e3"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S16. Expression-feature-mask control. FGW/LROT exclude LR genes or use all genes. Bars: five-seed means; error bars: population SD (ddof=0). (A) Region-vote accuracy (axis 0.55–0.80). (B) Row entropy (nats). Small differences do not establish accuracy equivalence, cost-channel independence or arbitrary feature-selection robustness (Note S4).",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "a892bc832f517b132fcc161535236f4463c0b0087a85d6753508e357011f65e3",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S17",
+      "status": "approved_asset",
+      "treatment": "author_selected_saved_records_on_baseline_canvas",
+      "embedded_sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac",
+      "caption": "Figure S17. Parameter and mechanism controls. (A–B) Default/best labelled-grid accuracies for historical/realistic inputs; best is exploratory. (C) Realistic seed-42 entropy/accuracy at 0.5/1/2 multipliers of both regularizers, not a common effective ε; reused accepted diagnostics add no repeats. (D–F) Spatial-LR-program presence/removal: accuracy (D/E), paired entropy reduction (F), three seeds 42/43/44 and population SD (ddof=0). Displayed comparisons use γ=0.1 versus 0; γ=0.2 remains in the full record. Concentration can persist without an accuracy advantage (Notes S20/S21).",
+      "asset": {
+        "path": "figures/supplement/assets/S17.png",
+        "sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S17.png",
+        "sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S17.json",
+          "sha256": "8cdbe5d9a15c5399d869f2c389fbd19ffa94c83ac0104f2100961322b2b3a201"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "A",
+          "baseline_crop": [
+            0,
+            0,
+            1525,
+            1212
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S17_A.png",
+            "sha256_at_recording": "38165158b558370c22d4974739b36c6bb6b99a39f7ebfa8ee5c04bcb9ffd6b14",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S17.png",
+            "sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac"
+          },
+          "crop_box": [
+            0,
+            0,
+            1525,
+            1212
+          ],
+          "sha256": "38165158b558370c22d4974739b36c6bb6b99a39f7ebfa8ee5c04bcb9ffd6b14"
+        },
+        {
+          "panel": "B",
+          "baseline_crop": [
+            1525,
+            0,
+            3050,
+            1212
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S17_B.png",
+            "sha256_at_recording": "f51a7bab5aba5b62cbac546554435a83208c57a34883855fc93198e868d48381",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S17.png",
+            "sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac"
+          },
+          "crop_box": [
+            1525,
+            0,
+            3050,
+            1212
+          ],
+          "sha256": "f51a7bab5aba5b62cbac546554435a83208c57a34883855fc93198e868d48381"
+        },
+        {
+          "panel": "D",
+          "baseline_crop": [
+            1525,
+            1212,
+            3050,
+            2423
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S17_D.png",
+            "sha256_at_recording": "bfb63e260d0e1f24e1ab97e951115fc06ec961c7202978b163e263eb1eb29ce8",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S17.png",
+            "sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac"
+          },
+          "crop_box": [
+            1525,
+            1212,
+            3050,
+            2423
+          ],
+          "sha256": "bfb63e260d0e1f24e1ab97e951115fc06ec961c7202978b163e263eb1eb29ce8"
+        },
+        {
+          "panel": "E",
+          "baseline_crop": [
+            0,
+            2423,
+            1525,
+            3635
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S17_E.png",
+            "sha256_at_recording": "40792307c2c9e62b7b9965a51c0f75b8b141b6991036e9b4fc94b8588d60218f",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S17.png",
+            "sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac"
+          },
+          "crop_box": [
+            0,
+            2423,
+            1525,
+            3635
+          ],
+          "sha256": "40792307c2c9e62b7b9965a51c0f75b8b141b6991036e9b4fc94b8588d60218f"
+        },
+        {
+          "panel": "F",
+          "baseline_crop": [
+            1525,
+            2423,
+            3050,
+            3635
+          ],
+          "baseline_image_sha256": "d14d9f3c1168d6d8810b5e1d5917ca2ef994ec228125a878ad0779e3e60a1dc1",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S17_F.png",
+            "sha256_at_recording": "39f2910bf8ea24058130d08aec03014db1b5063b5b3506060826cdacd2ec334a",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S17.png",
+            "sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac"
+          },
+          "crop_box": [
+            1525,
+            2423,
+            3050,
+            3635
+          ],
+          "sha256": "39f2910bf8ea24058130d08aec03014db1b5063b5b3506060826cdacd2ec334a"
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "whole image rendering disabled",
+      "parameters_and_statistics_in_caption": "Figure S17. Parameter and mechanism controls. (A–B) Default/best labelled-grid accuracies for historical/realistic inputs; best is exploratory. (C) Realistic seed-42 entropy/accuracy at 0.5/1/2 multipliers of both regularizers, not a common effective ε; reused accepted diagnostics add no repeats. (D–F) Spatial-LR-program presence/removal: accuracy (D/E), paired entropy reduction (F), three seeds 42/43/44 and population SD (ddof=0). Displayed comparisons use γ=0.1 versus 0; γ=0.2 remains in the full record. Concentration can persist without an accuracy advantage (Notes S20/S21).",
+      "record_render_supported": true,
+      "record_config": {
+        "path": "figures/supplement/selected_panel_config.json",
+        "sha256": "b2e3e7241401743b9a230ba159adac18adc412f7f5b3b8fed080ea6efa41c507"
+      },
+      "record_renderer": {
+        "path": "figures/render_selected_panels.py",
+        "sha256": "52a2786b6d9bf6bbf5e9a25bd114ab3c4a09397dbc956a5c3a3c94de099d522e"
+      },
+      "scientific_verification": "saved scalar records and metadata; no raw-array audit or experiment execution",
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "779ed4c42441b1a56b3c38a7ecd1d19c1afa5d24adf6037505a5da757164c3ac",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S18",
+      "status": "approved_asset",
+      "treatment": "Redraw from published Table S18 values at reported precision; not new plan scoring.",
+      "embedded_sha256": "ff569f0ac32f6093d09110e7e144c9e7252d03a7e5d79ff3b894820564de84b5",
+      "caption": "Figure S18. Four main-alignment DLPFC scans, redrawn from Table S18 at its reported precision (entropy/mass: four decimals; ARI/accuracy: three). D1/D2 denote Br8325/Br6423; P1/P2 are their adjacent pairs, each sampled at 42/99. (A) Default entropy. (B–D) Normalized entropy, same-layer mass and soft ARI; pair styles follow B. (E–F) FGW(γ=0)−LROT differences at γ=0.1/0.05, calculated from displayed table values; positive ARI differences indicate lower LROT agreement. Labels are positioned outside bars. This is a table-based redraw, not new plan scoring or an optimal-guidance claim; four pairs represent two donors.",
+      "asset": {
+        "path": "figures/supplement/assets/S18.png",
+        "sha256": "ff569f0ac32f6093d09110e7e144c9e7252d03a7e5d79ff3b894820564de84b5"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S18. Four main-alignment DLPFC scans, redrawn from Table S18 at its reported precision (entropy/mass: four decimals; ARI/accuracy: three). D1/D2 denote Br8325/Br6423; P1/P2 are their adjacent pairs, each sampled at 42/99. (A) Default entropy. (B–D) Normalized entropy, same-layer mass and soft ARI; pair styles follow B. (E–F) FGW(γ=0)−LROT differences at γ=0.1/0.05, calculated from displayed table values; positive ARI differences indicate lower LROT agreement. Labels are positioned outside bars. This is a table-based redraw, not new plan scoring or an optimal-guidance claim; four pairs represent two donors.",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "ff569f0ac32f6093d09110e7e144c9e7252d03a7e5d79ff3b894820564de84b5",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      },
+      "previous_asset_sha256": "6d8a67bbd10e0d8aaa92f544a4ef628196091c2a60d6d9f03d566326dd79fda5",
+      "table_redraw_input": {
+        "path": "figures/supplement/inputs/S18_table_values.json",
+        "sha256": "4ee5c0ffaebe4faed8566a87cf494dec18101dacad24cbe34eb4eea82ecd39a4"
+      },
+      "table_redraw_entrypoint": {
+        "path": "experiments/supp/_supp_s18_plot.py",
+        "sha256": "968b462ed2f4434ab3f7d8c3033b60e71f0a32f450551fbd987566255b8321f0"
+      }
+    },
+    {
+      "id": "S19",
+      "status": "approved_asset",
+      "treatment": "A_retained_B_posthoc_reconstruction_from_hash_bound_saved_P",
+      "embedded_sha256": "8fbdd30eba5e81d344859c20edb5ff82184971a564f65687a14db9e6a6b0fac6",
+      "caption": "Figure S19. Full-scale DLPFC display. (A) Retained before-alignment panel. (B) Post-hoc barycentric mapping of 4,381 targets into 4,221 source spots (γ=0.1), with ordered coordinate/layer hashes matched to the saved-plan input. Grey: reference tissue; colours: target layers. This binds the current display, not historical raster identity or exact correspondence; barycentric compression may occur. No alignment was rerun (Figure S9).",
+      "asset": {
+        "path": "figures/supplement/assets/S19.png",
+        "sha256": "8fbdd30eba5e81d344859c20edb5ff82184971a564f65687a14db9e6a6b0fac6"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S19.png",
+        "sha256": "8fbdd30eba5e81d344859c20edb5ff82184971a564f65687a14db9e6a6b0fac6"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/s19_posthoc/binding.json",
+          "sha256": "43b5f90bdcedf4a3efe841fdc950aba62243e599f1f1e12a826e018d0e280be5"
+        },
+        {
+          "path": "figures/supplement/s19_posthoc/ordered_inputs.npz",
+          "sha256": "add4bc7e345a666bf444fdfdb85ee06d5cebe6eb7ea65613e9128cf1f0a07207"
+        },
+        {
+          "path": "figures/supplement/s19_posthoc/ordered_spots.csv",
+          "sha256": "6d3a43ed13dc09a5aef18b42c09f2ad89c9f084d75eee86210d96a60b3dc9323"
+        },
+        {
+          "path": "figures/supplement/s19_posthoc/accepted_plan.npz.part000",
+          "sha256": "f756b203ea9c07585c0ed68adde23abbcee90c95908bb0a5b0862906ebccc062"
+        },
+        {
+          "path": "figures/supplement/s19_posthoc/accepted_plan.npz.part001",
+          "sha256": "6519fb4328dd8970dc9f099fde494f41de14f720496c86aeea6a814bb61bae5d"
+        },
+        {
+          "path": "figures/supplement/s19_posthoc/accepted_plan.npz.part002",
+          "sha256": "38859069e3aebe38dbed48d542052ba83495153c17244c9906afe8663356407f"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [
+        {
+          "panel": "A",
+          "baseline_crop": [
+            0,
+            0,
+            3846,
+            3907
+          ],
+          "baseline_image_sha256": "7260d21f9c65cdabe24c17d0f053d09528d108cc94936762a5b34a378d6e5a79",
+          "meaning": "Crop of current locked whole-figure asset; no independent numerical reconstruction.",
+          "previous_panel_asset": {
+            "path_at_recording": "figures/supplement/confirmed_panels/S19_A.png",
+            "sha256_at_recording": "d6e79365b9edb93f86d3f90f165207f0e9708704c7de9e76b19fd25a05f26e67",
+            "role": "Historical panel export, archived locally; not a current input."
+          },
+          "source": {
+            "path": "figures/supplement/assets/S19.png",
+            "sha256": "8fbdd30eba5e81d344859c20edb5ff82184971a564f65687a14db9e6a6b0fac6"
+          },
+          "crop_box": [
+            0,
+            0,
+            3846,
+            3907
+          ],
+          "sha256": "935439f927a6944ff6a7f29ef3ca2f58a977a98ccb1248fae545968b8da58635"
+        }
+      ],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "Not rerun; saved-array identity and projection independently checked",
+      "generation_status": "Approved asset export and saved-P reconstruction",
+      "parameters_and_statistics_in_caption": "Figure S19. Full-scale DLPFC display. (A) Retained before-alignment panel. (B) Post-hoc barycentric mapping of 4,381 targets into 4,221 source spots (γ=0.1), with ordered coordinate/layer hashes matched to the saved-plan input. Grey: reference tissue; colours: target layers. This binds the current display, not historical raster identity or exact correspondence; barycentric compression may occur. No alignment was rerun (Figure S9).",
+      "record_render_supported": true,
+      "scientific_verification": "Ordered coordinate and label hashes match current saved-plan inputs; descriptive post-hoc barycentric display. Does not certify old image history or exact correspondence.",
+      "record_config": {
+        "path": "figures/supplement/s19_posthoc/render_config.json",
+        "sha256": "77c86830a92ebdde44dc62939d409b23b41f1622ab25eab93020fbc5c25f262e"
+      },
+      "record_renderer": {
+        "path": "figures/render_s19_posthoc.py",
+        "sha256": "b3402e7666f57a1fba81cb4f67a875c972394823c1f4e23e079e39fb5ab4e35a"
+      },
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "8fbdd30eba5e81d344859c20edb5ff82184971a564f65687a14db9e6a6b0fac6",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S20",
+      "status": "approved_asset",
+      "treatment": "label_patch_of_baseline_asset",
+      "embedded_sha256": "68e3eb57a1bfa9f084247efe55c317c988eea323d1dd2fede17784f130d6401a",
+      "caption": "Figure S20. Realistic seed-42 illustration. (A–B) Before/after LROT. (C) Log-scale 50×50 plan excerpt. (D) Top 30 source spots by mean LR compatibility, not measured signalling. (E) FGW/LROT row-entropy distributions. (F) The same source spots at raw z=0 and mapped z=1, not measured serial sections or an independent reconstruction. Compatibility and concentration do not establish communication or calibration.",
+      "asset": {
+        "path": "figures/supplement/assets/S20.png",
+        "sha256": "68e3eb57a1bfa9f084247efe55c317c988eea323d1dd2fede17784f130d6401a"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S20.png",
+        "sha256": "68e3eb57a1bfa9f084247efe55c317c988eea323d1dd2fede17784f130d6401a"
+      },
+      "records": [],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S20. Realistic seed-42 illustration. (A–B) Before/after LROT. (C) Log-scale 50×50 plan excerpt. (D) Top 30 source spots by mean LR compatibility, not measured signalling. (E) FGW/LROT row-entropy distributions. (F) The same source spots at raw z=0 and mapped z=1, not measured serial sections or an independent reconstruction. Compatibility and concentration do not establish communication or calibration.",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "68e3eb57a1bfa9f084247efe55c317c988eea323d1dd2fede17784f130d6401a",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S21",
+      "status": "approved_asset",
+      "treatment": "result_based_local_revision",
+      "embedded_sha256": "573bf38197fd93380f978681666a604225b764e105eb61ffb8ee9d909fec5cbe",
+      "caption": "Figure S21. Realistic seed-42 γ scan (α=0.5, β=0.3). (A) Accuracy: 0.703 at γ=0.5; 0.672 at γ=1. (B) Saved expression cost, not independently rescored from full-precision inputs. (C) Entropy recomputed from six saved plans. (D) Accepted outer counts 9/9/9/10/10/12, replacing archived timing; serial timings: Figure S6. Archived γ=1 accuracy 0.747 lacks its original plan and is not identified with 0.672. Lower entropy is not an accuracy gain.",
+      "asset": {
+        "path": "figures/supplement/assets/S21.png",
+        "sha256": "573bf38197fd93380f978681666a604225b764e105eb61ffb8ee9d909fec5cbe"
+      },
+      "template": {
+        "path": "figures/supplement/assets/S21.png",
+        "sha256": "573bf38197fd93380f978681666a604225b764e105eb61ffb8ee9d909fec5cbe"
+      },
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S21_verified_result_rows.json",
+          "sha256": "7f098896875de467bcb4aad6515f116f69938bdaf1d9532d9320e12144f7b430"
+        }
+      ],
+      "patch_supported": true,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S21. Realistic seed-42 γ scan (α=0.5, β=0.3). (A) Accuracy: 0.703 at γ=0.5; 0.672 at γ=1. (B) Saved expression cost, not independently rescored from full-precision inputs. (C) Entropy recomputed from six saved plans. (D) Accepted outer counts 9/9/9/10/10/12, replacing archived timing; serial timings: Figure S6. Archived γ=1 accuracy 0.747 lacks its original plan and is not identified with 0.672. Lower entropy is not an accuracy gain.",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "573bf38197fd93380f978681666a604225b764e105eb61ffb8ee9d909fec5cbe",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S22",
+      "status": "approved_asset",
+      "treatment": "retained_baseline_asset",
+      "embedded_sha256": "680f335cae7bf6d360716736c7e1f9e9a70ef5b5ff28b8544bf18ca100346fd3",
+      "caption": "Figure S22. Three-section Br8325 stack (sampling 42/99/99). (A–B) Unaligned/LROT barycentric stacks. (C) Pair entropies, reduced 17.6%/15.7%. (D–F) Layer-centre distance matrices for unaligned/LROT/FGW stacks, with common pixel scale and retained integer labels. The shared middle-section subset differs from main-alignment sampling. Layer-centre geometry does not validate spot correspondence, anatomical volume recovery or superiority (Note S6).",
+      "asset": {
+        "path": "figures/supplement/assets/S22.png",
+        "sha256": "680f335cae7bf6d360716736c7e1f9e9a70ef5b5ff28b8544bf18ca100346fd3"
+      },
+      "template": null,
+      "records": [],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S22. Three-section Br8325 stack (sampling 42/99/99). (A–B) Unaligned/LROT barycentric stacks. (C) Pair entropies, reduced 17.6%/15.7%. (D–F) Layer-centre distance matrices for unaligned/LROT/FGW stacks, with common pixel scale and retained integer labels. The shared middle-section subset differs from main-alignment sampling. Layer-centre geometry does not validate spot correspondence, anatomical volume recovery or superiority (Note S6).",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "680f335cae7bf6d360716736c7e1f9e9a70ef5b5ff28b8544bf18ca100346fd3",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      }
+    },
+    {
+      "id": "S23",
+      "status": "approved_asset",
+      "treatment": "result_based_local_revision",
+      "embedded_sha256": "bb3ca029f41cdaa122734365e4a5447c935788c398aab450e07d439eaf144955",
+      "caption": "Figure S23. Thirty controlled pairs (A/B seeds 1000–1029/2000–2029), excluding historical 42/123. Points: LROT−soft-FGW accuracy. Mean: +0.140; 95% paired t interval: +0.056 to +0.224; 24 positive, six negative. The selected second pair is FGW 0.655/LROT 0.649 (difference −0.006), bound to its result record rather than independent plan rescoring. These are technical simulation repeats (Note S23; Table S16; File S2).",
+      "asset": {
+        "path": "figures/supplement/assets/S23.png",
+        "sha256": "bb3ca029f41cdaa122734365e4a5447c935788c398aab450e07d439eaf144955"
+      },
+      "template": null,
+      "records": [
+        {
+          "path": "figures/supplement/inputs/S23_1001_2001_FGW.json",
+          "sha256": "bccac8ca7faf04e269e4482e3dd071f0d47a5d82eb17c9339436bea2da898f09"
+        },
+        {
+          "path": "figures/supplement/inputs/S23_1001_2001_LROT.json",
+          "sha256": "b2712036163cc3f1870db5994895d606e14d476e0f989fd5270e4c3f20b18c29"
+        },
+        {
+          "path": "figures/supplement/inputs/S23_archived_second_point.json",
+          "sha256": "3c8323cad5617f585c69a72bc3086a66c00f17713c784e2d112c2f7ab2595493"
+        }
+      ],
+      "patch_supported": false,
+      "confirmed_panels": [],
+      "pending_panels": [],
+      "experiment_end_to_end_status": "not certified in this synchronization",
+      "generation_status": "asset extraction / recorded-results local patch only",
+      "parameters_and_statistics_in_caption": "Figure S23. Thirty controlled pairs (A/B seeds 1000–1029/2000–2029), excluding historical 42/123. Points: LROT−soft-FGW accuracy. Mean: +0.140; 95% paired t interval: +0.056 to +0.224; 24 positive, six negative. The selected second pair is FGW 0.655/LROT 0.649 (difference −0.006), bound to its result record rather than independent plan rescoring. These are technical simulation repeats (Note S23; Table S16; File S2).",
+      "record_render_supported": false,
+      "current_final_docx_sync": {
+        "baseline_docx": "../补充材料最终.docx",
+        "baseline_docx_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+        "embedded_image_sha256": "bb3ca029f41cdaa122734365e4a5447c935788c398aab450e07d439eaf144955",
+        "matches_manifest_selected_asset": true,
+        "status": "exact_asset_match"
+      },
+      "historical_patch_status": "Retired: old-point displacement patch requires a superseded raster. Current asset and numerical result records remain available; use asset export, not the historical correction."
+    }
+  ],
+  "experimental_reproduction_certified": false,
+  "patch_interpretation": {
+    "S12": "Paste the frozen approved label strips only; preserve underlying curve pixels. Numerical text is an approved raster asset, not a newly recomputed result.",
+    "S20": "Semantic titles only, all underlying scientific pixels retained.",
+    "S21": "Previously independently checked entropy values are retained; native JSON entropy differs about 1e-9 and is recorded separately."
+  },
+  "review_only": true,
+  "remaining_pending_panels": [],
+  "record_render_scope": "S2 saved-record drawing including D accepted-iteration diagnostics; other S figures retain their listed states. No experiment or solver run.",
+  "S19_posthoc_scope": "Current saved plan reconstructed post hoc; old image history not certified. No new solver or training.",
+  "local_main_docx_sha256": "54c5557d74db009641d910c083a30cf6d49dc902f51e45b903a14c4590971aa6",
+  "submission_metadata_only_revision": "LR-evidence-review-20261009_215731",
+  "LR_declaration_only_scope": "No image, drawing input, experimental value or algorithm change; only manuscript/resource declarations and source-evidence metadata updated.",
+  "historical_author_review_version": "supervisor-review-20261010_001936",
+  "historical_review_metadata_scope": "Preserved earlier author-review and document-sync records; these do not identify the current release or certify the latest manuscripts.",
+  "current_final_document_sync": {
+    "sha256": "e5ffa2849d1d028a580f74667efafa3ce2965979d3d5f746c7f87ca874a4c62e",
+    "main_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+    "pdf_sha256": "0c8a7a9a4c50db839c00aee70abd0406e1d7b1a02d8a65434ff41fd29c38d4c0",
+    "embedded_figure_count": 23,
+    "exact_selected_asset_matches": 23,
+    "mismatches": [],
+    "scope": "Historical document identity only; these hashes identify the preserved earlier checkpoint, not the latest manuscripts. All supplementary image bytes were unchanged at that checkpoint.",
+    "evidence": "provenance/release_alignment.json"
+  },
+  "previous_candidate_docx_sha256_before_S14_annotation": "dff507296d7697073333f6e3d2cb897cdd903b3e15ed4f861e01094acc6ade68",
+  "S14_annotation_revision": {
+    "scope": "S14 annotation only; saved scalars plotted without experiment or solver execution",
+    "previous_image_sha256": "89f554d1144d1f294644b6fb555f548bc6323f3bbeddd9a3edbae02d16144b89",
+    "image_sha256": "0d47028d84712330397792d4747d68c9fd0be2b063cfd3e32528a5854cc81e14",
+    "previous_supplement_sha256": "4f0680c3d86d22465692582c99b09523c2e9057371f5ae43b663f6737e519989",
+    "supplement_sha256": "cec7e2d0dd8c10b9baca854837cd67080a4397961aeb0291eaad879affb4b9af",
+    "main_sha256": "954eefee10d381efefd962ed683d8e3641cc05d3a3fa6251ffb6ccfb9f1b6303",
+    "plot_script": {
+      "path_at_recording": "figures/rebuild_s14.py",
+      "sha256_at_recording": "2c53ecad0e8bbf838db336b0e910d336cf0a13ffcf005c05f45a3c89f3104b05",
+      "scope": "Historical annotation-revision script identity; current wrapper changed since that record",
+      "current_source_identity": {
+        "path": "figures/rebuild_s14.py",
+        "sha256": "5f041e4b7ac4efa3382fa7c129c7421e2729c1bea5fe31196a203502d2035c2a",
+        "scope": "Current source hash only; not a new S14 experimental verification"
+      }
+    },
+    "saved_results": [
+      {
+        "path": "lrot_output/lrot_cancer_erbb2_ablation_truecoord_results.json",
+        "sha256": "fe5ab87d01bec160c5c432470731cfb94505c00b6ea59f8acea949c32760d1dc"
+      },
+      {
+        "path": "lrot_output/lrot_cancer_ablation_scan_truecoord_results.json",
+        "sha256": "67568cb7a2c9b29b1a97d571c803657bb047696df117223bab301ea09d9e9320"
+      }
+    ],
+    "all_12_family_changes_labelled": true,
+    "small_nonzero_values_use_scientific_notation": true,
+    "numeric_results_changed": false,
+    "solver_or_experiment_run": false,
+    "official_records_mode_supported": false,
+    "direct_saved_result_plot_verified": true,
+    "pdf_pages": 37,
+    "S14_figure_and_caption_page": 8,
+    "label_precision": "3 significant digits; scientific notation for 0 < abs(delta) < 0.001 pp",
+    "environment": {
+      "python_executable": "../.venv/Scripts/python.exe",
+      "numpy": "2.2.6",
+      "matplotlib": "3.10.7",
+      "Pillow": "12.0.0"
+    }
+  },
+  "current_S14_document_sync": {
+    "file": "../补充材料最终.docx",
+    "sha256": "cec7e2d0dd8c10b9baca854837cd67080a4397961aeb0291eaad879affb4b9af",
+    "member": "word/media/image14.png",
+    "asset_sha256": "0d47028d84712330397792d4747d68c9fd0be2b063cfd3e32528a5854cc81e14",
+    "all_other_docx_members_unchanged": true
+  },
+  "title_layout_revision": {
+    "validation": "figures/supplement/validation/title_layout.json",
+    "sha256": "9af598e42dab3e09ba1899466570d1cfaf67e23da637e0256fca02e08b937b13"
+  },
+  "current_F2_note_sync": {
+    "main_docx_sha256": "d38e892e25846ac3347d2d6e77700f4ce3ce9524b5a53599f6b6cb34bff79d75",
+    "supplement_docx_sha256": "380c379ad430ad79e0e1d17e2b85a020882c799bd40e16bd481234ee29bb2eaf",
+    "scope": "Adopted 80-update diagnostic protocol; all supplementary image bytes unchanged."
+  },
+  "F3_protocol_sync": {
+    "main_docx_sha256": "f3e6a29f5938419372196bb6d165fedc64089d2195dddc39bb1aca30a201a8a0",
+    "supplement_docx_sha256": "32e1fa8eee5090654f9767ee6a17efebaa49ace3688c8c7985e92bf074e63a34",
+    "current_accuracy": 0.93,
+    "current_ARI": 0.8535028559314339,
+    "scope": "Synthetic Table S4 and Notes S2/S25 updated; supplementary images and DLPFC metrics retained"
+  },
+  "selected_main_document": "../论文最终修改公式版本_实验同步版.docx",
+  "document_alignment_revision": {
+    "scope": "Caption/Note compression, numerical precision, S17 archived value, S15 labels and S18 table-based redraw",
+    "experiments_executed": false,
+    "formula_objects_changed": false,
+    "full_end_to_end_certified": false
+  },
+  "historical_document_sync": [
+    {
+      "file": "../补充材料最终.docx",
+      "sha256": "251e48004eba8d42a4d5a822fbe6ed4287f53b5faca661ed2e3cdc11a5339af5",
+      "embedded_figure_count": 23,
+      "exact_selected_asset_matches": 23,
+      "mismatches": [],
+      "note": "S2/S4/S8 title layout synchronized; scientific inputs unchanged."
+    }
+  ],
+  "current_layout_revision": {
+    "date": "2026-10-15",
+    "scope": "One assets directory and one inputs directory. Scientific records and selected image bytes unchanged; current path/hash pins updated.",
+    "historical_paths": "See provenance/path_relocations.json; previous validation records retain original paths and hashes."
+  }
+}

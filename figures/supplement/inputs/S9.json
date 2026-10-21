@@ -1,0 +1,886 @@
+{
+  "points": [
+    {
+      "role": "S9C subsampled FGW",
+      "file_sha256": "a937614afdd62e51c9cecb915468b4e1c07b5f4b7ea6a074cd45eccd18f0b6e4",
+      "key": "d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c",
+      "accepted": true,
+      "outer_iterations": 16,
+      "parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "count": 115,
+          "ordered_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "context": {
+        "run_dlpfc_baselines.py:solve": {
+          "gamma": 0.0
+        },
+        "run_dlpfc_baselines.py:run_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508"
+        },
+        "run_dlpfc_baselines.py:<listcomp>": {},
+        "run_dlpfc_baselines.py:main": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "gene_names_A_count": 33538,
+      "ordered_gene_names_A_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6",
+      "input_parameters_equal_final_parameters": true,
+      "stop_reason": "outer_tolerance",
+      "attempt_count": 1,
+      "point_summary_matches_native": true,
+      "matrix_shape_in_native_JSON": null,
+      "barcode_or_sampling_index_in_native_JSON": false,
+      "location": "/diagnostics/outer_iterations; /accepted; /final_parameters; /input_identity; /context",
+      "new_binding": {
+        "sample_names_in_context": "151507 -> 151508",
+        "nominal_target_spots_in_repo_code": 1000,
+        "ordered_barcodes_not_saved": true,
+        "runtime_shape_independent_check": false
+      },
+      "evidence_relative": "run_dlpfc_baselines/evidence/d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c.json"
+    },
+    {
+      "role": "S9C subsampled LROT",
+      "file_sha256": "cfb3014236e7afe741923a95efda05ae0af62b598a1cd0e18be258dbd70be330",
+      "key": "5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed",
+      "accepted": true,
+      "outer_iterations": 19,
+      "parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "count": 115,
+          "ordered_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "context": {
+        "run_dlpfc_baselines.py:solve": {
+          "gamma": 0.1
+        },
+        "run_dlpfc_baselines.py:run_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508"
+        },
+        "run_dlpfc_baselines.py:<listcomp>": {},
+        "run_dlpfc_baselines.py:main": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "gene_names_A_count": 33538,
+      "ordered_gene_names_A_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6",
+      "input_parameters_equal_final_parameters": true,
+      "stop_reason": "outer_tolerance",
+      "attempt_count": 1,
+      "point_summary_matches_native": true,
+      "matrix_shape_in_native_JSON": null,
+      "barcode_or_sampling_index_in_native_JSON": false,
+      "location": "/diagnostics/outer_iterations; /accepted; /final_parameters; /input_identity; /context",
+      "new_binding": {
+        "sample_names_in_context": "151507 -> 151508",
+        "nominal_target_spots_in_repo_code": 1000,
+        "ordered_barcodes_not_saved": true,
+        "runtime_shape_independent_check": false
+      },
+      "evidence_relative": "run_dlpfc_baselines/evidence/5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed.json"
+    },
+    {
+      "role": "S9C full FGW",
+      "file_sha256": "295d2e36acd179d469dc2f42efd8d41ef4b356d321888731254a96935f46fe1e",
+      "key": "220ecefa98491b34ec3f692779461b24e4f7b6fecc25e92466483a8064406baa",
+      "accepted": true,
+      "outer_iterations": 16,
+      "parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "count": 115,
+          "ordered_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "context": {
+        "run_dlpfc_full_scale.py:solve_full": {
+          "gamma": 0.0
+        },
+        "run_dlpfc_full_scale.py:main": {
+          "gamma": 0.0
+        },
+        "run_dlpfc_full_scale.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "d236f4d4542a20aa34f28f954d104e1eb14ee3cee91873e7cc3e6a342409c4a7",
+          "expr": "ba3e53df43725474dceafdd790fa54b9525498b16567b350829a8a1fb71141ba",
+          "region_labels": "40136cf3f0fad297e3002c51b63b667bc92ea2dd48a6348467cefcbdbc9b30a1"
+        },
+        "B": {
+          "coords": "54acdbdb839f8b31d6e960ed39f258fd994ea6ba660a43982d1d63a08b7d55f2",
+          "expr": "28f36548c77360b7c27c1124e97e66c0090736add4edbc9cdca53ae920d20acd",
+          "region_labels": "67c636315bcb7f28a9662a085602846a0fe79851bbb48a2dd4944d46988fa479"
+        },
+        "lr": "a54464e43bc02c0f0cf78fa7f7cc4cb37f772f4218d11a81a140e732443b8a7e",
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "gene_names_A_count": 33538,
+      "ordered_gene_names_A_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6",
+      "input_parameters_equal_final_parameters": true,
+      "stop_reason": "outer_tolerance",
+      "attempt_count": 1,
+      "point_summary_matches_native": true,
+      "matrix_shape_in_native_JSON": null,
+      "barcode_or_sampling_index_in_native_JSON": false,
+      "location": "/diagnostics/outer_iterations; /accepted; /final_parameters; /input_identity; /context",
+      "new_binding": {
+        "full_return_record_index": 0,
+        "P_shape": [
+          4221,
+          4381
+        ],
+        "P_sha256": "20fef6c8b6482719be522a5c3edaa2fcdf786e94aa5e24d11789139d6d79eebe",
+        "log_sample_names": "151507 -> 151508",
+        "log_source": "archived_work/complete_revision/runs/run_dlpfc_full_scale/dlpfc_full_scale_results.txt"
+      },
+      "evidence_relative": "run_dlpfc_full_scale/evidence/220ecefa98491b34ec3f692779461b24e4f7b6fecc25e92466483a8064406baa.json"
+    },
+    {
+      "role": "S9C full LROT",
+      "file_sha256": "cc2ae163f0f2abacd0b977ee3183e2978ab4b6d1ef8a176c8a2663e167654db7",
+      "key": "a407d3c5ddce0e8389c7de5544122b1666a2e726a1874674257004583f7ab23b",
+      "accepted": true,
+      "outer_iterations": 17,
+      "parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "count": 115,
+          "ordered_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "context": {
+        "run_dlpfc_full_scale.py:solve_full": {
+          "gamma": 0.1
+        },
+        "run_dlpfc_full_scale.py:main": {
+          "gamma": 0.1
+        },
+        "run_dlpfc_full_scale.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "d236f4d4542a20aa34f28f954d104e1eb14ee3cee91873e7cc3e6a342409c4a7",
+          "expr": "ba3e53df43725474dceafdd790fa54b9525498b16567b350829a8a1fb71141ba",
+          "region_labels": "40136cf3f0fad297e3002c51b63b667bc92ea2dd48a6348467cefcbdbc9b30a1"
+        },
+        "B": {
+          "coords": "54acdbdb839f8b31d6e960ed39f258fd994ea6ba660a43982d1d63a08b7d55f2",
+          "expr": "28f36548c77360b7c27c1124e97e66c0090736add4edbc9cdca53ae920d20acd",
+          "region_labels": "67c636315bcb7f28a9662a085602846a0fe79851bbb48a2dd4944d46988fa479"
+        },
+        "lr": "a05d51bb23f31684d9c6cb1ca635873cb0b5812b72502156d51468c87c99cf3c",
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "gene_names_A_count": 33538,
+      "ordered_gene_names_A_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6",
+      "input_parameters_equal_final_parameters": true,
+      "stop_reason": "outer_tolerance",
+      "attempt_count": 1,
+      "point_summary_matches_native": true,
+      "matrix_shape_in_native_JSON": null,
+      "barcode_or_sampling_index_in_native_JSON": false,
+      "location": "/diagnostics/outer_iterations; /accepted; /final_parameters; /input_identity; /context",
+      "new_binding": {
+        "full_return_record_index": 2,
+        "P_shape": [
+          4221,
+          4381
+        ],
+        "P_sha256": "65e2cf41b2fdfc6f4c5fa5bd3906d542f80fcfc7d9f807f0463792d8c542735b",
+        "log_sample_names": "151507 -> 151508",
+        "log_source": "archived_work/complete_revision/runs/run_dlpfc_full_scale/dlpfc_full_scale_results.txt"
+      },
+      "evidence_relative": "run_dlpfc_full_scale/evidence/a407d3c5ddce0e8389c7de5544122b1666a2e726a1874674257004583f7ab23b.json"
+    }
+  ],
+  "metric": "accepted outer iterations",
+  "provenance": [
+    {
+      "key": "d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c",
+      "driver": "run_dlpfc_baselines.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "run_dlpfc_baselines.py:solve": {
+          "gamma": 0.0
+        },
+        "run_dlpfc_baselines.py:run_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508"
+        },
+        "run_dlpfc_baselines.py:<listcomp>": {},
+        "run_dlpfc_baselines.py:main": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 6.01187467362836,
+        "soft_acc": 0.57,
+        "soft_ari": 0.4160097856351517,
+        "same_mass": 0.3766470709347676
+      },
+      "sha256": "a937614afdd62e51c9cecb915468b4e1c07b5f4b7ea6a074cd45eccd18f0b6e4",
+      "evidence_relative": "run_dlpfc_baselines/evidence/d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c.json"
+    },
+    {
+      "key": "5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed",
+      "driver": "run_dlpfc_baselines.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "run_dlpfc_baselines.py:solve": {
+          "gamma": 0.1
+        },
+        "run_dlpfc_baselines.py:run_pair": {
+          "sample_A": "151507",
+          "sample_B": "151508"
+        },
+        "run_dlpfc_baselines.py:<listcomp>": {},
+        "run_dlpfc_baselines.py:main": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "B": {
+          "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "1f87153a8cf3406cd80d42297bbfaf4a0501f6011effffdaec2f0fea162885b6",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 4.952397108531448,
+        "soft_acc": 0.555,
+        "soft_ari": 0.3440948512709325,
+        "same_mass": 0.37417448987740304
+      },
+      "sha256": "cfb3014236e7afe741923a95efda05ae0af62b598a1cd0e18be258dbd70be330",
+      "evidence_relative": "run_dlpfc_baselines/evidence/5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed.json"
+    },
+    {
+      "key": "3a040e7c23d554be9e56f318621c103cdd9837b05b3a017570acbed3b7c07b75",
+      "driver": "run_dlpfc_baselines.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "run_dlpfc_baselines.py:solve": {
+          "gamma": 0.0
+        },
+        "run_dlpfc_baselines.py:run_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509"
+        },
+        "run_dlpfc_baselines.py:<listcomp>": {},
+        "run_dlpfc_baselines.py:main": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "8b0ad52408df09d4ded78acf54aad60947b0c7056a4eb63f9ea65debffaa5bfe",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 6.022994002616096,
+        "soft_acc": 0.475,
+        "soft_ari": 0.19101916897982718,
+        "same_mass": 0.3477736184410216
+      },
+      "sha256": "3efec4f3dbb9a1da44f5a2e38de77dc2556e3e81f926b4635d04a7057a41efb4",
+      "evidence_relative": "run_dlpfc_baselines/evidence/3a040e7c23d554be9e56f318621c103cdd9837b05b3a017570acbed3b7c07b75.json"
+    },
+    {
+      "key": "7c1dd2ea5c32d6aea649332e0106dc3b8c729137370cdbbeaf728b4978f7a093",
+      "driver": "run_dlpfc_baselines.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "run_dlpfc_baselines.py:solve": {
+          "gamma": 0.1
+        },
+        "run_dlpfc_baselines.py:run_pair": {
+          "sample_A": "151508",
+          "sample_B": "151509"
+        },
+        "run_dlpfc_baselines.py:<listcomp>": {},
+        "run_dlpfc_baselines.py:main": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "B": {
+          "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "de1b3a99abbd5a2e345c1ccdaad6e365dc62f793f15605c7826d771db3de0070",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 5.040077814337682,
+        "soft_acc": 0.455,
+        "soft_ari": 0.1516273535502431,
+        "same_mass": 0.3476177983787006
+      },
+      "sha256": "e1f664dc6d467c35cf3906dc2d94a1dc57a5b7912a1f81d79708c5161ad08e4e",
+      "evidence_relative": "run_dlpfc_baselines/evidence/7c1dd2ea5c32d6aea649332e0106dc3b8c729137370cdbbeaf728b4978f7a093.json"
+    },
+    {
+      "key": "220ecefa98491b34ec3f692779461b24e4f7b6fecc25e92466483a8064406baa",
+      "driver": "run_dlpfc_full_scale.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "run_dlpfc_full_scale.py:solve_full": {
+          "gamma": 0.0
+        },
+        "run_dlpfc_full_scale.py:main": {
+          "gamma": 0.0
+        },
+        "run_dlpfc_full_scale.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "d236f4d4542a20aa34f28f954d104e1eb14ee3cee91873e7cc3e6a342409c4a7",
+          "expr": "ba3e53df43725474dceafdd790fa54b9525498b16567b350829a8a1fb71141ba",
+          "region_labels": "40136cf3f0fad297e3002c51b63b667bc92ea2dd48a6348467cefcbdbc9b30a1"
+        },
+        "B": {
+          "coords": "54acdbdb839f8b31d6e960ed39f258fd994ea6ba660a43982d1d63a08b7d55f2",
+          "expr": "28f36548c77360b7c27c1124e97e66c0090736add4edbc9cdca53ae920d20acd",
+          "region_labels": "67c636315bcb7f28a9662a085602846a0fe79851bbb48a2dd4944d46988fa479"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "a54464e43bc02c0f0cf78fa7f7cc4cb37f772f4218d11a81a140e732443b8a7e",
+        "params": {
+          "gamma": 0.0,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.0,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 7.493842631467723,
+        "soft_acc": 0.6098081023454158,
+        "soft_ari": 0.4310789177977648,
+        "same_mass": 0.3881532041189718
+      },
+      "sha256": "295d2e36acd179d469dc2f42efd8d41ef4b356d321888731254a96935f46fe1e",
+      "evidence_relative": "run_dlpfc_full_scale/evidence/220ecefa98491b34ec3f692779461b24e4f7b6fecc25e92466483a8064406baa.json"
+    },
+    {
+      "key": "17ad58cd97c281b6a67ed951470efeda87a7cbb00c94e90cec1d60e62a9f147f",
+      "driver": "run_dlpfc_full_scale.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "run_dlpfc_full_scale.py:solve_full": {
+          "gamma": 0.05
+        },
+        "run_dlpfc_full_scale.py:main": {
+          "gamma": 0.05
+        },
+        "run_dlpfc_full_scale.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "d236f4d4542a20aa34f28f954d104e1eb14ee3cee91873e7cc3e6a342409c4a7",
+          "expr": "ba3e53df43725474dceafdd790fa54b9525498b16567b350829a8a1fb71141ba",
+          "region_labels": "40136cf3f0fad297e3002c51b63b667bc92ea2dd48a6348467cefcbdbc9b30a1"
+        },
+        "B": {
+          "coords": "54acdbdb839f8b31d6e960ed39f258fd994ea6ba660a43982d1d63a08b7d55f2",
+          "expr": "28f36548c77360b7c27c1124e97e66c0090736add4edbc9cdca53ae920d20acd",
+          "region_labels": "67c636315bcb7f28a9662a085602846a0fe79851bbb48a2dd4944d46988fa479"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "a05d51bb23f31684d9c6cb1ca635873cb0b5812b72502156d51468c87c99cf3c",
+        "params": {
+          "gamma": 0.05,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.05,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 7.1006833442942385,
+        "soft_acc": 0.6107557450841032,
+        "soft_ari": 0.4318747157675152,
+        "same_mass": 0.39113942971015925
+      },
+      "sha256": "45b30e41ba68e61e162d9fa4b9d7a7da645e9d38d06905e53fcd363ea0ba1c12",
+      "evidence_relative": "run_dlpfc_full_scale/evidence/17ad58cd97c281b6a67ed951470efeda87a7cbb00c94e90cec1d60e62a9f147f.json"
+    },
+    {
+      "key": "a407d3c5ddce0e8389c7de5544122b1666a2e726a1874674257004583f7ab23b",
+      "driver": "run_dlpfc_full_scale.py",
+      "stage": "",
+      "accepted": true,
+      "context": {
+        "run_dlpfc_full_scale.py:solve_full": {
+          "gamma": 0.1
+        },
+        "run_dlpfc_full_scale.py:main": {
+          "gamma": 0.1
+        },
+        "run_dlpfc_full_scale.py:<module>": {}
+      },
+      "input_identity": {
+        "A": {
+          "coords": "d236f4d4542a20aa34f28f954d104e1eb14ee3cee91873e7cc3e6a342409c4a7",
+          "expr": "ba3e53df43725474dceafdd790fa54b9525498b16567b350829a8a1fb71141ba",
+          "region_labels": "40136cf3f0fad297e3002c51b63b667bc92ea2dd48a6348467cefcbdbc9b30a1"
+        },
+        "B": {
+          "coords": "54acdbdb839f8b31d6e960ed39f258fd994ea6ba660a43982d1d63a08b7d55f2",
+          "expr": "28f36548c77360b7c27c1124e97e66c0090736add4edbc9cdca53ae920d20acd",
+          "region_labels": "67c636315bcb7f28a9662a085602846a0fe79851bbb48a2dd4944d46988fa479"
+        },
+        "gene_names_A": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "gene_names_B": {
+          "list_length": 33538,
+          "ordered_json_sha256": "72d26d045f18f235fcd597f2eb3c39c96a002545efd1c66ffb37b60c247bc1b6"
+        },
+        "lr": "a05d51bb23f31684d9c6cb1ca635873cb0b5812b72502156d51468c87c99cf3c",
+        "params": {
+          "gamma": 0.1,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "alpha": 0.5,
+          "max_iter": 200,
+          "lr_step": 50,
+          "tol": 1e-05,
+          "verbose": false,
+          "lr_gene_list": {
+            "list_length": 115,
+            "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+          },
+          "return_diagnostics": true,
+          "strict": false,
+          "inner_max_iter": 10000,
+          "marginal_abs_tol": 1e-08,
+          "marginal_rel_tol": 1e-05
+        },
+        "solver": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132"
+      },
+      "final_parameters": {
+        "gamma": 0.1,
+        "beta": 0.3,
+        "reg_gw": 0.01,
+        "reg_ot": 0.01,
+        "alpha": 0.5,
+        "max_iter": 200,
+        "lr_step": 50,
+        "tol": 1e-05,
+        "verbose": false,
+        "lr_gene_list": {
+          "list_length": 115,
+          "ordered_json_sha256": "abf30da00ed40fce6c47925862f1d064aa6366830751f098d21e081d147828c4"
+        },
+        "return_diagnostics": true,
+        "strict": false,
+        "inner_max_iter": 10000,
+        "marginal_abs_tol": 1e-08,
+        "marginal_rel_tol": 1e-05
+      },
+      "metrics": {
+        "entropy": 6.413474653252549,
+        "soft_acc": 0.6053067993366501,
+        "soft_ari": 0.4103945859669251,
+        "same_mass": 0.3885451676142767
+      },
+      "sha256": "cc2ae163f0f2abacd0b977ee3183e2978ab4b6d1ef8a176c8a2663e167654db7",
+      "evidence_relative": "run_dlpfc_full_scale/evidence/a407d3c5ddce0e8389c7de5544122b1666a2e726a1874674257004583f7ab23b.json"
+    }
+  ]
+}

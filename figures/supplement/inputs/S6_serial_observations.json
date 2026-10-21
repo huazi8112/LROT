@@ -1,0 +1,89 @@
+{
+  "trials": [
+    {
+      "method": "Official PASTE",
+      "trial": 1,
+      "seconds": 10.671368229552172
+    },
+    {
+      "method": "LROT",
+      "trial": 1,
+      "seconds": 3.4547843681648374
+    },
+    {
+      "method": "Official PASTE2",
+      "trial": 1,
+      "seconds": 5.528366457438096
+    },
+    {
+      "method": "Soft FGW",
+      "trial": 1,
+      "seconds": 3.3052280750125647
+    },
+    {
+      "method": "Expression OT",
+      "trial": 1,
+      "seconds": 6.095264671952464
+    },
+    {
+      "method": "Official PASTE2",
+      "trial": 2,
+      "seconds": 4.723918300587684
+    },
+    {
+      "method": "Official PASTE",
+      "trial": 2,
+      "seconds": 9.963724687811919
+    },
+    {
+      "method": "LROT",
+      "trial": 2,
+      "seconds": 3.218071428593248
+    },
+    {
+      "method": "Soft FGW",
+      "trial": 2,
+      "seconds": 3.3545278563397005
+    },
+    {
+      "method": "Expression OT",
+      "trial": 2,
+      "seconds": 5.48907626059372
+    },
+    {
+      "method": "Expression OT",
+      "trial": 3,
+      "seconds": 5.797865817905404
+    },
+    {
+      "method": "Official PASTE2",
+      "trial": 3,
+      "seconds": 4.683686864678748
+    },
+    {
+      "method": "Official PASTE",
+      "trial": 3,
+      "seconds": 9.348948021302931
+    },
+    {
+      "method": "LROT",
+      "trial": 3,
+      "seconds": 3.344545353553258
+    },
+    {
+      "method": "Soft FGW",
+      "trial": 3,
+      "seconds": 2.780099613359198
+    }
+  ],
+  "interpretation": "15 recorded local durations only; exact timing scope unresolved; no speed ranking",
+  "source_record_sha256": "4079486dc1d5e4d75518315a104667997210f28cb750b6dbb7b754e105fb83ee",
+  "source_parameters": {
+    "records": 15,
+    "calls_per_method": 3,
+    "processes": 1,
+    "threads": 2,
+    "seed": 42,
+    "precise_timer_scope": "unconfirmed"
+  }
+}
