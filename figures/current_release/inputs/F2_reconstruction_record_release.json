@@ -1,0 +1,254 @@
+{
+  "status": "completed_current_code_reconstruction",
+  "interpretation": "Four histories were newly computed from current source. The archive confirms positional inputs at its stored precision; two gene symbols differ only by the exact aliases declared in the design manifest. This does not authenticate the absent historical source/environment snapshot.",
+  "source": {
+    "path": "experiments/lrot_prototype.py",
+    "sha256": "4ea83368f0651476389e0a86874c236afabd098c62a1a0c700aa734f5da966b7"
+  },
+  "design": {
+    "path": "experiments/synthetic_design_manifest.json",
+    "sha256": "8ac624e43b55c60287ff484cef9afc0c2c28640bdd39adc666a01073817d3db8",
+    "seed_pair": {
+      "slice_A": 42,
+      "slice_B": 123
+    },
+    "aliases_used_for_identity_check": {
+      "Artemin": "Artn",
+      "Neurturin": "Nrtn"
+    }
+  },
+  "saved_archive": {
+    "path": "lrot_output/数据_npz/lrot_data_synthetic.npz",
+    "sha256": "ef1d468bc2c233b5916f71feb57b5443128f410f99f1fde0ecf81de4e8f5f323",
+    "main_loss_length": 123,
+    "contains_four_ablation_loss_histories": false,
+    "archive_input_checks": {
+      "A_coords": {
+        "shape_match": true,
+        "equal_at_saved_precision_or_manifest_aliases": true,
+        "documented_alias_replacements": [],
+        "saved_raw_array_sha256": "14aa5ed4375569129ac057283339d77163bba049b60d21c9e73bc5e7cfb67225",
+        "current_comparison_array_sha256": "14aa5ed4375569129ac057283339d77163bba049b60d21c9e73bc5e7cfb67225",
+        "saved_dtype": "float64"
+      },
+      "A_expr": {
+        "shape_match": true,
+        "equal_at_saved_precision_or_manifest_aliases": true,
+        "documented_alias_replacements": [],
+        "saved_raw_array_sha256": "5317b02fee66fcb8802ce9eda2fadd1129ba9305e4fc7bdd9dbf9303f9e48879",
+        "current_comparison_array_sha256": "5317b02fee66fcb8802ce9eda2fadd1129ba9305e4fc7bdd9dbf9303f9e48879",
+        "saved_dtype": "float16"
+      },
+      "A_region_labels": {
+        "shape_match": true,
+        "equal_at_saved_precision_or_manifest_aliases": true,
+        "documented_alias_replacements": [],
+        "saved_raw_array_sha256": "644f1b6a6a35bedfa6d312158bc7b762575c21192101a9b59aa66c8c1a93da1b",
+        "current_comparison_array_sha256": "644f1b6a6a35bedfa6d312158bc7b762575c21192101a9b59aa66c8c1a93da1b",
+        "saved_dtype": "int64"
+      },
+      "A_gene_names": {
+        "shape_match": true,
+        "equal_at_saved_precision_or_manifest_aliases": true,
+        "documented_alias_replacements": [
+          {
+            "index": 1,
+            "saved": "Artemin",
+            "current": "Artn"
+          },
+          {
+            "index": 64,
+            "saved": "Neurturin",
+            "current": "Nrtn"
+          }
+        ],
+        "saved_raw_array_sha256": "3904634a822441c45047b6ea7b39808ed96b9ed6caaab9781f764421ac97c020",
+        "current_comparison_array_sha256": "157a54a0769aaf66c19f50e2400303a0bbd1cf87934b2f759bf4d133ea4fda3b",
+        "saved_dtype": "<U9"
+      },
+      "B_coords": {
+        "shape_match": true,
+        "equal_at_saved_precision_or_manifest_aliases": true,
+        "documented_alias_replacements": [],
+        "saved_raw_array_sha256": "86034252d6172b8021e0e66b1914e9bde202c6f5e0e628b39fd974848d1f05fe",
+        "current_comparison_array_sha256": "86034252d6172b8021e0e66b1914e9bde202c6f5e0e628b39fd974848d1f05fe",
+        "saved_dtype": "float64"
+      },
+      "B_expr": {
+        "shape_match": true,
+        "equal_at_saved_precision_or_manifest_aliases": true,
+        "documented_alias_replacements": [],
+        "saved_raw_array_sha256": "232d6bb38b40929cc3c087f635e9f02a171492c0279d34f7909f00bac1fb264a",
+        "current_comparison_array_sha256": "232d6bb38b40929cc3c087f635e9f02a171492c0279d34f7909f00bac1fb264a",
+        "saved_dtype": "float16"
+      },
+      "B_region_labels": {
+        "shape_match": true,
+        "equal_at_saved_precision_or_manifest_aliases": true,
+        "documented_alias_replacements": [],
+        "saved_raw_array_sha256": "caedbc2dab6bdda862adb2810ade39c6594575bdc358707d28a7f8308e38ff1f",
+        "current_comparison_array_sha256": "caedbc2dab6bdda862adb2810ade39c6594575bdc358707d28a7f8308e38ff1f",
+        "saved_dtype": "int64"
+      },
+      "B_gene_names": {
+        "shape_match": true,
+        "equal_at_saved_precision_or_manifest_aliases": true,
+        "documented_alias_replacements": [
+          {
+            "index": 1,
+            "saved": "Artemin",
+            "current": "Artn"
+          },
+          {
+            "index": 64,
+            "saved": "Neurturin",
+            "current": "Nrtn"
+          }
+        ],
+        "saved_raw_array_sha256": "3904634a822441c45047b6ea7b39808ed96b9ed6caaab9781f764421ac97c020",
+        "current_comparison_array_sha256": "157a54a0769aaf66c19f50e2400303a0bbd1cf87934b2f759bf4d133ea4fda3b",
+        "saved_dtype": "<U9"
+      }
+    },
+    "expression_caveat": "Archived expression arrays are float16; equality is checked after casting current full-precision generated expression to that stored precision."
+  },
+  "approved_current_figure": {
+    "path": "lrot_output/figures_png/lrot_full_panel.png",
+    "sha256": "e67cdf7aac8c9955c3565de6d4acd34ac410310f48cad9e717f79d18298038ce"
+  },
+  "source_protocol": {
+    "synthetic_shape_each_slice": [
+      1000,
+      200
+    ],
+    "slice_seeds": [
+      42,
+      123
+    ],
+    "B_rotation_radians": 0.15,
+    "B_translation": [
+      0.5,
+      0.3
+    ],
+    "gamma_values": [
+      0.0,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "alpha": 0.5,
+    "beta": 0.3,
+    "reg_gw": 0.01,
+    "reg_ot": 0.01,
+    "outer_max_iter": 80,
+    "outer_tol": 1e-05,
+    "sinkhorn_max_iter": 200,
+    "sinkhorn_tol": 0.0001,
+    "stopping_rule": "relative plan change < tol and outer iteration index > 5"
+  },
+  "environment": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.7"
+  },
+  "input_array_sha256": {
+    "A_coords": "14aa5ed4375569129ac057283339d77163bba049b60d21c9e73bc5e7cfb67225",
+    "A_expr_full_precision": "e24b41cd9c90a3bacb800640b4097a39f8c2b20dec210790c9903f5a9ff2600d",
+    "A_region_labels": "644f1b6a6a35bedfa6d312158bc7b762575c21192101a9b59aa66c8c1a93da1b",
+    "A_gene_names": "157a54a0769aaf66c19f50e2400303a0bbd1cf87934b2f759bf4d133ea4fda3b",
+    "B_coords": "86034252d6172b8021e0e66b1914e9bde202c6f5e0e628b39fd974848d1f05fe",
+    "B_expr_full_precision": "507f669ae3b5129faf27b64ff252c229bbc76ceb6f979f38b526b41a25c6ae15",
+    "B_region_labels": "caedbc2dab6bdda862adb2810ade39c6594575bdc358707d28a7f8308e38ff1f",
+    "B_gene_names": "157a54a0769aaf66c19f50e2400303a0bbd1cf87934b2f759bf4d133ea4fda3b",
+    "S_lr_reconstructed": "d47fb6825807226d4da0ee8f8b2ea31612c644af8131cd91b398076e0ad181ab"
+  },
+  "runs": [
+    {
+      "gamma": 0.0,
+      "alpha": 0.5,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "max_iter": 80,
+      "tol": 1e-05,
+      "sinkhorn_max_iter": 200,
+      "sinkhorn_tol": 0.0001,
+      "outer_updates": 80,
+      "first_loss": 0.545996514242238,
+      "last_loss": 0.5158958425111188,
+      "plan_sha256": "0e370d032989241573f1739c42d3ac2361bbcf11428eba4c7aedb3ead53b02f4",
+      "loss_history_sha256": "edc151ac28a33df3fc0e83b912674eed432bfe179fbe4deab313cf85d6ea2dc2",
+      "elapsed_seconds": 20.550399500178173
+    },
+    {
+      "gamma": 0.05,
+      "alpha": 0.5,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "max_iter": 80,
+      "tol": 1e-05,
+      "sinkhorn_max_iter": 200,
+      "sinkhorn_tol": 0.0001,
+      "outer_updates": 80,
+      "first_loss": 0.5569510546755136,
+      "last_loss": 0.5271302234244987,
+      "plan_sha256": "7cdded428a912fcb7fe3eba5e81aa6b360245be1668f9e72397cbb0786efcedb",
+      "loss_history_sha256": "7c3ec9a510cfe4aee545c8dae372b7ef97e56bb2662478b0ff6e106242371e5b",
+      "elapsed_seconds": 20.44561699987389
+    },
+    {
+      "gamma": 0.1,
+      "alpha": 0.5,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "max_iter": 80,
+      "tol": 1e-05,
+      "sinkhorn_max_iter": 200,
+      "sinkhorn_tol": 0.0001,
+      "outer_updates": 80,
+      "first_loss": 0.5677926229371002,
+      "last_loss": 0.5377389367335023,
+      "plan_sha256": "7564ece2daee42a86733640afbe695bb2bb4052b7631ed928fdfa116fc0ebc4c",
+      "loss_history_sha256": "15315b2928e9ea473f721f823395d92e5d85e581ebea61794a53311639d2f7b7",
+      "elapsed_seconds": 16.360692099900916
+    },
+    {
+      "gamma": 0.2,
+      "alpha": 0.5,
+      "beta": 0.3,
+      "reg_gw": 0.01,
+      "reg_ot": 0.01,
+      "max_iter": 80,
+      "tol": 1e-05,
+      "sinkhorn_max_iter": 200,
+      "sinkhorn_tol": 0.0001,
+      "outer_updates": 80,
+      "first_loss": 0.5891392210525969,
+      "last_loss": 0.5587092827653537,
+      "plan_sha256": "5a3d25de668fe74e825b97a985703d30cae3bdae61700da64af6d252f2f19e9b",
+      "loss_history_sha256": "e97fdc5a2f10e092da5208c01d5489ac2e52ea2d20f3653ed6243f2df68e1d7b",
+      "elapsed_seconds": 18.057151000015438
+    }
+  ],
+  "generated": {
+    "histories_npz": {
+      "path": "figures/current_release/saved_inputs/F2_four_gamma_histories_current_code.npz",
+      "sha256": "1cebdfaad5b4781380a73afe3841e2f04a90be1d8a3b9468004a458feb943c50"
+    },
+    "panel_png": {
+      "path": "figures/current_release/saved_inputs/F2_panel_F_current_code_reconstruction.png",
+      "sha256": "899685d0fcb18de179b907b8948e6012fa52bf6f691e0cec72d1cced753eeb53"
+    },
+    "plot_scope": "standalone panel F only; not a byte-identical replacement for the six-panel approved PNG"
+  },
+  "release_record": {
+    "path_style": "repository-relative",
+    "derived_from_local_record_sha256": "828a93764d7a20a1c0a4751c9d0d4b093c9cc18259fd1f7619efedeced70e203",
+    "scientific_values_and_array_hashes_changed": false,
+    "local_raw_copy": "outputs/current_code_release_review_20261012/F2_reconstruction_record.local_raw.json"
+  }
+}

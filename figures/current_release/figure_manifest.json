@@ -1,0 +1,1489 @@
+{
+  "version": "20261007",
+  "scope": "current 8 main and 23 supplementary figures",
+  "figures": [
+    {
+      "id": "F1",
+      "paper_figure": "1",
+      "reference_sha256": "0c86f1578567ddd8be60a8d168a834e51cfad76a4c224e32c1ab8866184223a9",
+      "reference_size": [
+        4095,
+        5077
+      ],
+      "reference_dpi": null,
+      "caption": "Figure 1. Overview of LROT. (A) Section coordinates, expression matrices and a species-specific LR resource. (B) Non-LR expression, directed LR compatibility and within-section geometry costs. (C) Cost fusion, outer GW updates and inner Sinkhorn scaling. (D) Row entropy describes the dispersion of the soft transport plan over candidate target spots; the annotation-derived layer-vote score requires target-layer labels and does not constitute probability calibration. Lower entropy alone does not establish more accurate correspondence. (E) Alignment, stacked reconstruction and LR-contribution evaluation. The H&E thumbnail, conceptual curves and serial-section stack are schematic illustrations: histology is not an input to the tested LROT implementation, and the reconstruction experiments use five simulated sections or three measured DLPFC sections.",
+      "render_status": "ready",
+      "inputs": [
+        {
+          "path": "figures/gen_method_flow.py",
+          "sha256": "832a1a6de6e4efd5d9de6a7ab932fec02201f3e2f039b592c3b956aa81a0dda7"
+        },
+        {
+          "path": "figures/render_f1_approved.py",
+          "sha256": "e166edb3ea17808dc54f220c4d94beba2904537cb9dc2fb1b79b04e098ad67fd"
+        },
+        {
+          "path": "figures/current_release/assets/F1.png",
+          "sha256": "0c86f1578567ddd8be60a8d168a834e51cfad76a4c224e32c1ab8866184223a9"
+        }
+      ],
+      "generator": "figures/gen_method_flow.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "",
+      "interpretation": "Schematic only; not empirical evidence or calibrated uncertainty.",
+      "current_document_sync": {
+        "baseline_docx": "external:author-final-main-docx",
+        "baseline_docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+        "embedded_image_ordinal_1_based": 1,
+        "embedded_image_sha256": "0c86f1578567ddd8be60a8d168a834e51cfad76a4c224e32c1ab8866184223a9",
+        "embedded_image_size_px": [
+          4095,
+          5077
+        ],
+        "package_asset_path": "figures/current_release/assets/F1.png",
+        "package_asset_exists": true,
+        "package_asset_sha256": "0c86f1578567ddd8be60a8d168a834e51cfad76a4c224e32c1ab8866184223a9",
+        "package_asset_matches_embedded": true,
+        "primary_code_path": "figures/gen_method_flow.py",
+        "primary_code_sha256": "832a1a6de6e4efd5d9de6a7ab932fec02201f3e2f039b592c3b956aa81a0dda7",
+        "status": "approved_canvas_label_render",
+        "finding": "Approved current F1 supplies retained pixels; only the declared label band is replaced. No second full canvas is bundled. This is not a full schematic redraw.",
+        "saved_result_redraw_status": "approved_canvas_label_render",
+        "independent_array_scoring_status": "not_run",
+        "end_to_end_solver_reproduction_status": "not_certified",
+        "prior_package_asset_path": "lrot_output/figures_png/lrot_method_flow.png",
+        "prior_package_asset_sha256": "05f654dcca8ea180e665a3cbeb71cc305131ad36d886d82398d25582554dd4da",
+        "asset_provenance": "Exact PNG bytes exported from selected final DOCX; not evidence of byte-identical code redraw."
+      },
+      "pre_sync_render_status_20261007": "ready",
+      "provenance_warning": "Approved asset retained; schematic source labels synchronized with approved dense-distance/GW and acceptance descriptions. Not numerical experiment validation.",
+      "saved_render_check_20261011": {
+        "method": "schematic_code_render",
+        "generated_sha256": "8ad715d6d59636d4a557060bde2978666666122a49ad0d7aa2ea80abbec9c40c",
+        "raster_relation": "same_canvas_2.2019_percent_pixels_differ",
+        "historical_run_bound": false
+      },
+      "label_revision": {
+        "path": "figures/current_release/approved_main_assets/F1.png",
+        "before_sha256": "b2633809aa583207ed6b96ddd598999c6ac01dbd3714437fab2d7324fe631e44",
+        "after_sha256": "0c86f1578567ddd8be60a8d168a834e51cfad76a4c224e32c1ab8866184223a9",
+        "changed_pixel_bbox": [
+          149,
+          782,
+          1373,
+          838
+        ],
+        "changed_pixel_count": 28626,
+        "pixels_outside_title_band_identical": true,
+        "canvas_unchanged": true
+      },
+      "caption_sync_scope": "Caption prose is maintained in the current DOCX; historical manifest captions are not the authoritative latest wording.",
+      "legacy_asset_at_recording": "lrot_output/figures_png/lrot_method_flow.png"
+    },
+    {
+      "id": "F2",
+      "paper_figure": "2",
+      "reference_sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978",
+      "reference_size": [
+        5220,
+        2973
+      ],
+      "reference_dpi": [
+        550.0115999999999,
+        550.0115999999999
+      ],
+      "caption": "Figure 2. Fixed controlled-simulation realization (A/B seeds 42/123; four regions, 1,000 spots per section). (A–E) Retained alignment, plan and LR-compatibility displays; alignment accuracy is 0.631, and displayed LR weights are manual coefficients. (F) Four current-code γ-ablation diagnostics (γ=0, 0.05, 0.1 and 0.2; 80 outer updates each), with the retained 123-value main γ=0.1 trace. The reconstructed γ=0.1 curve matches its first 80 values. The new curves do not recover the historical runs or establish convergence. The revalidated primary assessment is in Figure 3C, Figure S23 and Table S16; the transport-plan visualization remains historical.",
+      "render_status": "ready",
+      "inputs": [
+        {
+          "path": "figures/current_release/inputs/F2_four_gamma_histories_current_code.npz",
+          "sha256": "1cebdfaad5b4781380a73afe3841e2f04a90be1d8a3b9468004a458feb943c50"
+        },
+        {
+          "path": "figures/current_release/assets/F2.png",
+          "sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978"
+        },
+        {
+          "path": "figures/current_release/integrate_f2_panel_current.py",
+          "sha256": "b5be0d0397d284a9f04efd2afc48eee24477f97b7f7b16381839d77d8ed81241"
+        }
+      ],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "",
+      "interpretation": "Panels A-E retained. Panel F redraws saved current-code 80-update diagnostics and retained 123-value main trace. This does not establish historical recovery or convergence.",
+      "pre_sync_reference_sha256_20261007": "506cf3e805608abdc0384e9069f3b70f45be1d43c5afac5044642c33722c2eca",
+      "current_document_sync": {
+        "baseline_docx": "external:author-final-main-docx",
+        "baseline_docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+        "embedded_image_ordinal_1_based": 2,
+        "embedded_image_sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978",
+        "embedded_image_size_px": [
+          5220,
+          2973
+        ],
+        "package_asset_path": "figures/current_release/assets/F2.png",
+        "package_asset_exists": true,
+        "package_asset_sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978",
+        "package_asset_matches_embedded": true,
+        "primary_code_path": "experiments/lrot_prototype.py",
+        "primary_code_sha256": "4ea83368f0651476389e0a86874c236afabd098c62a1a0c700aa734f5da966b7",
+        "status": "adopted_current_code_panel_F",
+        "finding": "Panels A-E retained. Panel F redraws saved current-code 80-update diagnostics and retained 123-value main trace. This does not establish historical recovery or convergence.",
+        "saved_result_redraw_status": "enabled_for_adopted_composite",
+        "independent_array_scoring_status": "four_histories_independently_reexecuted_max_error_2.22e-16",
+        "end_to_end_solver_reproduction_status": "panel_F_only_legacy_diagnostic_protocol",
+        "page_qa": {
+          "pdf_sha256": "3f4cbc34379fadf822e9028a4e86b847eeedf41a37356a5dfd631a012f78bdcb",
+          "pdf_page_count": 27,
+          "inspected_pages": [
+            10,
+            11,
+            12
+          ],
+          "status": "passed",
+          "figure2_embedded_image_changed": true
+        }
+      },
+      "pre_sync_render_status_20261007": "blocked",
+      "current_code_candidate_20261012": {
+        "status": "generated_and_hash_matched_to_separate_review_docx; not adopted into active final docx",
+        "runner": {
+          "path_at_recording": "figures/reconstruct_f2_curves_current.py",
+          "sha256_at_recording": "e6bad48f552b0dc8e117176930b3071c46519d3067d42f06b096ad092dae43f3",
+          "scope": "Historical candidate source identity; the adopted current runner is in current_adoption.runner"
+        },
+        "integrator": {
+          "path": "figures/current_release/integrate_f2_panel_current.py",
+          "sha256": "73f133b8c99a3eb77986d4a229714f3cc1892f9dda5e7f9c858f8b188b433611"
+        },
+        "algorithm_source": {
+          "path": "experiments/lrot_prototype.py",
+          "sha256": "4ea83368f0651476389e0a86874c236afabd098c62a1a0c700aa734f5da966b7"
+        },
+        "design_manifest": {
+          "path": "experiments/synthetic_design_manifest.json",
+          "sha256": "8ac624e43b55c60287ff484cef9afc0c2c28640bdd39adc666a01073817d3db8"
+        },
+        "input_archive": {
+          "path": "lrot_output/数据_npz/lrot_data_synthetic.npz",
+          "sha256": "ef1d468bc2c233b5916f71feb57b5443128f410f99f1fde0ecf81de4e8f5f323"
+        },
+        "input_identity": "Coordinates, labels, feature order and expression values matched at the archived precision; aliases follow the design manifest.",
+        "environment": {
+          "python": "3.10.11",
+          "numpy": "2.2.6",
+          "scipy": "1.15.3",
+          "matplotlib": "3.10.7"
+        },
+        "protocol": {
+          "slice_shape": [
+            1000,
+            200
+          ],
+          "seeds": [
+            42,
+            123
+          ],
+          "rotation_radians": 0.15,
+          "translation": [
+            0.5,
+            0.3
+          ],
+          "gamma": [
+            0.0,
+            0.05,
+            0.1,
+            0.2
+          ],
+          "alpha": 0.5,
+          "beta": 0.3,
+          "reg_gw": 0.01,
+          "reg_ot": 0.01,
+          "outer_max_iter": 80,
+          "outer_tol": 1e-05,
+          "sinkhorn_max_iter": 200,
+          "sinkhorn_tol": 0.0001
+        },
+        "histories": {
+          "path": "figures/current_release/saved_inputs/F2_four_gamma_histories_current_code.npz",
+          "sha256": "1cebdfaad5b4781380a73afe3841e2f04a90be1d8a3b9468004a458feb943c50",
+          "record_path": "figures/current_release/saved_inputs/F2_reconstruction_record_release.json",
+          "record_sha256": "1d3a3a1ee82fc813a4f67914bde44ba497c58e44a3194ef97e0d445dbbb9bb41"
+        },
+        "panel": {
+          "sha256": "899685d0fcb18de179b907b8948e6012fa52bf6f691e0cec72d1cced753eeb53",
+          "path_at_recording": "figures/current_release/saved_inputs/F2_panel_F_current_code_reconstruction.png",
+          "role": "Historical diagnostic raster archived locally; not a required drawing input."
+        },
+        "candidate_composite": {
+          "path": "lrot_output/figures_png/lrot_full_panel.png",
+          "sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978",
+          "pixels_changed_outside_F": 0
+        },
+        "panel_composition_record": {
+          "path": "figures/current_release/evidence/F2_composition_record_release.json",
+          "sha256": "ef9d09fa3fb7c8630b82ca724885f1657b41ff12aabf7c370a8887438938f36b"
+        },
+        "manuscript_review_candidate": {
+          "docx_sha256": "d687871fa11631e3e6c94eb18981308d6ab416ecd6c22761c9b3eeb97ef1a71d",
+          "pdf_sha256": "2d85eb7dfdb569a43c9e5345d20d23c5cab95a1e0afabda9169b96ed9516149e",
+          "embedded_candidate_image_sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978",
+          "layout_check": "pages 12-14 inspected; Figure 2 and full caption together on page 13"
+        },
+        "active_final_document": {
+          "sha256": "ccfadbb62fb2ff98200e4268d70ca4ac143b4677cc083dc431bdd9f56b87c92a",
+          "active_f2_raster_sha256": "e67cdf7aac8c9955c3565de6d4acd34ac410310f48cad9e717f79d18298038ce"
+        }
+      },
+      "previous_approved_raster_sha256": "e67cdf7aac8c9955c3565de6d4acd34ac410310f48cad9e717f79d18298038ce",
+      "saved_renderer": {
+        "script_path": "figures/current_release/integrate_f2_panel_current.py",
+        "input_npz": "figures/current_release/inputs/F2_four_gamma_histories_current_code.npz",
+        "output_name": "F2.png"
+      },
+      "current_adoption": {
+        "status": "adopted_into_selected_final_main_docx_with_user_authorization",
+        "figure_sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978",
+        "curve_verification": {
+          "saved_main_gamma_0_10": {
+            "length": 123,
+            "exact_equal": true,
+            "max_abs_difference": 0.0
+          },
+          "gamma_0.00": {
+            "length": 80,
+            "exact_equal": false,
+            "max_abs_difference": 1.1102230246251565e-16
+          },
+          "gamma_0.05": {
+            "length": 80,
+            "exact_equal": false,
+            "max_abs_difference": 1.1102230246251565e-16
+          },
+          "gamma_0.10": {
+            "length": 80,
+            "exact_equal": false,
+            "max_abs_difference": 1.1102230246251565e-16
+          },
+          "gamma_0.20": {
+            "length": 80,
+            "exact_equal": false,
+            "max_abs_difference": 2.220446049250313e-16
+          }
+        },
+        "runner": {
+          "path": "figures/reconstruct_f2_curves_current.py",
+          "sha256": "dab31a04debe851602b98556a995af12384b9e5a2580f7da76eda772e14c0c53"
+        },
+        "scope": "Four current-code diagnostic curves only; retained A-E and main trace; no certified convergence.",
+        "duplicate_candidate_removed": true
+      },
+      "legacy_asset_at_recording": "lrot_output/figures_png/lrot_full_panel.png"
+    },
+    {
+      "id": "F3",
+      "paper_figure": "3",
+      "reference_sha256": "13fafc01cd7dea10dc067252368a713b8aa94cfdd32671aa6e9187916220c010",
+      "reference_size": [
+        3987,
+        3107
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure 3. Descriptive comparisons and primary repeated evidence. (A) Realistic seed-42 region-label agreement. STAligner local NN* uses v1.0.0, normalized log1p/PCA-50, within-section KNN6 plus reverse edges, MNN50, seed 666 and 500+500 training epochs; scoring is A-to-B latent nearest neighbours. OT methods use transport-weighted votes. (B) Mean row entropy (nats); STAligner has no comparable OT plan. (C) LROT-minus-soft-FGW accuracy across 30 controlled A/B pairs, excluding historical 42/123. Line: mean; shading: 95% paired t interval. All 60 plans pass marginal and stopping checks. Soft FGW uses the LROT solver at γ=0. A/B and C use different generators and cannot be pooled. * Two single-thread deterministic technical repeats gave identical outputs (agreement 0.930; ARI 0.853503); this does not recover historical 0.934 or establish general superiority. Tested PASTE2 uses KL, α=.1 and complete-overlap mass s=1.",
+      "render_status": "ready",
+      "inputs": [
+        {
+          "path": "figures/current_release/inputs/F3.json",
+          "sha256": "5e81e09e0a52300279acc0895fee5174db8009ea119fae79724af2ad9505d803"
+        },
+        {
+          "path": "figures/render_current_panels.py",
+          "sha256": "3054f583d834b8f6983722072645b918664faa380b198f82bc54aa507b099011"
+        }
+      ],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "",
+      "interpretation": "New deterministic STAligner fixed realistic-seed42 case: accuracy .930, ARI .853502856, two exact technical repeats. Other F3 data unchanged; not historical .934 recovery or full-paper certification.",
+      "current_document_sync": {
+        "baseline_docx": "external:author-final-main-docx",
+        "baseline_docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+        "embedded_image_ordinal_1_based": 3,
+        "embedded_image_sha256": "13fafc01cd7dea10dc067252368a713b8aa94cfdd32671aa6e9187916220c010",
+        "embedded_image_size_px": [
+          3987,
+          3107
+        ],
+        "package_asset_path": "figures/current_release/assets/F3.png",
+        "package_asset_exists": true,
+        "package_asset_sha256": "13fafc01cd7dea10dc067252368a713b8aa94cfdd32671aa6e9187916220c010",
+        "package_asset_matches_embedded": true,
+        "primary_code_path": "figures/render_current.py",
+        "primary_code_sha256": "9d511abc55d14983a981f77320918d69a7ea10077e4a4bfdd75b26f44dbeb678",
+        "status": "adopted_new_deterministic_STAligner_case",
+        "finding": "New deterministic STAligner fixed realistic-seed42 case: accuracy .930, ARI .853502856, two exact technical repeats. Other F3 data unchanged; not historical .934 recovery or full-paper certification.",
+        "saved_result_redraw_status": "passed_and_adopted",
+        "independent_array_scoring_status": "STAligner exact technical repeats independently scored",
+        "end_to_end_solver_reproduction_status": "STAligner fixed case only; not every F3 comparison",
+        "historical_value_sources": [
+          {
+            "path": "../figures/gen_sota_figure.py",
+            "sha256": "85277f934588abe9c419e9e1920453f069b89e932b48b2296973bee3832e5508",
+            "meaning": "project-root legacy hardcoded .799 source",
+            "scope": "historical source identity; preserved in external private archive, not a current runnable package path"
+          },
+          {
+            "path": "figures/historical/gen_sota_figure.py",
+            "sha256": "9b717814ed0356e91b0de1440f9386165e916740122a388df9d637c220134335",
+            "meaning": "archived historical source",
+            "scope": "historical source identity; preserved in external private archive, not a current runnable package path"
+          }
+        ],
+        "active_wrapper": {
+          "path": "figures/render_current.py",
+          "sha256": "9d511abc55d14983a981f77320918d69a7ea10077e4a4bfdd75b26f44dbeb678"
+        },
+        "panel_renderer": {
+          "path": "figures/render_current_panels.py",
+          "sha256": "3054f583d834b8f6983722072645b918664faa380b198f82bc54aa507b099011"
+        },
+        "missing_payload": null,
+        "available_partial_payload": {
+          "path": "figures/current_release/inputs/S23.json",
+          "sha256": "4e473d01413b402a722f503b1c5a2d34827145bf9c0000e5738dbc29f8e600e8",
+          "covers": "F3 panel C only",
+          "scope": "Historical partial C payload; does not include the selected 1001/2001 revision. Current F3 uses saved_inputs/F3.json."
+        },
+        "required_payload_fields": [
+          "accuracy: 6 values",
+          "entropy: 4 values",
+          "paired_differences: 30 values",
+          "summary: mean_difference and ci95_t"
+        ],
+        "previous_verified_docx_sha256": "1e05dca199b24231b24756827b14d8a0e1cda1cacfde80b16e312a9a6c82c3fe",
+        "page_qa": {
+          "pdf_sha256": "72086c3e167f4214a1ced0436437f941f0be63de8db896d7827fdad2181a07ec",
+          "pdf_page_count": 27,
+          "affected_pages": [
+            11,
+            12,
+            13,
+            23
+          ],
+          "status": "rendered_and_visually_checked",
+          "renderer": "local Word PDF export; local PDFium page images"
+        }
+      },
+      "pre_sync_render_status_20261007": "blocked",
+      "approved_asset": {
+        "path": "figures/current_release/approved_main_assets/F3.png",
+        "sha256": "13fafc01cd7dea10dc067252368a713b8aa94cfdd32671aa6e9187916220c010",
+        "media_parts": [
+          "word/media/image3.png"
+        ],
+        "verification_layer": "adopted_new_deterministic_STAligner_fixed_case",
+        "independent_array_scoring": true,
+        "end_to_end_solve": "STAligner fixed case only; other scopes retained"
+      },
+      "asset_export_status": "ready",
+      "render_scope": "Selected saved-payload drawing; STAligner fixed case independently trained and scored; other panel scopes retained.",
+      "previous_approved_raster_sha256": "3a3111c33458baaacbf6ff2b8b343efa3f336751b107e7290abb38ddb290743b",
+      "current_deterministic_case": {
+        "path": "provenance/f3_staligner/verification.json",
+        "sha256": "4ef2c7999fcd81ea413efedbc88d70f11269d05aff9682bffe08725861b84e0e",
+        "entrypoint": "experiments/reproduce_f3_staligner.py",
+        "entrypoint_sha256": "ae1d4d0937125a12f446129d2ac81c5f3ea621ae423b8f6382f2c344a2ab5bfd",
+        "accuracy": 0.93,
+        "ARI": 0.8535028559314339,
+        "historical_934_restored": false,
+        "repository_execution": {
+          "path": "provenance/f3_staligner/repository_execution.json",
+          "sha256": "82e5ad92a13d184936a7078e713fa8f2f58cf19d4c0209b47be71e7148fde168"
+        }
+      },
+      "legacy_asset_at_recording": "figures/current_release/approved_main_assets/F3.png"
+    },
+    {
+      "id": "F4",
+      "paper_figure": "4",
+      "reference_sha256": "0b7c70a8b2cdf8a0b4885805f0a4784c45ad82e269baf3ba93d516c48dad6b33",
+      "reference_size": [
+        4950,
+        2840
+      ],
+      "reference_dpi": null,
+      "caption": "Figure 4. Alignment of annotated human DLPFC serial sections. (A) Before alignment. (B) After LROT alignment. (C) Iteration diagnostic. (D) Transport entropy for section pair 151507–151508 (17.6% lower with LROT). (E) ARI of soft-vote layer predictions. (F) Trade-off between LR guidance strength, plan concentration and layer concordance. Layer annotations evaluate layer-level agreement and do not establish exact spot-to-spot correspondence. The restricted detail axis in D shows row-entropy values as points; it does not indicate a correctness gain.",
+      "render_status": "ready",
+      "inputs": [
+        {
+          "path": "experiments/_render_dlpfc_fig9.py",
+          "sha256": "4feac9ca00017c49c46f0434991f0df6d0fad2c33ca7ea167e484bc94f29df25"
+        },
+        {
+          "path": "lrot_output/arrays/lrot_data_dlpfc.npz",
+          "sha256": "f09a81ef7cf56e1e38a294cea2f2b8b39fcf8f7c4b6eaa7f6eff2729380c302c"
+        },
+        {
+          "path": "lrot_output/dlpfc_results/lrot_dlpfc_results.txt",
+          "sha256": "c6499b5dd337149f5fc7a1a4fa662ee4ae313339d3ef1987dc6a2485e86d3fa6"
+        }
+      ],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "pre_sync_reference_sha256_20261007": "0556e73ab641adcb91175e8ca46cd9cbc30f8cca3ef9f9d71526b1fd2b161d56",
+      "current_document_sync": {
+        "baseline_docx": "external:author-final-main-docx",
+        "baseline_docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+        "embedded_image_ordinal_1_based": 4,
+        "embedded_image_sha256": "0b7c70a8b2cdf8a0b4885805f0a4784c45ad82e269baf3ba93d516c48dad6b33",
+        "embedded_image_size_px": [
+          4950,
+          2840
+        ],
+        "package_asset_path": "figures/current_release/assets/F4.png",
+        "package_asset_exists": true,
+        "package_asset_sha256": "0b7c70a8b2cdf8a0b4885805f0a4784c45ad82e269baf3ba93d516c48dad6b33",
+        "package_asset_matches_embedded": true,
+        "primary_code_path": "experiments/_render_dlpfc_fig9.py",
+        "primary_code_sha256": "4feac9ca00017c49c46f0434991f0df6d0fad2c33ca7ea167e484bc94f29df25",
+        "status": "saved_result_redraw_byte_identical",
+        "finding": "The package renderer loaded the package DLPFC NPZ and result text; isolated redraw is byte-for-byte identical to the current document image. This verifies saved-result rendering only, not end-to-end solving.",
+        "saved_result_redraw_status": "saved_result_redraw_byte_identical",
+        "independent_array_scoring_status": "not_run",
+        "end_to_end_solver_reproduction_status": "not_certified",
+        "official_dispatcher_status": "ready_saved_result_only",
+        "document_asset_match": true,
+        "previous_verified_docx_sha256": "1e05dca199b24231b24756827b14d8a0e1cda1cacfde80b16e312a9a6c82c3fe"
+      },
+      "pre_sync_render_status_20261007": "blocked",
+      "saved_renderer": {
+        "script_path": "experiments/_render_dlpfc_fig9.py",
+        "input_npz": "lrot_output/arrays/lrot_data_dlpfc.npz",
+        "output_name": "lrot_dlpfc.png",
+        "results_txt": "lrot_output/dlpfc_results/lrot_dlpfc_results.txt",
+        "solver_executed": false
+      },
+      "render_scope": "saved_result_render_only",
+      "label_revision": {
+        "path": "lrot_output/figures_png/lrot_dlpfc.png",
+        "before_sha256": "e1d77a42ddef8a65d33f8c00b13bc81ec8a3221e2bfa5e868ccb5299c8aeef17",
+        "after_sha256": "0b7c70a8b2cdf8a0b4885805f0a4784c45ad82e269baf3ba93d516c48dad6b33",
+        "changed_pixel_bbox": [
+          3565,
+          1452,
+          4479,
+          1499
+        ],
+        "changed_pixel_count": 19203,
+        "pixels_outside_title_band_identical": true,
+        "canvas_unchanged": true
+      },
+      "caption_sync_scope": "Caption prose is maintained in the current DOCX; historical manifest captions are not the authoritative latest wording.",
+      "legacy_asset_at_recording": "lrot_output/figures_png/lrot_real_visium.png"
+    },
+    {
+      "id": "F5",
+      "paper_figure": "5",
+      "reference_sha256": "c3b7575dec96781078b93ae8a3d4cff658597c350fbdb124f119d78ec5054feb",
+      "reference_size": [
+        4084,
+        2509
+      ],
+      "reference_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "caption": "Figure 5. Annotation-derived score assessment in Br8325 (two adjacent pairs sharing a section, pooled for descriptive display; n=2,000 source-spot observations per method). (A) Score-decile accuracy; pooled Spearman ρ=0.363 for LROT and 0.445 for FGW, without spot-level significance tests. (B) Accuracy by retained fraction; top-20% accuracy is 0.7825 for LROT and 0.8275 for FGW. (C) Coverage and accuracy at fixed score thresholds. (D) Row-entropy distributions. Scores require target-layer annotations; neither ranking nor row entropy establishes calibrated correctness.",
+      "render_status": "ready",
+      "inputs": [
+        {
+          "path": "figures/render_f5_saved.py",
+          "sha256": "b5ff8b835e21c1f68cd569b8b049d4f9fb804040fc69c1a4ef1a81047d0a0fbc"
+        },
+        {
+          "path": "figures/gen_figure8_dlpfc_score_ranking.py",
+          "sha256": "f547d898548fedc13d7fd49e814733cf05e321a562f25446d21d16eb865a1b89"
+        },
+        {
+          "path": "figures/current_release/inputs/F5_current_protocol_plot_only.npz",
+          "sha256": "49b867d153cfe265476753cae3e9b0909b168fcd52e6816d3338972bdb4f1613"
+        },
+        {
+          "path": "figures/current_release/inputs/F5_input_binding.json",
+          "sha256": "c8338daea8825e4e8a6d9ae8790a3e95fb3e3bf7a4a670429d40be8032837f12"
+        },
+        {
+          "path": "lrot_output/figure8_score_ranking_results.txt",
+          "sha256": "650c7bbd8ff0d7da15b17d6a903f397c2d2c3d0024aeb573422632d37c8483ee"
+        }
+      ],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [
+        "lrot_output/figures_png/lrot_figure8_dlpfc_score_ranking.png"
+      ],
+      "blocked_reason": "",
+      "interpretation": "Saved per-spot array redraw and a prospective fixed-raw-input numerical rerun; not historical-run array recovery or pixel-identical manuscript raster.",
+      "current_document_sync": {
+        "baseline_docx": "external:author-final-main-docx",
+        "baseline_docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+        "embedded_image_ordinal_1_based": 5,
+        "embedded_image_sha256": "c3b7575dec96781078b93ae8a3d4cff658597c350fbdb124f119d78ec5054feb",
+        "embedded_image_size_px": [
+          4084,
+          2509
+        ],
+        "package_asset_path": "figures/current_release/assets/F5.png",
+        "package_asset_exists": true,
+        "package_asset_sha256": "c3b7575dec96781078b93ae8a3d4cff658597c350fbdb124f119d78ec5054feb",
+        "package_asset_matches_embedded": true,
+        "primary_code_path": "figures/gen_figure8_dlpfc_score_ranking.py",
+        "primary_code_sha256": "f547d898548fedc13d7fd49e814733cf05e321a562f25446d21d16eb865a1b89",
+        "status": "current_fixed_input_arrays_summary_exact_raster_differs",
+        "finding": "The selected DOCX raster remains unchanged. A fixed C-project raw-input rerun reproduces the historical summary text byte-for-byte and saves six ordered per-spot arrays. Saved-array redrawing is visually consistent but not pixel-identical (same 4084x2509 canvas); original-run arrays were not archived.",
+        "saved_result_redraw_status": "prospective_saved_arrays_summary_exact_image_pixel_differs",
+        "independent_array_scoring_status": "six_per_spot_arrays_saved_and_summary_recomputed_from_prospective_run",
+        "end_to_end_solver_reproduction_status": "prospective_current_code_DLPFC_inputs_numerical_summary_byte_identical_not_historical_run",
+        "retained_summary_record": {
+          "path": "lrot_output/figure8_score_ranking_results.txt",
+          "sha256": "650c7bbd8ff0d7da15b17d6a903f397c2d2c3d0024aeb573422632d37c8483ee",
+          "supports": "pair-wise and pooled rho, accuracy, top-20 accuracy, plus threshold summaries",
+          "does_not_contain": "per-spot score/correct/row_entropy arrays or the ordered spot identity vector"
+        }
+      },
+      "pre_sync_render_status_20261007": "blocked",
+      "provenance_warning": "Prospective fixed-input rerun and saved-array redraw; original historical per-spot arrays were not archived. Rendered raster differs from selected DOCX.",
+      "saved_renderer": {
+        "script_path": "figures/render_f5_saved.py",
+        "input_npz": "figures/current_release/inputs/F5_current_protocol_plot_only.npz",
+        "output_name": "lrot_figure8_dlpfc_score_ranking.png"
+      },
+      "saved_render_check_20261011": {
+        "method": "prospective_fixed_input_saved_array_redraw",
+        "generated_sha256": "ed7c2061ea18480ed7a88a95bd5f25fe5affa00641b9e5a761b4bab1604594ce",
+        "raster_relation": "same_canvas_4.0898_percent_pixels_differ",
+        "historical_run_bound": false
+      },
+      "legacy_asset_at_recording": "lrot_output/figures_png/lrot_fig7_3d_panel_combined_ABC.png"
+    },
+    {
+      "id": "F6",
+      "paper_figure": "6",
+      "reference_sha256": "867bb23d7ab9944a116c251e79b6269f3fa767a8735efcac25c1f21fd0689c3a",
+      "reference_size": [
+        5154,
+        1546
+      ],
+      "reference_dpi": null,
+      "caption": "Figure 6. Controlled perturbation of measured mouse brain spatial transcriptomics data. The CytAssist Fresh Frozen Mouse Brain Post Xenium Rep1 dataset contains 5,303 spots and 19,465 genes and was subsampled to 1,000 spots. A paired section was generated by rotation, scaling and batch perturbation. (A) Before alignment. (B) After LROT alignment (γ=0.1). (C) Archived iteration diagnostic (seven iterations); this curve is not the stopping record for the revised solver. This experiment does not involve two independently measured serial sections.",
+      "render_status": "ready",
+      "inputs": [
+        {
+          "path": "experiments/_render_mouse_visium_fig6.py",
+          "sha256": "0524fcf8de4fef8ae9f5b636d8272a95063068b7098b6b303fbb5736d1b88d05"
+        },
+        {
+          "path": "lrot_output/arrays/lrot_data_real_visium.npz",
+          "sha256": "992a9e265e3cef4359974454cd816ee543a9a65ab105c9e3a95ed7e7c3b2b946"
+        }
+      ],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "current_document_sync": {
+        "baseline_docx": "external:author-final-main-docx",
+        "baseline_docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+        "embedded_image_ordinal_1_based": 6,
+        "embedded_image_sha256": "867bb23d7ab9944a116c251e79b6269f3fa767a8735efcac25c1f21fd0689c3a",
+        "embedded_image_size_px": [
+          5154,
+          1546
+        ],
+        "package_asset_path": "figures/current_release/assets/F6.png",
+        "package_asset_exists": true,
+        "package_asset_sha256": "867bb23d7ab9944a116c251e79b6269f3fa767a8735efcac25c1f21fd0689c3a",
+        "package_asset_matches_embedded": true,
+        "primary_code_path": "experiments/_render_mouse_visium_fig6.py",
+        "primary_code_sha256": "0524fcf8de4fef8ae9f5b636d8272a95063068b7098b6b303fbb5736d1b88d05",
+        "status": "approved_asset_export_saved_npz_redraw_differs",
+        "finding": "The current renderer can redraw the saved Visium NPZ. Its panel C title/y-axis were synced to the current document (Iteration diagnostic/Diagnostic); output still differs in raster size from the embedded image. The current document image was not replaced.",
+        "saved_result_redraw_status": "saved_npz_redraw_differs_from_document_asset",
+        "independent_array_scoring_status": "not_run",
+        "end_to_end_solver_reproduction_status": "not_certified",
+        "official_dispatcher_status": "ready_saved_result_only_raster_differs_from_docx",
+        "document_asset_match": false,
+        "document_asset_note": "Keep the existing DOCX image; this saved-result raster is different and is not a replacement.",
+        "prior_package_asset_path": null,
+        "prior_package_asset_sha256": null,
+        "asset_provenance": "Exact PNG bytes exported from selected final DOCX; not evidence of byte-identical code redraw."
+      },
+      "pre_sync_render_status_20261007": "blocked",
+      "saved_renderer": {
+        "script_path": "experiments/_render_mouse_visium_fig6.py",
+        "input_npz": "lrot_output/arrays/lrot_data_real_visium.npz",
+        "output_name": "lrot_real_visium.png",
+        "solver_executed": false
+      },
+      "render_scope": "saved_result_render_only",
+      "provenance_warning": "Selected document raster is available as an exact asset export; code redraw has a distinct evidence status.",
+      "saved_render_check_20261011": {
+        "method": "saved_npz_redraw",
+        "generated_sha256": "39ea35b168de82fdadf1e28708a85a21db079849d467eeb3e17049fbd456d46a",
+        "raster_relation": "different_canvas_5200x1631_vs_5154x1546",
+        "historical_run_bound": false
+      },
+      "legacy_asset_at_recording": "lrot_output/figures_png/lrot_breast_cancer_realcoord.png"
+    },
+    {
+      "id": "F7",
+      "paper_figure": "7",
+      "reference_sha256": "9b642e65963e32c09aa74f19bfcc14e4e4c9833a22f308e7d0995792004c3e37",
+      "reference_size": [
+        5220,
+        2939
+      ],
+      "reference_dpi": [
+        550.0115999999999,
+        550.0115999999999
+      ],
+      "caption": "Figure 7. Descriptive breast-cancer serial-section evaluation (Block A Sections 1/2; 3,798/3,987 spots, each subsampled to 3,000). (A) Starting coordinates, with a small offset imposed on Section 2. (B) Transport-weighted mapping. (C) Iteration diagnostic, stopping occurs after nine iterations. (D) Transport-plan heat map. (E) Leading LR pairs shown with manual prior coefficients, not measured interaction probabilities. (F) Matched-mask entropy comparison: FGW 5.8495, LROT 5.8176 (0.55% reduction). Both arms exclude HUMAN_ALL_LR. The detail axis in F is restricted and uses points to avoid exaggerating the small difference. Sector colours in A/B are display groupings, not independently validated tumour compartments. One tissue block and absent mapping labels limit this to descriptive evaluation.",
+      "render_status": "ready",
+      "inputs": [
+        {
+          "path": "experiments/_render_breast_realcoord_official.py",
+          "sha256": "f72289a0d83c1c66060444d634262e3edc6daf358bb245be831cc3781c1936be"
+        },
+        {
+          "path": "figures/current_release/inputs/F7_historical_plan_plot_only.npz",
+          "sha256": "11eb7ea491ae09c739aaba20c90ccba9bc4485b8b7f35da5bea6f890a762d3fa"
+        },
+        {
+          "path": "figures/current_release/inputs/F7_source_binding.json",
+          "sha256": "949ff8e6e845c9a9928927c160807c31c182d3bf882510f08956b6acfe4a9db3"
+        },
+        {
+          "path": "lrot_output/lrot_cancer_truecoord_results.txt",
+          "sha256": "1fb6a3c5be9979c2809d1daeea10d7105617687435d3722c37d8b3f1fa77ba45"
+        }
+      ],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "",
+      "interpretation": "Approved historical raster redraws exactly from an older plan plus later matched-mask summary; its single-run historical provenance remains unbound. A separate 2026-10-11 raw-H5 fixed-input run with bound solver produced two accepted plans, independently reproduced the displayed four-decimal entropies, and yielded a visually equivalent same-run candidate image. Approved paper image remains unchanged.",
+      "pre_sync_reference_sha256_20261007": "301f89200f3004a501239242c8afb3404baba8bbf9da87e876a157eb6e95f9c6",
+      "current_document_sync": {
+        "baseline_docx": "external:author-final-main-docx",
+        "baseline_docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+        "embedded_image_ordinal_1_based": 7,
+        "embedded_image_sha256": "9b642e65963e32c09aa74f19bfcc14e4e4c9833a22f308e7d0995792004c3e37",
+        "embedded_image_size_px": [
+          5220,
+          2939
+        ],
+        "package_asset_path": "figures/current_release/assets/F7.png",
+        "package_asset_exists": true,
+        "package_asset_sha256": "9b642e65963e32c09aa74f19bfcc14e4e4c9833a22f308e7d0995792004c3e37",
+        "package_asset_matches_embedded": true,
+        "primary_code_path": "experiments/_render_breast_realcoord_official.py",
+        "primary_code_sha256": "f72289a0d83c1c66060444d634262e3edc6daf358bb245be831cc3781c1936be",
+        "status": "exact_saved_redraw_mixed_records_historical_run_unbound",
+        "finding": "The approved raster is byte-identical to a redraw using an older archived P/geometry record and a later matched-mask summary. The prospective matched-mask rerun is numerically close, but these records do not establish a single historical run.",
+        "saved_result_redraw_status": "exact_from_historical_plot_plan_plus_later_matched_summary",
+        "independent_array_scoring_status": "historical_P_entropy_5.817596_old_FGW_5.846452;_new_matched_FGW_5.849529_LROT_5.817592",
+        "end_to_end_solver_reproduction_status": "New 2026-10-11 fixed raw-H5-to-bound-solver-to-saved-result-plot F7 case passed; old approved image historical same-run binding remains unproved; full repository not certified.",
+        "retained_summary_record": {
+          "path": "lrot_output/lrot_breast_fgw_genematch_results.txt",
+          "sha256": "e0575866cd17e96bd1463c7b7684d4d33d6c31b3c90aad9fc2e50bebf9e2ffcc",
+          "supports": "matched-mask summary metrics 5.8495 (FGW) and 5.8176 (LROT)",
+          "does_not_bind": "the exact saved matched-mask plans, ordered coordinates, labels and top-pair arrays used for the current image"
+        },
+        "renderer_default_input": {
+          "path": "lrot_output/lrot_data_breast_cancer_truecoord.npz",
+          "exists_in_LROT_code": false
+        },
+        "project_root_legacy_npz": {
+          "path": "../lrot_output/lrot_data_breast_cancer_truecoord.npz",
+          "sha256": "5599a3ca51f245ed16d646fd8b4a46170121091727f91c4a63cf1435c0633690",
+          "status": "older unmatched-mask plan; not interchangeable with the matched-mask summary"
+        }
+      },
+      "pre_sync_render_status_20261007": "blocked",
+      "provenance_warning": "Exact image redraw uses older archived LROT P/coordinates and a later matched-mask summary. Prospective matched-mask plans reproduce reported entropy but are not the original saved plan.",
+      "saved_renderer": {
+        "script_path": "experiments/_render_breast_realcoord_official.py",
+        "input_npz": "figures/current_release/inputs/F7_historical_plan_plot_only.npz",
+        "results_txt": "lrot_output/lrot_cancer_truecoord_results.txt",
+        "output_name": "lrot_breast_cancer_realcoord.png"
+      },
+      "saved_render_check_20261011": {
+        "method": "mixed_saved_records_redraw",
+        "generated_sha256": "9b642e65963e32c09aa74f19bfcc14e4e4c9833a22f308e7d0995792004c3e37",
+        "raster_relation": "byte_identical",
+        "historical_run_bound": false
+      },
+      "prospective_raw_input_reproduction_20261011": {
+        "status": "accepted_fixed_input_raw_to_solver_to_saved_result_plot",
+        "protocol": "provenance/f7_prospective/README.md",
+        "reference_input": "provenance/f7_prospective/reference_input_identity.json",
+        "result_evidence": "provenance/f7_prospective/result_manifest.json",
+        "candidate_png_sha256": "d1f9a0c611d8641bdd7b96514fe92a2bb54ee23e9c2961bceef313ba0e61923b",
+        "approved_paper_image_replaced": false,
+        "historical_same_run_proven": false
+      },
+      "legacy_asset_at_recording": "lrot_output/figures_png/lrot_dlpfc.png"
+    },
+    {
+      "id": "F8",
+      "paper_figure": "8",
+      "reference_sha256": "1954cd580dd275defeb97ae29009e24da8416e24f97cf8612f249851b774278e",
+      "reference_size": [
+        4750,
+        1302
+      ],
+      "reference_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "caption": "Figure 8. Sequential alignment and stacking of five simulated sections with 500 spots each. (A) Three-dimensional stack coloured by simulated region labels. (B) Cross-section region-mapping consistency; non-adjacent pair accuracies range from 0.50 to 0.89. (C) Adjacent-pair accuracy across 10 independent simulation seeds (mean±standard deviation); the dashed line marks the overall LROT mean of 75.0%, and the shaded band represents one standard deviation (10.7%). Panel C retains the original mean±SD error bars; the shaded band is a descriptive overall mean±SD band, not a confidence interval. The stacked z-axis is a schematic section coordinate. Panel C summarizes the descriptive adjacent-pair distribution; the seed-level SD and paired test on ten seed means are reported in the text.",
+      "render_status": "ready",
+      "inputs": [
+        {
+          "path": "figures/current_release/inputs/F8.json",
+          "sha256": "eeee42ee0663f1cea62c4e9001190cf67b70a318adc5118d2ac1767605db5a24"
+        },
+        {
+          "path": "figures/current_release/components/F8_A.png",
+          "sha256": "1e279ce5c2bcfde8e50be910bffeaac3afe64908be3081f3c3ec4b9a8781193a"
+        },
+        {
+          "path": "figures/current_release/components/F8_B.png",
+          "sha256": "74be5ddb2f1370aaf4d3399cc74cdfd59ee5ce013fada76af02276d0cffcc1c1"
+        },
+        {
+          "path": "figures/current_release/components/F8_C.png",
+          "sha256": "3d10f02b750cc124add7c79b320cdce284d89c5187ae46617f886f8173174f04"
+        }
+      ],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [
+        "lrot_output/figures_png/lrot_fig7_3d_panel_combined_ABC.png"
+      ],
+      "blocked_reason": "",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "current_document_sync": {
+        "baseline_docx": "external:author-final-main-docx",
+        "baseline_docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+        "embedded_image_ordinal_1_based": 8,
+        "embedded_image_sha256": "1954cd580dd275defeb97ae29009e24da8416e24f97cf8612f249851b774278e",
+        "embedded_image_size_px": [
+          4750,
+          1302
+        ],
+        "package_asset_path": "figures/current_release/assets/F8.png",
+        "package_asset_exists": true,
+        "package_asset_sha256": "1954cd580dd275defeb97ae29009e24da8416e24f97cf8612f249851b774278e",
+        "package_asset_matches_embedded": true,
+        "primary_code_path": "figures/gen_figure8_dlpfc_score_ranking.py",
+        "primary_code_sha256": "f547d898548fedc13d7fd49e814733cf05e321a562f25446d21d16eb865a1b89",
+        "status": "asset_matches_no_new_render",
+        "finding": "Embedded PNG equals the packaged raster. No plot or solver was run in this pass.",
+        "saved_result_redraw_status": "not_run",
+        "independent_array_scoring_status": "not_run",
+        "end_to_end_solver_reproduction_status": "not_certified",
+        "previous_verified_docx_sha256": "1e05dca199b24231b24756827b14d8a0e1cda1cacfde80b16e312a9a6c82c3fe"
+      },
+      "pre_sync_render_status_20261007": "ready",
+      "legacy_asset_at_recording": "lrot_output/figures_png/lrot_figure8_dlpfc_score_ranking.png"
+    },
+    {
+      "id": "S1",
+      "paper_figure": "S1",
+      "reference_sha256": "5448095d2727b3057d477b36f021df1429bec28bdf0c877dec91289b625a226d",
+      "reference_size": [
+        3849,
+        1455
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S1. Historical fixed controlled realization, numerically revalidated (A/B seeds 42/123; four synthetic regions). (A) Region-vote accuracy versus γ. (B) Expression transport cost. This illustrative pair is separate from the 30 controlled-simulation pairs in Figure S23 and Table S16; it does not summarize seed robustness.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "recorded_legacy_asset_path": "lrot_output/figures_png/lrot_ablation.png",
+      "legacy_asset_storage_status": "Duplicate checkout copy archived; original reference hash and historical status retained.",
+      "retained_duplicate_asset": {
+        "path": "figures/supplement/assets/S1.png",
+        "sha256": "6d3da912d2eab8dea65d5c435072ca47c5b5aadc9214dc1f13d1b052921b6102"
+      }
+    },
+    {
+      "id": "S2",
+      "paper_figure": "S2",
+      "reference_sha256": "b42dac56a4d9630f12ac0e7c36d98c2d8fd9356150f2b986a16c351eb7bd3a4c",
+      "reference_size": [
+        4031,
+        3535
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S2. Revalidated LR-resource sensitivity, with the original eight-panel organization. (A–B) Accuracy and entropy at γ=.1. (C) Entropy in the expression-free setting (α=0, β=.3, γ=1); geometry remains active. (D) Accepted outer iterations under the recorded settings α=.5, γ=.1 and α=0, γ=1 (β=.3 in both): 9/39, 9/121, 9/40 for full, shuffled and adhesion LR resources, respectively. These stopping diagnostics are not elapsed times or a speed comparison. (E) Plan support above mass 10⁻¹⁰. (F) Resource size. (G–H) Curated and CellChatDB.mouse entropy and accuracy at γ=.1/.2. Only 22/38 pairs have symbols in both simulated matrices; this is not an expression-detection count. Full/shuffled/adhesion accuracies at γ=1 are .232/.069/.147. Entropy describes dispersion, not correctness.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_supp_S2_db_merged.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S3",
+      "paper_figure": "S3",
+      "reference_sha256": "2ad017586cd5f2af79fde54a8148e354174e061c63a51cd459911a69eda19c1a",
+      "reference_size": [
+        4234,
+        3152
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S3. Recomputed GO biological-process enrichment of the unchanged 109 LR genes. (A) Fifteen displayed terms satisfy ≥5 hits, adjusted p<10⁻⁵ and background fraction ≤2%, ranked by adjusted p. Length is the hit count; colour and bracketed values are −log₁₀(adjusted p); asterisks indicate adjusted p<.05. The .05 threshold lies outside this colour scale. (B) The same seven LR-family groups and original palette. The corrected analysis uses 27,431 annotated background genes, foreground-versus-complement Fisher tests and BH across all 14,584 background-supported BP terms, including zero-hit terms. Counts and annotations characterize the resource, not communication in the measured sections (Note S16).",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "recorded_legacy_asset_path": "lrot_output/figures_png/lrot_go_enrichment.png",
+      "legacy_asset_storage_status": "Duplicate checkout copy archived; original reference hash and historical status retained.",
+      "retained_duplicate_asset": {
+        "path": "figures/supplement/templates/S3.png",
+        "sha256": "c399c165cd1b0e487b02ead833e1a86d020fdcd02dce5bbce45f2a1b65c1c964"
+      }
+    },
+    {
+      "id": "S4",
+      "paper_figure": "S4",
+      "reference_sha256": "c8f256a2b09e0ff1cba09411fa46a7ed261f3660053ff69f59944ba8874c1994",
+      "reference_size": [
+        3725,
+        4154
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S4. Revalidated pathway-agreement and dispersion scans. (A) Mean transported-program correlations over 20 technical simulation seeds; the right axis is row entropy. (B–C) Two Br8325 adjacent pairs, averaged descriptively, using 42/99 sampling for each pair. LR-associated agreement, non-LR agreement, layer-vote accuracy and same-layer mass need not move together. The vertical marker is the tested default γ=.1, not an independently validated optimum. Increasing agreement with features used in the prior is not independent evidence of communication. No spot-level significance test or universal guidance threshold is inferred.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_supp_S4_pathway_merged.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S5",
+      "paper_figure": "S5",
+      "reference_sha256": "e9bca324eced47ec099ff41f6234152bc3fa0f9923c3e7f62d25e9e33c8ae48b",
+      "reference_size": [
+        4115,
+        1715
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S5. Revalidated α×β grid at γ=.1 for the realistic seed-42 input. (A) Plan entropy. (B) Region-vote accuracy. All 15 configurations and their γ=0 comparators pass numerical acceptance. Lower entropy is concentration, not a correctness ranking; this single labelled grid is exploratory.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_alpha_beta_sensitivity.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S6",
+      "paper_figure": "S6",
+      "reference_sha256": "9742a157f4b3fa201dda848641b4b79a9af8ee92a3e9273afc8b93a6e30e269d",
+      "reference_size": [
+        3015,
+        1512
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S6. Local five-method CPU benchmark with three actual serial repetitions on the same realistic seed-42 input, 1,000 spots per section. Bars show mean preparation-plus-computation time; error bars are sample SD. Method order is randomized per repetition, with two CPU threads specified in the timing code and no checkpoint reuse. Data generation, scoring, input hashing and deferred audit-file compression/writing are outside the measured interval; internal diagnostics, some plan hashing and profiling remain inside it. PASTE denotes the tested installed paste_math implementation; both tested package configurations use KL and α=.1, with complete-overlap mass s=1 for PASTE2. Training is a different computational task and is excluded from these bars; separate STAligner schedules and timer boundaries are described in Note S25. The three STAligner executions concern different inputs, not three training repetitions on the same input.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_runtime_comparison.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Three local serial timings per OT method; excludes training and is not a universal speed claim."
+    },
+    {
+      "id": "S7",
+      "paper_figure": "S7",
+      "reference_sha256": "af75394309614156de6331e809d8e639e7f89d7ddc17571d1d8aabd896fbcae8",
+      "reference_size": [
+        3972,
+        1801
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S7. Revalidated scaling over 250–4,000 spots per section, with 150 simulated genes and seed 42. (A) Observed numerical computation time from one audited run per size and method; these are not repeated isolated speed benchmarks. (B) Region-vote accuracy. All 15 plans pass marginal and outer stopping checks. Expression-only OT is a reference, not a guaranteed runtime lower bound. Computational effort depends on both dimensions and convergence; this scan does not prove a universal speed ranking or asymptotic exponent.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "recorded_legacy_asset_path": "lrot_output/figures_png/lrot_scaling.png",
+      "legacy_asset_storage_status": "Duplicate checkout copy archived; original reference hash and historical status retained.",
+      "retained_duplicate_asset": {
+        "path": "figures/supplement/templates_selected/S7.png",
+        "sha256": "5039c731d9bf9b0eb68a1d0cd820f27cbdb08bdf82edc0f99bd1a8fdf4fd1f84"
+      }
+    },
+    {
+      "id": "S8",
+      "paper_figure": "S8",
+      "reference_sha256": "d84dfca6f19ec87b746084dc8d22ae40de19f127027119644b31929cdc00c9d4",
+      "reference_size": [
+        3037,
+        1629
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S8. Twenty paired realistic simulation seeds (1–20). Box plots and individual points show region-vote accuracy for soft FGW, LROT γ=.1, tested PASTE2 KL and Euclidean at α=.1. Labels give mean ± sample SD. The reference is 1/6 and the accuracy axis starts at zero. Across these 20 seeds, LROT had numerically higher accuracy than the two tested PASTE2 configurations. This is configuration-specific descriptive evidence and does not establish a general ranking. These are technical simulation repetitions conditional on the generator and protocols, not independent biological samples.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_paste2_multiseed.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S9",
+      "paper_figure": "S9",
+      "reference_sha256": "dfb549771489bf9223595fc24a10c1d6b638d82842e68e6644ea7997941b5151",
+      "reference_size": [
+        4091,
+        1799
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S9. Revalidated full-scale versus 1,000-spot alignment for Br8325 151507–151508. (A) Row entropy. (B) Same-layer mass. (C) Accepted outer iterations, replacing a comparison of differently timed archived runs. Full scale uses 4,221×4,381 labelled spots and gives 14.4% entropy reduction at γ=.1, with mass .3882→.3885 and soft ARI .431→.410. Similar mass does not establish unchanged accuracy. Single audit-time and memory observations are separately recorded; they are not external-method speed benchmarks.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "recorded_legacy_asset_path": "lrot_output/figures_png/lrot_dlpfc_full_vs_sampled.png",
+      "legacy_asset_storage_status": "Duplicate checkout copy archived; original reference hash and historical status retained.",
+      "retained_duplicate_asset": {
+        "path": "figures/supplement/templates_selected/S9.png",
+        "sha256": "a22da7eec3fb0674a435132ef9d1598364ab518c4cba6a6206695ea093b37a7d"
+      }
+    },
+    {
+      "id": "S10",
+      "paper_figure": "S10",
+      "reference_sha256": "3fb8601ca27543c646e39307f1122cd1a155e3cb5d6d88b8a3769f70b2a20168",
+      "reference_size": [
+        3892,
+        1779
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S10. Revalidated label-free proxy analysis, with the same two-panel structure. (A) Breast-cancer maximum-row-weight deciles versus transcriptomic agreement; FGW ρ=.075 and LROT ρ=−.029 (3,000 source spots). (B) DLPFC sharpness deciles versus layer correctness; associations remain near zero (1,000 spots). Correlations and decile means are descriptive under spatial dependence. Neither maximum row weight nor transcriptomic agreement is calibrated correctness, and breast cancer lacks correspondence ground truth.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_cancer_calibration_truecoord.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S11",
+      "paper_figure": "S11",
+      "reference_sha256": "a9501fe01b82b27c874431b8e3da2c582d1b712136b2aa6da1b166b718d3a275",
+      "reference_size": [
+        3939,
+        2972
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S11. Revalidated batch and coordinate-rotation scans, retaining the original three-upper/two-lower panel organization and method colours. Curves give five-seed means with sample SD. Batch models use σ=.1–.5 in the displayed standard scan; all extra stress controls are retained in the numerical record. Distortion comparisons use six rotations from 2° to 25°. Similar means in this range do not establish equivalence, and the stronger failure-domain scan is shown separately in Figure S15.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_supp_S11_robustness_merged.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S12",
+      "paper_figure": "S12",
+      "reference_sha256": "47fb4b3d8756d3859d8055435a725be0443b1a489d3068ed046294f6bab04511",
+      "reference_size": [
+        3928,
+        1801
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S12. Recorded package stopping histories on realistic seed 42. (A) package-reported CG loss histories from the tested installed PASTE (paste_math) implementation at α=.1/.5; extending the cap from 200 to 1,000 leaves the stopped results unchanged. (B) Recorded soft-FGW/LROT weighted-cost diagnostics. B omits the entropy term and is not a common objective with A. Marginal feasibility and actual stopping status are checked separately. Plateaus do not establish global optimality, correct matching or the reason for configuration-specific accuracy.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/official_paste_convergence.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Different stopping diagnostic definitions; no optimality inference."
+    },
+    {
+      "id": "S13",
+      "paper_figure": "S13",
+      "reference_sha256": "74978c3886a148d448bfece863617ea56285f2d210a3fddfe92d26b3fbabd260",
+      "reference_size": [
+        3919,
+        1442
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S13. Within- and cross-layer transport in two adjacent Br8325 section pairs (151507→151508; 151508→151509; 1,000 spots per section; A/B seeds 42/99 per pair). (A) Equal-weight mean of the two pair-specific same-layer conditional proportions. Each proportion divides same-layer mass by all mass emitted from that source layer. (B) Same-/cross-layer mass ratio for each pair; the arithmetic means of the two ratios are FGW 0.569 and LROT 0.565, not ratios of pooled masses. The pairs share section 151508 and are descriptive observations from one donor, not independent donor replicates. Lower within-layer entropy indicates concentration, not correctness or calibration.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_dlpfc_layer_ratio.png",
+      "byte_identical_saved_assets": [
+        "figures/supplement/assets/S13.png"
+      ],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S14",
+      "paper_figure": "S14",
+      "reference_sha256": "8910590e573a7e9807947172a53b7743b861589254b7b0a12a16796a00791bbb",
+      "reference_size": [
+        3889,
+        3050
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S14. Matched-mask breast-cancer sensitivity, retaining two vertically stacked panels. All arms use the same 115-symbol expression exclusion. (A) Full, ERBB2/HER2-removal and ERBB2/HER2-only entropy reductions relative to matched FGW. (B) Change in reduction after each of 12 family removals, in percentage points relative to full LR. The ±.1 pp band is descriptive, not a significance threshold. Removing ERBB2/HER2 or adhesion raises reduction by .480/.230 pp. Symbol membership and resource weights are not measured communication or causal pathway effects.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_supp_S14_breast_ABC.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S15",
+      "paper_figure": "S15",
+      "reference_sha256": "763c691d08d62e3dc11379294768f1de1b277a76a2efd95a33383ef2f0bfc3d8",
+      "reference_size": [
+        4110,
+        3365
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S15. Revalidated cost diagnosis and failure domain, preserving the two-by-two composition. (A) Normalized weighted cost shares at the final plan. (B) Mean absolute matrix changes relative to unperturbed inputs. These are surrogates, omit entropy and do not certify a global optimum. (C–D) Region-vote accuracy and row entropy across stronger log1p-additive stress σ=0–1.5, using four α values and the FGW α=.5 reference. Means and sample SD use five technical seeds. Accuracy deteriorates under strong stress; mild-perturbation stability cannot be generalized to arbitrary batch effects.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_supp_S15_boundary_merged.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S16",
+      "paper_figure": "S16",
+      "reference_sha256": "5bd665cf86e5ae1d9fac09cf54d551c36c6c8bca87f5804390fcb494a6cfbd3c",
+      "reference_size": [
+        3950,
+        1494
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S16. Revalidated expression-feature-mask control. The original four-arm, two-panel display compares FGW/LROT when LR genes are excluded or all genes are used. Bars are five-seed means; error bars are sample SD. (A) Region-vote accuracy with a zero-based axis. (B) Row entropy in nats. Limited differences in these conditions do not establish accuracy equivalence, statistical independence of cost channels or robustness to every feature-selection protocol.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "recorded_legacy_asset_path": "lrot_output/figures_png/lrot_lr_gene_fairness.png",
+      "legacy_asset_storage_status": "Duplicate checkout copy archived; original reference hash and historical status retained.",
+      "retained_duplicate_asset": {
+        "path": "figures/supplement/assets/S16.png",
+        "sha256": "a892bc832f517b132fcc161535236f4463c0b0087a85d6753508e357011f65e3"
+      }
+    },
+    {
+      "id": "S17",
+      "paper_figure": "S17",
+      "reference_sha256": "18fe1608d2f47e3dd4dc31d3adae0f089062dd1f53653b47f7923711982d2cbd",
+      "reference_size": [
+        3997,
+        2745
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S17. Revalidated matched FGW/LROT parameter and regularization controls, preserving six panels. (A–B) Default and best observed labelled-grid accuracy for historical/realistic inputs; best is exploratory, not an independently validated setting. (C) Entropy at regularization multipliers .5/1/2. (D–F) Spatial-LR-program present/absent controls at three guidance settings and three technical seeds; error bars are sample SD. These technical controls do not increase biological replication. Concentration can persist when the simulated accuracy advantage disappears.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_supp_S17_boundary_checks.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S18",
+      "paper_figure": "S18",
+      "reference_sha256": "654e7f2397be8924a7582c3c4fb715a6380a070214fbad67f9b53a155f72b03e",
+      "reference_size": [
+        3971,
+        2866
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S18. Revalidated main-alignment γ scans in four adjacent pairs from two donors. D1-P1/P2 denote 151507–151508/151508–151509; D2-P1/P2 denote 151669–151670/151670–151671. Each main-alignment pair uses 42/99, distinct from second-pair score-validation sampling. (A–D) Row entropy, soft ARI and same-layer mass. (E–F) Signed differences use FGW−LROT. At γ=.1, same-layer changes span −.002844 to +.005353; ARI changes have mixed signs. Four pairs are not four independent donors, and the scan does not validate a universally favourable γ.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_supp_S18_donor_replication.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S19",
+      "paper_figure": "S19",
+      "reference_sha256": "8fbdd30eba5e81d344859c20edb5ff82184971a564f65687a14db9e6a6b0fac6",
+      "reference_size": [
+        3576,
+        1953
+      ],
+      "reference_dpi": [
+        300,
+        300
+      ],
+      "caption": "Figure S19. Full-scale DLPFC tissue display. (A) Retained before-alignment panel. (B) Post-hoc reconstruction from the current saved LROT plan (γ=0.1; 4,221 source spots and 4,381 target spots), with ordered coordinates and layer-label hashes matched to its solver-input record. Target section 151508 is mapped into the 151507 coordinate frame using column-normalized OT barycentres; grey points show the reference tissue. Target layer colours are annotations, not inferred labels. The original panel layout and palette are retained. This reconstruction establishes the provenance of the current display, not the historical binding of the old image. Barycentric compression may occur, and this descriptive display does not establish exact spot correspondence or biological accuracy; quantitative checks are reported separately in Figure S9. No new alignment was solved.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_dlpfc_fullscale_tissue.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Supplementary figures are delegated to the dated manifest; S19 is now a post-hoc current saved-plan reconstruction.",
+      "interpretation": "Post-hoc current display only; legacy_asset remains archival, not current source."
+    },
+    {
+      "id": "S20",
+      "paper_figure": "S20",
+      "reference_sha256": "ab6fe0e21c631f8df89e85d53251f60dd49b018e1165a22f85f0a3c94cf6bc14",
+      "reference_size": [
+        3973,
+        2925
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S20. Revalidated realistic seed-42 illustration, retaining six panels and region colours. (A–B) Source/target positions before and after LROT. (C) A 50×50 plan excerpt. (D) Top 30 source spots by mean LR compatibility. (E) Row-entropy distributions for FGW/LROT. (F) The same source spots shown at raw and mapped display states, not two independently measured serial sections or a separate reconstruction experiment. Both saved plans pass numerical acceptance; compatibility, hotspots and low entropy do not establish biological communication or calibration.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_real_panel.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S21",
+      "paper_figure": "S21",
+      "reference_sha256": "a4d2bb24bf0cc58ccd567d160edaf3f7e384ea8f1243c14c33d5daa25b86a981",
+      "reference_size": [
+        3933,
+        2654
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S21. Revalidated realistic seed-42 γ ablation (α=.5, β=.3). The original four-panel organization reports (A) region-vote accuracy, (B) expression transport cost, (C) row entropy and (D) accepted outer iterations. The former audit-time panel is replaced by stopping effort; separate serial timings are in Figure S6. At γ=1, accuracy is .672 rather than the archived .747. Lower entropy at high guidance is not an accuracy gain; no guidance weight was changed to rescue a failed numerical comparison.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "legacy_asset": "lrot_output/figures_png/lrot_real_ablation.png",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction."
+    },
+    {
+      "id": "S22",
+      "paper_figure": "S22",
+      "reference_sha256": "f879c00e86a8837b3044d90104c9d41747da300e2ade67bca52f6e27a5f01f20",
+      "reference_size": [
+        4107,
+        2989
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S22. Three-section DLPFC reconstruction, regenerated from four accepted plans with the original six panels and seven-layer palette. Section sampling is 42/99/99, preserving the shared 151508 subset across adjacent pairs. (A–B) Unaligned and LROT barycentric stacks. (C) Row entropy by pair. (D–F) Layer-centre distance matrices for unaligned/LROT/FGW stacks, with a common colour scale in pixels. Barycentric geometry is a layer-level summary; small centre distances do not establish point accuracy, anatomical volume recovery or an advantage over FGW.",
+      "render_status": "superseded_supplement_entry",
+      "inputs": [],
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Use figures/supplement/figure_manifest.json and figures/render_supplement.py; pending panels cannot be rendered as accepted whole figures.",
+      "interpretation": "Saved-result figure rendering; no new experiment or independent end-to-end reproduction.",
+      "recorded_legacy_asset_path": "lrot_output/figures_png/lrot_dlpfc_3d.png",
+      "legacy_asset_storage_status": "Duplicate checkout copy archived; original reference hash and historical status retained.",
+      "retained_duplicate_asset": {
+        "path": "figures/supplement/assets/S22.png",
+        "sha256": "680f335cae7bf6d360716736c7e1f9e9a70ef5b5ff28b8544bf18ca100346fd3"
+      }
+    },
+    {
+      "id": "S23",
+      "paper_figure": "S23",
+      "reference_sha256": "207691d8d7796b6073abdb90d52b45b7993ac35db89938d0e25056d0fd22581b",
+      "reference_size": [
+        3094,
+        1548
+      ],
+      "reference_dpi": [
+        350.012,
+        350.012
+      ],
+      "caption": "Figure S23. Primary controlled benchmark, rerendered from all 30 fixed-seed A/B pairs (1000–1029/2000–2029), excluding historical 42/123. Points are paired LROT−soft-FGW accuracy differences. The line is their mean (+.140); shading is the 95% paired t interval (+.056 to +.224); 24 pairs are positive and six negative. All 60 plans pass numerical acceptance. Technical simulation repetitions do not establish biological communication, calibration or prospective registration.",
+      "render_status": "superseded_supplement_entry",
+      "generator": "figures/render_current.py",
+      "byte_identical_saved_assets": [],
+      "blocked_reason": "Historical supplementary entry; use figures/supplement/figure_manifest.json and render_supplement.py. Historical inputs are not current runtime pins.",
+      "interpretation": "Frozen controlled simulation; technical repetitions, no biological or prospective registration claim.",
+      "historical_inputs": [
+        {
+          "recorded_repository_path": "figures/current_release/inputs/S23.json",
+          "recorded_sha256": "4e473d01413b402a722f503b1c5a2d34827145bf9c0000e5738dbc29f8e600e8"
+        },
+        {
+          "recorded_repository_path": "lrot_output/S23_support/Supplementary_File_S2_synthetic_seed_pairs.csv",
+          "recorded_sha256": "f080d5c99e52a76c72c2f9c632726d9a929e68b7ac1d09f4d4e60b93e85c61c0"
+        },
+        {
+          "recorded_repository_path": "lrot_output/S23_support/synthetic_seed_results.jsonl",
+          "recorded_sha256": "3ec298ab5ffecf7649cb33a6c2ebe141b4ab83d6935a98f728fe635725d6cf7e"
+        },
+        {
+          "recorded_repository_path": "lrot_output/S23_support/synthetic_seed_summary.json",
+          "recorded_sha256": "c547d833df5ebaad0dc759a12c7b974b9f515b369931afcd05814030b66ecd37"
+        }
+      ],
+      "current_attachment_binding": {
+        "path": "lrot_output/S23_support/Supplementary_File_S2_synthetic_seed_pairs.csv",
+        "sha256": "f3375d3e4817316bb623ace6b47ccdc3d7a20eb82ad04e1fcaa2e3b4ad272183",
+        "selection": "Current locked attachment; all 30 rows match saved_inputs/F3.json. Earlier S23 inputs remain historical, with their original scalar values and identities."
+      },
+      "recorded_legacy_asset_path": "lrot_output/figures_png/lrot_supp_S23_seed_robustness.png",
+      "legacy_asset_storage_status": "Duplicate checkout copy archived; original reference hash and historical status retained.",
+      "retained_duplicate_asset": {
+        "path": "figures/supplement/templates/S23.png",
+        "sha256": "18e8c57f63bff8646d66a0e556393334fd62249375dc74f7bc823acc3b8c730e"
+      }
+    }
+  ],
+  "active_supplement_manifest": "figures/supplement/figure_manifest.json",
+  "local_document_sync_overlay": {
+    "created": "2026-10-11",
+    "scope": "selected local paper project only",
+    "main_docx_file": "../论文最终.docx",
+    "main_docx_sha256": "954eefee10d381efefd962ed683d8e3641cc05d3a3fa6251ffb6ccfb9f1b6303",
+    "supplement_docx_file": "../补充材料最终.docx",
+    "supplement_docx_sha256": "251e48004eba8d42a4d5a822fbe6ed4287f53b5faca661ed2e3cdc11a5339af5",
+    "embedded_main_figures": 8,
+    "figure_rows_are_docx_ordered": true,
+    "note": "Current selected DOCX identities; historical figure references remain historical.",
+    "historical_baseline_note": "Overlay SHA identifies the earlier pre-F2 DOCX; current F1–F8 binding is recorded per figure against the final DOCX."
+  },
+  "output_image_deduplication": {
+    "scope": "Remove redundant checkout copies only; no scientific result or selected asset change",
+    "archived_duplicates": [
+      {
+        "recorded_repository_path": "lrot_output/figures_png/lrot_ablation.png",
+        "retained_identical_file": "figures/supplement/assets/S1.png",
+        "sha256": "6d3da912d2eab8dea65d5c435072ca47c5b5aadc9214dc1f13d1b052921b6102",
+        "size_bytes": 96054,
+        "reason": "Byte-identical copy; not in release allowlist; no current runtime input dependency found."
+      },
+      {
+        "recorded_repository_path": "lrot_output/figures_png/lrot_dlpfc_3d.png",
+        "retained_identical_file": "figures/supplement/assets/S22.png",
+        "sha256": "680f335cae7bf6d360716736c7e1f9e9a70ef5b5ff28b8544bf18ca100346fd3",
+        "size_bytes": 1105114,
+        "reason": "Byte-identical copy; not in release allowlist; no current runtime input dependency found."
+      },
+      {
+        "recorded_repository_path": "lrot_output/figures_png/lrot_dlpfc_full_vs_sampled.png",
+        "retained_identical_file": "figures/supplement/templates_selected/S9.png",
+        "sha256": "a22da7eec3fb0674a435132ef9d1598364ab518c4cba6a6206695ea093b37a7d",
+        "size_bytes": 161930,
+        "reason": "Byte-identical copy; not in release allowlist; no current runtime input dependency found."
+      },
+      {
+        "recorded_repository_path": "lrot_output/figures_png/lrot_go_enrichment.png",
+        "retained_identical_file": "figures/supplement/templates/S3.png",
+        "sha256": "c399c165cd1b0e487b02ead833e1a86d020fdcd02dce5bbce45f2a1b65c1c964",
+        "size_bytes": 403461,
+        "reason": "Byte-identical copy; not in release allowlist; no current runtime input dependency found."
+      },
+      {
+        "recorded_repository_path": "lrot_output/figures_png/lrot_lr_gene_fairness.png",
+        "retained_identical_file": "figures/supplement/assets/S16.png",
+        "sha256": "a892bc832f517b132fcc161535236f4463c0b0087a85d6753508e357011f65e3",
+        "size_bytes": 172250,
+        "reason": "Byte-identical copy; not in release allowlist; no current runtime input dependency found."
+      },
+      {
+        "recorded_repository_path": "lrot_output/figures_png/lrot_scaling.png",
+        "retained_identical_file": "figures/supplement/templates_selected/S7.png",
+        "sha256": "5039c731d9bf9b0eb68a1d0cd820f27cbdb08bdf82edc0f99bd1a8fdf4fd1f84",
+        "size_bytes": 258942,
+        "reason": "Byte-identical copy; not in release allowlist; no current runtime input dependency found."
+      },
+      {
+        "recorded_repository_path": "lrot_output/figures_png/lrot_supp_S23_seed_robustness.png",
+        "retained_identical_file": "figures/supplement/templates/S23.png",
+        "sha256": "18e8c57f63bff8646d66a0e556393334fd62249375dc74f7bc823acc3b8c730e",
+        "size_bytes": 100103,
+        "reason": "Byte-identical copy; not in release allowlist; no current runtime input dependency found."
+      },
+      {
+        "recorded_repository_path": "lrot_output/S23_support/supplementary_paired_difference.png",
+        "retained_identical_file": "figures/supplement/templates/S23.png",
+        "sha256": "18e8c57f63bff8646d66a0e556393334fd62249375dc74f7bc823acc3b8c730e",
+        "size_bytes": 100103,
+        "reason": "Byte-identical copy; not in release allowlist; no current runtime input dependency found."
+      }
+    ],
+    "retained_compatibility_copies": [
+      "lrot_output/figures_png/lrot_supp_S11_robustness_merged.png",
+      "lrot_output/figures_png/lrot_supp_S14_breast_ABC.png",
+      "lrot_output/figures_png/lrot_supp_S15_boundary_merged.png"
+    ],
+    "archive_location_role": "External project-local cleanup archive; not part of release package"
+  },
+  "output_image_cleanup": {
+    "archived_images": 20,
+    "archive_location": "Private paper-project outputs outside code package",
+    "active_output_images_retained": 24,
+    "raw_data_or_numeric_results_changed": false,
+    "legacy_composites_require_external_output_directory": true
+  },
+  "supplement_alignment_revision": {
+    "selected_main_docx": "../论文最终修改公式版本_实验同步版.docx",
+    "main_sha256": "54c5557d74db009641d910c083a30cf6d49dc902f51e45b903a14c4590971aa6",
+    "supplement_sha256": "9fba7267657fb5113afd815576bc2c460da78381c76ff5d91a649bb46c83cacd",
+    "supplement_manifest_sha256": "3d6ef69a372201cd5c137a2911182a9cb1128a2e6f29daf928a82d427176a45a",
+    "scope": "Prose/precision and supplementary annotations; main images unchanged",
+    "full_end_to_end_certified": false
+  },
+  "latest_document_sync": {
+    "document_sha256": {
+      "main": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+      "supplement": "e5ffa2849d1d028a580f74667efafa3ce2965979d3d5f746c7f87ca874a4c62e"
+    },
+    "pdf_sha256": {
+      "main": "ee7a3888df0b61ad08f3a9bc0df95555f465abd0428d9c44c68dc5f6a9203176",
+      "supplement": "0c8a7a9a4c50db839c00aee70abd0406e1d7b1a02d8a65434ff41fd29c38d4c0"
+    },
+    "selected_image_matches": 31,
+    "pdf_sync_pending": false,
+    "scope": "Current final-document identity; input arrays, result values and images unchanged.",
+    "evidence": "provenance/release_alignment.json"
+  },
+  "latest_label_revision": {
+    "scope": "F1 LR-prior label; F4 same-layer-mass title",
+    "document_sha256": {
+      "main": "c5a276cce01fb99c78f846edc955fbf52c000eeb3c3a608395a99715612d1117",
+      "supplement": "04b1ec706092d2d8be7b048df7c3fc1480f19e93f307fe52d007d3a7c42d9933"
+    },
+    "experiments_executed": false,
+    "formulas_changed": false,
+    "pdf_sync_pending": true
+  },
+  "historical_document_sync": [
+    {
+      "main_docx_sha256": "d0fb8091e243609582360f47ec9aac379f4b9736c94b0889d66d1bdb6dd8ba5d",
+      "supplement_docx_sha256": "4a5b7a52b17ee59b7756b35373f4afd4040de24b0b74c455229cdce372aa9691",
+      "scope": "31 selected image identities; full-repository end-to-end reproduction not claimed"
+    }
+  ],
+  "image_asset_cleanup_20261015": {
+    "png_count": 34,
+    "selected_whole_figure_count": 31,
+    "required_composition_panel_count": 3,
+    "superseded_pngs_archived": 47,
+    "numerical_records_changed": false,
+    "scope": "Current approved rasters reused as protected-pixel canvases; optional panel exports now crop current assets. Historical PNG identities remain historical, not current dependencies."
+  },
+  "current_layout_revision": {
+    "date": "2026-10-15",
+    "main_assets": "figures/current_release/assets/F1.png through F8.png",
+    "current_inputs": "figures/current_release/inputs",
+    "composition_panels": "figures/current_release/components/F8_A.png through F8_C.png",
+    "relocations": "provenance/path_relocations.json",
+    "historical_records": "Original run paths and source identities retained, not silently rebound to revised source bytes."
+  }
+}

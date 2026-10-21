@@ -1,0 +1,87 @@
+{
+  "status": "prospective_fixed_input_rerun_not_original_saved_run",
+  "source_script": "figures/gen_figure8_dlpfc_score_ranking.py",
+  "source_script_sha256": "f547d898548fedc13d7fd49e814733cf05e321a562f25446d21d16eb865a1b89",
+  "input_file_sha256": {
+    "151507_filtered_feature_bc_matrix.h5": "686521ab02a68dfdd810c3cde26daea2257d016c8047859877ffb8c7ac5bdd01",
+    "151508_filtered_feature_bc_matrix.h5": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+    "151509_filtered_feature_bc_matrix.h5": "35a4850aebdfdccb9fdf2f79cebeebc037684a79c03adb4bcdffa7c7c68486fc",
+    "151507_tissue_positions_list.txt": "5c5be4dcd51c914bad02634f1ed2d96bd0c200ae487e236f644d94ded983efd0",
+    "151508_tissue_positions_list.txt": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+    "151509_tissue_positions_list.txt": "badca077b07d5268bb222e7bfdd0b31d179fa97f51870e28f562ef4f961e8d6a",
+    "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+  },
+  "parameters": {
+    "SECTION_SEEDS": {
+      "151507": 42,
+      "151508": 99,
+      "151509": 99
+    },
+    "SECTION_PAIRS": [
+      [
+        "151507",
+        "151508"
+      ],
+      [
+        "151508",
+        "151509"
+      ]
+    ],
+    "LAYER_ORDER": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "WM"
+    ],
+    "N_SPOTS": 1000,
+    "ROTATION_DEG": 2.0,
+    "TRANSLATION": 0.5,
+    "ALPHA": 0.5,
+    "BETA": 0.3,
+    "GAMMA_LROT": 0.1,
+    "MAX_ITER": 200
+  },
+  "ordered_section_identities": {
+    "151507": {
+      "seed": 42,
+      "eligible_count": 4221,
+      "barcode_sha256": "dfcde1eb99df202ba89a8188359a3b7f5a159b247818fcf0f548aff7fb80aff5",
+      "index_sha256": "453d823b1beb82280611a76818f76d4616b369eee2d4e4af5d954dd926b812b8",
+      "coords_sha256": "5d323fad530bbb949d738f48a79d781372b9c18b7a30edfbc306ac89c131744b",
+      "labels_sha256": "8428d20f7a1d8c0b81ab878dca4a5bd0261c4f26152881f47e0be7cd7e3d7987",
+      "gene_names_sha256": "0cbd85a66c61929d0e59da26e5a47f7c29ea293dc24430c0189eb326a2720794",
+      "expression_sha256": "906ae0cd85ac4ba927b8dc472e8ebe848a3f46cf236e4d3f11b3cf482159e20c"
+    },
+    "151508": {
+      "seed": 99,
+      "eligible_count": 4381,
+      "barcode_sha256": "9ac07c54ea07c2288d9345008c302cc651e72cfa2de786b46cfe801aae40faa5",
+      "index_sha256": "ec4f5059816bc89e3a1ae4587d80c6805bc7d7fca3768044239d93cfa84190bf",
+      "coords_sha256": "05ba577891864a8733f9a76b1f421d9a7dc261fab784e74a8506f44c6f34f77a",
+      "labels_sha256": "30653386f8e21c24f6ef4eef7397956bd886f565a7379238b472b0bf0584679c",
+      "gene_names_sha256": "0cbd85a66c61929d0e59da26e5a47f7c29ea293dc24430c0189eb326a2720794",
+      "expression_sha256": "42ad39050dba4382c92df4ab93fd25c6c9c6f2f6bea1eb1d87439b24166b1958"
+    },
+    "151509": {
+      "seed": 99,
+      "eligible_count": 4788,
+      "barcode_sha256": "88e09448c38180c5f161d21322cfc88d38159477780007a7c7ab8216191bc2bb",
+      "index_sha256": "b43bb15dddbed7c29f7332ed849f64ea617d843afd41a18e95eddf8bf129e481",
+      "coords_sha256": "3429c65a02a7fc9afe130775bca79f997d0a864c308989323df01538897d78d9",
+      "labels_sha256": "92504373f5c07f14f0f6664f1e552db4c65290cd38522c2e4fbacdb3b0cc6448",
+      "gene_names_sha256": "0cbd85a66c61929d0e59da26e5a47f7c29ea293dc24430c0189eb326a2720794",
+      "expression_sha256": "76aec6db6d43eda1785281de534db7e06296d4afce9daedccb42ed810dd7985c"
+    }
+  },
+  "plot_input_sha256": "49b867d153cfe265476753cae3e9b0909b168fcd52e6816d3338972bdb4f1613",
+  "historical_summary_sha256": "650c7bbd8ff0d7da15b17d6a903f397c2d2c3d0024aeb573422632d37c8483ee",
+  "prospective_summary_sha256": "650c7bbd8ff0d7da15b17d6a903f397c2d2c3d0024aeb573422632d37c8483ee",
+  "prospective_image_sha256": "ed7c2061ea18480ed7a88a95bd5f25fe5affa00641b9e5a761b4bab1604594ce",
+  "approved_image_sha256": "c3b7575dec96781078b93ae8a3d4cff658597c350fbdb124f119d78ec5054feb",
+  "summary_byte_identical": true,
+  "image_byte_identical": false,
+  "scope": "Current code/raw-input numerical rerun plus saved-array redraw; no claim that historical per-spot arrays were archived."
+}

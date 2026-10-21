@@ -1,0 +1,514 @@
+{
+  "accuracy": [
+    0.685,
+    0.711,
+    0.712,
+    0.709,
+    0.673,
+    0.93
+  ],
+  "entropy": [
+    1.7766534274905983,
+    4.035129516620103,
+    3.927911145016715,
+    3.8219500719930366
+  ],
+  "paired_differences": [
+    0.119,
+    -0.006000000000000005,
+    0.304,
+    0.05299999999999999,
+    0.01100000000000001,
+    -0.19100000000000003,
+    0.044999999999999984,
+    0.432,
+    0.456,
+    0.337,
+    0.01200000000000001,
+    0.509,
+    0.028000000000000025,
+    0.05399999999999999,
+    0.0050000000000000044,
+    0.06,
+    0.487,
+    0.527,
+    0.498,
+    0.134,
+    0.0050000000000000044,
+    -0.14599999999999996,
+    0.010999999999999982,
+    0.533,
+    -0.15299999999999997,
+    -0.12200000000000003,
+    0.057999999999999996,
+    -0.0020000000000000018,
+    0.081,
+    0.066
+  ],
+  "summary": {
+    "mean_difference": 0.1401666666666667,
+    "sd_difference_ddof1": 0.22532078027334387,
+    "ci95_t": [
+      0.05603050457347665,
+      0.22430282875985671
+    ],
+    "positive": 24
+  },
+  "pairs": [
+    {
+      "seed_A": 1000,
+      "seed_B": 2000,
+      "LROT": 0.159,
+      "FGW": 0.04,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1000_2000_LROT.json",
+        "sha256": "dd4e22c7ee088f67f0ff260fd1807bc901fd4e3a974a06a71253b37971ba9c89"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1000_2000_FGW.json",
+        "sha256": "1ec53fe6b3e079bb46f170130369d83825fc70f2f2f22645228a587270649362"
+      }
+    },
+    {
+      "seed_A": 1001,
+      "seed_B": 2001,
+      "LROT": 0.649,
+      "FGW": 0.655,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1001_2001_LROT.json",
+        "sha256": "5e9702c4823c1af3a63be6006b4d0d9ae0bc01153a683136ee1a229077f93b75"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1001_2001_FGW.json",
+        "sha256": "f2dc4894c9463c649ed6227e75992ca9bd181442d66f006434324ee01fc13e06"
+      }
+    },
+    {
+      "seed_A": 1002,
+      "seed_B": 2002,
+      "LROT": 0.619,
+      "FGW": 0.315,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1002_2002_LROT.json",
+        "sha256": "13f6aa411be5d80915dffbb6cd7f3d4c56a7bea3f6905f89be74a34c9756fc04"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1002_2002_FGW.json",
+        "sha256": "8463dea0983d992b707a500b32103bd46c4694f52e7c7d3ed4aecdc6a03a9a6c"
+      }
+    },
+    {
+      "seed_A": 1003,
+      "seed_B": 2003,
+      "LROT": 0.177,
+      "FGW": 0.124,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1003_2003_LROT.json",
+        "sha256": "992c1a84a84ac524e89d456db133dedd164dad4d0c1d8ca3edefd2da78ac4d28"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1003_2003_FGW.json",
+        "sha256": "9d54c504656eee390e0cd45df38f36e776583794bf63399530e31f27c238f5da"
+      }
+    },
+    {
+      "seed_A": 1004,
+      "seed_B": 2004,
+      "LROT": 0.656,
+      "FGW": 0.645,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1004_2004_LROT.json",
+        "sha256": "626fd62e1516bac6880c2cd787fd1e9773a276a05ee9375720fb529efcc58923"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1004_2004_FGW.json",
+        "sha256": "bd724adde69e50831291b5dcafb0914bcea63211accbc05613e4f06b36622c1c"
+      }
+    },
+    {
+      "seed_A": 1005,
+      "seed_B": 2005,
+      "LROT": 0.149,
+      "FGW": 0.34,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1005_2005_LROT.json",
+        "sha256": "0a3da116d04b0bb98ae38a1e45d939ed9536a7d49bb347e6802c6e3017d8cb09"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1005_2005_FGW.json",
+        "sha256": "246ca92afc9c190a69f7d2d1ffa3ff0e79c3f9afd9475efa19194ad940221e2b"
+      }
+    },
+    {
+      "seed_A": 1006,
+      "seed_B": 2006,
+      "LROT": 0.178,
+      "FGW": 0.133,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1006_2006_LROT.json",
+        "sha256": "f3cd7497073081fae348f985ca61b1df08765e33ef803e6ac8ad47733d9fec11"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1006_2006_FGW.json",
+        "sha256": "87c4242dea111a452b5fb6a100a9216c5c9d90bc48ee26709a80166ff7dbf533"
+      }
+    },
+    {
+      "seed_A": 1007,
+      "seed_B": 2007,
+      "LROT": 0.634,
+      "FGW": 0.202,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1007_2007_LROT.json",
+        "sha256": "7b3c9b4079243d88bf882f1a1114e2e63b03925981b699a6a9140062d1bec35f"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1007_2007_FGW.json",
+        "sha256": "ae3bbf58fa5081dc66b8eeca5dd1e049b77d830fc2edcb8a223b815e4983632a"
+      }
+    },
+    {
+      "seed_A": 1008,
+      "seed_B": 2008,
+      "LROT": 0.653,
+      "FGW": 0.197,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1008_2008_LROT.json",
+        "sha256": "eedb8cd1b6064f728b8649dae94f01e3df7ced5b5ee75eb95d50b5f62f4d862a"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1008_2008_FGW.json",
+        "sha256": "3853fe8c5b78fda4c0dcfb9611cf710b95dc6c29ae649a15426c13986ae000b5"
+      }
+    },
+    {
+      "seed_A": 1009,
+      "seed_B": 2009,
+      "LROT": 0.662,
+      "FGW": 0.325,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1009_2009_LROT.json",
+        "sha256": "8aee692de9bddf81eaa56cb0a20c5453d3e74256529566bea9cc0f590796921d"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1009_2009_FGW.json",
+        "sha256": "6b74186f14f8fa9d891a7d3c1704504443e4d6eae40e14129a864a1fe01e8926"
+      }
+    },
+    {
+      "seed_A": 1010,
+      "seed_B": 2010,
+      "LROT": 0.394,
+      "FGW": 0.382,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1010_2010_LROT.json",
+        "sha256": "af74c1b18790a0e2a00bd374d8e48a947cba7a6a723377ffd8b594aa6b605aca"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1010_2010_FGW.json",
+        "sha256": "51afd75cb698a60ae1c265e09ca078a171a355a9cf1fd5fe830ae1f35d400b7c"
+      }
+    },
+    {
+      "seed_A": 1011,
+      "seed_B": 2011,
+      "LROT": 0.652,
+      "FGW": 0.143,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1011_2011_LROT.json",
+        "sha256": "29bed5c376f413aa4d810967db133fc8915620ecd189fadf131881bf8f9c6da8"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1011_2011_FGW.json",
+        "sha256": "d981a8dc5d4d46250f4bf73ed5d731eff7517d70fb3e70cd7b9528bbb0f40e57"
+      }
+    },
+    {
+      "seed_A": 1012,
+      "seed_B": 2012,
+      "LROT": 0.202,
+      "FGW": 0.174,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1012_2012_LROT.json",
+        "sha256": "e74c7e968bc7dcade3229f291000562a2dce5d0ea1cb67b9a35d28a5167ea91e"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1012_2012_FGW.json",
+        "sha256": "ad0d4afe1539aea739dc57af7d289500f3c059fcd9bb64e9d55b06a144dc1284"
+      }
+    },
+    {
+      "seed_A": 1013,
+      "seed_B": 2013,
+      "LROT": 0.235,
+      "FGW": 0.181,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1013_2013_LROT.json",
+        "sha256": "cd2036a9e94fdcfd42184e46c418e7ed6b361d73b6efca7aba9444cddb12d0b0"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1013_2013_FGW.json",
+        "sha256": "f6a415d34d8960b2f5024b0bc7be7ec7877112723ad99349a4b503076340dbbb"
+      }
+    },
+    {
+      "seed_A": 1014,
+      "seed_B": 2014,
+      "LROT": 0.665,
+      "FGW": 0.66,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1014_2014_LROT.json",
+        "sha256": "6e039d421b6d48da9ac0cad54b4eda31e1129915878e54f9070d261747a0a451"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1014_2014_FGW.json",
+        "sha256": "9d916e0f10ec8e70d86a87fca3cec25075c800d3db6bca101698a96555e70215"
+      }
+    },
+    {
+      "seed_A": 1015,
+      "seed_B": 2015,
+      "LROT": 0.204,
+      "FGW": 0.144,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1015_2015_LROT.json",
+        "sha256": "01e6916d859cbcfa161621a690c9d0041fa991eda477cd6c741d70b336b50097"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1015_2015_FGW.json",
+        "sha256": "a517aa3336c8a8a46feedbbe729c23192f1610dcc597988917bbc3e4e72967f0"
+      }
+    },
+    {
+      "seed_A": 1016,
+      "seed_B": 2016,
+      "LROT": 0.642,
+      "FGW": 0.155,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1016_2016_LROT.json",
+        "sha256": "e8abaebd47438d905cd388323ee36fe0882885b79e9002cd5661856566e6bc7b"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1016_2016_FGW.json",
+        "sha256": "0be6f8d94c0925336b8f0357f2a07ee07b3d198ddbf858efdfd75c8180144f2d"
+      }
+    },
+    {
+      "seed_A": 1017,
+      "seed_B": 2017,
+      "LROT": 0.66,
+      "FGW": 0.133,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1017_2017_LROT.json",
+        "sha256": "26cecf373b376676022488c7c1ab6753c281847aeab1d3f0fe859a2662a33567"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1017_2017_FGW.json",
+        "sha256": "1be4df9b40bb4b4bc0ffd39009138e1486b4fa24a725b54435cfd41c7746fe50"
+      }
+    },
+    {
+      "seed_A": 1018,
+      "seed_B": 2018,
+      "LROT": 0.642,
+      "FGW": 0.144,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1018_2018_LROT.json",
+        "sha256": "aa447cdd90b5b9f47d86afcb28e2e64dcf378b551419f239d44eaafd5ce9fe8e"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1018_2018_FGW.json",
+        "sha256": "b946a4a584af59ec06d5803bf6913ed145962b5768f619611bcc7694b82128de"
+      }
+    },
+    {
+      "seed_A": 1019,
+      "seed_B": 2019,
+      "LROT": 0.184,
+      "FGW": 0.05,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1019_2019_LROT.json",
+        "sha256": "dcb25b4ff6565996b5f8275d4e79b14d027bb7fa7921dbbae180b29494bc0f4a"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1019_2019_FGW.json",
+        "sha256": "ca80ee5ceacd136d81705b7a005bd6185014e03f318c667aa0a522b4a2176988"
+      }
+    },
+    {
+      "seed_A": 1020,
+      "seed_B": 2020,
+      "LROT": 0.611,
+      "FGW": 0.606,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1020_2020_LROT.json",
+        "sha256": "8473d9ab3e7ced89130a5e439b139ef09a5f0eaa8f79a7a891fbc442166052df"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1020_2020_FGW.json",
+        "sha256": "e34e90a20e8fd69bb2792b6d5830c828214236488f5bfd86363db628023530b3"
+      }
+    },
+    {
+      "seed_A": 1021,
+      "seed_B": 2021,
+      "LROT": 0.2,
+      "FGW": 0.346,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1021_2021_LROT.json",
+        "sha256": "c2a743d4a8910b86f46a129763284c67daad134f810db458d2cbfe1e671fca1a"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1021_2021_FGW.json",
+        "sha256": "d5be2eb0c0b0a6197acab567d82035383e348fdf3e75859e1f4fd00c438da183"
+      }
+    },
+    {
+      "seed_A": 1022,
+      "seed_B": 2022,
+      "LROT": 0.149,
+      "FGW": 0.138,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1022_2022_LROT.json",
+        "sha256": "6a7f085c47148d1497b5e3338ec1ba343c593f2d91eefafa95f74bdd5498ee8f"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1022_2022_FGW.json",
+        "sha256": "43a63a978df37402b63cc977f5d351d791f1d77514aea2e2bf8e953f671944af"
+      }
+    },
+    {
+      "seed_A": 1023,
+      "seed_B": 2023,
+      "LROT": 0.659,
+      "FGW": 0.126,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1023_2023_LROT.json",
+        "sha256": "88c1302f24dd630a3e8d8ca55a3a01074619bb0b999eb009e0d93aea9a5e9f7b"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1023_2023_FGW.json",
+        "sha256": "b2a27e3e88e5331fa129582c0a5135d2bfe0aec02c1962921c2ecf8b502da9a7"
+      }
+    },
+    {
+      "seed_A": 1024,
+      "seed_B": 2024,
+      "LROT": 0.194,
+      "FGW": 0.347,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1024_2024_LROT.json",
+        "sha256": "00f07a76981c9a998c8054dec442cc96b984d56b4f2f00bb2ddb75caae850546"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1024_2024_FGW.json",
+        "sha256": "b12b5f0ac0e03306e9e952b9e12c71612e3fa394cad0dc44e70b80091151e5f0"
+      }
+    },
+    {
+      "seed_A": 1025,
+      "seed_B": 2025,
+      "LROT": 0.214,
+      "FGW": 0.336,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1025_2025_LROT.json",
+        "sha256": "0898fef7d227240af006683acc36dc3aa8ebf1cea2a30883763b0283a508e519"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1025_2025_FGW.json",
+        "sha256": "b6bee2b39187dd7c284c776ed6960ef6fb21941768886e5671ddbe82736793a4"
+      }
+    },
+    {
+      "seed_A": 1026,
+      "seed_B": 2026,
+      "LROT": 0.186,
+      "FGW": 0.128,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1026_2026_LROT.json",
+        "sha256": "12424c0c7a023d2671c4949e75e49a10a714e900472428eed030fe12650fc9f0"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1026_2026_FGW.json",
+        "sha256": "1d2fcce0537a3787038ca0b5144499ac90d3a525652596c41d07f05cd96ecd98"
+      }
+    },
+    {
+      "seed_A": 1027,
+      "seed_B": 2027,
+      "LROT": 0.623,
+      "FGW": 0.625,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1027_2027_LROT.json",
+        "sha256": "fc40f2c8be94cb26d144fc34275430428e2787568e0a4e03749546b1e0e62561"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1027_2027_FGW.json",
+        "sha256": "93e28257d212b303fe2c3e011e33d9713cd4c03aea5772810d642698c635636e"
+      }
+    },
+    {
+      "seed_A": 1028,
+      "seed_B": 2028,
+      "LROT": 0.125,
+      "FGW": 0.044,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1028_2028_LROT.json",
+        "sha256": "a2a46eee55af89e545f538a3dfd6b46e74f8ca3a2a0df5b857f02350ea6b7495"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1028_2028_FGW.json",
+        "sha256": "600667481393600abaa182677f0e207372798b305f8d193cbb17932e230fb7c9"
+      }
+    },
+    {
+      "seed_A": 1029,
+      "seed_B": 2029,
+      "LROT": 0.186,
+      "FGW": 0.12,
+      "source_LROT": {
+        "path": "archived_work/numerical_revision/results/controlled_1029_2029_LROT.json",
+        "sha256": "5d89630ed5d50137d89edf2c5154f6c0bd70e5f97faa8a8727df868eb01dbc86"
+      },
+      "source_FGW": {
+        "path": "archived_work/numerical_revision/results/controlled_1029_2029_FGW.json",
+        "sha256": "1a4f87d9d1cf4b71f241965eb8bfd2532cfbdaff6b84c2104cf7f2d0ebbee764"
+      }
+    }
+  ],
+  "source_selection": "Panels A/B retain recorded OT values; STAligner uses the newly executed deterministic seed666 case. Panel C retains all 30 selected controlled pairs under its distinct generator/protocol.",
+  "STAligner_scope": "New complete single-thread deterministic PCA50 run; two exact technical repeats; latent NN differs from OT votes; no general ranking.",
+  "sources": {
+    "bench": {
+      "path": "archived_work/complete_revision/runs/serial_runtime_audit/serial_runtime_results.json",
+      "sha256": "4079486dc1d5e4d75518315a104667997210f28cb750b6dbb7b754e105fb83ee"
+    },
+    "sta": {
+      "path": "provenance/f3_staligner/verification.json",
+      "sha256": "4ef2c7999fcd81ea413efedbc88d70f11269d05aff9682bffe08725861b84e0e"
+    },
+    "ablation": {
+      "path": "archived_work/complete_revision/runs/lrot_real_data/global_results.json",
+      "sha256": "76c0affd5f9b2a1310bc5ee31b7906f5384a5c7fd9572d6936914e636a0a8e92"
+    },
+    "identity": {
+      "path": "archived_work/complete_revision/figures/F3_data_identity.json",
+      "sha256": "74691d07d87044fd7230ae46bd2a04d675a49c385f666ac6ded2f3d53f07e0c0"
+    },
+    "previous_sta": {
+      "path": "archived_work/complete_revision/runs/staligner_default_epochs/full_protocol_results.json",
+      "sha256": "97d0a4b84f59f91cc515fd0befa12d38ce40fa0700df7987359d2776f138489e",
+      "scope": "Historical .934 record, not the selected result"
+    }
+  },
+  "source_path_scope": "Historical sources remain archive-relative SHA references. The selected STAligner source and fixed-case evidence are package-relative and bundled.",
+  "STAligner_current_result": {
+    "accuracy": 0.93,
+    "ARI": 0.8535028559314339,
+    "source": "provenance/f3_staligner/verification.json",
+    "entrypoint": "experiments/reproduce_f3_staligner.py",
+    "full_training_repeated": 2,
+    "exact_repeat_verified": true,
+    "historical_934_restored": false
+  }
+}

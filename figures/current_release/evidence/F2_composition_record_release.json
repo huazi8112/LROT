@@ -1,0 +1,70 @@
+{
+  "status": "adopted_panel_F_composite_identity",
+  "operation": "render_only_from_previously_saved_current_code_histories; no solver called in this integration step",
+  "baseline_image": {
+    "path": "lrot_output/figures_png/lrot_full_panel.png",
+    "sha256": "e67cdf7aac8c9955c3565de6d4acd34ac410310f48cad9e717f79d18298038ce",
+    "size_px": [
+      5220,
+      2973
+    ],
+    "role": "Historical pre-adoption baseline identity, not a current runtime input pin"
+  },
+  "source_code": {
+    "path": "experiments/lrot_prototype.py",
+    "sha256": "4ea83368f0651476389e0a86874c236afabd098c62a1a0c700aa734f5da966b7"
+  },
+  "saved_histories": {
+    "path": "figures/current_release/saved_inputs/F2_four_gamma_histories_current_code.npz",
+    "sha256": "1cebdfaad5b4781380a73afe3841e2f04a90be1d8a3b9468004a458feb943c50",
+    "main_length": 123,
+    "ablation_lengths": {
+      "0.0": 80,
+      "0.05": 80,
+      "0.1": 80,
+      "0.2": 80
+    }
+  },
+  "panel_patch_native_px": {
+    "left": 3540,
+    "top": 1500,
+    "right": 5220,
+    "bottom": 2973,
+    "width": 1680,
+    "height": 1473
+  },
+  "axis_frame_native_px": {
+    "left": 3699,
+    "top": 1603,
+    "right": 5081,
+    "bottom": 2806
+  },
+  "layout": "panel F redrawn at target native pixel dimensions; no resizing or non-uniform stretching; all pixels outside F patch are unchanged",
+  "gamma_01_prefix_matches_saved_main": true,
+  "composite_output": {
+    "path": "lrot_output/figures_png/lrot_full_panel.png",
+    "sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978",
+    "size_px": [
+      5220,
+      2973
+    ]
+  },
+  "panel_output": {
+    "path": "figures/current_release/evidence/F2_panel_F_current_code_native_layout.png",
+    "sha256": "f8091a3db6e720249ef12770b338cb4bfb8d7ea3e78d113d7ee94d11090390a6",
+    "size_px": [
+      1680,
+      1473
+    ]
+  },
+  "pixels_changed_outside_F_patch": 0,
+  "historical_status": "The four original per-run ablation histories were not retained; this candidate uses newly reconstructed current-code histories and does not claim historical run recovery.",
+  "release_record": {
+    "path_style": "repository-relative",
+    "derived_from_local_record_sha256": "46279085c732a77c94424359d07d2e620c7c6aa44c0eafb04745bacae9444691",
+    "pixel_checks_changed": false,
+    "local_raw_copy": "outputs/current_code_release_review_20261012/F2_composition_record.local_raw.json"
+  },
+  "previous_release_record_sha256": "940dc55bbd59c7b0813a4994c361fe9ecb1a6745b9556b47fdc281d660ec37c7",
+  "path_cleanup_note": "Duplicate candidate raster archived outside code; formal composite bytes and original numerical/pixel checks unchanged."
+}
