@@ -1,0 +1,37 @@
+{
+  "template": "../assets/S19.png",
+  "template_sha256": "8fbdd30eba5e81d344859c20edb5ff82184971a564f65687a14db9e6a6b0fac6",
+  "canvas_size": [
+    3576,
+    1953
+  ],
+  "B_interior_box": [
+    2081,
+    128,
+    3541,
+    1588
+  ],
+  "style": {
+    "colors": [
+      "#1f77b4",
+      "#ff7f0e",
+      "#d62728",
+      "#8c564b",
+      "#e377c2",
+      "#bcbd22",
+      "#17becf"
+    ],
+    "reference_gray": "0.78",
+    "reference_alpha": 0.6,
+    "mapped_alpha": 0.95,
+    "mapped_size_pt2": 8.0,
+    "reference_size_pt2": 3.0,
+    "dpi": 300,
+    "spatial_margin_factor": 1.04,
+    "marker_basis": "Retain recorded S19 renderer s=8 mapped and s=3 reference; no data-dependent style selection."
+  },
+  "binding": "binding.json",
+  "binding_sha256": "43b5f90bdcedf4a3efe841fdc950aba62243e599f1f1e12a826e018d0e280be5",
+  "expected_output_sha256": "8fbdd30eba5e81d344859c20edb5ff82184971a564f65687a14db9e6a6b0fac6",
+  "scope": "Change B scatter interior only; every pixel outside this box, including A, titles, spines and shared legend, is protected."
+}

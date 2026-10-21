@@ -1,0 +1,35 @@
+{
+  "figure": "S2",
+  "command": "python figures/render_supplement.py --figure S2 --mode records --output-dir <new-directory-outside-project>",
+  "status": "passed_saved_record_drawing_and_embedded_asset_equality",
+  "entry_sha256": "48a6173d353abe0d11fc2acc7f311bd6a05af841b5838610bcccc6a534023f4a",
+  "figure_manifest_sha256": "f4d2e8bf7dabc45636d8d1e950d7aa7ab5f077bb27697dc7a0d9380a35475b5e",
+  "output_sha256": "05f916b117954017646b120ff2809e02eae69da709de52b959f40cf6238ef375",
+  "embedded_asset_sha256": "05f916b117954017646b120ff2809e02eae69da709de52b959f40cf6238ef375",
+  "byte_equal_embedded": true,
+  "records": [
+    {
+      "path": "figures/supplement_20261008/inputs_selected/S2.json",
+      "sha256": "dd46a5498e2d3c0dd80cb2c8a0cf0d9d0ed50b04be3132f627304dde14b4742d"
+    },
+    {
+      "path": "figures/supplement_20261008/inputs/S2D_accepted_diagnostics.json",
+      "sha256": "41d64e81b7fde368ee2e79b63e68e53e26b33ee4577737436cbdfd677f3282df"
+    }
+  ],
+  "pixel_proof": {
+    "canvas_size": [
+      4470,
+      4022
+    ],
+    "protected_pixels_unchanged": true,
+    "verification_level": "saved-record rendering; no experiment or solver execution"
+  },
+  "environment_versions": {
+    "python": "3.10.11",
+    "matplotlib": "3.10.7",
+    "numpy": "2.2.6",
+    "Pillow": "12.0.0"
+  },
+  "applies_to": "Prior S2 before title layout revision; current verification in title_layout.json"
+}

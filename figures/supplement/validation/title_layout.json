@@ -1,0 +1,127 @@
+{
+  "scope": "Title layout only; numeric inputs, plot bodies and document XML unchanged",
+  "figures": [
+    {
+      "figure": "S2",
+      "old_sha256": "05f916b117954017646b120ff2809e02eae69da709de52b959f40cf6238ef375",
+      "new_sha256": "40400c477732a10e9e91ca7d8c170680403a3093eed5b857292ab0e850c36a4a",
+      "allowed_title_boxes": [
+        [
+          180,
+          80,
+          1485,
+          158
+        ],
+        [
+          1670,
+          80,
+          2975,
+          158
+        ],
+        [
+          3160,
+          80,
+          4465,
+          158
+        ],
+        [
+          180,
+          1259,
+          1485,
+          1341
+        ],
+        [
+          1670,
+          1259,
+          2975,
+          1341
+        ],
+        [
+          3160,
+          1259,
+          4465,
+          1341
+        ],
+        [
+          285,
+          2514,
+          2230,
+          2629
+        ],
+        [
+          2520,
+          2514,
+          4465,
+          2629
+        ]
+      ],
+      "outside_title_pixels_identical": true,
+      "size": [
+        4470,
+        4022
+      ]
+    },
+    {
+      "figure": "S4",
+      "old_sha256": "4f918c8dc8d9914c49b6117dd23f02be2ac52da4615946b314d69a513ec1b0ce",
+      "new_sha256": "6297955ee12c373c2cee57149ff894a066a679b0a64f5ec353a4bddc4b6ec78d",
+      "allowed_title_boxes": [
+        [
+          450,
+          0,
+          3200,
+          70
+        ]
+      ],
+      "outside_title_pixels_identical": true,
+      "size": [
+        3561,
+        3200
+      ]
+    },
+    {
+      "figure": "S8",
+      "old_sha256": "83164b5049ca97c6542bd4cb09ef275178b795257442d78097973c3ffcc8711c",
+      "new_sha256": "4ecb66e5de082a7c47e6c1838bbc590f8cd0be85b0461553c387e4ea860b5987",
+      "allowed_title_boxes": [
+        [
+          0,
+          0,
+          2600,
+          130
+        ]
+      ],
+      "outside_title_pixels_identical": true,
+      "size": [
+        2600,
+        1850
+      ]
+    }
+  ],
+  "supplement_docx_sha256": "251e48004eba8d42a4d5a822fbe6ed4287f53b5faca661ed2e3cdc11a5339af5",
+  "changed_docx_members": [
+    "word/media/image2.png",
+    "word/media/image4.png",
+    "word/media/image8.png"
+  ],
+  "page_qa": {
+    "renderer": "local Word/WPS export",
+    "pages": 37,
+    "full_page_visual_checks": [
+      2,
+      3,
+      5
+    ],
+    "all_page_overview_checked": true,
+    "status": "affected figures and captions on same pages without clipping"
+  },
+  "solver_or_experiment_executed": false,
+  "record_renderer": {
+    "path": "figures/render_selected_panels.py",
+    "sha256": "1ae7d632172c8b0310550efb5bc17efb0e494a3f4bfee2899195a6b7f3c2de38"
+  },
+  "record_config": {
+    "path": "figures/supplement/selected_panel_config.json",
+    "sha256": "bd2cdd6805e542056ec03160f176c67beb1552259c5259d0c6b7586f5188a1e0"
+  }
+}

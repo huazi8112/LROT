@@ -1,0 +1,86 @@
+{
+  "figure": "S2",
+  "change_scope": "D panel layout only; no experiment, solver, parameter or value changes",
+  "rendering_level": "saved-record plotting; not end-to-end experimental reproduction",
+  "source_docx_sha256": "11b098df09127bbbf85f0c6de46fdef0435c2b5507e9ffda4a9413a2cde46330",
+  "source_docx_replaced_member": "word/media/image2.png",
+  "source_embedded_s2_sha256": "33159ff79a40fc2749c30e701e39a2749499e333763501627507af6a9c62b924",
+  "new_docx_sha256": "335e6611145feb97b9dc972e66197fe6aa061d23a553fa7183db3617d846b1d1",
+  "new_embedded_s2_sha256": "05f916b117954017646b120ff2809e02eae69da709de52b959f40cf6238ef375",
+  "new_full_s2_asset": {
+    "path": "figures/supplement_20261008/assets_selected/S2_layout_fixed_20261010.png",
+    "sha256": "05f916b117954017646b120ff2809e02eae69da709de52b959f40cf6238ef375",
+    "size": [
+      4470,
+      4022
+    ]
+  },
+  "new_s2d_panel": {
+    "path": "figures/supplement_20261008/confirmed_panels/S2_D_layout_fixed_20261010.png",
+    "sha256": "8c96f061a968cf5b3d1f54419e12d2ce3c7a8f255f6f2692e03b3cea4fcea2b4",
+    "size": [
+      1490,
+      1247
+    ]
+  },
+  "saved_diagnostics": {
+    "path": "figures/supplement_20261008/inputs/S2D_accepted_diagnostics.json",
+    "sha256": "41d64e81b7fde368ee2e79b63e68e53e26b33ee4577737436cbdfd677f3282df",
+    "rows": 6,
+    "plotted_values": [
+      {
+        "gamma": 0.1,
+        "values": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "gamma": 1.0,
+        "values": [
+          39,
+          121,
+          40
+        ]
+      }
+    ]
+  },
+  "geometry": {
+    "full_canvas": [
+      4470,
+      4022
+    ],
+    "D_panel_box": [
+      0,
+      1247,
+      1490,
+      2494
+    ],
+    "D_axes_box": [
+      180,
+      97,
+      1467,
+      1097
+    ],
+    "E_axes_box": [
+      180,
+      97,
+      1467,
+      1097
+    ],
+    "D_same_axes_geometry_as_E": true
+  },
+  "outside_D_pixels_unchanged": true,
+  "docx_package_changed_members": [
+    "word/media/image2.png"
+  ],
+  "rendered_with": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "matplotlib": "3.10.7",
+    "numpy": "2.2.6"
+  },
+  "renderer_sha256": "3127a2c328d0c342cdd2d15bc690bee4a8d12e70d0675eb1c548dd8cf6c8fe6c",
+  "config_sha256": "19995727d8b3facecd4da4f17231880145437523eb0429b5a73dcfabd4f41824",
+  "no_solver_or_experiment_executed": true
+}

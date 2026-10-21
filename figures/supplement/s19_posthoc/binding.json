@@ -1,0 +1,232 @@
+{
+  "scope": "post-hoc reconstruction from current accepted saved P; not restoration of historical image binding",
+  "original_files": [
+    {
+      "path": "151507_filtered_feature_bc_matrix.h5",
+      "expected_sha256": "686521ab02a68dfdd810c3cde26daea2257d016c8047859877ffb8c7ac5bdd01",
+      "exists": true,
+      "parsed": false,
+      "actual_sha256": "686521ab02a68dfdd810c3cde26daea2257d016c8047859877ffb8c7ac5bdd01",
+      "size_bytes": 10239582,
+      "match": true
+    },
+    {
+      "path": "151507_tissue_positions_list.txt",
+      "expected_sha256": "5c5be4dcd51c914bad02634f1ed2d96bd0c200ae487e236f644d94ded983efd0",
+      "exists": true,
+      "parsed": false,
+      "actual_sha256": "5c5be4dcd51c914bad02634f1ed2d96bd0c200ae487e236f644d94ded983efd0",
+      "size_bytes": 186265,
+      "match": true
+    },
+    {
+      "path": "barcode_level_layer_map.tsv",
+      "expected_sha256": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9",
+      "exists": true,
+      "parsed": false,
+      "actual_sha256": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9",
+      "size_bytes": 1372541,
+      "match": true
+    },
+    {
+      "path": "151508_filtered_feature_bc_matrix.h5",
+      "expected_sha256": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+      "exists": true,
+      "parsed": false,
+      "actual_sha256": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+      "size_bytes": 9253574,
+      "match": true
+    },
+    {
+      "path": "151508_tissue_positions_list.txt",
+      "expected_sha256": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+      "exists": true,
+      "parsed": false,
+      "actual_sha256": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+      "size_bytes": 186319,
+      "match": true
+    }
+  ],
+  "ordered_input_checks": [
+    {
+      "side": "A",
+      "field": "coords",
+      "shape": [
+        4221,
+        2
+      ],
+      "dtype": "float64",
+      "expected": "d236f4d4542a20aa34f28f954d104e1eb14ee3cee91873e7cc3e6a342409c4a7",
+      "actual": "d236f4d4542a20aa34f28f954d104e1eb14ee3cee91873e7cc3e6a342409c4a7",
+      "match": true
+    },
+    {
+      "side": "A",
+      "field": "region_labels",
+      "shape": [
+        4221
+      ],
+      "dtype": "int64",
+      "expected": "40136cf3f0fad297e3002c51b63b667bc92ea2dd48a6348467cefcbdbc9b30a1",
+      "actual": "40136cf3f0fad297e3002c51b63b667bc92ea2dd48a6348467cefcbdbc9b30a1",
+      "match": true
+    },
+    {
+      "side": "B",
+      "field": "coords",
+      "shape": [
+        4381,
+        2
+      ],
+      "dtype": "float64",
+      "expected": "54acdbdb839f8b31d6e960ed39f258fd994ea6ba660a43982d1d63a08b7d55f2",
+      "actual": "54acdbdb839f8b31d6e960ed39f258fd994ea6ba660a43982d1d63a08b7d55f2",
+      "match": true
+    },
+    {
+      "side": "B",
+      "field": "region_labels",
+      "shape": [
+        4381
+      ],
+      "dtype": "int64",
+      "expected": "67c636315bcb7f28a9662a085602846a0fe79851bbb48a2dd4944d46988fa479",
+      "actual": "67c636315bcb7f28a9662a085602846a0fe79851bbb48a2dd4944d46988fa479",
+      "match": true
+    }
+  ],
+  "slices": {
+    "A": {
+      "sample_id": "151507",
+      "seed": 42,
+      "h5_barcodes_count": 4226,
+      "intersection_count": 4221,
+      "selected_count": 4221,
+      "full_without_replacement_permutation": true,
+      "indices_sorted": false,
+      "original_coordinate_center": [
+        6692.28855721393,
+        6629.140251125325
+      ],
+      "ordered_barcodes_array_hash": "2b91d51f85695543a70338b0b2aa084e384c3f88c89e12edd2f9c211ff2461b9",
+      "indices_array_hash": "e1d51a895f32674bd132902e8a7a3be153c6c4b964bc4a583195cb69d14fb5a4",
+      "intersection_barcodes_array_hash": "8be802098e9de9f018df2b4b9c56d2f472476215362db330664e3a0471bb76f5"
+    },
+    "B": {
+      "sample_id": "151508",
+      "seed": 99,
+      "h5_barcodes_count": 4384,
+      "intersection_count": 4381,
+      "selected_count": 4381,
+      "full_without_replacement_permutation": true,
+      "indices_sorted": false,
+      "original_coordinate_center": [
+        6937.434147454919,
+        6670.195160922164
+      ],
+      "ordered_barcodes_array_hash": "6e9a32371b3cf6a709f0894caee8e44f28b44d30b063186e8718e1d25e12983e",
+      "indices_array_hash": "269e42a1f5af30554c8fd0ae7e43eea77d9dd2e3bf02c49188296c0154a79d5a",
+      "intersection_barcodes_array_hash": "d15cdf4de4e91487c9b34f197dcf16c81513a9b179266d5e110ccd20a5680313"
+    }
+  },
+  "transform": {
+    "B_rotation_deg": 2.0,
+    "rotation_matrix": [
+      [
+        0.9993908270190958,
+        -0.03489949670250097
+      ],
+      [
+        0.03489949670250097,
+        0.9993908270190958
+      ]
+    ],
+    "rotation_center_after_permutation": [
+      1.612220007753609e-12,
+      1.2968759191909342e-12
+    ],
+    "translation_random_seed": 99,
+    "translation_gaussian_scale": 0.5,
+    "realized_translation": [
+      [
+        -0.07117942135097408,
+        1.0286108687907474
+      ]
+    ],
+    "A_frame": "intersection coordinates minus their pre-permutation mean",
+    "B_frame": "centered, seed99 permutation, then recorded rotation/translation"
+  },
+  "layer_order": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "WM"
+  ],
+  "hash_convention": "SHA256(str(shape).encode()+str(dtype).encode()+C_order_bytes)",
+  "ordered_inputs": {
+    "file": "ordered_inputs.npz",
+    "sha256": "add4bc7e345a666bf444fdfdb85ee06d5cebe6eb7ea65613e9128cf1f0a07207"
+  },
+  "ordered_spots_csv_sha256": "6d3a43ed13dc09a5aef18b42c09f2ad89c9f084d75eee86210d96a60b3dc9323",
+  "plan": {
+    "original_file_sha256": "7985d0ec3593a96950318f0480659a3b84aca64965bcaada755d749db6590574",
+    "P_array_sha256": "65e2cf41b2fdfc6f4c5fa5bd3906d542f80fcfc7d9f807f0463792d8c542735b",
+    "shape": [
+      4221,
+      4381
+    ],
+    "dtype": "float64",
+    "parts": [
+      {
+        "file": "accepted_plan.npz.part000",
+        "size_bytes": 50331648,
+        "sha256": "f756b203ea9c07585c0ed68adde23abbcee90c95908bb0a5b0862906ebccc062"
+      },
+      {
+        "file": "accepted_plan.npz.part001",
+        "size_bytes": 50331648,
+        "sha256": "6519fb4328dd8970dc9f099fde494f41de14f720496c86aeea6a814bb61bae5d"
+      },
+      {
+        "file": "accepted_plan.npz.part002",
+        "size_bytes": 40782851,
+        "sha256": "38859069e3aebe38dbed48d542052ba83495153c17244c9906afe8663356407f"
+      }
+    ],
+    "loaded_member": "P",
+    "loss_not_loaded": true,
+    "source_driver_record": "run_dlpfc_full_scale/evidence/a407d3c5ddce0e8389c7de5544122b1666a2e726a1874674257004583f7ab23b.npz"
+  },
+  "mapping": {
+    "formula": "(P / P.sum(axis=0)[None,:]).T @ A_coords",
+    "direction": "B to A",
+    "mapped_B_array_sha256": "e43fdcc3011288e3b923b9e8aba399e5924e0b38f67f3b9998632ddfe0b83344",
+    "independent_expression": "(P.T @ A_coords)/column_sums[:,None]",
+    "max_abs_implementation_difference": 6.821210263296962e-12,
+    "zero_columns": 0,
+    "output_shape": [
+      4381,
+      2
+    ],
+    "finite": true,
+    "convex_coordinate_bounds_check": true
+  },
+  "runtime": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "h5py": "3.16.0"
+  },
+  "source_code": {
+    "loader": "experiments/run_dlpfc_visium.py",
+    "loader_sha256": "0fa0a9804821810e07609f99a3f8038e819170075a4756d7631321f0ab321841",
+    "transform": "experiments/run_cancer_visium.py",
+    "transform_sha256": "8174adee074a75d3253ee94bb491fbdfc65851817371b8b71115ec3b02fce45c",
+    "reconstruction_script_sha256": "2ed7f9cbc820d24c0f81995950e7af1de88df720167ad92e7304b4cf0d9b10aa"
+  },
+  "solver_executed": false,
+  "expression_dataset_read": false,
+  "new_ordered_barcode_provenance": "post-hoc only"
+}
