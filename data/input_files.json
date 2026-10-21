@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "scope": "Read-only byte inventory. Does not establish historical acquisition, resource permission or full experiment reproduction.",
+  "datasets": [
+    "breast",
+    "mouse",
+    "dlpfc",
+    "go",
+    "cellchat"
+  ],
+  "files": [
+    {
+      "dataset": "breast",
+      "path": "cancer_data/V1_Breast_Cancer_Block_A_Section_1.h5",
+      "sha256": "b3cbb6ead60afad848ebcc07a34835613d9d2d79e416ad8300b210d9de584b65",
+      "size_bytes": 28201028,
+      "identity_basis": "provenance/f7_prospective/reference_input_identity.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "breast",
+      "path": "cancer_data/V1_Breast_Cancer_Block_A_Section_2.h5",
+      "sha256": "e325b4e53f0036a71904cea6b7cd65945f10c25cf2ef8e2f681de9ac1ff7766c",
+      "size_bytes": 28898028,
+      "identity_basis": "provenance/f7_prospective/reference_input_identity.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "breast",
+      "path": "cancer_data/V1_Breast_Cancer_Block_A_Section_1/spatial/tissue_positions_list.csv",
+      "sha256": "284f439570700a566512e469cddfb1bc59ac135b523a74c806a4fb59d41c2547",
+      "size_bytes": 191224,
+      "identity_basis": "provenance/f7_prospective/reference_input_identity.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "breast",
+      "path": "cancer_data/V1_Breast_Cancer_Block_A_Section_2/spatial/tissue_positions_list.csv",
+      "sha256": "80538920046f498129b5d867cef0c0597ea9a8765e461f64ee3e156028c246fc",
+      "size_bytes": 191255,
+      "identity_basis": "provenance/f7_prospective/reference_input_identity.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "mouse",
+      "path": "cancer_data/mouse_brain.h5",
+      "sha256": "fdae7180e8a2727737429e492053cd1f1900eece3a31807516f0ccdc4146430e",
+      "size_bytes": 33960356,
+      "identity_basis": "provenance/reproduction_acceptance/summary.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151507_filtered_feature_bc_matrix.h5",
+      "sha256": "686521ab02a68dfdd810c3cde26daea2257d016c8047859877ffb8c7ac5bdd01",
+      "size_bytes": 10239582,
+      "identity_basis": "figures/current_release/inputs/F5_input_binding.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151507_tissue_positions_list.txt",
+      "sha256": "5c5be4dcd51c914bad02634f1ed2d96bd0c200ae487e236f644d94ded983efd0",
+      "size_bytes": 186265,
+      "identity_basis": "figures/current_release/inputs/F5_input_binding.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151508_filtered_feature_bc_matrix.h5",
+      "sha256": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+      "size_bytes": 9253574,
+      "identity_basis": "figures/current_release/inputs/F5_input_binding.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151508_tissue_positions_list.txt",
+      "sha256": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+      "size_bytes": 186319,
+      "identity_basis": "figures/current_release/inputs/F5_input_binding.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151509_filtered_feature_bc_matrix.h5",
+      "sha256": "35a4850aebdfdccb9fdf2f79cebeebc037684a79c03adb4bcdffa7c7c68486fc",
+      "size_bytes": 11518800,
+      "identity_basis": "figures/current_release/inputs/F5_input_binding.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151509_tissue_positions_list.txt",
+      "sha256": "badca077b07d5268bb222e7bfdd0b31d179fa97f51870e28f562ef4f961e8d6a",
+      "size_bytes": 186375,
+      "identity_basis": "figures/current_release/inputs/F5_input_binding.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151669_filtered_feature_bc_matrix.h5",
+      "sha256": "4c92c56291f22c31abdc76eb4d7e638ffc5b72e3c08de1142cd76ca731cbea14",
+      "size_bytes": 11041430,
+      "identity_basis": "local inventory; not retrospective certification of donor-2 input identity",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151669_tissue_positions_list.txt",
+      "sha256": "00147e492d41a3724c413934ef777c94f72f15636933346783fcd3e7903bddb4",
+      "size_bytes": 186818,
+      "identity_basis": "local inventory; not retrospective certification of donor-2 input identity",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151670_filtered_feature_bc_matrix.h5",
+      "sha256": "931f50b5de5aaa6a9e9c9d795f072a1f1f7f42a1602c849c61540b7f2258a5b1",
+      "size_bytes": 10043925,
+      "identity_basis": "local inventory; not retrospective certification of donor-2 input identity",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151670_tissue_positions_list.txt",
+      "sha256": "cf1cf68a6efe052f10b86b32c0b7f142d6d4bfcfa107aafa92c56234b08ec25a",
+      "size_bytes": 186856,
+      "identity_basis": "local inventory; not retrospective certification of donor-2 input identity",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151671_filtered_feature_bc_matrix.h5",
+      "sha256": "6b6b86696b377fb44fd367e80c3820209f8977cb62af4b4715c37c6faf80baa5",
+      "size_bytes": 12476058,
+      "identity_basis": "local inventory; not retrospective certification of donor-2 input identity",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/151671_tissue_positions_list.txt",
+      "sha256": "fbf0e0b41bb6d10b0e87accc62fa1e17d5b5e0a7bd9f193173499c6c3f7d46b2",
+      "size_bytes": 186921,
+      "identity_basis": "local inventory; not retrospective certification of donor-2 input identity",
+      "included_in_release": false
+    },
+    {
+      "dataset": "dlpfc",
+      "path": "dlpfc_data/barcode_level_layer_map.tsv",
+      "sha256": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9",
+      "size_bytes": 1372541,
+      "identity_basis": "figures/current_release/inputs/F5_input_binding.json",
+      "included_in_release": false
+    },
+    {
+      "dataset": "go",
+      "path": "data/go/go-basic.obo",
+      "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+      "size_bytes": 32227785,
+      "identity_basis": "local inventory for this packaging revision; historical run binding not established",
+      "included_in_release": true,
+      "current_resolution": {
+        "date": "2026-10-16",
+        "official_current_download_byte_equal": true,
+        "all_14584_reported_terms_regenerated_exactly": true,
+        "licence": "CC BY 4.0",
+        "evidence": "provenance/go_enrichment/resource_identity.json",
+        "historical_acquisition_date_recovered": false
+      }
+    },
+    {
+      "dataset": "go",
+      "path": "data/go/mgi.gaf.gz",
+      "sha256": "9b7613f786f9f805531a8f6768f310220d28c82095f938e1212c86f39596ce30",
+      "size_bytes": 14020707,
+      "identity_basis": "local inventory for this packaging revision; historical run binding not established",
+      "included_in_release": true,
+      "current_resolution": {
+        "date": "2026-10-16",
+        "official_current_download_byte_equal": true,
+        "all_14584_reported_terms_regenerated_exactly": true,
+        "licence": "CC BY 4.0",
+        "evidence": "provenance/go_enrichment/resource_identity.json",
+        "historical_acquisition_date_recovered": false
+      }
+    },
+    {
+      "dataset": "cellchat",
+      "path": "data/CellChatDB.mouse.rda",
+      "sha256": "7fe204b12be2b820b2b20d95e6bfdb45e8f0203b8166b4318a70f1326446a4da",
+      "size_bytes": 798576,
+      "identity_basis": "data/resource_provenance.json; redistribution basis unresolved",
+      "included_in_release": false
+    },
+    {
+      "dataset": "cellchat",
+      "path": "data/CellChatDB_mouse_lr.pkl",
+      "sha256": "5358254b825b68a0853087580fc67856ea721ad6f91b8fba23d47a8befec10ab",
+      "size_bytes": 55031,
+      "identity_basis": "data/resource_provenance.json; redistribution basis unresolved",
+      "included_in_release": false
+    }
+  ]
+}

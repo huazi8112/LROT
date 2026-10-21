@@ -1,0 +1,171 @@
+{
+  "local_version": "LR-evidence-review-20261009_215731",
+  "current_packaging_date_is_not_historical_resource_freeze": true,
+  "resources": [
+    {
+      "resource": "CellChatDB.mouse.rda",
+      "relative_path": "data/CellChatDB.mouse.rda",
+      "SHA256": "7fe204b12be2b820b2b20d95e6bfdb45e8f0203b8166b4318a70f1326446a4da",
+      "identity": "2019 interaction records; local RDX2 serialization",
+      "upstream_release": null,
+      "acquired": null,
+      "historical_freeze": null,
+      "licence_basis": null,
+      "R_writer_version": "4.1.2; serialization writer only, not database release"
+    },
+    {
+      "resource": "CellChatDB_mouse_lr.pkl",
+      "relative_path": "data/CellChatDB_mouse_lr.pkl",
+      "SHA256": "5358254b825b68a0853087580fc67856ea721ad6f91b8fba23d47a8befec10ab",
+      "identity": "2059 derived pairs; 38 symbol-covered pairs for the retained simulated input",
+      "weight_policy": "0.9 for unsplit receptor records, 0.6 for projected components, maximum on duplicate keys; implementation constants",
+      "upstream_release": null,
+      "acquired": null,
+      "historical_freeze": null,
+      "licence_basis": null
+    },
+    {
+      "resource": "GO go-basic.obo",
+      "recorded_header_identifier": "releases/2026-07-26 (Table S14)",
+      "SHA256": null,
+      "acquired": null,
+      "historical_freeze": null,
+      "licence_basis": null,
+      "raw_snapshot_in_package": false,
+      "missing": "Exact historical input path/hash, acquisition/freeze log and resource permission record; go_enrichment/resolved_input_hashes.json is empty."
+    },
+    {
+      "resource": "MGI GAF",
+      "recorded_header_identifier": "gaf-version 2.2(2026-05-21) (Table S14); format/header identifiers only",
+      "SHA256": null,
+      "acquired": null,
+      "historical_freeze": null,
+      "licence_basis": null,
+      "raw_snapshot_in_package": false,
+      "missing": "Exact historical input path/hash, acquisition/freeze log and resource permission record."
+    },
+    {
+      "resource": "CellPhoneDB",
+      "local_snapshot": null,
+      "pair_specific_record_IDs": [],
+      "acquired": null,
+      "historical_freeze": null,
+      "licence_basis": null,
+      "missing": "No local pair-level source table/snapshot was located; general bibliography cannot identify the seven mouse unmatched pairs."
+    },
+    {
+      "resource": "10x breast tissue and coordinates",
+      "recorded_inputs": [
+        {
+          "resource": "V1_Breast_Cancer_Block_A_Section_1.h5",
+          "recorded_SHA256": "b3cbb6ead60afad848ebcc07a34835613d9d2d79e416ad8300b210d9de584b65",
+          "identity_evidence": "cancer_data/BREAST_SHA256SUMS.txt; prior reproduction audit",
+          "raw_file_read_this_round": false
+        },
+        {
+          "resource": "V1_Breast_Cancer_Block_A_Section_2.h5",
+          "recorded_SHA256": "e325b4e53f0036a71904cea6b7cd65945f10c25cf2ef8e2f681de9ac1ff7766c",
+          "identity_evidence": "cancer_data/BREAST_SHA256SUMS.txt; prior reproduction audit",
+          "raw_file_read_this_round": false
+        },
+        {
+          "resource": "V1_Breast_Cancer_Block_A_Section_1/spatial/tissue_positions_list.csv",
+          "recorded_SHA256": "284f439570700a566512e469cddfb1bc59ac135b523a74c806a4fb59d41c2547",
+          "identity_evidence": "cancer_data/BREAST_SHA256SUMS.txt; prior reproduction audit",
+          "raw_file_read_this_round": false
+        },
+        {
+          "resource": "V1_Breast_Cancer_Block_A_Section_2/spatial/tissue_positions_list.csv",
+          "recorded_SHA256": "80538920046f498129b5d867cef0c0597ea9a8765e461f64ee3e156028c246fc",
+          "identity_evidence": "cancer_data/BREAST_SHA256SUMS.txt; prior reproduction audit",
+          "raw_file_read_this_round": false
+        }
+      ],
+      "source_release_record": "10x spatial-exp 1.1.0, Block A Sections 1/2; RUN_REPRO.md",
+      "acquired": null,
+      "historical_freeze": null,
+      "licence_basis": null
+    },
+    {
+      "resource": "10x mouse brain",
+      "source_identity_record": "CytAssist Fresh Frozen Mouse Brain Post Xenium Rep1; spatial-exp 2.1.0; cancer_data/README.md",
+      "recorded_SHA256": "fdae7180e8a2727737429e492053cd1f1900eece3a31807516f0ccdc4146430e",
+      "raw_file_read_this_round": false,
+      "acquired": null,
+      "historical_freeze": null,
+      "licence_basis": null
+    },
+    {
+      "resource": "DLPFC and layer annotations",
+      "source_identity_record": "spatialLIBD AWS / LieberInstitute HumanPilot paths in experiments/supp/download_dlpfc_data.py",
+      "binding_file": "figures/supplement/s19_posthoc/binding.json",
+      "binding_SHA256": "43b5f90bdcedf4a3efe841fdc950aba62243e599f1f1e12a826e018d0e280be5",
+      "retained_Br8325_151507_151508_inputs": [
+        {
+          "path": "151507_filtered_feature_bc_matrix.h5",
+          "expected_sha256": "686521ab02a68dfdd810c3cde26daea2257d016c8047859877ffb8c7ac5bdd01",
+          "exists": true,
+          "parsed": false,
+          "actual_sha256": "686521ab02a68dfdd810c3cde26daea2257d016c8047859877ffb8c7ac5bdd01",
+          "size_bytes": 10239582,
+          "match": true
+        },
+        {
+          "path": "151507_tissue_positions_list.txt",
+          "expected_sha256": "5c5be4dcd51c914bad02634f1ed2d96bd0c200ae487e236f644d94ded983efd0",
+          "exists": true,
+          "parsed": false,
+          "actual_sha256": "5c5be4dcd51c914bad02634f1ed2d96bd0c200ae487e236f644d94ded983efd0",
+          "size_bytes": 186265,
+          "match": true
+        },
+        {
+          "path": "barcode_level_layer_map.tsv",
+          "expected_sha256": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9",
+          "exists": true,
+          "parsed": false,
+          "actual_sha256": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9",
+          "size_bytes": 1372541,
+          "match": true
+        },
+        {
+          "path": "151508_filtered_feature_bc_matrix.h5",
+          "expected_sha256": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+          "exists": true,
+          "parsed": false,
+          "actual_sha256": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+          "size_bytes": 9253574,
+          "match": true
+        },
+        {
+          "path": "151508_tissue_positions_list.txt",
+          "expected_sha256": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+          "exists": true,
+          "parsed": false,
+          "actual_sha256": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+          "size_bytes": 186319,
+          "match": true
+        }
+      ],
+      "raw_file_read_this_round": false,
+      "other_sample_file_hashes_in_this_evidence_chain": "Not established here; do not extend these five hashes to 151509 or Br6423.",
+      "acquired": null,
+      "historical_freeze": null,
+      "licence_basis": null
+    }
+  ],
+  "current_source_resolution": {
+    "date": "2026-10-15",
+    "manifest": "data/external_sources.json",
+    "scope": "Matching public CellChatDB input and declared upstream licence identified; derived PKL reproduced byte for byte. Original acquisition and freeze fields above remain historical unknowns, not current obtainability status."
+  },
+  "current_GO_resolution": {
+    "date": "2026-10-16",
+    "resource_identity": "provenance/go_enrichment/resource_identity.json",
+    "raw_to_reported_all_terms_exact": true,
+    "official_current_downloads_byte_equal": true,
+    "official_GO_and_MGI_annotation_licences": "CC BY 4.0",
+    "historical_acquisition_date_recovered": false,
+    "original_fields_retained_as_historical_record": true
+  }
+}
