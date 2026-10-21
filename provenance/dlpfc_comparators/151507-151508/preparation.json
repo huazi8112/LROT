@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "training_executed": false,
+  "actual_training_input_sha256": "8f409da6b1468e01b1edfe8514f6b234a9a09b6d5744068c29cc11efcbc6576b",
+  "ordered_spots_sha256": "0082ad7bb68e8606f4c02cc929ceacee05f981f8b251451664c07778cce2831d",
+  "recipe_run_pair_sha256": "cb5392539ac3667c19b6f844630aa8eb77c8652e8303501df5396555b6144fe0"
+}

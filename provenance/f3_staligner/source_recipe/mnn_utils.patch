@@ -1,0 +1,56 @@
+--- a/STAligner/mnn_utils.py
++++ b/STAligner/mnn_utils.py
+@@ -2,10 +2,22 @@
+ import pandas as pd
+ 
+ from sklearn.neighbors import NearestNeighbors
+-from annoy import AnnoyIndex
+ import itertools
+ import networkx as nx
+-import hnswlib
++
++# Optional imports: hnswlib and annoy are used for approximate nearest neighbor search.
++# If not installed, the code falls back to sklearn's exact nearest neighbors.
++try:
++    from annoy import AnnoyIndex
++    _has_annoy = True
++except ImportError:
++    _has_annoy = False
++
++try:
++    import hnswlib
++    _has_hnswlib = True
++except ImportError:
++    _has_hnswlib = False
+ 
+ # Modified from https://github.com/lkmklsmn/insct
+ def create_dictionary_mnn(adata, use_rep, batch_name, k = 50, save_on_disk = True, approx = True, verbose = 1, iter_comb = None):
+@@ -80,6 +92,9 @@
+ 
+ 
+ def nn_approx(ds1, ds2, names1, names2, knn=50):
++    if not _has_hnswlib:
++        # Fallback to sklearn if hnswlib is not available
++        return nn(ds1, ds2, names1, names2, knn=knn)
+     dim = ds2.shape[1]
+     num_elements = ds2.shape[0]
+     p = hnswlib.Index(space='l2', dim=dim)
+@@ -96,7 +111,7 @@
+ 
+ def nn(ds1, ds2, names1, names2, knn=50, metric_p=2):
+     # Find nearest neighbors of first dataset.
+-    nn_ = NearestNeighbors(knn, p=metric_p)
++    nn_ = NearestNeighbors(n_neighbors=knn, p=metric_p)
+     nn_.fit(ds2)
+     ind = nn_.kneighbors(ds1, return_distance=False)
+ 
+@@ -110,6 +125,9 @@
+ 
+ def nn_annoy(ds1, ds2, names1, names2, knn = 20, metric='euclidean', n_trees = 50, save_on_disk = True):
+     """ Assumes that Y is zero-indexed. """
++    if not _has_annoy:
++        # Fallback to sklearn if annoy is not available
++        return nn(ds1, ds2, names1, names2, knn=knn)
+     # Build index.
+     a = AnnoyIndex(ds2.shape[1], metric=metric)
+     if(save_on_disk):

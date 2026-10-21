@@ -1,0 +1,61 @@
+{
+  "analysis": "preprocessing sensitivity with matched expression masks",
+  "datasets": {
+    "Breast S1→S2": [
+      {
+        "ent": 5.849533191729423,
+        "cost": 0.11450675803402685,
+        "mode": "raw",
+        "method": "FGW",
+        "secs": 0.0,
+        "rho": 0.8696948363767535,
+        "reused_exact_raw_checkpoint": true
+      },
+      {
+        "ent": 5.817596322440952,
+        "cost": 0.11429345959028958,
+        "mode": "raw",
+        "method": "LROT",
+        "secs": 0.0,
+        "rho": 0.8696948363767535,
+        "reused_exact_raw_checkpoint": true
+      },
+      {
+        "ent": 5.849533645677384,
+        "cost": 0.11450676931997782,
+        "mode": "cpm",
+        "method": "FGW",
+        "secs": 83.49352622032166,
+        "rho": -0.06441536802958313,
+        "reused_exact_raw_checkpoint": false
+      },
+      {
+        "ent": 5.798762640579906,
+        "cost": 0.11444885305138251,
+        "mode": "cpm",
+        "method": "LROT",
+        "secs": 78.6607837677002,
+        "rho": -0.06441536802958313,
+        "reused_exact_raw_checkpoint": false
+      },
+      {
+        "ent": 7.178944711745251,
+        "cost": 0.24782452668167693,
+        "mode": "log1p",
+        "method": "FGW",
+        "secs": 124.36087131500244,
+        "rho": 0.21884640767525912,
+        "reused_exact_raw_checkpoint": false
+      },
+      {
+        "ent": 7.127206080054191,
+        "cost": 0.24774487987453384,
+        "mode": "log1p",
+        "method": "LROT",
+        "secs": 125.94892573356628,
+        "rho": 0.21884640767525912,
+        "reused_exact_raw_checkpoint": false
+      }
+    ]
+  }
+}

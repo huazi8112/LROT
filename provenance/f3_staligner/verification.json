@@ -1,0 +1,50 @@
+{
+  "scope": "Two fresh full single-thread deterministic executions of the frozen F3 realistic-seed42 PCA50 case",
+  "first_metrics": {
+    "accuracy": 0.93,
+    "ARI": 0.8535028559314339
+  },
+  "second_metrics": {
+    "accuracy": 0.93,
+    "ARI": 0.8535028559314339
+  },
+  "all_exact_repeat_checks_passed": true,
+  "exact_equality_checks": {
+    "actual_training_inputs": true,
+    "installed_sources": true,
+    "package_versions": true,
+    "scientific_protocol": true,
+    "training_losses": true,
+    "triplets": true,
+    "final_weight_tensors": true,
+    "returned_embedding": true,
+    "prediction_labels": true,
+    "nearest_neighbor_indices": true,
+    "independent_metrics": true
+  },
+  "input_array_checks": {
+    "X": true,
+    "edgeList": true,
+    "obs_names": true,
+    "batch": true
+  },
+  "triplet_checks": {
+    "triplets_epoch_500.npz": true,
+    "triplets_epoch_600.npz": true,
+    "triplets_epoch_700.npz": true,
+    "triplets_epoch_800.npz": true,
+    "triplets_epoch_900.npz": true
+  },
+  "embedding_max_abs_difference": 0.0,
+  "first_differing_loss_epoch_zero_based": null,
+  "execution_revision": {
+    "threads": 1,
+    "interop_threads": 1,
+    "PYTHONHASHSEED": "0",
+    "torch_use_deterministic_algorithms": true,
+    "warn_only": false,
+    "cudnn_benchmark": false,
+    "mkldnn_deterministic": true
+  },
+  "interpretation": "Same input, same initialization and same environment execution repeatability; not independent biological replicates, historical identity proof, or all-manuscript certification"
+}

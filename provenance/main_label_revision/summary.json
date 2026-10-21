@@ -1,0 +1,44 @@
+{
+  "scope": "Two figure labels only; no experimental computation",
+  "formula_object_count": 123,
+  "all_non_target_docx_members_byte_identical": true,
+  "changed_docx_members": [
+    "word/media/image1.png",
+    "word/media/image122.png"
+  ],
+  "document_xml_byte_identical": true,
+  "figures": {
+    "F1": {
+      "path": "figures/current_release/approved_main_assets/F1.png",
+      "before_sha256": "b2633809aa583207ed6b96ddd598999c6ac01dbd3714437fab2d7324fe631e44",
+      "after_sha256": "0c86f1578567ddd8be60a8d168a834e51cfad76a4c224e32c1ab8866184223a9",
+      "changed_pixel_bbox": [
+        149,
+        782,
+        1373,
+        838
+      ],
+      "changed_pixel_count": 28626,
+      "pixels_outside_title_band_identical": true,
+      "canvas_unchanged": true
+    },
+    "F4": {
+      "path": "lrot_output/figures_png/lrot_dlpfc.png",
+      "before_sha256": "e1d77a42ddef8a65d33f8c00b13bc81ec8a3221e2bfa5e868ccb5299c8aeef17",
+      "after_sha256": "0b7c70a8b2cdf8a0b4885805f0a4784c45ad82e269baf3ba93d516c48dad6b33",
+      "changed_pixel_bbox": [
+        3565,
+        1452,
+        4479,
+        1499
+      ],
+      "changed_pixel_count": 19203,
+      "pixels_outside_title_band_identical": true,
+      "canvas_unchanged": true
+    }
+  },
+  "document_sha256": {
+    "main": "c5a276cce01fb99c78f846edc955fbf52c000eeb3c3a608395a99715612d1117",
+    "supplement": "04b1ec706092d2d8be7b048df7c3fc1480f19e93f307fe52d007d3a7c42d9933"
+  }
+}

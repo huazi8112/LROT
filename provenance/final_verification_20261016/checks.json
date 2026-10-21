@@ -1,0 +1,5328 @@
+{
+  "table1_statistics": [
+    {
+      "metric": "Transport entropy",
+      "displayed": [
+        "3.989",
+        "3.769",
+        "-0.220",
+        "1.907e-06"
+      ],
+      "recomputed": [
+        "3.989",
+        "3.769",
+        "-0.220",
+        "1.907e-06"
+      ],
+      "matches": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "raw_means": [
+        3.9889510890772137,
+        3.76907416877919
+      ],
+      "paired_delta": -0.21987692029802383
+    },
+    {
+      "metric": "Alignment accuracy",
+      "displayed": [
+        "0.735",
+        "0.733",
+        "-0.002",
+        "0.3321"
+      ],
+      "recomputed": [
+        "0.735",
+        "0.733",
+        "-0.002",
+        "3.321e-01"
+      ],
+      "matches": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "raw_means": [
+        0.7351000000000001,
+        0.7327
+      ],
+      "paired_delta": -0.002400000000000002
+    },
+    {
+      "metric": "Neurotrophic factor pathway",
+      "displayed": [
+        "0.138",
+        "0.154",
+        "+0.016",
+        "0.0007076"
+      ],
+      "recomputed": [
+        "0.138",
+        "0.154",
+        "0.016",
+        "7.076e-04"
+      ],
+      "matches": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "raw_means": [
+        0.13810129853205239,
+        0.154196411429654
+      ],
+      "paired_delta": 0.016095112897601672
+    },
+    {
+      "metric": "Ephrin/Semaphorin",
+      "displayed": [
+        "0.159",
+        "0.192",
+        "+0.032",
+        "1.907e-05"
+      ],
+      "recomputed": [
+        "0.159",
+        "0.192",
+        "0.032",
+        "1.907e-05"
+      ],
+      "matches": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "raw_means": [
+        0.15918461569388614,
+        0.19152647393324296
+      ],
+      "paired_delta": 0.0323418582393568
+    },
+    {
+      "metric": "Chemokine pathway",
+      "displayed": [
+        "0.188",
+        "0.218",
+        "+0.030",
+        "3.815e-06"
+      ],
+      "recomputed": [
+        "0.188",
+        "0.218",
+        "0.030",
+        "3.815e-06"
+      ],
+      "matches": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "raw_means": [
+        0.1882253823009033,
+        0.21811110792607202
+      ],
+      "paired_delta": 0.029885725625168707
+    },
+    {
+      "metric": "Non-LR control",
+      "displayed": [
+        "0.620",
+        "0.604",
+        "-0.017",
+        "5.722e-06"
+      ],
+      "recomputed": [
+        "0.620",
+        "0.604",
+        "-0.017",
+        "5.722e-06"
+      ],
+      "matches": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "raw_means": [
+        0.6202908316040925,
+        0.6037430039860086
+      ],
+      "paired_delta": -0.016547827618084092
+    }
+  ],
+  "table2_raw_bound_scoring": [
+    {
+      "key": "dlpfc_151507_151508_42_99_FGW",
+      "raw_slice_hashes_match": true,
+      "score_max_abs_difference": 0.0,
+      "correct_array_equal": true,
+      "rho": 0.5180526064897901,
+      "record_rho": 0.5180526064897901,
+      "same_mass": 0.3766470709347676,
+      "record_same_mass": 0.3766470709347677,
+      "soft_ari": 0.4160097856351517,
+      "record_soft_ari": 0.4160097856351517,
+      "accuracy": 0.57
+    },
+    {
+      "key": "dlpfc_151507_151508_42_99_LROT",
+      "raw_slice_hashes_match": true,
+      "score_max_abs_difference": 0.0,
+      "correct_array_equal": true,
+      "rho": 0.412573830249765,
+      "record_rho": 0.412573830249765,
+      "same_mass": 0.374174489877403,
+      "record_same_mass": 0.374174489877403,
+      "soft_ari": 0.3440948512709325,
+      "record_soft_ari": 0.3440948512709325,
+      "accuracy": 0.555
+    },
+    {
+      "key": "dlpfc_151508_151509_99_99_FGW",
+      "raw_slice_hashes_match": true,
+      "score_max_abs_difference": 0.0,
+      "correct_array_equal": true,
+      "rho": 0.38213746882317656,
+      "record_rho": 0.38213746882317656,
+      "same_mass": 0.35178163281313685,
+      "record_same_mass": 0.35178163281313696,
+      "soft_ari": 0.19542917676419877,
+      "record_soft_ari": 0.19542917676419877,
+      "accuracy": 0.496
+    },
+    {
+      "key": "dlpfc_151508_151509_99_99_LROT",
+      "raw_slice_hashes_match": true,
+      "score_max_abs_difference": 0.0,
+      "correct_array_equal": true,
+      "rho": 0.33443098312572744,
+      "record_rho": 0.33443098312572744,
+      "same_mass": 0.35459299070518724,
+      "record_same_mass": 0.3545929907051874,
+      "soft_ari": 0.15619317536451544,
+      "record_soft_ari": 0.15619317536451544,
+      "accuracy": 0.473
+    },
+    {
+      "key": "dlpfc_151669_151670_42_99_FGW",
+      "raw_slice_hashes_match": true,
+      "score_max_abs_difference": 0.0,
+      "correct_array_equal": true,
+      "rho": 0.676757890218775,
+      "record_rho": 0.676757890218775,
+      "same_mass": 0.5574514892936189,
+      "record_same_mass": 0.557451489293619,
+      "soft_ari": 0.34468135737676886,
+      "record_soft_ari": 0.34468135737676886,
+      "accuracy": 0.672
+    },
+    {
+      "key": "dlpfc_151669_151670_42_99_LROT",
+      "raw_slice_hashes_match": true,
+      "score_max_abs_difference": 0.0,
+      "correct_array_equal": true,
+      "rho": 0.6427672127478431,
+      "record_rho": 0.6427672127478431,
+      "same_mass": 0.5628043022140264,
+      "record_same_mass": 0.5628043022140262,
+      "soft_ari": 0.3997181505928286,
+      "record_soft_ari": 0.3997181505928286,
+      "accuracy": 0.69
+    },
+    {
+      "key": "dlpfc_151670_151671_99_99_FGW",
+      "raw_slice_hashes_match": true,
+      "score_max_abs_difference": 0.0,
+      "correct_array_equal": true,
+      "rho": 0.5825765211231422,
+      "record_rho": 0.5825765211231422,
+      "same_mass": 0.47962877676538385,
+      "record_same_mass": 0.479628776765384,
+      "soft_ari": 0.402515942421218,
+      "record_soft_ari": 0.402515942421218,
+      "accuracy": 0.711
+    },
+    {
+      "key": "dlpfc_151670_151671_99_99_LROT",
+      "raw_slice_hashes_match": true,
+      "score_max_abs_difference": 0.0,
+      "correct_array_equal": true,
+      "rho": 0.5121333123242287,
+      "record_rho": 0.5121333123242287,
+      "same_mass": 0.4690849476068958,
+      "record_same_mass": 0.4690849476068956,
+      "soft_ari": 0.35640288801529685,
+      "record_soft_ari": 0.35640288801529685,
+      "accuracy": 0.686
+    }
+  ],
+  "s18_s19_s20_plan_checks": [
+    {
+      "table": "Table 2",
+      "key": "dlpfc_151507_151508_42_99_LROT",
+      "json_sha256": "1e807e7181c55d7254d039da2680200f9208602b7b5bb7d896e1aa3f8deb27db",
+      "rho": 0.412573830249765,
+      "rho_matches_display": true,
+      "residual": 6.254222835400114e-06,
+      "residual_matches_display": true,
+      "score_source": "saved per-spot arrays; raw label-vote regeneration not performed here",
+      "input_hashes": [
+        "633a3020990d3363a6b8d3b277a4037a294d8e2f730f50e5975c45bc347951c9",
+        "0654fda5186ab1daa822a5e3937bf0396eb639984a778ad6fbcf01cdcbbb6352"
+      ]
+    },
+    {
+      "table": "Table 2",
+      "key": "dlpfc_151507_151508_42_99_FGW",
+      "json_sha256": "c43ee36cdc3071eecf6146cc3b6fa81f30be8b4ba71a73c842e14d9de10da667",
+      "rho": 0.5180526064897901,
+      "rho_matches_display": true,
+      "residual": 5.116510635283511e-06,
+      "residual_matches_display": true,
+      "score_source": "saved per-spot arrays; raw label-vote regeneration not performed here",
+      "input_hashes": [
+        "633a3020990d3363a6b8d3b277a4037a294d8e2f730f50e5975c45bc347951c9",
+        "0654fda5186ab1daa822a5e3937bf0396eb639984a778ad6fbcf01cdcbbb6352"
+      ]
+    },
+    {
+      "table": "Table 2",
+      "key": "dlpfc_151508_151509_99_99_LROT",
+      "json_sha256": "140ec13800f362f5795b82bf97233eb64d3bdec4c6fe5fcb8220c4ea36a008fd",
+      "rho": 0.33443098312572744,
+      "rho_matches_display": true,
+      "residual": 4.688774103978055e-06,
+      "residual_matches_display": true,
+      "score_source": "saved per-spot arrays; raw label-vote regeneration not performed here",
+      "input_hashes": [
+        "fed99695d0c8194f51b2061b34d9cb8f83612bf2ff4d79c9b7502f88059753f2",
+        "51292075576a8b47183393623473fed075a6552640b3413da36a359bc88e429d"
+      ]
+    },
+    {
+      "table": "Table 2",
+      "key": "dlpfc_151508_151509_99_99_FGW",
+      "json_sha256": "a38901ea18dade1102790a64cfce84fbbec6f7a1b0375afd6c10bfe2b53a7605",
+      "rho": 0.38213746882317656,
+      "rho_matches_display": true,
+      "residual": 4.346397241672406e-06,
+      "residual_matches_display": true,
+      "score_source": "saved per-spot arrays; raw label-vote regeneration not performed here",
+      "input_hashes": [
+        "fed99695d0c8194f51b2061b34d9cb8f83612bf2ff4d79c9b7502f88059753f2",
+        "51292075576a8b47183393623473fed075a6552640b3413da36a359bc88e429d"
+      ]
+    },
+    {
+      "table": "Table 2",
+      "key": "dlpfc_151669_151670_42_99_LROT",
+      "json_sha256": "051177636e510a9ae74dde12881d5ae4b3ace460fac3b8e970a6d7c9b3e21069",
+      "rho": 0.6427672127478431,
+      "rho_matches_display": true,
+      "residual": 4.070074226203424e-06,
+      "residual_matches_display": true,
+      "score_source": "saved per-spot arrays; raw label-vote regeneration not performed here",
+      "input_hashes": [
+        "e12e0b8cdbfad1e3d6230045d30850590d0fe66fc558709de59d86408b23f1b4",
+        "a3f9e9a833ed0014db0caca50a33530a696f1420d0904a7820c5f41fb3331f70"
+      ]
+    },
+    {
+      "table": "Table 2",
+      "key": "dlpfc_151669_151670_42_99_FGW",
+      "json_sha256": "1b769c8ff7776306ce3a60ca4d52a74f7ee2c08ab6f9d6c991483f7742f101cd",
+      "rho": 0.676757890218775,
+      "rho_matches_display": true,
+      "residual": 3.581199551350167e-07,
+      "residual_matches_display": true,
+      "score_source": "saved per-spot arrays; raw label-vote regeneration not performed here",
+      "input_hashes": [
+        "e12e0b8cdbfad1e3d6230045d30850590d0fe66fc558709de59d86408b23f1b4",
+        "a3f9e9a833ed0014db0caca50a33530a696f1420d0904a7820c5f41fb3331f70"
+      ]
+    },
+    {
+      "table": "Table 2",
+      "key": "dlpfc_151670_151671_99_99_LROT",
+      "json_sha256": "3911a506de03b69f358ae7829db94103b64011b2f2a8c9b1a779ba90458d1bed",
+      "rho": 0.5121333123242287,
+      "rho_matches_display": true,
+      "residual": 2.0787669674504627e-07,
+      "residual_matches_display": true,
+      "score_source": "saved per-spot arrays; raw label-vote regeneration not performed here",
+      "input_hashes": [
+        "072728ad3458042d99dd7ecf61d2b6ab8e5e5aca75679a7f328ac97e587aeebd",
+        "a7bfabc322c04324d71a1a2a9af399786a1606db964e8590f565a3f314abecfc"
+      ]
+    },
+    {
+      "table": "Table 2",
+      "key": "dlpfc_151670_151671_99_99_FGW",
+      "json_sha256": "76a9a56cd23dc3db33e7787a87630dca36c91bb1996a4fb3d9e8528374bb3b71",
+      "rho": 0.5825765211231422,
+      "rho_matches_display": true,
+      "residual": 4.086774247569203e-06,
+      "residual_matches_display": true,
+      "score_source": "saved per-spot arrays; raw label-vote regeneration not performed here",
+      "input_hashes": [
+        "072728ad3458042d99dd7ecf61d2b6ab8e5e5aca75679a7f328ac97e587aeebd",
+        "a7bfabc322c04324d71a1a2a9af399786a1606db964e8590f565a3f314abecfc"
+      ]
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0",
+      "json_sha256": "19a94c5b6ee062d3fb5978dd5a7591d3af1f81550b846d5c2f3d404f07c948f5",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.4893647164890856e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 6.01187467362836,
+      "plan_residual": 5.116510635283511e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.02",
+      "json_sha256": "b45bd098bacdf1c96dfbef8371d7bee7a109ffb353704709bb9dcb592ba50543",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.883295332067561e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.938020242283732,
+      "plan_residual": 5.103883295332068e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.05",
+      "json_sha256": "851fd1a1817aaf8308a2b77007b880c0db8137ae5bacbabcbcfde26a6ca94768",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.6585713675693374e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.612549611826802,
+      "plan_residual": 5.2263414286324306e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.1",
+      "json_sha256": "69fadb87d47f11567c283d76ca3c4d2755a162f892f8796460143fb8e4972302",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.222835400113623e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.952397108531448,
+      "plan_residual": 6.254222835400114e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.15",
+      "json_sha256": "91d7fca2e757ca5cb00449a4597b26aac6700393fc64df6e3eeb962e189a4caa",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 1.6125122481636923e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.538921439032032,
+      "plan_residual": 9.151612512248164e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.2",
+      "json_sha256": "37f67f6a2dc53ccf29b5e4b3df2f003752a9bcd22388c5e0932043707e7aa7cc",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 5.450568723729972e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.315009345305291,
+      "plan_residual": 8.089454943127627e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0",
+      "json_sha256": "dfd79b0b777fd5ae3b8b96e08826423c54cd50fd93c67d1545389b3b41ee7a0d",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.232118789449886e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 6.022994002616096,
+      "plan_residual": 1.5157678812105502e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.02",
+      "json_sha256": "4972657e09ff34629ef76ec1e0e6a5bfb9efed30671b1ce3af49da59cc8bcce9",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 1.3179308132565785e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.955358837771424,
+      "plan_residual": 1.7786820691867433e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.05",
+      "json_sha256": "4c3f69dd0aacddba21cc65fcb952363975516ceb1cff0352640e0131c5b5a240",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.536933902278642e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.654358367115145,
+      "plan_residual": 2.0864630660977213e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.1",
+      "json_sha256": "206047aabe5605f4b3ef3830a692744f48bb8601619a92b55df6ade602a5553b",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 2.731850594776066e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.040077814337682,
+      "plan_residual": 2.347268149405224e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.15",
+      "json_sha256": "175c7b88e721f381178e1597c6bec115c7e792895001bd9005db1179401a9b59",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 1.5607381454480499e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.6642703209059775,
+      "plan_residual": 5.390156073814545e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.2",
+      "json_sha256": "cc28f4ae9b9439e411fc40c05de6aacead0fadbaf4a25fe95493adc6b003545b",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 2.848525255448989e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.471654402741064,
+      "plan_residual": 5.052848525255449e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0",
+      "json_sha256": "f9d30480101cea8ff6bd78bb5d84865716cc4f44e8e8c7cd3be45cacb15319cd",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 1.19955135016707e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 6.225319882500941,
+      "plan_residual": 3.581199551350167e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.02",
+      "json_sha256": "164153cce6f20d693d0345daeac24c747879de5b7d84adb5ec3427ce3ee22e1d",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.282429084731041e-12,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 6.155328255136665,
+      "plan_residual": 6.450042824290847e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.05",
+      "json_sha256": "9857351a462f624490bd8ed99348c736e3e174744fcb6c3aab03ad4ba7f5c5f1",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.398408983726974e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.900795013769451,
+      "plan_residual": 1.075601591016273e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.1",
+      "json_sha256": "a2c773a6400309780c12459e0afcd62d8e4720708d3f7efe758238d458f0e1ed",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 7.422620342396576e-11,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.415184835194485,
+      "plan_residual": 4.070074226203424e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.15",
+      "json_sha256": "1f0441972a5e1ec10ea67190df98c3201440a102f9d79036951065eb1e179a87",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 2.9701922338064923e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.095599952741561,
+      "plan_residual": 2.7970298077661937e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.2",
+      "json_sha256": "2c766e2f8ffe2982bf0ce5a090cf01827a8e8c4378643160e7802dac2bb731fc",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.013221031709504e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.904751192321284,
+      "plan_residual": 2.9459867789682903e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0",
+      "json_sha256": "41c3703abb3627282003e5322382d729aeed1531be44f04960dfff8da9d7efa0",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 7.04228596371239e-11,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 6.355067802066178,
+      "plan_residual": 1.0092957714036288e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.02",
+      "json_sha256": "085f14bddf070ccc3a8ab9e88ebe56b33849eeaef34f25e940f21b8f8fb0ab48",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 1.0365197827923673e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 6.294178450684845,
+      "plan_residual": 1.0989634802172077e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.05",
+      "json_sha256": "44762f26f3ed66c99b21d959b2b93b953ffab7345b42925e99a9c3c945613b9d",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 2.3154087588307205e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 6.048291325573768,
+      "plan_residual": 1.1676845912411693e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.1",
+      "json_sha256": "efb273dce2bdadde4122517e53c16bb36b9103570766b8a55ed8ec3f29759367",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.176973207580919e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.575095720553042,
+      "plan_residual": 1.963176973207581e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.15",
+      "json_sha256": "7778ad2a0834567d1b2e6d2a141cda131ba5bb4574e672bf5d0bd0a908d3ba92",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 1.6222732126994994e-11,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.275029101801536,
+      "plan_residual": 2.2283777267873006e-08,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.2",
+      "json_sha256": "cbf4d127751c4e0ac09a17c889fad43108a046d190c079d8315397fcc08ce681",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.101735286808812e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.104620802714634,
+      "plan_residual": 9.016898264713191e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s1_FGW",
+      "json_sha256": "4c1c04a8821277f066e0f56f5039eaf6be34eced2649601d4368f8a608c8ee95",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.4893647164890856e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 6.01187467362836,
+      "plan_residual": 5.116510635283511e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s1_LROT05",
+      "json_sha256": "3bbd11cbf3d401fe8a23b3c3f272a63cd2a019d1780dc2243fc16895e6148e49",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.6585713675693374e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.612549611826802,
+      "plan_residual": 5.2263414286324306e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s1_LROT10",
+      "json_sha256": "4e8254d8e0c07fb4cbc1fb6f7e9a613b68e1586b71233f84d1e60c0d8d2646e8",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.222835400113623e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.952397108531448,
+      "plan_residual": 6.254222835400114e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.7_FGW",
+      "json_sha256": "206db25ef658167e0ed3f14fbbb03cc53981b4fc929db66774e8df0c228f2096",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.994276594928279e-11,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.551945529564616,
+      "plan_residual": 2.3099600572340506e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.7_LROT05",
+      "json_sha256": "2694a9e4447a42a9edf834049d72a51cf8bd03af8489b81f909e558f813628fa",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.6858847157597505e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.881341171378569,
+      "plan_residual": 1.6246858847157597e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.7_LROT10",
+      "json_sha256": "84e7c1ca99c3e903dabe9594162edaebcbd19222a78006208c7e770c7251842b",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.104876603993705e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.182193193073257,
+      "plan_residual": 2.063104876603994e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.5_FGW",
+      "json_sha256": "574c191d33a2baa15402516717ae132ac1f9bcf359a2ffbefb806c9ca4a3793f",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.53239612631743e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 5.062997291952337,
+      "plan_residual": 5.433532396126317e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.5_LROT05",
+      "json_sha256": "4e838e81d8d615c30c15fd73eb9857bfb4778b918d47bfad1606dab02b24ebee",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.4058402267972226e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.1084573859815565,
+      "plan_residual": 3.3144058402267973e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.5_LROT10",
+      "json_sha256": "141a98d4860de37957cdb03c8c9f18da2831c54c26a00d152c9cdc883d65e2dd",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 2.136086622535528e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 3.521963451537849,
+      "plan_residual": 6.892136086622536e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.35_FGW",
+      "json_sha256": "fd157a679c8942245ee76530b7c10c81e74024efa235ab43cff22f110e53417f",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.5378251517912047e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 4.475250450116503,
+      "plan_residual": 6.866462174848209e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.35_LROT05",
+      "json_sha256": "fd3dac583b9ebcfe08687e1a5045d489b21d4911c98d94d07b9989bd842ec8f4",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.566224076308072e-10,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 3.3095219711359114,
+      "plan_residual": 5.079643377592369e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.35_LROT10",
+      "json_sha256": "662591259e0d7c0587f11843282d8cab60ab73a0405a8da982a92c8fc2c418f0",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": false,
+          "absolute_difference_to_display": 2.2305012848809712e-17,
+          "within_float_roundoff_1e-12": true
+        }
+      },
+      "plan_entropy": 2.8969046405222376,
+      "plan_residual": 8.43769498715119e-15,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.25_FGW",
+      "json_sha256": "2eb24bcfbbcb270e8924e9d4e95340dbf8cc61ae5c8b82c680cb476314b03b8b",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 4.547106419898063e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 3.851820302787928,
+      "plan_residual": 9.815452893580101e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.25_LROT05",
+      "json_sha256": "d483c5c5a779ca2172bb6679b4992383972ed047046955413906b264afabb831",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.587615005297263e-09,
+          "within_float_roundoff_1e-12": false
+        }
+      },
+      "plan_entropy": 2.647327703295538,
+      "plan_residual": 9.663587615005298e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.25_LROT10",
+      "json_sha256": "069bb6da5497449ff4143c0d1976adb29e678595bb9241dd30983a69245742ad",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": true,
+          "absolute_difference_to_display": 3.60964314764713e-17,
+          "within_float_roundoff_1e-12": true
+        }
+      },
+      "plan_entropy": 2.3552069433249727,
+      "plan_residual": 1.0436096431476471e-14,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.18_FGW",
+      "json_sha256": "8646a592341bb0ef0e8cceca1636f752947651412ac901e7b55e2b1ffecfebb1",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": false,
+          "absolute_difference_to_display": 5.661724732402941e-17,
+          "within_float_roundoff_1e-12": true
+        }
+      },
+      "plan_entropy": 3.198467382947619,
+      "plan_residual": 6.8833827526759706e-15,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.18_LROT05",
+      "json_sha256": "2f638f8068021f183d921b75d1b62436bd27b6301eb3a51b4f3b53c1086aaf69",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": false,
+          "absolute_difference_to_display": 5.687765524780949e-17,
+          "within_float_roundoff_1e-12": true
+        }
+      },
+      "plan_entropy": 2.0999028410846874,
+      "plan_residual": 1.554312234475219e-14,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.18_LROT10",
+      "json_sha256": "a2d3c37f13cbf36323eb326d229d3865c513774acdfecd098e11115f18990421",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": false,
+          "absolute_difference_to_display": 6.037128265306662e-17,
+          "within_float_roundoff_1e-12": true
+        }
+      },
+      "plan_entropy": 1.8741793162016178,
+      "plan_residual": 2.1760371282653068e-14,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.12_FGW",
+      "json_sha256": "4ee2dc92e3375adf1374c63b6f04b6499406312d981d4a3cb2f5c33950f2c6a2",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": false,
+          "absolute_difference_to_display": 5.1076464660586165e-17,
+          "within_float_roundoff_1e-12": true
+        }
+      },
+      "plan_entropy": 2.4069042142473163,
+      "plan_residual": 7.505107646466058e-14,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.12_LROT05",
+      "json_sha256": "69beb2cf3e515feadf23ccacfdfce5ac0a4997965b626f1929214f1538f9f186",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": false,
+          "absolute_difference_to_display": 1.1245327087672175e-16,
+          "within_float_roundoff_1e-12": true
+        }
+      },
+      "plan_entropy": 1.552822160677379,
+      "plan_residual": 1.2212453270876722e-14,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.12_LROT10",
+      "json_sha256": "a5a65a30e491a668c7c482acb4427284aa69d93a5d49328a3a08139c27354f4e",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "residual": {
+          "matches_display": false,
+          "absolute_difference_to_display": 9.884749357559496e-17,
+          "within_float_roundoff_1e-12": true
+        }
+      },
+      "plan_entropy": 1.3819915405755596,
+      "plan_residual": 4.218847493575595e-15,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_100",
+      "json_sha256": "189d4ade818511e738d28af3222908ecc0c61523a0e9b1adec8f29f3706aa0fe",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        }
+      },
+      "plan_entropy": 4.921842069409692,
+      "plan_residual": 5.163792041740223e-07,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_101",
+      "json_sha256": "a2b51f545bd864dc8156310aa5b02c2c530e8834dcefecfe39b9b2b3b4418274",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        }
+      },
+      "plan_entropy": 5.022193143192936,
+      "plan_residual": 1.241744961411051e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_102",
+      "json_sha256": "953086a07fd7399115e42405c8bc393e82237f5f29b209f4443eb269eee02564",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        }
+      },
+      "plan_entropy": 5.155637269335161,
+      "plan_residual": 3.4644266728722783e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_103",
+      "json_sha256": "497be375cca8cce7217a463de1b20b15f1cfe1d01c4bd6d9af6b8e86591b5e9b",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        }
+      },
+      "plan_entropy": 4.979326156754956,
+      "plan_residual": 2.5377303956020114e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_104",
+      "json_sha256": "305d87ed4cfd7a9b761e52084bf736d7e983b693649d598d46f75e86e3526a2d",
+      "checks": {
+        "entropy": {
+          "matches_display": true,
+          "source": "independently computed from saved P"
+        },
+        "same_mass": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_ari": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        },
+        "soft_acc": {
+          "matches_display": true,
+          "source": "accepted run metric; not independently rescored from raw labels here"
+        }
+      },
+      "plan_entropy": 4.803351156323103,
+      "plan_residual": 2.7868694028043706e-06,
+      "accepted_record": "accepted_numerical_result",
+      "plan_finite_nonnegative": true
+    }
+  ],
+  "s18_s19_s20_raw_bound_scoring": [
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3766470709347676,
+        "soft_ari": 0.4160097856351517,
+        "soft_acc": 0.57
+      },
+      "differences_to_record": {
+        "same_mass": 5.551115123125783e-17,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.02",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3786080876340173,
+        "soft_ari": 0.41464969832705134,
+        "soft_acc": 0.574
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3789551885881885,
+        "soft_ari": 0.3972229002444624,
+        "soft_acc": 0.577
+      },
+      "differences_to_record": {
+        "same_mass": 3.885780586188048e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.1",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.374174489877403,
+        "soft_ari": 0.3440948512709325,
+        "soft_acc": 0.555
+      },
+      "differences_to_record": {
+        "same_mass": 0.0,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.15",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3682782086560552,
+        "soft_ari": 0.31027246957823845,
+        "soft_acc": 0.543
+      },
+      "differences_to_record": {
+        "same_mass": 1.6653345369377348e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151507_151508_g0.2",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3633746346089314,
+        "soft_ari": 0.29188049156605744,
+        "soft_acc": 0.531
+      },
+      "differences_to_record": {
+        "same_mass": 5.551115123125783e-17,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3477736184410218,
+        "soft_ari": 0.19101916897982718,
+        "soft_acc": 0.475
+      },
+      "differences_to_record": {
+        "same_mass": 1.6653345369377348e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.02",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3495822426781455,
+        "soft_ari": 0.18283432852455303,
+        "soft_acc": 0.468
+      },
+      "differences_to_record": {
+        "same_mass": 5.551115123125783e-17,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3503163028081343,
+        "soft_ari": 0.16720264370244178,
+        "soft_acc": 0.46
+      },
+      "differences_to_record": {
+        "same_mass": 2.220446049250313e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.1",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.34761779837870066,
+        "soft_ari": 0.1516273535502431,
+        "soft_acc": 0.455
+      },
+      "differences_to_record": {
+        "same_mass": 0.0,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.15",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3434640056291352,
+        "soft_ari": 0.13371304508051032,
+        "soft_acc": 0.441
+      },
+      "differences_to_record": {
+        "same_mass": 2.220446049250313e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151508_151509_g0.2",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.33991893413096913,
+        "soft_ari": 0.11774501753753852,
+        "soft_acc": 0.426
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5574514892936189,
+        "soft_ari": 0.34468135737676886,
+        "soft_acc": 0.672
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.02",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5611355804816032,
+        "soft_ari": 0.3727326706843436,
+        "soft_acc": 0.686
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5635293637668972,
+        "soft_ari": 0.3773081756794875,
+        "soft_acc": 0.683
+      },
+      "differences_to_record": {
+        "same_mass": 0.0,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.1",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5628043022140264,
+        "soft_ari": 0.3997181505928286,
+        "soft_acc": 0.69
+      },
+      "differences_to_record": {
+        "same_mass": 2.220446049250313e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.15",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5599575366930677,
+        "soft_ari": 0.39157396978429565,
+        "soft_acc": 0.687
+      },
+      "differences_to_record": {
+        "same_mass": 0.0,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151669_151670_g0.2",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.557310049708667,
+        "soft_ari": 0.37385249529774706,
+        "soft_acc": 0.681
+      },
+      "differences_to_record": {
+        "same_mass": 0.0,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5008604059502914,
+        "soft_ari": 0.5427257774060412,
+        "soft_acc": 0.763
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.02",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5030236377890117,
+        "soft_ari": 0.5505731380320739,
+        "soft_acc": 0.764
+      },
+      "differences_to_record": {
+        "same_mass": 3.3306690738754696e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5031140867794682,
+        "soft_ari": 0.562996506897823,
+        "soft_acc": 0.766
+      },
+      "differences_to_record": {
+        "same_mass": 2.220446049250313e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.1",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.49801664013671215,
+        "soft_ari": 0.5411191896846163,
+        "soft_acc": 0.756
+      },
+      "differences_to_record": {
+        "same_mass": 3.3306690738754696e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.15",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.49079137298558695,
+        "soft_ari": 0.49929503283937693,
+        "soft_acc": 0.737
+      },
+      "differences_to_record": {
+        "same_mass": 5.551115123125783e-17,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S18",
+      "key": "dlpfc_main_gamma_151670_151671_g0.2",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.48509848335007816,
+        "soft_ari": 0.45019318556397586,
+        "soft_acc": 0.716
+      },
+      "differences_to_record": {
+        "same_mass": 2.7755575615628914e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s1_FGW",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3766470709347676,
+        "soft_ari": 0.4160097856351517,
+        "soft_acc": 0.57
+      },
+      "differences_to_record": {
+        "same_mass": 5.551115123125783e-17,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s1_LROT05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3789551885881885,
+        "soft_ari": 0.3972229002444624,
+        "soft_acc": 0.577
+      },
+      "differences_to_record": {
+        "same_mass": 3.885780586188048e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s1_LROT10",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.374174489877403,
+        "soft_ari": 0.3440948512709325,
+        "soft_acc": 0.555
+      },
+      "differences_to_record": {
+        "same_mass": 0.0,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.7_FGW",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.42898921875957513,
+        "soft_ari": 0.4630907416768357,
+        "soft_acc": 0.614
+      },
+      "differences_to_record": {
+        "same_mass": 3.885780586188048e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.7_LROT05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.428723420572815,
+        "soft_ari": 0.44011824179779746,
+        "soft_acc": 0.606
+      },
+      "differences_to_record": {
+        "same_mass": 5.551115123125783e-17,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.7_LROT10",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.41939188458678756,
+        "soft_ari": 0.39501165201168686,
+        "soft_acc": 0.585
+      },
+      "differences_to_record": {
+        "same_mass": 1.6653345369377348e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.5_FGW",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.4750223234224861,
+        "soft_ari": 0.4939254051128152,
+        "soft_acc": 0.644
+      },
+      "differences_to_record": {
+        "same_mass": 3.3306690738754696e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.5_LROT05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.46976259599845577,
+        "soft_ari": 0.44237340561669836,
+        "soft_acc": 0.614
+      },
+      "differences_to_record": {
+        "same_mass": 3.885780586188048e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.5_LROT10",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.45662600105382584,
+        "soft_ari": 0.41303803453989896,
+        "soft_acc": 0.597
+      },
+      "differences_to_record": {
+        "same_mass": 0.0,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.35_FGW",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5179523324556116,
+        "soft_ari": 0.5105039267419748,
+        "soft_acc": 0.654
+      },
+      "differences_to_record": {
+        "same_mass": 0.0,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.35_LROT05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5045175573233099,
+        "soft_ari": 0.45234225239976444,
+        "soft_acc": 0.62
+      },
+      "differences_to_record": {
+        "same_mass": 3.3306690738754696e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.35_LROT10",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.4887458016227033,
+        "soft_ari": 0.4016377735641076,
+        "soft_acc": 0.584
+      },
+      "differences_to_record": {
+        "same_mass": 2.220446049250313e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.25_FGW",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5517910966070736,
+        "soft_ari": 0.5101090066999862,
+        "soft_acc": 0.665
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.25_LROT05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5288383262589302,
+        "soft_ari": 0.4455826079595866,
+        "soft_acc": 0.614
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.25_LROT10",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5118920568436169,
+        "soft_ari": 0.40448742993826337,
+        "soft_acc": 0.586
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.18_FGW",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5778792715012427,
+        "soft_ari": 0.5135814800603711,
+        "soft_acc": 0.661
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.18_LROT05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5451782222650849,
+        "soft_ari": 0.4330361361365496,
+        "soft_acc": 0.602
+      },
+      "differences_to_record": {
+        "same_mass": 4.440892098500626e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.18_LROT10",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5277897118778163,
+        "soft_ari": 0.3883719189654217,
+        "soft_acc": 0.58
+      },
+      "differences_to_record": {
+        "same_mass": 4.440892098500626e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.12_FGW",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.600040320047303,
+        "soft_ari": 0.5059170396927943,
+        "soft_acc": 0.667
+      },
+      "differences_to_record": {
+        "same_mass": 5.551115123125783e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.12_LROT05",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5570815540792419,
+        "soft_ari": 0.416666322391516,
+        "soft_acc": 0.597
+      },
+      "differences_to_record": {
+        "same_mass": 3.3306690738754696e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S19",
+      "key": "certified_fair_temperature_s0.12_LROT10",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.5395515764102452,
+        "soft_ari": 0.3727754655887945,
+        "soft_acc": 0.572
+      },
+      "differences_to_record": {
+        "same_mass": 2.220446049250313e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_100",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.37252584510605147,
+        "soft_ari": 0.3663958375742267,
+        "soft_acc": 0.574
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_101",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.37406141098699114,
+        "soft_ari": 0.34943926178401,
+        "soft_acc": 0.557
+      },
+      "differences_to_record": {
+        "same_mass": 5.551115123125783e-17,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_102",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.37423463759021264,
+        "soft_ari": 0.36997667707048604,
+        "soft_acc": 0.562
+      },
+      "differences_to_record": {
+        "same_mass": 1.6653345369377348e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_103",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.3754986894613055,
+        "soft_ari": 0.36863802000493345,
+        "soft_acc": 0.566
+      },
+      "differences_to_record": {
+        "same_mass": 1.6653345369377348e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "S20",
+      "key": "certified_fair_shuffle_104",
+      "input_identity_verified": true,
+      "metrics": {
+        "same_mass": 0.36745916294442543,
+        "soft_ari": 0.33427809999328717,
+        "soft_acc": 0.552
+      },
+      "differences_to_record": {
+        "same_mass": 1.1102230246251565e-16,
+        "soft_ari": 0.0,
+        "soft_acc": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "s2_s8_record_comparisons": [
+    {
+      "table": "S2",
+      "row": 1,
+      "column": 1,
+      "value": 6.01187467362836,
+      "displayed": "6.0119",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 1,
+      "column": 2,
+      "value": 0.4160097856351517,
+      "displayed": "0.416",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 1,
+      "column": 3,
+      "value": 0.3766470709347677,
+      "displayed": "0.3766",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 1,
+      "column": 4,
+      "value": 6.022994002608702,
+      "displayed": "6.0230",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 1,
+      "column": 5,
+      "value": 0.19101916897982718,
+      "displayed": "0.191",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 1,
+      "column": 6,
+      "value": 0.3477736184410216,
+      "displayed": "0.3478",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 2,
+      "column": 1,
+      "value": 5.938020242283726,
+      "displayed": "5.9380",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 2,
+      "column": 2,
+      "value": 0.41464969832705134,
+      "displayed": "0.415",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 2,
+      "column": 3,
+      "value": 0.37860808763401743,
+      "displayed": "0.3786",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 2,
+      "column": 4,
+      "value": 5.955358837761937,
+      "displayed": "5.9554",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 2,
+      "column": 5,
+      "value": 0.18283432852455303,
+      "displayed": "0.183",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 2,
+      "column": 6,
+      "value": 0.34958224267814547,
+      "displayed": "0.3496",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 3,
+      "column": 1,
+      "value": 5.612549611826676,
+      "displayed": "5.6125",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 3,
+      "column": 2,
+      "value": 0.3972229002444624,
+      "displayed": "0.397",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 3,
+      "column": 3,
+      "value": 0.3789551885881881,
+      "displayed": "0.3790",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 3,
+      "column": 4,
+      "value": 5.654358367100178,
+      "displayed": "5.6544",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 3,
+      "column": 5,
+      "value": 0.16720264370244178,
+      "displayed": "0.167",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 3,
+      "column": 6,
+      "value": 0.3503163028081345,
+      "displayed": "0.3503",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 4,
+      "column": 1,
+      "value": 4.952397108524767,
+      "displayed": "4.9524",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 4,
+      "column": 2,
+      "value": 0.3440948512709325,
+      "displayed": "0.344",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 4,
+      "column": 3,
+      "value": 0.374174489877403,
+      "displayed": "0.3742",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 4,
+      "column": 4,
+      "value": 5.0400778142911555,
+      "displayed": "5.0401",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 4,
+      "column": 5,
+      "value": 0.1516273535502431,
+      "displayed": "0.152",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 4,
+      "column": 6,
+      "value": 0.34761779837870066,
+      "displayed": "0.3476",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 5,
+      "column": 1,
+      "value": 4.5389214389876145,
+      "displayed": "4.5389",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 5,
+      "column": 2,
+      "value": 0.31027246957823845,
+      "displayed": "0.310",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 5,
+      "column": 3,
+      "value": 0.3682782086560554,
+      "displayed": "0.3683",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 5,
+      "column": 4,
+      "value": 4.664270320764427,
+      "displayed": "4.6643",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 5,
+      "column": 5,
+      "value": 0.13371304508051032,
+      "displayed": "0.134",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 5,
+      "column": 6,
+      "value": 0.3434640056291354,
+      "displayed": "0.3435",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 6,
+      "column": 1,
+      "value": 4.315009345112978,
+      "displayed": "4.3150",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 6,
+      "column": 2,
+      "value": 0.29188049156605744,
+      "displayed": "0.292",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 6,
+      "column": 3,
+      "value": 0.36337463460893143,
+      "displayed": "0.3634",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 6,
+      "column": 4,
+      "value": 4.4716544024522165,
+      "displayed": "4.4717",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 6,
+      "column": 5,
+      "value": 0.11774501753753852,
+      "displayed": "0.118",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S2",
+      "row": 6,
+      "column": 6,
+      "value": 0.339918934130969,
+      "displayed": "0.3399",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 1,
+      "column": 1,
+      "value": 6.01187467362836,
+      "displayed": "6.0119",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 1,
+      "column": 2,
+      "value": 4.952397108524767,
+      "displayed": "4.9524",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 2,
+      "column": 1,
+      "value": 0.4160097856351517,
+      "displayed": "0.416",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 2,
+      "column": 2,
+      "value": 0.3440948512709325,
+      "displayed": "0.344",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 3,
+      "column": 1,
+      "value": 0.3766470709347677,
+      "displayed": "0.3766",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 3,
+      "column": 2,
+      "value": 0.374174489877403,
+      "displayed": "0.3742",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 4,
+      "column": 1,
+      "value": 6.022994002608702,
+      "displayed": "6.0230",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 4,
+      "column": 2,
+      "value": 5.0400778142911555,
+      "displayed": "5.0401",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 5,
+      "column": 1,
+      "value": 0.19101916897982718,
+      "displayed": "0.191",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 5,
+      "column": 2,
+      "value": 0.1516273535502431,
+      "displayed": "0.152",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 6,
+      "column": 1,
+      "value": 0.3477736184410216,
+      "displayed": "0.3478",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 6,
+      "column": 2,
+      "value": 0.34761779837870066,
+      "displayed": "0.3476",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 7,
+      "column": 1,
+      "value": 6.225319882500941,
+      "displayed": "6.2253",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 7,
+      "column": 2,
+      "value": 5.415184835194485,
+      "displayed": "5.4152",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 8,
+      "column": 1,
+      "value": 0.34468135737676886,
+      "displayed": "0.345",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 8,
+      "column": 2,
+      "value": 0.3997181505928286,
+      "displayed": "0.400",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 9,
+      "column": 1,
+      "value": 0.557451489293619,
+      "displayed": "0.5575",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 9,
+      "column": 2,
+      "value": 0.5628043022140262,
+      "displayed": "0.5628",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 10,
+      "column": 1,
+      "value": 6.355067802066178,
+      "displayed": "6.3551",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 10,
+      "column": 2,
+      "value": 5.575095720553042,
+      "displayed": "5.5751",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 11,
+      "column": 1,
+      "value": 0.5427257774060412,
+      "displayed": "0.543",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 11,
+      "column": 2,
+      "value": 0.5411191896846163,
+      "displayed": "0.541",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 12,
+      "column": 1,
+      "value": 0.5008604059502912,
+      "displayed": "0.5009",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    },
+    {
+      "table": "S8",
+      "row": 12,
+      "column": 2,
+      "value": 0.4980166401367118,
+      "displayed": "0.4980",
+      "matches": true,
+      "scope": "accepted record comparison; underlying plan entropy already independently checked in S18 audit"
+    }
+  ],
+  "supplement_saved_statistics": [
+    {
+      "table": "S1",
+      "row": 1,
+      "column": 3,
+      "displayed": "1.463",
+      "calculated": 1.4629941461683251,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 1,
+      "column": 2,
+      "displayed": "0.784",
+      "calculated": 0.784,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 1,
+      "column": 4,
+      "displayed": "1.970",
+      "calculated": 1.969527244567871,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 1,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 1,
+      "column": 6,
+      "displayed": "160",
+      "calculated": 159.81640625,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 2,
+      "column": 3,
+      "displayed": "2.920",
+      "calculated": 2.9196950544523146,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 2,
+      "column": 2,
+      "displayed": "0.808",
+      "calculated": 0.808,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 2,
+      "column": 4,
+      "displayed": "0.182",
+      "calculated": 0.1824359893798828,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 2,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 2,
+      "column": 6,
+      "displayed": "167",
+      "calculated": 167.21484375,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 3,
+      "column": 3,
+      "displayed": "2.742",
+      "calculated": 2.7418812953886813,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 3,
+      "column": 2,
+      "displayed": "0.808",
+      "calculated": 0.808,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 3,
+      "column": 4,
+      "displayed": "0.187",
+      "calculated": 0.1871962547302246,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 3,
+      "column": 5,
+      "displayed": "0.002",
+      "calculated": 0.0020325183868408203,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 3,
+      "column": 6,
+      "displayed": "167",
+      "calculated": 167.1796875,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 4,
+      "column": 3,
+      "displayed": "1.607",
+      "calculated": 1.6070164777735005,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 4,
+      "column": 2,
+      "displayed": "0.732",
+      "calculated": 0.732,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 4,
+      "column": 4,
+      "displayed": "1.139",
+      "calculated": 1.1388850212097168,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 4,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 4,
+      "column": 6,
+      "displayed": "191",
+      "calculated": 191.06640625,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 5,
+      "column": 3,
+      "displayed": "3.405",
+      "calculated": 3.405303819592865,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 5,
+      "column": 2,
+      "displayed": "0.738",
+      "calculated": 0.738,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 5,
+      "column": 4,
+      "displayed": "0.732",
+      "calculated": 0.7319293022155762,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 5,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 5,
+      "column": 6,
+      "displayed": "193",
+      "calculated": 192.7421875,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 6,
+      "column": 3,
+      "displayed": "3.340",
+      "calculated": 3.3404439000157944,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 6,
+      "column": 2,
+      "displayed": "0.736",
+      "calculated": 0.736,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 6,
+      "column": 4,
+      "displayed": "0.858",
+      "calculated": 0.8575668334960938,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 6,
+      "column": 5,
+      "displayed": "0.071",
+      "calculated": 0.07098102569580078,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 6,
+      "column": 6,
+      "displayed": "193",
+      "calculated": 192.6171875,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 7,
+      "column": 3,
+      "displayed": "1.777",
+      "calculated": 1.7766534274905983,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 7,
+      "column": 2,
+      "displayed": "0.685",
+      "calculated": 0.685,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 7,
+      "column": 4,
+      "displayed": "5.918",
+      "calculated": 5.918203830718994,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 7,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 7,
+      "column": 6,
+      "displayed": "286",
+      "calculated": 286.31640625,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 8,
+      "column": 3,
+      "displayed": "4.035",
+      "calculated": 4.035129516620103,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 8,
+      "column": 2,
+      "displayed": "0.711",
+      "calculated": 0.711,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 8,
+      "column": 4,
+      "displayed": "3.405",
+      "calculated": 3.4047913551330566,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 8,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 8,
+      "column": 6,
+      "displayed": "289",
+      "calculated": 289.17578125,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 9,
+      "column": 3,
+      "displayed": "3.928",
+      "calculated": 3.927911145016715,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 9,
+      "column": 2,
+      "displayed": "0.712",
+      "calculated": 0.712,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 9,
+      "column": 4,
+      "displayed": "3.154",
+      "calculated": 3.153949499130249,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 9,
+      "column": 5,
+      "displayed": "0.214",
+      "calculated": 0.2138066291809082,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 9,
+      "column": 6,
+      "displayed": "294",
+      "calculated": 294.03515625,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 10,
+      "column": 3,
+      "displayed": "1.883",
+      "calculated": 1.883498584806684,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 10,
+      "column": 2,
+      "displayed": "0.694",
+      "calculated": 0.694,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 10,
+      "column": 4,
+      "displayed": "21.087",
+      "calculated": 21.087372064590454,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 10,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 10,
+      "column": 6,
+      "displayed": "648",
+      "calculated": 647.625,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 11,
+      "column": 3,
+      "displayed": "4.410",
+      "calculated": 4.410001863611281,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 11,
+      "column": 2,
+      "displayed": "0.706",
+      "calculated": 0.706,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 11,
+      "column": 4,
+      "displayed": "13.332",
+      "calculated": 13.332456111907959,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 11,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 11,
+      "column": 6,
+      "displayed": "687",
+      "calculated": 686.890625,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 12,
+      "column": 3,
+      "displayed": "4.312",
+      "calculated": 4.311900802485964,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 12,
+      "column": 2,
+      "displayed": "0.702",
+      "calculated": 0.702,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 12,
+      "column": 4,
+      "displayed": "13.327",
+      "calculated": 13.327388525009155,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 12,
+      "column": 5,
+      "displayed": "0.844",
+      "calculated": 0.8441524505615234,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 12,
+      "column": 6,
+      "displayed": "682",
+      "calculated": 681.6796875,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 13,
+      "column": 3,
+      "displayed": "2.156",
+      "calculated": 2.1558676535519616,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 13,
+      "column": 2,
+      "displayed": "0.597",
+      "calculated": 0.59725,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 13,
+      "column": 4,
+      "displayed": "94.922",
+      "calculated": 94.92212009429932,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 13,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 13,
+      "column": 6,
+      "displayed": "2165",
+      "calculated": 2164.8984375,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 14,
+      "column": 3,
+      "displayed": "5.185",
+      "calculated": 5.1851404185874275,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 14,
+      "column": 2,
+      "displayed": "0.614",
+      "calculated": 0.6135,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 14,
+      "column": 4,
+      "displayed": "85.569",
+      "calculated": 85.56944727897644,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 14,
+      "column": 5,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 14,
+      "column": 6,
+      "displayed": "2250",
+      "calculated": 2250.4765625,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 15,
+      "column": 3,
+      "displayed": "5.076",
+      "calculated": 5.076113961127816,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 15,
+      "column": 2,
+      "displayed": "0.612",
+      "calculated": 0.612,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 15,
+      "column": 4,
+      "displayed": "85.651",
+      "calculated": 85.65081405639648,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 15,
+      "column": 5,
+      "displayed": "3.132",
+      "calculated": 3.13236927986145,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S1",
+      "row": 15,
+      "column": 6,
+      "displayed": "2248",
+      "calculated": 2247.93359375,
+      "matches": true,
+      "source": "lrot_scaling/functional_return_records.json ordered paired calls"
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 1,
+      "displayed": "0.711",
+      "calculated": 0.711,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 2,
+      "displayed": "0.514",
+      "calculated": 0.5137891675364805,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 3,
+      "displayed": "4.035",
+      "calculated": 4.035129516620103,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 5,
+      "displayed": "0.612",
+      "calculated": 0.611943,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 1,
+      "displayed": "0.716",
+      "calculated": 0.716,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 2,
+      "displayed": "0.513",
+      "calculated": 0.5131480475632219,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 3,
+      "displayed": "3.994",
+      "calculated": 3.9936686155914756,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 5,
+      "displayed": "0.609",
+      "calculated": 0.609175,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 1,
+      "displayed": "0.712",
+      "calculated": 0.712,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 2,
+      "displayed": "0.513",
+      "calculated": 0.513092081150559,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 3,
+      "displayed": "3.928",
+      "calculated": 3.927911145016715,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 5,
+      "displayed": "0.600",
+      "calculated": 0.600241,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 1,
+      "displayed": "0.709",
+      "calculated": 0.709,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 2,
+      "displayed": "0.513",
+      "calculated": 0.5133972184323717,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 3,
+      "displayed": "3.822",
+      "calculated": 3.8219500719930366,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 5,
+      "displayed": "0.570",
+      "calculated": 0.570348,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 1,
+      "displayed": "0.703",
+      "calculated": 0.703,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 2,
+      "displayed": "0.516",
+      "calculated": 0.516304167237736,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 3,
+      "displayed": "3.471",
+      "calculated": 3.4711545170620774,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 5,
+      "displayed": "0.506",
+      "calculated": 0.505861,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 1,
+      "displayed": "0.672",
+      "calculated": 0.672,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 2,
+      "displayed": "0.525",
+      "calculated": 0.5253390580233742,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 3,
+      "displayed": "2.933",
+      "calculated": 2.933383537687348,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 5,
+      "displayed": "0.412",
+      "calculated": 0.411624,
+      "matches": true,
+      "source": "lrot_real_data/global_results.json"
+    },
+    {
+      "table": "S6",
+      "row": 1,
+      "column": 1,
+      "displayed": "61",
+      "calculated": 61.0,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Full LR Database"
+    },
+    {
+      "table": "S6",
+      "row": 1,
+      "column": 3,
+      "displayed": "0.712",
+      "calculated": 0.712,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Full LR Database"
+    },
+    {
+      "table": "S6",
+      "row": 1,
+      "column": 4,
+      "displayed": "0.513",
+      "calculated": 0.513092081150559,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Full LR Database"
+    },
+    {
+      "table": "S6",
+      "row": 1,
+      "column": 5,
+      "displayed": "3.928",
+      "calculated": 3.927911145016715,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Full LR Database"
+    },
+    {
+      "table": "S6",
+      "row": 2,
+      "column": 1,
+      "displayed": "61",
+      "calculated": 61.0,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Shuffled LR"
+    },
+    {
+      "table": "S6",
+      "row": 2,
+      "column": 3,
+      "displayed": "0.701",
+      "calculated": 0.701,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Shuffled LR"
+    },
+    {
+      "table": "S6",
+      "row": 2,
+      "column": 4,
+      "displayed": "0.515",
+      "calculated": 0.5151931309969393,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Shuffled LR"
+    },
+    {
+      "table": "S6",
+      "row": 2,
+      "column": 5,
+      "displayed": "3.756",
+      "calculated": 3.7564408466792925,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Shuffled LR"
+    },
+    {
+      "table": "S6",
+      "row": 3,
+      "column": 1,
+      "displayed": "7",
+      "calculated": 7.0,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Adhesion Only"
+    },
+    {
+      "table": "S6",
+      "row": 3,
+      "column": 3,
+      "displayed": "0.706",
+      "calculated": 0.706,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Adhesion Only"
+    },
+    {
+      "table": "S6",
+      "row": 3,
+      "column": 4,
+      "displayed": "0.510",
+      "calculated": 0.5104552907518554,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Adhesion Only"
+    },
+    {
+      "table": "S6",
+      "row": 3,
+      "column": 5,
+      "displayed": "3.713",
+      "calculated": 3.713486600421225,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Adhesion Only"
+    },
+    {
+      "table": "S6",
+      "row": 4,
+      "column": 1,
+      "displayed": "61",
+      "calculated": 61.0,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Full LR Database"
+    },
+    {
+      "table": "S6",
+      "row": 4,
+      "column": 3,
+      "displayed": "0.232",
+      "calculated": 0.232,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Full LR Database"
+    },
+    {
+      "table": "S6",
+      "row": 4,
+      "column": 4,
+      "displayed": "0.701",
+      "calculated": 0.7007399301032171,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Full LR Database"
+    },
+    {
+      "table": "S6",
+      "row": 4,
+      "column": 5,
+      "displayed": "4.127",
+      "calculated": 4.12727057394368,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Full LR Database"
+    },
+    {
+      "table": "S6",
+      "row": 5,
+      "column": 1,
+      "displayed": "61",
+      "calculated": 61.0,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Shuffled LR"
+    },
+    {
+      "table": "S6",
+      "row": 5,
+      "column": 3,
+      "displayed": "0.069",
+      "calculated": 0.069,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Shuffled LR"
+    },
+    {
+      "table": "S6",
+      "row": 5,
+      "column": 4,
+      "displayed": "0.733",
+      "calculated": 0.7331497605932938,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Shuffled LR"
+    },
+    {
+      "table": "S6",
+      "row": 5,
+      "column": 5,
+      "displayed": "3.790",
+      "calculated": 3.7897320751191548,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Shuffled LR"
+    },
+    {
+      "table": "S6",
+      "row": 6,
+      "column": 1,
+      "displayed": "7",
+      "calculated": 7.0,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Adhesion Only"
+    },
+    {
+      "table": "S6",
+      "row": 6,
+      "column": 3,
+      "displayed": "0.147",
+      "calculated": 0.147,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Adhesion Only"
+    },
+    {
+      "table": "S6",
+      "row": 6,
+      "column": 4,
+      "displayed": "0.714",
+      "calculated": 0.7141486793322528,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Adhesion Only"
+    },
+    {
+      "table": "S6",
+      "row": 6,
+      "column": 5,
+      "displayed": "4.911",
+      "calculated": 4.910914322853456,
+      "matches": true,
+      "source": "lrot_lr_sensitivity/global_results.json Adhesion Only"
+    },
+    {
+      "table": "S13",
+      "row": 10,
+      "column": 1,
+      "displayed": "0.771",
+      "calculated": 0.7706,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 10,
+      "column": 2,
+      "displayed": "3.9124",
+      "calculated": 3.9123925267698,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 10,
+      "column": 3,
+      "displayed": "0.284",
+      "calculated": 0.2838,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 10,
+      "column": 4,
+      "displayed": "4.1702",
+      "calculated": 4.17017494681465,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 11,
+      "column": 1,
+      "displayed": "0.771",
+      "calculated": 0.7708,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 11,
+      "column": 2,
+      "displayed": "3.9125",
+      "calculated": 3.912528160080394,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 11,
+      "column": 3,
+      "displayed": "0.279",
+      "calculated": 0.2792,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 11,
+      "column": 4,
+      "displayed": "4.1735",
+      "calculated": 4.173457315500557,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 12,
+      "column": 1,
+      "displayed": "0.771",
+      "calculated": 0.771,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 12,
+      "column": 2,
+      "displayed": "3.9124",
+      "calculated": 3.912370114428269,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 12,
+      "column": 3,
+      "displayed": "0.284",
+      "calculated": 0.284,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 12,
+      "column": 4,
+      "displayed": "4.1686",
+      "calculated": 4.168633022742268,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 13,
+      "column": 1,
+      "displayed": "0.772",
+      "calculated": 0.7716,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 13,
+      "column": 2,
+      "displayed": "3.9116",
+      "calculated": 3.9115828683953517,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 13,
+      "column": 3,
+      "displayed": "0.254",
+      "calculated": 0.2544,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 13,
+      "column": 4,
+      "displayed": "4.1615",
+      "calculated": 4.161479318038529,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 14,
+      "column": 1,
+      "displayed": "0.770",
+      "calculated": 0.7697999999999999,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 14,
+      "column": 2,
+      "displayed": "3.9115",
+      "calculated": 3.9115308038513703,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 14,
+      "column": 3,
+      "displayed": "0.280",
+      "calculated": 0.2796,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 14,
+      "column": 4,
+      "displayed": "4.1472",
+      "calculated": 4.1471682144221145,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 15,
+      "column": 1,
+      "displayed": "0.770",
+      "calculated": 0.7704,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 15,
+      "column": 2,
+      "displayed": "3.9123",
+      "calculated": 3.9122946167061294,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 15,
+      "column": 3,
+      "displayed": "0.281",
+      "calculated": 0.2814,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S13",
+      "row": 15,
+      "column": 4,
+      "displayed": "4.1704",
+      "calculated": 4.17037579631998,
+      "matches": true,
+      "source": "lr_weight_sensitivity/global_results.json 5-seed mean"
+    },
+    {
+      "table": "S15",
+      "row": 1,
+      "column": 2,
+      "displayed": "6.0124",
+      "calculated": 6.012360321692997,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json raw"
+    },
+    {
+      "table": "S15",
+      "row": 1,
+      "column": 3,
+      "displayed": "4.9524",
+      "calculated": 4.952440235609484,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json raw"
+    },
+    {
+      "table": "S15",
+      "row": 1,
+      "column": 4,
+      "displayed": "17.63",
+      "calculated": 17.629018045695805,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json raw"
+    },
+    {
+      "table": "S15",
+      "row": 1,
+      "column": 5,
+      "displayed": "0.3741",
+      "calculated": 0.3741467504802981,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json raw"
+    },
+    {
+      "table": "S15",
+      "row": 1,
+      "column": 6,
+      "displayed": "0.343",
+      "calculated": 0.3430696087590336,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json raw"
+    },
+    {
+      "table": "S15",
+      "row": 2,
+      "column": 2,
+      "displayed": "6.0124",
+      "calculated": 6.012360648352612,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json cpm"
+    },
+    {
+      "table": "S15",
+      "row": 2,
+      "column": 3,
+      "displayed": "5.0395",
+      "calculated": 5.039492855165592,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json cpm"
+    },
+    {
+      "table": "S15",
+      "row": 2,
+      "column": 4,
+      "displayed": "16.18",
+      "calculated": 16.1811283468763,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json cpm"
+    },
+    {
+      "table": "S15",
+      "row": 2,
+      "column": 5,
+      "displayed": "0.3711",
+      "calculated": 0.3710635993733745,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json cpm"
+    },
+    {
+      "table": "S15",
+      "row": 2,
+      "column": 6,
+      "displayed": "0.348",
+      "calculated": 0.34793287087007135,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json cpm"
+    },
+    {
+      "table": "S15",
+      "row": 3,
+      "column": 2,
+      "displayed": "6.1121",
+      "calculated": 6.112061213484176,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json log1p"
+    },
+    {
+      "table": "S15",
+      "row": 3,
+      "column": 3,
+      "displayed": "4.8252",
+      "calculated": 4.825227631702495,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json log1p"
+    },
+    {
+      "table": "S15",
+      "row": 3,
+      "column": 4,
+      "displayed": "21.05",
+      "calculated": 21.05400349955138,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json log1p"
+    },
+    {
+      "table": "S15",
+      "row": 3,
+      "column": 5,
+      "displayed": "0.3711",
+      "calculated": 0.37107982643822923,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json log1p"
+    },
+    {
+      "table": "S15",
+      "row": 3,
+      "column": 6,
+      "displayed": "0.335",
+      "calculated": 0.33482948120419087,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json log1p"
+    },
+    {
+      "table": "S15",
+      "row": 4,
+      "column": 2,
+      "displayed": "5.8495",
+      "calculated": 5.849532809319981,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json raw"
+    },
+    {
+      "table": "S15",
+      "row": 4,
+      "column": 3,
+      "displayed": "5.8176",
+      "calculated": 5.817596022585266,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json raw"
+    },
+    {
+      "table": "S15",
+      "row": 4,
+      "column": 4,
+      "displayed": "0.55",
+      "calculated": 0.5459715805650364,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json raw"
+    },
+    {
+      "table": "S15",
+      "row": 5,
+      "column": 2,
+      "displayed": "5.8495",
+      "calculated": 5.84953326325629,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json cpm"
+    },
+    {
+      "table": "S15",
+      "row": 5,
+      "column": 3,
+      "displayed": "5.7988",
+      "calculated": 5.798762411175206,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json cpm"
+    },
+    {
+      "table": "S15",
+      "row": 5,
+      "column": 4,
+      "displayed": "0.87",
+      "calculated": 0.8679470616912267,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json cpm"
+    },
+    {
+      "table": "S15",
+      "row": 6,
+      "column": 2,
+      "displayed": "7.1789",
+      "calculated": 7.178942891795997,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json log1p"
+    },
+    {
+      "table": "S15",
+      "row": 6,
+      "column": 3,
+      "displayed": "7.1270",
+      "calculated": 7.127036674788047,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json log1p"
+    },
+    {
+      "table": "S15",
+      "row": 6,
+      "column": 4,
+      "displayed": "0.72",
+      "calculated": 0.7230342654942667,
+      "matches": true,
+      "source": "preproc_sensitivity/global_results.json log1p"
+    },
+    {
+      "table": "S23",
+      "row": 1,
+      "column": 1,
+      "displayed": "9.995",
+      "calculated": 9.994680312889008,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 1,
+      "column": 2,
+      "displayed": "0.662",
+      "calculated": 0.6617533451667823,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 1,
+      "column": 3,
+      "displayed": "0.199",
+      "calculated": 0.19899999999999998,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 1,
+      "column": 4,
+      "displayed": "0.000",
+      "calculated": 0.0,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 2,
+      "column": 1,
+      "displayed": "3.339",
+      "calculated": 3.339133716770448,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 2,
+      "column": 2,
+      "displayed": "0.118",
+      "calculated": 0.11844922245273504,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 2,
+      "column": 3,
+      "displayed": "0.712",
+      "calculated": 0.7120000000000001,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 2,
+      "column": 4,
+      "displayed": "3.928",
+      "calculated": 3.927911145016715,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 3,
+      "column": 1,
+      "displayed": "4.979",
+      "calculated": 4.978657207568176,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 3,
+      "column": 2,
+      "displayed": "0.476",
+      "calculated": 0.476486974274467,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 3,
+      "column": 3,
+      "displayed": "0.673",
+      "calculated": 0.673,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 3,
+      "column": 4,
+      "displayed": "0.000",
+      "calculated": 2.454012865754087e-13,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 4,
+      "column": 1,
+      "displayed": "3.147",
+      "calculated": 3.146618514903821,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 4,
+      "column": 2,
+      "displayed": "0.318",
+      "calculated": 0.3183703755091445,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 4,
+      "column": 3,
+      "displayed": "0.711",
+      "calculated": 0.711,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 4,
+      "column": 4,
+      "displayed": "4.035",
+      "calculated": 4.035129516620103,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 5,
+      "column": 1,
+      "displayed": "5.794",
+      "calculated": 5.794068916817196,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 5,
+      "column": 2,
+      "displayed": "0.303",
+      "calculated": 0.30311204175983286,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 5,
+      "column": 3,
+      "displayed": "0.685",
+      "calculated": 0.685,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    },
+    {
+      "table": "S23",
+      "row": 5,
+      "column": 4,
+      "displayed": "1.777",
+      "calculated": 1.7766534274905983,
+      "matches": true,
+      "source": "serial_runtime_audit/serial_runtime_results.json independent aggregation"
+    }
+  ],
+  "f5_panel_comparison": {
+    "array_comparison": {
+      "FGW_score": {
+        "max_abs_difference": 4.2559043877954394e-06,
+        "exact": false
+      },
+      "FGW_correct": {
+        "max_abs_difference": 0.0,
+        "exact": true
+      },
+      "FGW_row_entropy": {
+        "max_abs_difference": 1.5518317614926502e-05,
+        "exact": false
+      },
+      "LROT_score": {
+        "max_abs_difference": 0.00026466398595503815,
+        "exact": false
+      },
+      "LROT_correct": {
+        "max_abs_difference": 0.0,
+        "exact": true
+      },
+      "LROT_row_entropy": {
+        "max_abs_difference": 0.001412860906079949,
+        "exact": false
+      }
+    },
+    "panels": {
+      "FGW": {
+        "retained_plot_input": {
+          "rho": 0.4450839217880346,
+          "accuracy": 0.533,
+          "top20_accuracy": 0.8275,
+          "decile_scores": [
+            0.3085025473940025,
+            0.3590892317735278,
+            0.3843701527352639,
+            0.4066732373037932,
+            0.4256847986889274,
+            0.45045756970177026,
+            0.48246795608946663,
+            0.5209395768510412,
+            0.5860066425920402,
+            0.7473261814258643
+          ],
+          "decile_accuracy": [
+            0.175,
+            0.31,
+            0.325,
+            0.375,
+            0.51,
+            0.565,
+            0.665,
+            0.75,
+            0.765,
+            0.89
+          ],
+          "retention_accuracy": [
+            0.97,
+            0.89,
+            0.86,
+            0.8275,
+            0.81,
+            0.8016666666666666,
+            0.79,
+            0.7675,
+            0.7477777777777778,
+            0.727,
+            0.7027272727272728,
+            0.6908333333333333,
+            0.6676923076923077,
+            0.6457142857142857,
+            0.6253333333333333,
+            0.605625,
+            0.591764705882353,
+            0.5727777777777778,
+            0.5521052631578948,
+            0.533
+          ],
+          "thresholds": [
+            {
+              "threshold": 0.4,
+              "coverage_percent": 68.65,
+              "accuracy": 0.6525855790240349
+            },
+            {
+              "threshold": 0.5,
+              "coverage_percent": 30.2,
+              "accuracy": 0.8013245033112583
+            },
+            {
+              "threshold": 0.6,
+              "coverage_percent": 13.600000000000001,
+              "accuracy": 0.8676470588235294
+            },
+            {
+              "threshold": 0.7,
+              "coverage_percent": 5.8500000000000005,
+              "accuracy": 0.9487179487179487
+            }
+          ],
+          "entropy_quantiles": [
+            1.7465844389454865,
+            5.8835774776193155,
+            6.231825519750911,
+            6.4133306632401235,
+            6.553871214143513
+          ]
+        },
+        "independent_solve": {
+          "rho": 0.4450839217880346,
+          "accuracy": 0.533,
+          "top20_accuracy": 0.8275,
+          "decile_scores": [
+            0.308502600998517,
+            0.3590892754764641,
+            0.3843701984545035,
+            0.4066732707105547,
+            0.4256848254848897,
+            0.450457600995322,
+            0.48246796556568744,
+            0.520939605785096,
+            0.5860066496725787,
+            0.7473260702553864
+          ],
+          "decile_accuracy": [
+            0.175,
+            0.31,
+            0.325,
+            0.375,
+            0.51,
+            0.565,
+            0.665,
+            0.75,
+            0.765,
+            0.89
+          ],
+          "retention_accuracy": [
+            0.97,
+            0.89,
+            0.86,
+            0.8275,
+            0.81,
+            0.8016666666666666,
+            0.79,
+            0.7675,
+            0.7477777777777778,
+            0.727,
+            0.7027272727272728,
+            0.6908333333333333,
+            0.6676923076923077,
+            0.6457142857142857,
+            0.6253333333333333,
+            0.605625,
+            0.591764705882353,
+            0.5727777777777778,
+            0.5521052631578948,
+            0.533
+          ],
+          "thresholds": [
+            {
+              "threshold": 0.4,
+              "coverage_percent": 68.65,
+              "accuracy": 0.6525855790240349
+            },
+            {
+              "threshold": 0.5,
+              "coverage_percent": 30.2,
+              "accuracy": 0.8013245033112583
+            },
+            {
+              "threshold": 0.6,
+              "coverage_percent": 13.600000000000001,
+              "accuracy": 0.8676470588235294
+            },
+            {
+              "threshold": 0.7,
+              "coverage_percent": 5.8500000000000005,
+              "accuracy": 0.9487179487179487
+            }
+          ],
+          "entropy_quantiles": [
+            1.7465838022848579,
+            5.883577224202657,
+            6.231825589320762,
+            6.413330614539236,
+            6.553871270554945
+          ]
+        }
+      },
+      "LROT": {
+        "retained_plot_input": {
+          "rho": 0.36297409431824723,
+          "accuracy": 0.514,
+          "top20_accuracy": 0.7825,
+          "decile_scores": [
+            0.30601786696601,
+            0.3595477577347981,
+            0.3874878325185405,
+            0.4146920373596187,
+            0.43930206074300693,
+            0.46837971776905946,
+            0.502658563038797,
+            0.5469145545110774,
+            0.6245813381098042,
+            0.7838173041377472
+          ],
+          "decile_accuracy": [
+            0.22,
+            0.365,
+            0.35,
+            0.38,
+            0.515,
+            0.52,
+            0.585,
+            0.64,
+            0.665,
+            0.9
+          ],
+          "retention_accuracy": [
+            0.95,
+            0.9,
+            0.8166666666666667,
+            0.7825,
+            0.756,
+            0.735,
+            0.7214285714285714,
+            0.6975,
+            0.68,
+            0.662,
+            0.6563636363636364,
+            0.6375,
+            0.6207692307692307,
+            0.6007142857142858,
+            0.5833333333333334,
+            0.569375,
+            0.56,
+            0.5466666666666666,
+            0.5305263157894737,
+            0.514
+          ],
+          "thresholds": [
+            {
+              "threshold": 0.4,
+              "coverage_percent": 70.3,
+              "accuracy": 0.6002844950213371
+            },
+            {
+              "threshold": 0.5,
+              "coverage_percent": 35.449999999999996,
+              "accuracy": 0.7179125528913963
+            },
+            {
+              "threshold": 0.6,
+              "coverage_percent": 17.45,
+              "accuracy": 0.8051575931232091
+            },
+            {
+              "threshold": 0.7,
+              "coverage_percent": 8.1,
+              "accuracy": 0.9074074074074074
+            }
+          ],
+          "entropy_quantiles": [
+            1.4206124389535768,
+            4.608325833163633,
+            5.127840000222358,
+            5.590512281218771,
+            6.1903630503119675
+          ]
+        },
+        "independent_solve": {
+          "rho": 0.362967163396697,
+          "accuracy": 0.514,
+          "top20_accuracy": 0.7825,
+          "decile_scores": [
+            0.30601725456705714,
+            0.3595472683299941,
+            0.3874875594217254,
+            0.414691609335528,
+            0.4393008311602871,
+            0.468380062321258,
+            0.502659013196178,
+            0.5469152012185007,
+            0.6245830471008166,
+            0.7838190794230256
+          ],
+          "decile_accuracy": [
+            0.22,
+            0.365,
+            0.35,
+            0.38,
+            0.515,
+            0.52,
+            0.585,
+            0.64,
+            0.665,
+            0.9
+          ],
+          "retention_accuracy": [
+            0.95,
+            0.9,
+            0.8166666666666667,
+            0.7825,
+            0.756,
+            0.735,
+            0.7214285714285714,
+            0.6975,
+            0.68,
+            0.662,
+            0.6563636363636364,
+            0.6375,
+            0.6207692307692307,
+            0.6007142857142858,
+            0.5833333333333334,
+            0.569375,
+            0.56,
+            0.5466666666666666,
+            0.5305263157894737,
+            0.514
+          ],
+          "thresholds": [
+            {
+              "threshold": 0.4,
+              "coverage_percent": 70.3,
+              "accuracy": 0.6002844950213371
+            },
+            {
+              "threshold": 0.5,
+              "coverage_percent": 35.449999999999996,
+              "accuracy": 0.7179125528913963
+            },
+            {
+              "threshold": 0.6,
+              "coverage_percent": 17.45,
+              "accuracy": 0.8051575931232091
+            },
+            {
+              "threshold": 0.7,
+              "coverage_percent": 8.1,
+              "accuracy": 0.9074074074074074
+            }
+          ],
+          "entropy_quantiles": [
+            1.4205657437425747,
+            4.608329751361033,
+            5.127842769698754,
+            5.590513504655986,
+            6.190363822973287
+          ]
+        }
+      }
+    }
+  },
+  "f7_panel_comparison": {
+    "recomputed_entropy": {
+      "FGW": 5.849532811322741,
+      "LROT": 5.817596024603023
+    },
+    "historical_plan_entropy": 5.817596324458709,
+    "historical_to_new": {
+      "P": {
+        "same_shape": true,
+        "max_abs_difference": 6.097760066087372e-09
+      },
+      "A_coords": {
+        "same_shape": true,
+        "max_abs_difference": 0.0
+      },
+      "B_coords": {
+        "same_shape": true,
+        "max_abs_difference": 0.0
+      },
+      "loss_hist": {
+        "same_shape": true,
+        "max_abs_difference": 9.091379954417889e-08
+      }
+    },
+    "plan_evidence_matches": [
+      {
+        "matches_LROT": true,
+        "matches_FGW": false,
+        "record_id": "7fe0d3249628b9c20344ec2fa2253b274a94ad65a2944fd63a39a64641e21d80"
+      },
+      {
+        "matches_LROT": false,
+        "matches_FGW": true,
+        "record_id": "855d383dfd4ab1b887288925b6916c137aac6a7ec6187a7d22bea744f1e11fac"
+      }
+    ],
+    "recomputed_reduction_percent": 0.5459715801217444
+  }
+}

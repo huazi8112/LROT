@@ -1,0 +1,30 @@
+{
+  "pairs": [
+    [
+      "151507",
+      "151508"
+    ],
+    [
+      "151508",
+      "151509"
+    ]
+  ],
+  "sampling_seeds": [
+    42,
+    99
+  ],
+  "spots_per_section": 1000,
+  "preprocessing": "raw counts; section intersection; normalize_total 1e4; log1p; PCA50",
+  "graph": "within-section spatial KNN6 plus reverse edges, duplicate edges retained",
+  "train": {
+    "n_epochs": 1000,
+    "lr": 0.001,
+    "random_seed": 666,
+    "knn_neigh": 50,
+    "device": "cpu"
+  },
+  "score": "A-to-B Euclidean latent nearest neighbour; target layer compared with source layer",
+  "labels_used_for_training": false,
+  "selection": "one prescribed run per pair, no search or score-based selection",
+  "scope": "Fresh input-bound runs, distinct from unrecorded historical incoming training matrices."
+}

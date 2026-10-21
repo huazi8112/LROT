@@ -1,0 +1,128 @@
+{
+  "analysis": "matched-mask ERBB2/HER2 ablation",
+  "expression_mask": "HUMAN_ALL_LR (frozen for matched FGW and all LROT variants)",
+  "expression_mask_symbols": 115,
+  "sample_size_per_section": 3000,
+  "seeds": {
+    "A": 42,
+    "B": 99
+  },
+  "gamma": 0.1,
+  "fgw_entropy": 5.849533191729423,
+  "fgw_transport_cost": 0.11450675803402685,
+  "fgw_iterations": 9,
+  "delta_definition": "variant reduction minus full-library reduction, percentage points",
+  "variants": {
+    "full": {
+      "label": "Full LR library",
+      "lr_pairs_in_database": 68,
+      "lr_pairs_with_symbols_in_both_matrices": 68,
+      "entropy": 5.817596322440952,
+      "reduction_percent_vs_matched_fgw": 0.545972956160427,
+      "cost": 0.11429345959028958,
+      "iterations": 9,
+      "top_pairs": [
+        [
+          "ERBB2",
+          "ERBB2",
+          0.98
+        ],
+        [
+          "CDH1",
+          "CDH1",
+          0.95
+        ],
+        [
+          "ERBB2",
+          "ERBB3",
+          0.92
+        ],
+        [
+          "COL1A1",
+          "ITGA2",
+          0.85
+        ],
+        [
+          "SEMA3F",
+          "NRP2",
+          0.85
+        ]
+      ]
+    },
+    "no_erbb2": {
+      "label": "Remove ERBB2/HER2",
+      "lr_pairs_in_database": 59,
+      "lr_pairs_with_symbols_in_both_matrices": 59,
+      "entropy": 5.789497899524955,
+      "reduction_percent_vs_matched_fgw": 1.0263262082066804,
+      "cost": 0.1142701750093182,
+      "iterations": 9,
+      "top_pairs": [
+        [
+          "CDH1",
+          "CDH1",
+          0.95
+        ],
+        [
+          "COL1A1",
+          "ITGA2",
+          0.85
+        ],
+        [
+          "SEMA3F",
+          "NRP2",
+          0.85
+        ],
+        [
+          "SEMA4D",
+          "PLXNB1",
+          0.8
+        ],
+        [
+          "CXCL12",
+          "CXCR4",
+          0.95
+        ]
+      ],
+      "delta_reduction_percentage_points": 0.48035325204625345
+    },
+    "erbb2_only": {
+      "label": "ERBB2/HER2 only",
+      "lr_pairs_in_database": 9,
+      "lr_pairs_with_symbols_in_both_matrices": 9,
+      "entropy": 5.806860925093538,
+      "reduction_percent_vs_matched_fgw": 0.7294986665981873,
+      "cost": 0.114267604339126,
+      "iterations": 9,
+      "top_pairs": [
+        [
+          "ERBB2",
+          "ERBB2",
+          0.98
+        ],
+        [
+          "ERBB2",
+          "ERBB3",
+          0.92
+        ],
+        [
+          "NRG1",
+          "ERBB3",
+          0.9
+        ],
+        [
+          "HBEGF",
+          "EGFR",
+          0.87
+        ],
+        [
+          "TGFA",
+          "EGFR",
+          0.88
+        ]
+      ],
+      "delta_reduction_percentage_points": 0.18352571043776034
+    }
+  },
+  "interpretation_limit": "one section pair; descriptive only; no spot-level ground-truth labels"
+}

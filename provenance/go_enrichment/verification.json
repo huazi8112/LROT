@@ -1,0 +1,17 @@
+{
+  "all_14584_term_records_exact_equal_to_manuscript_archive": true,
+  "different_terms": [],
+  "foreground_equal": true,
+  "background": 27431,
+  "foreground": 109,
+  "tested": 14584,
+  "sig": 1815,
+  "independent_hypergeometric_matches_all_Fisher_pvalues": true,
+  "independent_statsmodels_BH_matches_all_adjusted_pvalues": true,
+  "S3_all_display_rows_exact_equal": true,
+  "S3_display_differences": [],
+  "resource_identity": "resource_identity.json",
+  "historical_download_date_recovered": false,
+  "raw_to_statistics_regeneration_completed": true,
+  "resource_identity_path_role": "Relative to this verification file in the distributed package."
+}

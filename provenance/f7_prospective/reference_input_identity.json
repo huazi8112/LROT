@@ -1,0 +1,44 @@
+{
+  "description": "Fixed F7 prospective raw-input identity for a fresh run; no raw data bundled",
+  "raw_file_sha256": {
+    "V1_Breast_Cancer_Block_A_Section_1.h5": "b3cbb6ead60afad848ebcc07a34835613d9d2d79e416ad8300b210d9de584b65",
+    "V1_Breast_Cancer_Block_A_Section_2.h5": "e325b4e53f0036a71904cea6b7cd65945f10c25cf2ef8e2f681de9ac1ff7766c",
+    "V1_Breast_Cancer_Block_A_Section_1/spatial/tissue_positions_list.csv": "284f439570700a566512e469cddfb1bc59ac135b523a74c806a4fb59d41c2547",
+    "V1_Breast_Cancer_Block_A_Section_2/spatial/tissue_positions_list.csv": "80538920046f498129b5d867cef0c0597ea9a8765e461f64ee3e156028c246fc"
+  },
+  "ordered_input_arrayhash": {
+    "A": {
+      "coords": "cec409de80cfcd415acce9e4f3d397a4877d352e8c24dc8071ee3790b9ff43b5",
+      "expr": "3ac06bcdc32bcb55844ca3a2b2fe0a48d1f011f3472cffdae9d4cfdc1d3da7a2",
+      "region_labels": "4e6d781f62c43cbf37daaea9efc75c645eb82e406cb9ce73c0801e51b2dab430"
+    },
+    "B": {
+      "coords": "be72543f2aeb5364aa8aabcf648e772bd92b2feba617787247f76ceef7b1db45",
+      "expr": "f18cddf44f4e814a1efac959181330fc2ff620656f454b5942f433760fa4acdd",
+      "region_labels": "4e6d781f62c43cbf37daaea9efc75c645eb82e406cb9ce73c0801e51b2dab430"
+    },
+    "S_lr": "83a29c8bdff905564300af584153d0c0771c9658e4045c11a0eec620e593b9df"
+  },
+  "source_script_sha256": "e1754537455b7c2a72163cf5d11f4214ed04973ef70ee5cc27a1680494e2ca66",
+  "human_prior_code_sha256": "8174adee074a75d3253ee94bb491fbdfc65851817371b8b71115ec3b02fce45c",
+  "sample_ids": [
+    "V1_Breast_Cancer_Block_A_Section_1",
+    "V1_Breast_Cancer_Block_A_Section_2"
+  ],
+  "seeds": {
+    "A": 42,
+    "B": 99
+  },
+  "n_spots": 3000,
+  "B_transform": {
+    "rotation_degrees": 2.0,
+    "translation": 0.5
+  },
+  "human_lr_pairs": 68,
+  "matched_lr_pairs": 68,
+  "archived_full_npz_sha256_optional": "5599a3ca51f245ed16d646fd8b4a46170121091727f91c4a63cf1435c0633690",
+  "ordered_barcode_sha256_newline_utf8": {
+    "A": "4a00c99a227b610b10cb3d6a9c85d646c2ecdbe963726006d1b7befd16ec931b",
+    "B": "257188af6dcefdb98967f2c02bdd2e79255a1c951b14ac5b3880a62f4bb1b4f0"
+  }
+}

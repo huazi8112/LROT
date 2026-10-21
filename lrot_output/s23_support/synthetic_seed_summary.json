@@ -1,0 +1,32 @@
+{
+  "n": 30,
+  "fgw_mean": 0.2652333333333333,
+  "fgw_sd_sample": 0.19451312930304826,
+  "lrot_mean": 0.40543333333333337,
+  "lrot_sd_sample": 0.23198479191136848,
+  "delta_mean": 0.14020000000000002,
+  "delta_sd_sample": 0.22529848400855193,
+  "delta_median": 0.055999999999999994,
+  "delta_min": -0.19100000000000003,
+  "delta_max": 0.533,
+  "delta_ci95_t": [
+    0.0560721634689101,
+    0.22432783653108995
+  ],
+  "delta_ci95_bootstrap_percentile_sensitivity": [
+    0.06373333333333334,
+    0.222
+  ],
+  "bootstrap_sensitivity_seed": 20260930,
+  "positive_delta_n": 24,
+  "zero_delta_n": 0,
+  "negative_delta_n": 6,
+  "all_primary_runs_are_new_prespecified_seed_pairs": true,
+  "interpretation_scope": "frozen historical synthetic grouping for technical robustness only; does not validate biological pathway labels",
+  "software": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.7"
+  }
+}

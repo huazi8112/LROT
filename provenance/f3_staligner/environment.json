@@ -1,0 +1,29 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.11.0",
+    "torch-geometric": "2.8.0",
+    "STAligner": "1.0.0",
+    "scanpy": "1.11.5",
+    "anndata": "0.11.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2"
+  },
+  "installed_source_sha256": {
+    "train_STAligner.py": "0e8bd42203cb17daa7ef495020053d9ede5b4cdca85fe3885dd5a66f4a296b02",
+    "STALIGNER.py": "db5409590b20c107fe07d3c9dd2967297ae857e942d5ddc4a67bd3d73257b992",
+    "gat_conv.py": "4910d6b41e9ebb5b0760d6e900f6c95b3262e460671e68fa1643406f2eaa84cf",
+    "mnn_utils.py": "d47781a5892d3b65f7e4a435fd731193efcaa47537e4bfcd828067ab0bd032d9",
+    "ST_utils.py": "6765d185947e97ce1242904c75fb321699c0af31299e60b0f64c6d2bb8d0dd29",
+    "__init__.py": "37448a0fd21db01ce30cfa3f40311c94a8a31d3415e1841e02ff7702583c125e"
+  },
+  "threads": 1,
+  "interop_threads": 1,
+  "deterministic_algorithms": true,
+  "warn_only": false,
+  "cudnn_benchmark": false,
+  "mkldnn_deterministic": true,
+  "PYTHONHASHSEED": "0"
+}

@@ -1,0 +1,16 @@
+{
+  "implementations": {
+    "paste_math/PASTE.py": "052b8bba19f3fa7960b02a4a5577228be2bfc719e220056905068b410b63ecf8",
+    "paste2/PASTE2.py": "09408273db996d617ed5c91baa46b2fa978092c9d10e2b9f3a5611051294235c"
+  },
+  "paste-math": "local import; distribution metadata unavailable",
+  "paste2": "1.0.1",
+  "STAligner": "1.0.0",
+  "POT": "0.9.6.post1",
+  "torch": "2.11.0",
+  "torch-geometric": "2.8.0",
+  "anndata": "0.11.4",
+  "scanpy": "1.11.5",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3"
+}

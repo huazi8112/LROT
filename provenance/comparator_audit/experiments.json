@@ -1,0 +1,2972 @@
+[
+  {
+    "record": "run_dlpfc_baselines/PASTE2_1.json",
+    "record_sha256": "caf2717ef942852709076a644d71516b8cccda6c098be3d9b9c2c10c87862cd6",
+    "plan_file_sha256": "dddcf3194fa19eeeda1f1bf8aeb68f70f7b6e789e276ee610cb820fa60d73f9b",
+    "dataset": "151507-151508",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.1,
+      "s": 1.0000000000000004,
+      "sample_A": "151507",
+      "sample_B": "151508"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.624,
+    "ARI": 0.43223701290220506,
+    "plan_key": "p_c7651f03ffd57b8e0e1c1d17dd2bf53928583fd88171ff3d4fb672205063adab",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_2.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 5.0182080713057076e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_dlpfc_baselines/PASTE2_2.json",
+    "record_sha256": "3b8ee3cc0e08edd016e3b9aa95843a88794890204d53d5f62b8200f822c151c5",
+    "plan_file_sha256": "3b6198d246e28724a51fae5b87222340bccb346e58baa0d5bfa29a49082a5785",
+    "dataset": "151508-151509",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.1,
+      "s": 1.0000000000000004,
+      "sample_A": "151508",
+      "sample_B": "151509"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.452,
+    "ARI": 0.23602783062732416,
+    "plan_key": "p_1f4b8cf5bc9d70cd14d9ff471d6042264f87fd989f4edde4ac9156c750ed0d6d",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_4.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.2878587085651816e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_dlpfc_baselines/PASTE_1.json",
+    "record_sha256": "7d2fc42286c0350d2e594ee48529d37cf04ba7e9a41dd157026e93cf906b96a6",
+    "plan_file_sha256": "a025ee231533124410cefa75a0c45f95b49abde5216dfdc3342055f01f9c9bc2",
+    "dataset": "151507-151508",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.1,
+      "sample_A": "151507",
+      "sample_B": "151508"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.673,
+    "ARI": 0.5598059558370171,
+    "plan_key": "p_d74f0cd1789e863214789dbbd85fabb47e14b1e7ab7842b58acf6f7f901b6d52",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_dlpfc_baselines/PASTE_2.json",
+    "record_sha256": "4d9598a5ef5bb6f08673c8f99275793b1b224afd05a438558a8cac37bc34e1bf",
+    "plan_file_sha256": "65010f27e931d3969deb85007b40cf0673652e88d0d33c7415c98847a0633783",
+    "dataset": "151507-151508",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.5,
+      "sample_A": "151507",
+      "sample_B": "151508"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.346,
+    "ARI": 0.1085950139322251,
+    "plan_key": "p_04fd7d3b146ecb775597a3d8f36c0e5ba1693d14fb66a9932f2205812efdbb7f",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_dlpfc_baselines/PASTE_4.json",
+    "record_sha256": "e7d18670ba7e47b7b4a240967281320bbca75dba68798b7f8b4490805b1cd6a0",
+    "plan_file_sha256": "898feac17967f538dce87cd555453f65cfd583f58df14a1010f5f8e4dca5f73d",
+    "dataset": "151508-151509",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.1,
+      "sample_A": "151508",
+      "sample_B": "151509"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.218,
+    "ARI": 0.1933568255252299,
+    "plan_key": "p_e5f9f1ebae3bd35b7d8b324599217457f6ec4d6fb00c81f71d5ca1b123020108",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_dlpfc_baselines/PASTE_5.json",
+    "record_sha256": "870a08fd1c97041ec23a01238ae83e1dfa63297fae1ca4e8ea5c5b0c077dcf28",
+    "plan_file_sha256": "6849daf3bb8ba723f946376465aeaec9045630674cb437f26e5e6ad3e1b2a187",
+    "dataset": "151508-151509",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.5,
+      "sample_A": "151508",
+      "sample_B": "151509"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.135,
+    "ARI": -0.001433312736522173,
+    "plan_key": "p_7ea46f13d4cfc2c7129faec976ea930b92bb65ff9337befcc75cb549ad0e639a",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_1.json",
+    "record_sha256": "87d74d3d3ee99808ce091277da74702d0a6f6617ea22f893b758e80125426302",
+    "plan_file_sha256": "9a92760461a70733b8078562dd7a9f1798ed175da6fbc8f7ab3db82d6f9183d3",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.1,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.673,
+    "ARI": 0.4495670850098959,
+    "plan_key": "p_425bc1042ab1fe58d7c1a26849376c5cc7ca58bd2a7bbec962f9a2656fa11924",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_6.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 2.0872192862952943e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_10.json",
+    "record_sha256": "7872f6a53a3be50cdf2c17c43cef69e50f114e0b066882344c67edee856fd5e6",
+    "plan_file_sha256": "1eaa53452edd56e38e4738c846486d4a921b873cb4e5b0f98cf704d1f75f1cb7",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.9,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.9,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.193,
+    "ARI": 0.5219471337041001,
+    "plan_key": "p_d7e7f65340478be68dd90713195a30622595102a39cbaf65907d399667deeb5b",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_24.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 2.4424906541753444e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_2.json",
+    "record_sha256": "3ecc27ec6ded7fcc449f5d2178debbe25ac8b64addc5f1f274741f038609674c",
+    "plan_file_sha256": "a8fd4a9c9f9afbf7870b96c17f4a91452cd956c0730e6f2663be2ea6531a94d3",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.1,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.214,
+    "ARI": 0.48145990420093615,
+    "plan_key": "p_dd00cc2b31920946497814e5f6ed5c07daa44b367ad82b9826f41edfb35a40f3",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_8.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.199040866595169e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_3.json",
+    "record_sha256": "503d41a622cee4dc3f5b9be9714f3926066dd410a4ace770d08b9fc5ab7df3dd",
+    "plan_file_sha256": "d697b697298874747accb871bea7fd1e29780b7b394e23a3cba3b1bc8b13732d",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.3,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.3,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.451,
+    "ARI": 0.28409586768899264,
+    "plan_key": "p_f644d7278a8a471aa144f1140a50c147ec33585c37f05cefc176e10975aa64c4",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_10.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 4.04121180963557e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_4.json",
+    "record_sha256": "af4fa03c7d2da902b6eb0494a07b12118c5fca326b89164353b01d3cf2e19474",
+    "plan_file_sha256": "daeeee6afd8cc12cfb7f312ede46903b940b408edf8f2c42f88995d988d955a8",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.3,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.3,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.199,
+    "ARI": 0.5162986464497833,
+    "plan_key": "p_6e6cfe26520f95475d0ff9be30a15175ffdd9396c1622f7ee102cda5f43074e8",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_12.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 5.728750807065808e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_5.json",
+    "record_sha256": "6e10b922d4ca2a7dde02447ce9da47f80145acaee2283b94b462ee34890bd5ff",
+    "plan_file_sha256": "91ec1892242dd7b58f01110eda9673f378fa92b524b81b9616268325589a433d",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.5,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.317,
+    "ARI": 0.33994032217611536,
+    "plan_key": "p_bb08a0857405856837335d813e4d66447d36231a1666ae166066c27028760d74",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_14.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.9984014443252818e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_6.json",
+    "record_sha256": "99091df7f6a71f930de52cd5c28a4c82411c0a6d9995e7fbf1cf08b556261acd",
+    "plan_file_sha256": "34beb7a32294fcb5d53a72e45b599b5a9557ae8e5aa985c9d49fc632b2dfb67e",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.5,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.5,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.194,
+    "ARI": 0.5199874544526024,
+    "plan_key": "p_6d914c321578e56d8b33236b779a54d0bf0fe180346b3ba1cecb63d909812d38",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_16.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 2.353672812205332e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_7.json",
+    "record_sha256": "c009e72a0aab6f1ba55a6a8cd86ea0ef3067a364f665f21c2aa43cd7928154fe",
+    "plan_file_sha256": "6b4881fd7081841074ab0c9f52080098ab31f26937b02db61a2c851538d9ccf8",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.7,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.7,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.243,
+    "ARI": 0.43792428475099804,
+    "plan_key": "p_f1499185138c2d318c6a2ea8faf307f50b07b85dbc6d14081d1ed4d5e293dbd2",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_18.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 2.886579864025407e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_8.json",
+    "record_sha256": "12e4148879b4eca0df85622ea99be283899d15802569ed76b9442f9df795807f",
+    "plan_file_sha256": "2732fb74e4ff854b9285bc1856460a1c4740d3ef2aa7c648c4f1e4efce7e7684",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.7,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.7,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.194,
+    "ARI": 0.5225107015934196,
+    "plan_key": "p_5138bf5bb67105b3b1ae5b60980a757badddec1464e5c572ecdc260401a52b6b",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_20.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 2.4424906541753444e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_official_paste2/PASTE2_9.json",
+    "record_sha256": "a1828457dbedaa6c8c407b1eac5f2fa51e961ce8a407c0fc3a6272d67c052713",
+    "plan_file_sha256": "cd5e1f63b4c10ecd61848b655b0cf1d2afb22eb6abeb018f22c7cc2d5b0d5c69",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.9,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "alpha": 0.9,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.203,
+    "ARI": 0.505616473274953,
+    "plan_key": "p_1f8abf2bdab4f776101c8e82434660cdc07a159c97e93a1cb5821e5b9e2a0a84",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_22.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 6.084022174945858e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_1.json",
+    "record_sha256": "dbaf4047010904704bb8b9fef803c2a3127d88931d964b62cd755f62a6b6169b",
+    "plan_file_sha256": "ea9fa3b0d3e40a812b3eb5ef18d3ed663e25fb10dcbc15871cdd8c2cedc70230",
+    "dataset": "realistic-seed1",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 1,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.783,
+    "ARI": 0.5802638203679138,
+    "plan_key": "p_c6a30bc1c22ded7809463d9445bb441b3ea1c7e7bc929b8752c09130e8f7223a",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_26.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 8.43769498715119e-15,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_10.json",
+    "record_sha256": "c29cda0561033d4a00946a15bd88a3d42a5a6bed3c5b804e01a41d64653c4bd7",
+    "plan_file_sha256": "62f980f73c198ae279b9eceb11e4cba000b92bab80ee947cd1b0b92476bfc475",
+    "dataset": "realistic-seed10",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 10,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.717,
+    "ARI": 0.6368565437752176,
+    "plan_key": "p_4cad5d662790074aa81f658405c61c5862b231ed6f3c9aa9d15dfefbe3cd2d31",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_44.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 7.549516567451064e-15,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_11.json",
+    "record_sha256": "390eb3c2d87e67f9db973d76300563b42e928a7b60fcfa506fe52807be59d9f3",
+    "plan_file_sha256": "7bd24fab5fad2c7093831363ec68ff3a0746099f510e0e1a89de456db2c70b6a",
+    "dataset": "realistic-seed11",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 11,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.672,
+    "ARI": 0.5065121561103031,
+    "plan_key": "p_6fce229359134c84925722672348c0bb3dfea7f28abeb29bbf0e7e08b9e8bcf8",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_46.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 3.9968028886505635e-15,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_12.json",
+    "record_sha256": "58ff0a219804395e321b87055820a824a7618c03c2a1f2c56cfd2037c1911521",
+    "plan_file_sha256": "6f5923422e06b2cd92fc860af324c10691e165ce7205a1245ccee86b941ba864",
+    "dataset": "realistic-seed12",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 12,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.697,
+    "ARI": 0.4663320868530196,
+    "plan_key": "p_3c3bef98d0ef90d792fd2d582b8c86a36fc5ed82d0eb3db7864cbab5d80c42ea",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_48.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.9984014443252818e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_13.json",
+    "record_sha256": "285593026b4f7a81e114d571d60f822c3500ef572c943f25a8529bf0c48bf95f",
+    "plan_file_sha256": "15a7698f39269212e9501c56b63de6e26beecda6a99ee0713dae905cd8ecea60",
+    "dataset": "realistic-seed13",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 13,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.59,
+    "ARI": 0.3461346022285657,
+    "plan_key": "p_7c2d75d860172f1a40191088c033d85b56a869d431a9667c3dcc3daabdac021d",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_50.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.021405182655144e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_14.json",
+    "record_sha256": "07775c0be21057b78a737f33cf04c579d16dfeda97c995ac1eaa5442715f3c79",
+    "plan_file_sha256": "0111bbfa0abb944b0f99cade3ed5703a99f5bc81c328ab7458d695d77ebe735f",
+    "dataset": "realistic-seed14",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 14,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.664,
+    "ARI": 0.4069105892649389,
+    "plan_key": "p_d7db826e1ba1e83ef14712f3c7ac75dc2b5d8b0475f6b3acdeaed361ec15b965",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_52.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.4654943925052066e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_15.json",
+    "record_sha256": "b027a4bdc6b26dcdf755a3d628aec37bc7797ab8f770d97c4732dde4aca61b8b",
+    "plan_file_sha256": "62fbf10bff087fb01f3264f3b9048d7edf3e0456974a8f83200424d87ae871c4",
+    "dataset": "realistic-seed15",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 15,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.708,
+    "ARI": 0.43949012481534233,
+    "plan_key": "p_b3a3379f48e2c31e5503a22c66431308f5faf37d204ef7bda504c5e9076c5cdd",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_54.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.021405182655144e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_16.json",
+    "record_sha256": "5c9773cf54ff43e857dfbe333bb66e9f1a08fa82255ccfdeed926a9d0dad7d27",
+    "plan_file_sha256": "45c06e0f6d1be2f2be52f4b928740944f77f4639ddc1bf190f78e7f0f86031d6",
+    "dataset": "realistic-seed16",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 16,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.718,
+    "ARI": 0.5275984824255431,
+    "plan_key": "p_f8bc69765ad96e00ad1c1e2b204e7bc166cf9c914ecdaa09fe2d1544ca4b91cc",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_56.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 3.241851231905457e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_17.json",
+    "record_sha256": "3da1dd79902d92f0d1bc004b8868c160659bf449cb6749d983b3abe3ee257169",
+    "plan_file_sha256": "7a6ad4d3c39fa21e01a1bbf3c67616b3e960dd9539c8a95ac8761c8f3d14d97c",
+    "dataset": "realistic-seed17",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 17,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.73,
+    "ARI": 0.47355006111618814,
+    "plan_key": "p_8cdc26bec9c15e9562c19ee1e0c5dec0ac55e2b755eecd1806223d2327c56020",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_58.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 2.0872192862952943e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_18.json",
+    "record_sha256": "2e591a0bcd34628a64aaeec08087dcbe8dac2336c9512f04b4e32e852344e30d",
+    "plan_file_sha256": "bdd2617dbaf26cea6fe57ac163e3782f622d1a76772bb470a1a1e097ae8d975e",
+    "dataset": "realistic-seed18",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 18,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.6,
+    "ARI": 0.39902059061123296,
+    "plan_key": "p_125d5a1c7d0d3116cb4dfa71e9291195064b57f19f2bd02e86be7cb066c25c87",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_60.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.9095836023552692e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_19.json",
+    "record_sha256": "d808441a4d857d3a95f8f09214bf674142738d527efdb5559c6d40e54da9b0fc",
+    "plan_file_sha256": "c8c6ce3f63eef058bc532cef7fe3375eaed8b2fafdbf286690f83d005caab954",
+    "dataset": "realistic-seed19",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 19,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.817,
+    "ARI": 0.7185538707526076,
+    "plan_key": "p_100e7abc371c22902314071a2233b543208f4c9fa758a5eaa9ed3da99d3d7d4e",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_62.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 2.2648549702353193e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_2.json",
+    "record_sha256": "f40ee442d824515e0fb9be2b71fe9577da8218781d3c4c3f16cca51043eec848",
+    "plan_file_sha256": "ba2193156a9cb5e5d4e3d81764ada11461fb82882efe37a1f228f89083d1b857",
+    "dataset": "realistic-seed2",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 2,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.706,
+    "ARI": 0.4266818729492408,
+    "plan_key": "p_6e0986692d128b33c3e45df9650fa5b2a65b4b47c27885d60e2cd498a3a37735",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_28.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.9984014443252818e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_20.json",
+    "record_sha256": "803388b7b7811f9a0d0a0f45853e5dcff8ca26716fc7558f79fbbad9bbe62ee6",
+    "plan_file_sha256": "743a10d7e6aaf4c6cb0a10a931a4bad52cef5b53c281a4a948cce797230a705a",
+    "dataset": "realistic-seed20",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 20,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.669,
+    "ARI": 0.4224389281762345,
+    "plan_key": "p_736c048b4158031cfa537422159b1135180721e28866ba2f2c9c569ef46feee3",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_64.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 2.708944180085382e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_3.json",
+    "record_sha256": "6739c9afcbab9c5e7435116f4399ae121759c0191b88df2c0c9431936cd6c087",
+    "plan_file_sha256": "4f7aad69134f7866dd49afe8c434cded399ccaf469556c944b9185e5c35faca0",
+    "dataset": "realistic-seed3",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 3,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.807,
+    "ARI": 0.596270130158959,
+    "plan_key": "p_8788e72c3635262072641e135926967faa708ddbd6799960e4b4de21d05a271a",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_30.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.3766765505351941e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_4.json",
+    "record_sha256": "d97babdcdafee4faa62625e330bec324a8b311d8484a3d319a1c0eec58abdba2",
+    "plan_file_sha256": "f24b46072774dcb9a152f3c433396c4bb84366699169e5ff15b4da9350e33324",
+    "dataset": "realistic-seed4",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 4,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.722,
+    "ARI": 0.4812045018850306,
+    "plan_key": "p_d91540e470bc8083c260da3943b8a2ad135ebdbc430dd778c60fa07c6412afee",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_32.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 5.551115123125783e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_5.json",
+    "record_sha256": "b00d758d378e47d1531318b8feefbf74f893a5828d78be361853b509a1bc621e",
+    "plan_file_sha256": "1afd3eef339b7a2824565af7e86ecaf14348e2c2e192084f1d228f14fa07bcb0",
+    "dataset": "realistic-seed5",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 5,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.78,
+    "ARI": 0.6037617579485589,
+    "plan_key": "p_6eb4c1bf5751eacea0626f4c7b6d03774c9feffa058b6352b2be04539078a30e",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_34.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.3766765505351941e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_6.json",
+    "record_sha256": "4443df28e3c84520a0c0129196e4467dffb05f57fb5198548a4f6109aec4d4bb",
+    "plan_file_sha256": "4caad503f5019fbb2ef6d3985f8934d77404bccdbed4fbf4389960f845142ebe",
+    "dataset": "realistic-seed6",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 6,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.621,
+    "ARI": 0.38416545656538087,
+    "plan_key": "p_846e6d366f9d903b3df503d48b252fab98d7a9dce4371ac3e58d77938bd74440",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_36.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 4.440892098500626e-16,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_7.json",
+    "record_sha256": "38b7063f6525fd5939d658dbe3996ca8905da5f858fc0fa4bd0e3b7898bb9d5d",
+    "plan_file_sha256": "fbd0a7c5df0d4ae8c2e5dfac57c6fbabfd8610c6e87db37fb2a07662d68df62a",
+    "dataset": "realistic-seed7",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 7,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.785,
+    "ARI": 0.5651373081298863,
+    "plan_key": "p_8dc3173b9594341d6f5944787bd079f37f7f0f4c83126ddc950829f7f725ccc9",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_38.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 3.1086244689504383e-15,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_8.json",
+    "record_sha256": "75bfe591c9d4438f82a18d6b8d02be288d90d5f84706be1651db569c4a9b901b",
+    "plan_file_sha256": "92dd785039b025b7d17b8e5d8d4545e235032b74bcc77652263ab00a6ea61116",
+    "dataset": "realistic-seed8",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 8,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.548,
+    "ARI": 0.3075192979273362,
+    "plan_key": "p_e5d119869a0bf8f1b7dc146c450147f61913e3f374f836dd7e72a93fc8a534c6",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_40.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.1102230246251565e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed/PASTE2_9.json",
+    "record_sha256": "7227d6b82d9baf41828e97fcefe4bb4b2c5aca834ef9ec5526184cf02209e011",
+    "plan_file_sha256": "024cae7ad4dbf02a7fbf51124245ce0a0ea49d42b46eea4a37488c1395589eaf",
+    "dataset": "realistic-seed9",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "seed": 9,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.678,
+    "ARI": 0.3694686964353792,
+    "plan_key": "p_0c85f14dad9f2073ab83d5347df1d0349d171c8d724a74136e80d6b77ae5dda6",
+    "input_hashes_captured_in_record": false,
+    "captured_input_hashes_match_reconstructed_inputs": null,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_bound_repeat_comparison": {
+      "record": "external_convergence_audit/PASTE2_42.json",
+      "max_abs_difference": 4.440892098500626e-16,
+      "L1_difference": 1.9095836023552692e-14,
+      "identical_class_predictions": true
+    },
+    "input_evidence": "source reconstruction and numerically equivalent plan in input-bound repeat; historical input capture remains absent"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_10.json",
+    "record_sha256": "2824aa9e540230d0037ad995401129608af042fccb130d9599cc10de65dee7b5",
+    "plan_file_sha256": "b646b23fe8d023b7a0082fd428ae0ce0e40cf65b52950b40a75bff917a1cfe16",
+    "dataset": "realistic-seed5",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 5,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.462,
+    "ARI": 0.45409880206853204,
+    "plan_key": "p_338b14f91a1186785f0e54c25d2050db64dd2c225ba37bf273ba0ebde19649aa",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_12.json",
+    "record_sha256": "72b6b04eeba1d230f287b1e2999e77007dd15a94f622b2ae5a656d27692fe90b",
+    "plan_file_sha256": "2aa3778de88b11dd4cc4647d3aa4481c508929f7f278bb5ccbb3287e4ec022da",
+    "dataset": "realistic-seed6",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 6,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.462,
+    "ARI": 0.2942387173117245,
+    "plan_key": "p_00944a60e88d8fc6a7c67beefaf8c29a1831663a8e442d44ef3529e971057db0",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_14.json",
+    "record_sha256": "6dd66f20cdf372e70dd977c11e5b62564a0bc66dd492c453561bfaa3cf4da5e3",
+    "plan_file_sha256": "66c619e0ef48140ed4aec4c0ce469a94a392ba970bcdba42584b56a0aa14b8f6",
+    "dataset": "realistic-seed7",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 7,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.634,
+    "ARI": 0.5118583486222595,
+    "plan_key": "p_e68685ab2eadfe4785d491d23bb3e3510605903c6c127107aa2db4cbfd71626f",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_16.json",
+    "record_sha256": "81349605ed448a21fae3c635b71f1646035cf6b2cf12d006e097b71831e8350d",
+    "plan_file_sha256": "6a7522ff1d67870461a56ebf2423d4b31bce0b07a1f4eb346461eeb30ef53c1b",
+    "dataset": "realistic-seed8",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 8,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.35,
+    "ARI": 0.29705803354240545,
+    "plan_key": "p_e2238a6348a15c328b76c0fcc9cfe8bcca0e81f924c31be5b45712d050a84f93",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_18.json",
+    "record_sha256": "d58499f17cfd114b96e8acafd28e7bbfe06f25b5389ccf3fb57c20f4e3e351cf",
+    "plan_file_sha256": "72c003ec17572cf7a4b25a48c84c15855410d1e6b6674abe93da7bb58faace2c",
+    "dataset": "realistic-seed9",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 9,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.437,
+    "ARI": 0.23795823012553086,
+    "plan_key": "p_3d1fe0a48188baac09346e229056caf9d46c8d15361b0182735a9f0e26e922ce",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_2.json",
+    "record_sha256": "aa0f8009c0a70cba554920f3e1d4378cdbfe8fec7c4a667f5dcc72feb01a3929",
+    "plan_file_sha256": "c202638f41ebf396752f9f770f3f9046717f7271e81d9695441daf31d6f1b565",
+    "dataset": "realistic-seed1",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 1,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.265,
+    "ARI": 0.44104165169930504,
+    "plan_key": "p_8750a1638d46a96e7e892ded3166b6c8b03da5b03e8b1f2c08be0f981c0e749f",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_20.json",
+    "record_sha256": "e7812ed3daded5005070563dc306fdf65b94ede6726aa3fbe64462ede2ec3012",
+    "plan_file_sha256": "be225c0d003a5a9dd8c8aab93422981461c31c0e8b07eeb9b952c1c09dc8ab71",
+    "dataset": "realistic-seed10",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 10,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.33,
+    "ARI": 0.37327585359955096,
+    "plan_key": "p_be66e04f85d8c8c2cf9979adeab5b2997b11a99ce52a6cb42f9717da01659a79",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_22.json",
+    "record_sha256": "d6f22bbf2d7a5ca7f4b2f2e6577b68c871405ce0b80f07396b2dec9124bf9a63",
+    "plan_file_sha256": "2c1f0aa3badce22a34c8ab30d8aa45896ce1a5315c57a5247189bcb186df5945",
+    "dataset": "realistic-seed11",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 11,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.325,
+    "ARI": 0.4171316872563692,
+    "plan_key": "p_75436c9b5cd47beb525525a3775e163e889ea83c69544a5e26184fe69c56d048",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_24.json",
+    "record_sha256": "420c4d851d28f492623ccf00e49515dbe3168cf12458c702b9bb455e6731a5fa",
+    "plan_file_sha256": "3688f6042bc7f612b2e809c9c5b26042931621e8e7073b0cd0692f0ce614fadd",
+    "dataset": "realistic-seed12",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 12,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.564,
+    "ARI": 0.37781501122983097,
+    "plan_key": "p_0c4bbe4d8da200c199b315bc6dcfb279189498a4932eb71cc86e058e0bcfb421",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_26.json",
+    "record_sha256": "f062a858fd88f9c0c837d2efcb46e221613616c78ee28c0106c7bf6f91289441",
+    "plan_file_sha256": "d6dd338771572253285586d118f23ae2f70581cea829dae671ea07c5eb630b31",
+    "dataset": "realistic-seed13",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 13,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.281,
+    "ARI": 0.3775351635170282,
+    "plan_key": "p_9f9a5c67f2fd4e43c0930efdde4afd6361c4bcb18d6aad4045bffef1d568780b",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_28.json",
+    "record_sha256": "f5601a2a2c2a0b335228e0615bbf2a864a0ca19f72b21f2aead6a62474e35021",
+    "plan_file_sha256": "5c5701f8a9a5296e1a868fe085bb50ab74809359dd087e24ddc01c16e872010b",
+    "dataset": "realistic-seed14",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 14,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.396,
+    "ARI": 0.3750618311916032,
+    "plan_key": "p_a0acb426731a73b07e9e45a4590cfe3dd23fce87ff2faf383888aa4c854dba4e",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_30.json",
+    "record_sha256": "d8b4f261a294165e4e0fd23514315ee08420175929fd44db203b679ddae51a4a",
+    "plan_file_sha256": "e6b2602821b9c3419a997fb4c0bb5e806363fdace6362dd94cbab01403a7ab3d",
+    "dataset": "realistic-seed15",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 15,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.527,
+    "ARI": 0.3474318226577918,
+    "plan_key": "p_ed291ecce84d8a42b6fa3e6fb9fe568dca6c5f998d8d6801bba76c3034e5d430",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_32.json",
+    "record_sha256": "fbbfb5ecab509a9822f1aa8f27c18ad895255412b0ab5539a63cd86b4105d1be",
+    "plan_file_sha256": "f33c3287ab56cc45749b5d0172e9c0df6f6375d34be51eb9a64703e116ebfeb2",
+    "dataset": "realistic-seed16",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 16,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.437,
+    "ARI": 0.3847717004141557,
+    "plan_key": "p_e05b13508c7ea49656e669c0a75cfb54dc47b04fde1e1f13c1cd68f616dd4248",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_34.json",
+    "record_sha256": "95d48ab9a1d708cfab1a8824c89f55312eb1eadd0382175a0c07b057ba0df9af",
+    "plan_file_sha256": "bafbef12fa1ce95d2b9dcd747addfea56a173a675460fd04ca2cdafbbf409c58",
+    "dataset": "realistic-seed17",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 17,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.529,
+    "ARI": 0.3922278769707693,
+    "plan_key": "p_c4bfa7080fb4eceac7f2eab0eaac4f0f4914c25ed37f2fcd28001701e938b553",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_36.json",
+    "record_sha256": "357bda8eef417e751f4abd72cf0607955dfbadbf765d3746f74110260d5e42a0",
+    "plan_file_sha256": "12e1691dbae0dfedab9dcbd5f6f8392817c935650d1f411b6375680f724a28f0",
+    "dataset": "realistic-seed18",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 18,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.176,
+    "ARI": 0.4998769381896685,
+    "plan_key": "p_7602181de8dc65e1824dde96b9479633a497430eec0915d0012f13db46c715d2",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_38.json",
+    "record_sha256": "16e7d108a5f8ce9fc6d81218ae8e740b159d8e18965317dca372095c6c57d55c",
+    "plan_file_sha256": "d74fdb18fabbc57a002941ff3a0235039288f4801a38cc23d1419a239ad54d15",
+    "dataset": "realistic-seed19",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 19,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.46,
+    "ARI": 0.47636290963612155,
+    "plan_key": "p_6f7305f7c9b9526f84c403d6ad70405e50cdd70bede6c9283b173e51576f2a64",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_4.json",
+    "record_sha256": "11f64921762c5a5fdd8322c7ab66da8e3639d2645cba67586b9d92b371186951",
+    "plan_file_sha256": "278b9588899edcff519cde5da1215da8db4b1c49a7d4206784e4d2d2d4836bcb",
+    "dataset": "realistic-seed2",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 2,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.679,
+    "ARI": 0.4626031972141731,
+    "plan_key": "p_c6b99def99068d64a1bc2d47e223a0160197db22beeb4c76ea1634e32b70c4a3",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_40.json",
+    "record_sha256": "73c1ca6ad4185951c13a1d55b8c128b48a68d9c62edba6020ad754bc868b01b6",
+    "plan_file_sha256": "93e38c4683c95b48d8614957cde05d572887a2a7c360e114adab1f3560808af0",
+    "dataset": "realistic-seed20",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 20,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.565,
+    "ARI": 0.45634399545563026,
+    "plan_key": "p_1a7b53017459d23d74d89566b7ca3591e4319247fd9cb883cf318a8386324507",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_6.json",
+    "record_sha256": "bc1b10a0161aa670aa77b6b7b2553ade341d1784a5f4156bd609cf54ddf8001b",
+    "plan_file_sha256": "813f7bfc96104760726dad63a045866a4b07438aa1950bbe7ad4a2d75fd18ec0",
+    "dataset": "realistic-seed3",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 3,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.165,
+    "ARI": 0.4315953100363183,
+    "plan_key": "p_73e5e804c5d03c591b2bc84e41d5168c549062d20d051d4fd590ce5fa26805fd",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "run_paste2_multiseed_euclid/PASTE2_8.json",
+    "record_sha256": "4b10948b94de605e05396d4e27fc042c45a7713a03c803c914ec0db29c566fb3",
+    "plan_file_sha256": "231321f4ea5a9241d2060505a9af2612dfedd2458abcbadd33402617600e5b7d",
+    "dataset": "realistic-seed4",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0000000000000004,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "seed": 4,
+      "s": 1.0000000000000004
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.328,
+    "ARI": 0.25609637617259157,
+    "plan_key": "p_7133a33f51da115d8dcd444ea0030812eed8a0a6b64038c19fd82c20a62092b0",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_10.json",
+    "record_sha256": "51ca290548f3e6f8b25327ce7d29b7ae39e4e9db3dcbc83213940febe56ca494",
+    "plan_file_sha256": "1fa1fe418121320ee605b467b8e094f5a63537197898da38271e2c42223b48da",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.3,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.3
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.451,
+    "ARI": 0.28409586768899264,
+    "plan_key": "p_c78f132d8c723f76c3bff89005d9d1269bdfdf3894aa2f8c6b30453d5291694e",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_12.json",
+    "record_sha256": "f15bb3e2cb66fc435d10e17955664a5c5b9d5195651bad27a7d5214b8db41ea7",
+    "plan_file_sha256": "163224d144fa9d51cf8fb18fdb9f1b78b207724c86e761a4de82e16d9ae50ce8",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.3,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.3
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.199,
+    "ARI": 0.5162986464497833,
+    "plan_key": "p_807562799af89dd5d8b4a2bbd61e791c5d28534105d629135bbb3fbd36aeb7e7",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_14.json",
+    "record_sha256": "a087b52193f3f3b6ae0b5c51549f6d22ff8291773ed5e006c620e24f5c0e31ec",
+    "plan_file_sha256": "728588aea42c3fece7d4c9cdf1f0ca84c7e525f5aeff25b57f6a2bffe2b2b6f4",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.317,
+    "ARI": 0.33994032217611536,
+    "plan_key": "p_58f244bd742f93c4a6502aeafc11888dfc16759b2f5fcfe14c093b1d7701b99c",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_16.json",
+    "record_sha256": "6bb01e8bb6eb7739506a34e217fa66424f4e8db79bb3334bc124ac595c39536c",
+    "plan_file_sha256": "0fc5e3ab890ca76e3d4cc7d87c0312c6e87f946d4c03954b7b3d1a15a6312183",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.5,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.194,
+    "ARI": 0.5199874544526024,
+    "plan_key": "p_d0a85dc8ba7a2832814bb7719a90fa719b0b86be5025882180658fe32d087730",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_18.json",
+    "record_sha256": "d48362b3dee316ec39577cffa59fdc66f5ca27b1b3d4703c1ec2bb1c1eb11785",
+    "plan_file_sha256": "4a0645c898130d1d2fd3d7afecdafc7a01a8995aefe3ef002bf99e8af2ff9a10",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.7,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.7
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.243,
+    "ARI": 0.43792428475099804,
+    "plan_key": "p_4a3fc60c718ed978fb3e60287a8fddfe54ea914f54f511af603c3ce3c9b08de8",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_2.json",
+    "record_sha256": "cc4cd1980846b35c6e843a30611c8878c617232a9813c728816138ecd3702fa1",
+    "plan_file_sha256": "3cf181ecab763837e4c7705f38a2a2d012e138ada90739fd9e5c02816dadf7bf",
+    "dataset": "151507-151508",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "151507-151508",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.624,
+    "ARI": 0.43223701290220506,
+    "plan_key": "p_7e7063223298f28223c98febed5cffcd7ed74db259a5565dd91be8c16f3e9a48",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_20.json",
+    "record_sha256": "81f0bbc5d3496b0f1e91a641f8e09a74e302a8aafcb1a85a54550cf2f66771b5",
+    "plan_file_sha256": "a1f72330196f9ffb1af10276dbcfd7c812d8a103dc27ddb208563dc93496a41c",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.7,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.7
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.194,
+    "ARI": 0.5225107015934196,
+    "plan_key": "p_4700af03adae4cb60f29d0fec91a4e7836a8769eb4c0e6c554a20b43e7306f7d",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_22.json",
+    "record_sha256": "5d74b6a10ebb3bfd790ced4a5294fc492431eb58d28d3ccdea3a23f51bce9297",
+    "plan_file_sha256": "2b3384459c15c2adf7b1055b565b1219dbc3515e605c7bbe0e7c2dca9cfc7d47",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.9,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.9
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.203,
+    "ARI": 0.505616473274953,
+    "plan_key": "p_9b2a3e6c8124657ba56042fc0aa6e5439639d89822cfe97af878ef33f14fee11",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_24.json",
+    "record_sha256": "6b37327dcbeeacb0ad0158380179015bac790a82364fc54331236312ccd90493",
+    "plan_file_sha256": "7cc48b3a0582312a985193599dfecb7ff47986890bdae94dfcb3c98fe6cdf516",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.9,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.9
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.193,
+    "ARI": 0.5219471337041001,
+    "plan_key": "p_424d69220ea1e0eb25f3a9e1537ee922f44a75d2592e3613f41710bb0d56fc3d",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_26.json",
+    "record_sha256": "53c2f467cf45c90c94e72a682ed1c1abd030f15bee10b7ead110f02abfb620b3",
+    "plan_file_sha256": "294442f30389e1fd87ec16e350d04557a902927a718050ca397e8e883a495459",
+    "dataset": "realistic-seed1",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed1",
+      "alpha": 0.9,
+      "seed": 1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.783,
+    "ARI": 0.5802638203679138,
+    "plan_key": "p_a3b2686ce48d858167fc2ab2ab7a2dacc8c4d94566fffb744d2f07d523b98c50",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_28.json",
+    "record_sha256": "aa1a26cdb2920f2afab027e1301fb3baa58c57fb89da9bb0e56b5b37e131723a",
+    "plan_file_sha256": "3ca2ec818b32bfed72ccbeaf1f3a9f15653807c71bf5cd54388f321675428f7f",
+    "dataset": "realistic-seed2",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed2",
+      "alpha": 0.9,
+      "seed": 2
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.706,
+    "ARI": 0.4266818729492408,
+    "plan_key": "p_abd13718a8469dc7a403446e58f6248018540c70d6a39af89e508d033addec1d",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_30.json",
+    "record_sha256": "57fdaf9126cf4337a22c7962a73c3d135ef52702d9c9a6cb7a9b33b4a718aae6",
+    "plan_file_sha256": "4e80edb7c586e7bfb5f52a886755566e2732c17e6d745e46c6d8ce99cf9498b1",
+    "dataset": "realistic-seed3",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed3",
+      "alpha": 0.9,
+      "seed": 3
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.807,
+    "ARI": 0.596270130158959,
+    "plan_key": "p_55ee4fc1e5d0ffe24a739b9d362bf87c6fa22675decf3adb1a73d8fcd3f6183c",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_32.json",
+    "record_sha256": "6706868715068ca3af2d34f2e9b9025645e236b8a238b164748259b240952988",
+    "plan_file_sha256": "17d0295bfa82af248ef99d3b7fc28b1723bf78ce13421b0b8b08768f6f497431",
+    "dataset": "realistic-seed4",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed4",
+      "alpha": 0.9,
+      "seed": 4
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.722,
+    "ARI": 0.4812045018850306,
+    "plan_key": "p_0f4a32a5b02f1f5c73830163e2898359bd41a5845fd57f556e567b631a4f0f09",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_34.json",
+    "record_sha256": "9a408628bd5701cf930c595a2252f8a7228949832f33d69b3d4b192c9bbf2670",
+    "plan_file_sha256": "bf6abdb0d9c008b8399c84480299feb4a62439ba5788ebf01d49843b54eaa216",
+    "dataset": "realistic-seed5",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed5",
+      "alpha": 0.9,
+      "seed": 5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.78,
+    "ARI": 0.6037617579485589,
+    "plan_key": "p_021d6ddfc5d2d0070ab87da1e9ab1552849b1ddf313d074504cbf1251e09d2a2",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_36.json",
+    "record_sha256": "f1f29c23f794684c2d5ff013c39f349d2b46ba06b6174f37036d86bf8eb77ad1",
+    "plan_file_sha256": "2c1a64c38785dc9bc952784621bd4cfe1d951f73b0979e72d49de3cf557b7eb0",
+    "dataset": "realistic-seed6",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed6",
+      "alpha": 0.9,
+      "seed": 6
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.621,
+    "ARI": 0.38416545656538087,
+    "plan_key": "p_d1e38fa4a1950c8858f2e36d945df09345e2e41147003be60f6e643861a54f57",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_38.json",
+    "record_sha256": "9a16308dba72676123f5625b66982d6c06884440fe0a529e7867be6c099c5b70",
+    "plan_file_sha256": "79fcdfb0c762db981e66c5f9afb11065fc2d37a10315eb5c7153421c5a2af9a4",
+    "dataset": "realistic-seed7",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed7",
+      "alpha": 0.9,
+      "seed": 7
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.785,
+    "ARI": 0.5651373081298863,
+    "plan_key": "p_268a39d24f5c9b43e7a1c2df2931e81bcb388b6fad50f977ae6b084bc2c5cdca",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_4.json",
+    "record_sha256": "20e554e0e19fc59f3065e7c47f716e783738de8825e63a6da4951d8396ca5a55",
+    "plan_file_sha256": "a07591422d6cebd81072ee48b9b7f5bcee749ac397cdb3b20d438db53e59b9aa",
+    "dataset": "151508-151509",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "151508-151509",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.452,
+    "ARI": 0.23602783062732416,
+    "plan_key": "p_44ba59de7c748049e92ae82ea862986bee97aef539c81620178aa9fdffddfc52",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_40.json",
+    "record_sha256": "e76742b36bbb70c4c98b1776f4a7dd5d966b1bdd7957918b8b27b50731f7a13b",
+    "plan_file_sha256": "4940bb83c0e3626437be1a8fd03df18d09123d2fefa0571f324f597fa4570b01",
+    "dataset": "realistic-seed8",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed8",
+      "alpha": 0.9,
+      "seed": 8
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.548,
+    "ARI": 0.3075192979273362,
+    "plan_key": "p_2318eb651af974ccf69e5b3e545329e22cf600d5b49dc12af4c09ddca524bf8c",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_42.json",
+    "record_sha256": "d82835588ea846952ceddc47dbf76ad17e17b7d07f8febd596171de8eb1a417d",
+    "plan_file_sha256": "164643ba424006a1bbb30bbeda255f23d1358155ca4b6efe17c05430a9916a78",
+    "dataset": "realistic-seed9",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed9",
+      "alpha": 0.9,
+      "seed": 9
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.678,
+    "ARI": 0.3694686964353792,
+    "plan_key": "p_e7b0d43123d6a8c781eb679d21871f097a6559d45404d94dcd3d03153a4ebda4",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_44.json",
+    "record_sha256": "15e215ea250a6c0f9a8d2df3ff6274e57fce26ac0bf8b7cfd1df8c72430da9ce",
+    "plan_file_sha256": "664aa841dcf5b67493f2117a368e6c8abe9df3be0d67665c444e8f03eb298dae",
+    "dataset": "realistic-seed10",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed10",
+      "alpha": 0.9,
+      "seed": 10
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.717,
+    "ARI": 0.6368565437752176,
+    "plan_key": "p_0e2a1103f8d005bb681dc793ffd5b51b4ed04dfe5c014b236b9f7695313bffd2",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_46.json",
+    "record_sha256": "cf4ceaa2eeb7c3db05a6d771a5ec9631ea1be5a3e9a0dc873571d811fe4b56df",
+    "plan_file_sha256": "4ba579a87f128987f22a4804d7043143281c7d7e05094f4452372596a3ca3652",
+    "dataset": "realistic-seed11",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed11",
+      "alpha": 0.9,
+      "seed": 11
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.672,
+    "ARI": 0.5065121561103031,
+    "plan_key": "p_6be32e1c96daaf12520f12994515c41539ab5beb6dde8d677edabd60b003c73e",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_48.json",
+    "record_sha256": "2b151f950165fb2d995e9878a54e93298f607d8baea9d68deba855d57b6c3ae4",
+    "plan_file_sha256": "2cf92e57cfe7e2560e494baa05b1392f0d3519497acfc0ceaeb4225f0142a057",
+    "dataset": "realistic-seed12",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed12",
+      "alpha": 0.9,
+      "seed": 12
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.697,
+    "ARI": 0.4663320868530196,
+    "plan_key": "p_24a1f387b5ef6ce6306ea91a852366918ac0a3851e00d095073e83ee11629c28",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_50.json",
+    "record_sha256": "47ded4bf8eec19ddf4feb2d98cff4f9b2afde97ab521c4e2e6252b2225ff226b",
+    "plan_file_sha256": "6d89b619040b406643a1f7498f3d3e3dabb91319558c2c340070178877afed8d",
+    "dataset": "realistic-seed13",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed13",
+      "alpha": 0.9,
+      "seed": 13
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.59,
+    "ARI": 0.3461346022285657,
+    "plan_key": "p_9a55a2d7a09900e95ff093c3261eeaa3b05a0b53a0cde534d7fd275d9e20530a",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_52.json",
+    "record_sha256": "fa506956622613d42259aac7c437dff02ac5521bc1ea5f4aff7df1ce060143c8",
+    "plan_file_sha256": "6cdeccad226224e5ef39d6a042b78d262513b5e445e7c437e714ba48974cc644",
+    "dataset": "realistic-seed14",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed14",
+      "alpha": 0.9,
+      "seed": 14
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.664,
+    "ARI": 0.4069105892649389,
+    "plan_key": "p_c6e24156638b02abe5483818d2bb98f355fd190284729344559df511c13f3faf",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_54.json",
+    "record_sha256": "bc29b23ce5a9bbce6540347c498505d160ed26259ad372b67d2c608dd3df7588",
+    "plan_file_sha256": "9dd341d8967196de8fce430fce74deeb7aae4c15721222efc1a9d03acf530968",
+    "dataset": "realistic-seed15",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed15",
+      "alpha": 0.9,
+      "seed": 15
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.708,
+    "ARI": 0.43949012481534233,
+    "plan_key": "p_6749492c8ddf11a4b77e297df70eaaad0c3cc56cdbdd76addfe552b53bbd3fda",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_56.json",
+    "record_sha256": "d9b3ab53a07de4439c9c5ddcd74b574cbac12eafcbdf1cb339769bb329771c34",
+    "plan_file_sha256": "ffc6efa008a1670cd88a2136518d969a2742e375998a776ab50a89eb88336032",
+    "dataset": "realistic-seed16",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed16",
+      "alpha": 0.9,
+      "seed": 16
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.718,
+    "ARI": 0.5275984824255431,
+    "plan_key": "p_641ae12acf41594669837371f96eeb6311410439b44f47bef66b1b08ba8632cf",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_58.json",
+    "record_sha256": "9b690a9cbd2b1e39c99ea0f6fdbea66979effb5549457c86dab007c80dc64384",
+    "plan_file_sha256": "da50f53ab03eb0d1147b78a70ae430b8b692f37520e8374daaae27daba0d525d",
+    "dataset": "realistic-seed17",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed17",
+      "alpha": 0.9,
+      "seed": 17
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.73,
+    "ARI": 0.47355006111618814,
+    "plan_key": "p_71d1e147836aa5271b468692aa3fea4a6fd5769f4c8df9959f74ee225f05276d",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_6.json",
+    "record_sha256": "ba5a8bdd976e7746b19f9574be25c938e04a56f217a9fea737fb607049a68ee4",
+    "plan_file_sha256": "3723ff6e81998d0dfb4755b1d6e92c5f9c6699cdfdba929c3e8dd2301af27919",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.673,
+    "ARI": 0.4495670850098959,
+    "plan_key": "p_3ea156dd185a25527a0ac903989642387016cfea929119c7b43e59d0b4cf017a",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_60.json",
+    "record_sha256": "e865383dae846ac26b06a953aac8afd4c60713564e9e0721987e7c1108a80fbb",
+    "plan_file_sha256": "37ff06d0ec844c4c27715f689c3f1e2044bcae948f8ac13355997a44221139d7",
+    "dataset": "realistic-seed18",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed18",
+      "alpha": 0.9,
+      "seed": 18
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.6,
+    "ARI": 0.39902059061123296,
+    "plan_key": "p_ac59d821796ac39fef8c4a21ba06be452ecba8bbddcfc755d628a1ec17bd9665",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_62.json",
+    "record_sha256": "b055634becf0cc6f024639cadf6cdbc8a7c6b78228cb2c90bd0786931ccefe3b",
+    "plan_file_sha256": "13a0f81ee6be19db9a03f0b25bfa078633ee56247828fa047fe1358534009c2c",
+    "dataset": "realistic-seed19",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed19",
+      "alpha": 0.9,
+      "seed": 19
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.817,
+    "ARI": 0.7185538707526076,
+    "plan_key": "p_1d14e87a9bf483ce4aaa4829beed6c48d0abb5f9b32b4c31a11a95dd0adcd082",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_64.json",
+    "record_sha256": "fc87a0b893b9f01381f87188887d11ba838fb0f270cb861fa8f1848d01f65a2d",
+    "plan_file_sha256": "1b2534c2ece9bffc8ad4592b57a17b853b7eeb4f5a3d84866fe1cab2be5755de",
+    "dataset": "realistic-seed20",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed20",
+      "alpha": 0.9,
+      "seed": 20
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.669,
+    "ARI": 0.4224389281762345,
+    "plan_key": "p_82b0f9f2ffa0fd5c7632fdd5a1fdb9306ce3389f26b64de050aaad4dddad1cb6",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE2_8.json",
+    "record_sha256": "f6b7c73f895f9ca39663ede83bda111555961c63cd7931b4b623831cc5b4ed3e",
+    "plan_file_sha256": "37ae55c7d42bff5d3368ac5715c5b15fdd11ae77316a6ac1b7dfad31d6d0a183",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "euclidean",
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.214,
+    "ARI": 0.48145990420093615,
+    "plan_key": "p_939c26f6751c0d9e227939455cf2122d151b3603f762f4cab4d9ccdc4903d493",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_12.json",
+    "record_sha256": "ccc598d44d7419827bfff76afde2aa507fe5dd4bac825fe49930c3d7c755ced6",
+    "plan_file_sha256": "898feac17967f538dce87cd555453f65cfd583f58df14a1010f5f8e4dca5f73d",
+    "dataset": "151508-151509",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "name": "151508-151509",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.218,
+    "ARI": 0.1933568255252299,
+    "plan_key": "p_e5f9f1ebae3bd35b7d8b324599217457f6ec4d6fb00c81f71d5ca1b123020108",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_14.json",
+    "record_sha256": "35e965f96ca9cca66d60888e4a8b41b4ec8aa454f0525cebf3e9599bdf2c4b77",
+    "plan_file_sha256": "898feac17967f538dce87cd555453f65cfd583f58df14a1010f5f8e4dca5f73d",
+    "dataset": "151508-151509",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 1000,
+      "verbose": false
+    },
+    "context": {
+      "name": "151508-151509",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.218,
+    "ARI": 0.1933568255252299,
+    "plan_key": "p_e5f9f1ebae3bd35b7d8b324599217457f6ec4d6fb00c81f71d5ca1b123020108",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_16.json",
+    "record_sha256": "6e7f18d8c4f342ea2ec7476614450a8fbea56daa8ca480b73db96c07acf00bc1",
+    "plan_file_sha256": "6849daf3bb8ba723f946376465aeaec9045630674cb437f26e5e6ad3e1b2a187",
+    "dataset": "151508-151509",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "name": "151508-151509",
+      "alpha": 0.5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.135,
+    "ARI": -0.001433312736522173,
+    "plan_key": "p_7ea46f13d4cfc2c7129faec976ea930b92bb65ff9337befcc75cb549ad0e639a",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_18.json",
+    "record_sha256": "6dd6c74fa11c8237d677dd2010a92f0818d1ef505a700242da49364e9ea763b4",
+    "plan_file_sha256": "6849daf3bb8ba723f946376465aeaec9045630674cb437f26e5e6ad3e1b2a187",
+    "dataset": "151508-151509",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "numItermax": 1000,
+      "verbose": false
+    },
+    "context": {
+      "name": "151508-151509",
+      "alpha": 0.5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.135,
+    "ARI": -0.001433312736522173,
+    "plan_key": "p_7ea46f13d4cfc2c7129faec976ea930b92bb65ff9337befcc75cb549ad0e639a",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_2.json",
+    "record_sha256": "77b9204dd186fc00e6fce9379318ea562265d630077b14d884117f0d90162ebb",
+    "plan_file_sha256": "a025ee231533124410cefa75a0c45f95b49abde5216dfdc3342055f01f9c9bc2",
+    "dataset": "151507-151508",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "name": "151507-151508",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.673,
+    "ARI": 0.5598059558370171,
+    "plan_key": "p_d74f0cd1789e863214789dbbd85fabb47e14b1e7ab7842b58acf6f7f901b6d52",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_22.json",
+    "record_sha256": "86a417bbb3e30ac510082cd0d9252c0f36021920d3f47fb42d4051efd04c8b8e",
+    "plan_file_sha256": "91491542c3a8f629fbd781b6193bf2e0dcb33c45a6954d7af81985aa7a631e25",
+    "dataset": "realistic-seed42",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.199,
+    "ARI": 0.5146591762263082,
+    "plan_key": "p_389c8869cd421e2634da3560a97a2f9ab3d0f16e785b8806f69a607f15039ab6",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_24.json",
+    "record_sha256": "6023752124b1d56fe4655b79da69975754c80cd25dd60a0cc456f87276ea1ce7",
+    "plan_file_sha256": "91491542c3a8f629fbd781b6193bf2e0dcb33c45a6954d7af81985aa7a631e25",
+    "dataset": "realistic-seed42",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 1000,
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.199,
+    "ARI": 0.5146591762263082,
+    "plan_key": "p_389c8869cd421e2634da3560a97a2f9ab3d0f16e785b8806f69a607f15039ab6",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_26.json",
+    "record_sha256": "f12f4e598d009efee3969193ba4e5010edbf31607649f07119a4b6f0eb9dad5e",
+    "plan_file_sha256": "8fddfe4a900bf3861c5a049166026144b5d67ab49df96bd601b3bf0c2c7a3700",
+    "dataset": "realistic-seed42",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.194,
+    "ARI": 0.5199874544526024,
+    "plan_key": "p_679c4aafa04beef10fa9cb686210bd9bfe3608d7525a03aad951dddd96327cb9",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_28.json",
+    "record_sha256": "2aab7a804eadf939a190ca56747b320a58c191c5ebc1911d300fd569f1e45bfe",
+    "plan_file_sha256": "8fddfe4a900bf3861c5a049166026144b5d67ab49df96bd601b3bf0c2c7a3700",
+    "dataset": "realistic-seed42",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "numItermax": 1000,
+      "verbose": false
+    },
+    "context": {
+      "name": "realistic-seed42",
+      "alpha": 0.5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.194,
+    "ARI": 0.5199874544526024,
+    "plan_key": "p_679c4aafa04beef10fa9cb686210bd9bfe3608d7525a03aad951dddd96327cb9",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_4.json",
+    "record_sha256": "36279950b40ee939b5ef1703ad5e828dba54e72789aebece50812dc193701763",
+    "plan_file_sha256": "a025ee231533124410cefa75a0c45f95b49abde5216dfdc3342055f01f9c9bc2",
+    "dataset": "151507-151508",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 1000,
+      "verbose": false
+    },
+    "context": {
+      "name": "151507-151508",
+      "alpha": 0.1
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.673,
+    "ARI": 0.5598059558370171,
+    "plan_key": "p_d74f0cd1789e863214789dbbd85fabb47e14b1e7ab7842b58acf6f7f901b6d52",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_6.json",
+    "record_sha256": "b9cd6acd2500ab405891246a40d3549bc2d1ea85bcaa162bfe132c79a6a01e62",
+    "plan_file_sha256": "65010f27e931d3969deb85007b40cf0673652e88d0d33c7415c98847a0633783",
+    "dataset": "151507-151508",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "name": "151507-151508",
+      "alpha": 0.5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.346,
+    "ARI": 0.1085950139322251,
+    "plan_key": "p_04fd7d3b146ecb775597a3d8f36c0e5ba1693d14fb66a9932f2205812efdbb7f",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "external_convergence_audit/PASTE_8.json",
+    "record_sha256": "0cbbc59a5689884622b850355f90b664249a32345556586e581ed2d24c2028f8",
+    "plan_file_sha256": "65010f27e931d3969deb85007b40cf0673652e88d0d33c7415c98847a0633783",
+    "dataset": "151507-151508",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.5,
+      "dissimilarity": "kl",
+      "numItermax": 1000,
+      "verbose": false
+    },
+    "context": {
+      "name": "151507-151508",
+      "alpha": 0.5
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.346,
+    "ARI": 0.1085950139322251,
+    "plan_key": "p_04fd7d3b146ecb775597a3d8f36c0e5ba1693d14fb66a9932f2205812efdbb7f",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "serial_runtime_audit/PASTE2_2.json",
+    "record_sha256": "e7509e2555011ecb5b997621274156d99063b0fe256489dcb826548f3e7807b7",
+    "plan_file_sha256": "3723ff6e81998d0dfb4755b1d6e92c5f9c6699cdfdba929c3e8dd2301af27919",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "method": "Official PASTE2"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.673,
+    "ARI": 0.4495670850098959,
+    "plan_key": "p_3ea156dd185a25527a0ac903989642387016cfea929119c7b43e59d0b4cf017a",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "serial_runtime_audit/PASTE2_4.json",
+    "record_sha256": "5b1e668289b32f6e0e4d88be7e6bd74182ecbda4e10423c17fe5fa6f8003750f",
+    "plan_file_sha256": "3723ff6e81998d0dfb4755b1d6e92c5f9c6699cdfdba929c3e8dd2301af27919",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "method": "Official PASTE2"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.673,
+    "ARI": 0.4495670850098959,
+    "plan_key": "p_3ea156dd185a25527a0ac903989642387016cfea929119c7b43e59d0b4cf017a",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "serial_runtime_audit/PASTE2_6.json",
+    "record_sha256": "e72d7061f56d580a380ecb21b0ed74d678e5f668ff0cce6a89b9a6d8507eab39",
+    "plan_file_sha256": "3723ff6e81998d0dfb4755b1d6e92c5f9c6699cdfdba929c3e8dd2301af27919",
+    "dataset": "realistic-seed42",
+    "method": "PASTE2",
+    "parameters": {
+      "s": 1.0,
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "verbose": false
+    },
+    "context": {
+      "method": "Official PASTE2"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.673,
+    "ARI": 0.4495670850098959,
+    "plan_key": "p_3ea156dd185a25527a0ac903989642387016cfea929119c7b43e59d0b4cf017a",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "serial_runtime_audit/PASTE_12.json",
+    "record_sha256": "a53f83a970babcc36607921236998fab9e55cca461eba9bc23e4c7dbb019693d",
+    "plan_file_sha256": "91491542c3a8f629fbd781b6193bf2e0dcb33c45a6954d7af81985aa7a631e25",
+    "dataset": "realistic-seed42",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "method": "Official PASTE"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.199,
+    "ARI": 0.5146591762263082,
+    "plan_key": "p_389c8869cd421e2634da3560a97a2f9ab3d0f16e785b8806f69a607f15039ab6",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "serial_runtime_audit/PASTE_2.json",
+    "record_sha256": "9a97292e0205ba3229e7966b2c6ec0550b1854b6e502364d67d666f03bdde025",
+    "plan_file_sha256": "91491542c3a8f629fbd781b6193bf2e0dcb33c45a6954d7af81985aa7a631e25",
+    "dataset": "realistic-seed42",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "method": "Official PASTE"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.199,
+    "ARI": 0.5146591762263082,
+    "plan_key": "p_389c8869cd421e2634da3560a97a2f9ab3d0f16e785b8806f69a607f15039ab6",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  },
+  {
+    "record": "serial_runtime_audit/PASTE_8.json",
+    "record_sha256": "5486266af80a9e59e25950906bf377a0a9e51a6f01de8dbd7cdc1fcc428000af",
+    "plan_file_sha256": "91491542c3a8f629fbd781b6193bf2e0dcb33c45a6954d7af81985aa7a631e25",
+    "dataset": "realistic-seed42",
+    "method": "PASTE",
+    "parameters": {
+      "alpha": 0.1,
+      "dissimilarity": "kl",
+      "numItermax": 200,
+      "verbose": false
+    },
+    "context": {
+      "method": "Official PASTE"
+    },
+    "scoring": "source region/layer versus transport-weighted target class vote",
+    "accuracy": 0.199,
+    "ARI": 0.5146591762263082,
+    "plan_key": "p_389c8869cd421e2634da3560a97a2f9ab3d0f16e785b8806f69a607f15039ab6",
+    "input_hashes_captured_in_record": true,
+    "captured_input_hashes_match_reconstructed_inputs": true,
+    "historical_input_capture_fabricated": false,
+    "matching_input_bound_plan_available": true,
+    "input_evidence": "direct captured hashes verified"
+  }
+]

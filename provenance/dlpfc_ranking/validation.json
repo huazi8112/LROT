@@ -1,0 +1,85 @@
+{
+  "scope": "Independent frozen raw input -> ordered arrays -> four source-bound accepted solves -> pooled scoring. Br8325 two pairs only; not donor-2 tables or original raster provenance.",
+  "raw_identity_checks": {
+    "151507": true,
+    "151508": true,
+    "151509": true
+  },
+  "raw_binding_reference": "figures/current_release/saved_inputs/F5_input_binding.json",
+  "outcome": {
+    "FGW": {
+      "rho": 0.4450839217880346,
+      "top20_accuracy": 0.8275,
+      "accuracy": 0.533
+    },
+    "LROT": {
+      "rho": 0.362967163396697,
+      "top20_accuracy": 0.7825,
+      "accuracy": 0.514
+    }
+  },
+  "call_count": 4,
+  "calls": [
+    {
+      "key": "d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c",
+      "record_sha256": "8f73f6f8b82505cd2689f34455481a4d4ee0feae1738338cdeb0430c38bff801",
+      "plan_npz_sha256": "f82ca8be205065d450d7dbd4340ac7133f28d5082c573b0fdd370214fd222300",
+      "accepted": true,
+      "gamma": 0.0,
+      "metrics": {
+        "entropy": 6.01187467362836,
+        "soft_acc": 0.57,
+        "soft_ari": 0.4160097856351517,
+        "same_mass": 0.3766470709347676
+      },
+      "input_identity_sha256": "d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c"
+    },
+    {
+      "key": "5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed",
+      "record_sha256": "26660238d2c5dca6fed2fc2e420dd6fd7e9569b256ebd05f20cf926e35121822",
+      "plan_npz_sha256": "381d995900307b13fbbdc9a80d1f5d2ad4cbf89ba252ea999366a83909152c75",
+      "accepted": true,
+      "gamma": 0.1,
+      "metrics": {
+        "entropy": 4.952397108531448,
+        "soft_acc": 0.555,
+        "soft_ari": 0.3440948512709325,
+        "same_mass": 0.37417448987740304
+      },
+      "input_identity_sha256": "5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed"
+    },
+    {
+      "key": "0dcfb59f0bdf3b26743d8b21b291113e1a7ed731ae691bbf56f2d5467ef5997f",
+      "record_sha256": "7ddee7300834dd88d0a4359bd83e22d5d68cd72f1b6b98670835a9f851722695",
+      "plan_npz_sha256": "ffebf3fbf6e0c174a6c3cd52efff0083ebb0385d631582592e488fbb4155767c",
+      "accepted": true,
+      "gamma": 0.0,
+      "metrics": {
+        "entropy": 6.011607357322087,
+        "soft_acc": 0.496,
+        "soft_ari": 0.19542917676419877,
+        "same_mass": 0.3517816328131369
+      },
+      "input_identity_sha256": "0dcfb59f0bdf3b26743d8b21b291113e1a7ed731ae691bbf56f2d5467ef5997f"
+    },
+    {
+      "key": "1c283c15b90cda8f769cb7da53bdb2cbacbde2082ccf0f588202c0eab72705df",
+      "record_sha256": "508b6ff991b3e9f11795b3ffb8cd999925b082df627c9a1e02911fe3a31aaebd",
+      "plan_npz_sha256": "b0a942211c7940db0bc5ef0d94aa8d72227c6297ee07a52b9ae161d36bc462b7",
+      "accepted": true,
+      "gamma": 0.1,
+      "metrics": {
+        "entropy": 5.06579085509454,
+        "soft_acc": 0.473,
+        "soft_ari": 0.15619317536451544,
+        "same_mass": 0.3545929907051872
+      },
+      "input_identity_sha256": "1c283c15b90cda8f769cb7da53bdb2cbacbde2082ccf0f588202c0eab72705df"
+    }
+  ],
+  "ordered_barcodes_sha256": "4b200de7f0e37ea09b29278f027fb08af9976c2f75a76dfa4a456dc77e51fd26",
+  "per_spot_npz_sha256": "659a099036b05fbdcc64476ab430de480340439feb3b8b74d0cadcabe9bbfd0c",
+  "solver_binding_sha256": "67fe156fbd2b67966d45511bd55289639907bd0ed322fa15f9afff13134a5adc",
+  "new_solver_execution": true,
+  "historical_raster_replaced": false
+}

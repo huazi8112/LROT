@@ -1,0 +1,927 @@
+{
+  "realistic-seed42": {
+    "dataset": "realistic-seed42",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+        "coords": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+        "region_labels": "8758ba4cc1f420cc072da10e7923cc568c7497200d46c1ccd1a5df21bdbda356"
+      },
+      "B": {
+        "expr": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+        "coords": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+        "region_labels": "67c33020f163fb5519eb1b373c443752bea47a71dd39cf6a511507523c31cca3"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "0ac32afc8ebf60120c4f5943478f6ca19cb1b04a5403ae3fec32818b56785cbe",
+        "spatial_hash": "2b1b87d4afb3e06cf5a4c23a1458d00d3bc6ebf82a729362bfc1161d7738b90a",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "937be233690a77bed542107cc489cebc4e9c36c669a6c6f09421c2593acdd2d6",
+        "spatial_hash": "2298930eb6e30160a97d5946c6004feeac35f11668287d039911261d83173f4e",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed1": {
+    "dataset": "realistic-seed1",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "da4642a29f66a42f0e4df1b778c9a3eda595544cca01d4f4cc017a6aa42cb108",
+        "coords": "623480ba093ea9535e600be7ebd174cdfe2820b281bc20c3511bfc0a0d6df31c",
+        "region_labels": "fa162628edaecdf8e3800779bdf0e7c4ffc79a4b58be6ef06ce9668319aa94fd"
+      },
+      "B": {
+        "expr": "2eb6d3ac8fb84dbfe5ac7606629f998b92b5c6b8d56fc9f395b314e813be2432",
+        "coords": "a18c96a1cba5ef42d2e3e5ebe1a2f087063fff5ba9a4f00e9eab39cdb677d312",
+        "region_labels": "e4df3fdf5930543fac2b4ccc416d9425acee73d4f21e6d4b97b22d8189d8b589"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "da4642a29f66a42f0e4df1b778c9a3eda595544cca01d4f4cc017a6aa42cb108",
+        "spatial_hash": "623480ba093ea9535e600be7ebd174cdfe2820b281bc20c3511bfc0a0d6df31c",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "2eb6d3ac8fb84dbfe5ac7606629f998b92b5c6b8d56fc9f395b314e813be2432",
+        "spatial_hash": "a18c96a1cba5ef42d2e3e5ebe1a2f087063fff5ba9a4f00e9eab39cdb677d312",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed2": {
+    "dataset": "realistic-seed2",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "cd47941c4bc1462d76e5cb084f08ea2dcd2a767adc6bef7031ab0f940fac154f",
+        "coords": "8493c6e6bcf496424d1fba7462162164a547279cfddb98cdf630d2fb35034df9",
+        "region_labels": "605bce842354a96c9804466d5004dab2aa119e28bd137d8274193743460155fa"
+      },
+      "B": {
+        "expr": "2edd06b899a5deae3a1baa0659586c460b52171b31f2ccbde28d54b90210e9fb",
+        "coords": "33b725d215dfdc138550b12bf286a547e85cc0aea69d498ef6ad91ee1e84de1a",
+        "region_labels": "c267887f95d90f78f6cfdfb3f212e9248fea46e27af955e4c52c44132fcf22bc"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "cd47941c4bc1462d76e5cb084f08ea2dcd2a767adc6bef7031ab0f940fac154f",
+        "spatial_hash": "8493c6e6bcf496424d1fba7462162164a547279cfddb98cdf630d2fb35034df9",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "2edd06b899a5deae3a1baa0659586c460b52171b31f2ccbde28d54b90210e9fb",
+        "spatial_hash": "33b725d215dfdc138550b12bf286a547e85cc0aea69d498ef6ad91ee1e84de1a",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed3": {
+    "dataset": "realistic-seed3",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "4c62537071b7c1242911834e392724047daa28b73163e83f43f15a32fe6e7b7b",
+        "coords": "5665219e235150632325609bb8d072ff4acd15adc314b5bfb049a7b59b09163e",
+        "region_labels": "b02143cb55464f8506c5807fb57a46f4370fb3b9a5fbc569a12c4c52334d4165"
+      },
+      "B": {
+        "expr": "47b9bf614297cf22b31c9611f83226629f88583e41c36c4b0389d1886b78d8a7",
+        "coords": "2c877a2d991be42517aa7548472329a9e99895595bf57c758bcb088eb5f43edc",
+        "region_labels": "2203621de5a7a6d53c43c7dcdd394fbfa3b3785606bfbf0904fb23c9f6097651"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "4c62537071b7c1242911834e392724047daa28b73163e83f43f15a32fe6e7b7b",
+        "spatial_hash": "5665219e235150632325609bb8d072ff4acd15adc314b5bfb049a7b59b09163e",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "47b9bf614297cf22b31c9611f83226629f88583e41c36c4b0389d1886b78d8a7",
+        "spatial_hash": "2c877a2d991be42517aa7548472329a9e99895595bf57c758bcb088eb5f43edc",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed4": {
+    "dataset": "realistic-seed4",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "14f0c9a8b7229e3d73317704af27c72367a6febe9229e2b37f54f5b7b4a43456",
+        "coords": "7bcfb449794816d58b31c1a05553e07acd1e5111d055b39bc7ca8e8a5531c33b",
+        "region_labels": "70f5d0c20c04ffeb9d783111fe12a4c763080f6f8514a4c73a0419ca02cf3f62"
+      },
+      "B": {
+        "expr": "d3cc51313f4e64913869861d4dd7a342db825da026085545c03dadba9ced5e55",
+        "coords": "d8ccdc027bc1d87f3ac2609998f6d59163fb2f6f42453d722b37a26e0329ca13",
+        "region_labels": "7417b27bd6e7bc81073c8c3fc8c9d9d09fe5ecdc0833521b2a7e6fbcc48be438"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "14f0c9a8b7229e3d73317704af27c72367a6febe9229e2b37f54f5b7b4a43456",
+        "spatial_hash": "7bcfb449794816d58b31c1a05553e07acd1e5111d055b39bc7ca8e8a5531c33b",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "d3cc51313f4e64913869861d4dd7a342db825da026085545c03dadba9ced5e55",
+        "spatial_hash": "d8ccdc027bc1d87f3ac2609998f6d59163fb2f6f42453d722b37a26e0329ca13",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed5": {
+    "dataset": "realistic-seed5",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "be2b98469f64d59b2c3c3653719ff79cd0137c1b04bcc372448948142d665ad9",
+        "coords": "2777eaf321fc773190354b1137fe46c00112c908dcb0486e77a2683b5ceb9329",
+        "region_labels": "e5087fd990779215d438af15010bd23e9cad60f1f0e4d1b0bf5bab50deeb865a"
+      },
+      "B": {
+        "expr": "3c71a4d8d9d1b3a5e4f2eaa221a1064f921c86642649fe0efaa98367cdbd2b9d",
+        "coords": "6c1facdf28a1f738836b612ce50de2dcfa138362b578c18245589c9b931ca2ca",
+        "region_labels": "6305245c5235a05ce3a6dde5f32046259ea357f6e6506836631f794d9228b113"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "be2b98469f64d59b2c3c3653719ff79cd0137c1b04bcc372448948142d665ad9",
+        "spatial_hash": "2777eaf321fc773190354b1137fe46c00112c908dcb0486e77a2683b5ceb9329",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "3c71a4d8d9d1b3a5e4f2eaa221a1064f921c86642649fe0efaa98367cdbd2b9d",
+        "spatial_hash": "6c1facdf28a1f738836b612ce50de2dcfa138362b578c18245589c9b931ca2ca",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed6": {
+    "dataset": "realistic-seed6",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "da4f3f4bddc532df91052ee99c44ab6ed04b4dd4973154f0ba29dfeea0c3cd13",
+        "coords": "8b0ff57b1b421270825a21e78e960f01b1974fe7457a3fd6b10050d285892b71",
+        "region_labels": "050d68f327bbd668894d15434947916ea903154e40da842736e6bc56e6954259"
+      },
+      "B": {
+        "expr": "e80425caa086d1a650f81cfe21286ec573e40222cfb8646fd447b06979aa29e0",
+        "coords": "d4ae1f58322ad52483b555295c33794344fe628d721e106aa961b68da213e58b",
+        "region_labels": "d24dd2a7ae6101d3827bec85b4e00e6918e185208a004fccfd4f1e4b2ac1ac0c"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "da4f3f4bddc532df91052ee99c44ab6ed04b4dd4973154f0ba29dfeea0c3cd13",
+        "spatial_hash": "8b0ff57b1b421270825a21e78e960f01b1974fe7457a3fd6b10050d285892b71",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "e80425caa086d1a650f81cfe21286ec573e40222cfb8646fd447b06979aa29e0",
+        "spatial_hash": "d4ae1f58322ad52483b555295c33794344fe628d721e106aa961b68da213e58b",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed7": {
+    "dataset": "realistic-seed7",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "33e8f4ba8d2c6fa17e68a1318914e079bb537a823f70be3c7cd1934d213ff9bf",
+        "coords": "aea1784e4a61b3538469d1d57a0bbc08d48ce9e2cd4faffeb1a52611c19ec0b1",
+        "region_labels": "2863cb72f2fd5d8c7129dfb54297b443cff7704cb6b2c1312626c8805d9476f0"
+      },
+      "B": {
+        "expr": "9f84bed528504694d5ced24bf496c83303517b10001490eb96efcb29200dbb91",
+        "coords": "057a1655cad45a31b1d29dea158cbf4ee707e002a5dfb6133c06f578405e2dff",
+        "region_labels": "bdf515168619e99e26fd918c72d1b5caffbeec45e08a3aed207b00a98fad1e65"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "33e8f4ba8d2c6fa17e68a1318914e079bb537a823f70be3c7cd1934d213ff9bf",
+        "spatial_hash": "aea1784e4a61b3538469d1d57a0bbc08d48ce9e2cd4faffeb1a52611c19ec0b1",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "9f84bed528504694d5ced24bf496c83303517b10001490eb96efcb29200dbb91",
+        "spatial_hash": "057a1655cad45a31b1d29dea158cbf4ee707e002a5dfb6133c06f578405e2dff",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed8": {
+    "dataset": "realistic-seed8",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "5b61d1c693d963c4fbdc12158ec218c630e2748085e38af3e6482ccd1c0a6916",
+        "coords": "7f15d406a6423ce273e1c439f0333fb0690a1b9a0b43f825e8a6be12947b0089",
+        "region_labels": "7babe5912edd80101b5e29a95509e96243d9da7eef9a5508c8bd6c9029cd5e46"
+      },
+      "B": {
+        "expr": "49fdfb89d400cf95cba4a740f76c6fab2c7c409aa24d30b1bd2d57eabd7869f5",
+        "coords": "0d78d9a22757ad002269d02d8888a54cb55b0e48f00f8a5ef60e6c63c5884321",
+        "region_labels": "0d0b70cecee95ec825ff6069bc038e5c5b100592dd7efef3940a9cee2dad5108"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "5b61d1c693d963c4fbdc12158ec218c630e2748085e38af3e6482ccd1c0a6916",
+        "spatial_hash": "7f15d406a6423ce273e1c439f0333fb0690a1b9a0b43f825e8a6be12947b0089",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "49fdfb89d400cf95cba4a740f76c6fab2c7c409aa24d30b1bd2d57eabd7869f5",
+        "spatial_hash": "0d78d9a22757ad002269d02d8888a54cb55b0e48f00f8a5ef60e6c63c5884321",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed9": {
+    "dataset": "realistic-seed9",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "08b1cf38b6a639da301e10428dbafc328b41e5f14c3387f72aa16eea51241414",
+        "coords": "c120fd49e31c838f69cf556e8be5a59da154876dbe3b792fe4a97d06575a49bd",
+        "region_labels": "07b38094b73ce2f6c19cb7372463bfa56518b7b16cb9fc5582521a263f21cd3e"
+      },
+      "B": {
+        "expr": "b5bad9dda41c641911497ac02ddd75b8d0b2b0a5ed1a56827d24b34c02ef8f0b",
+        "coords": "b82c60ff92b917e6a46dea2e128f64c76264c7c08e53ed1d2afe4a86b25381c9",
+        "region_labels": "217b1085dc031242662f5a7ccffdcd9031ecbb0393e8b021fd82efc967060e08"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "08b1cf38b6a639da301e10428dbafc328b41e5f14c3387f72aa16eea51241414",
+        "spatial_hash": "c120fd49e31c838f69cf556e8be5a59da154876dbe3b792fe4a97d06575a49bd",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "b5bad9dda41c641911497ac02ddd75b8d0b2b0a5ed1a56827d24b34c02ef8f0b",
+        "spatial_hash": "b82c60ff92b917e6a46dea2e128f64c76264c7c08e53ed1d2afe4a86b25381c9",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed10": {
+    "dataset": "realistic-seed10",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "20e16fac6b075b9985776606eec9b0ae7bd9c8d0dbb3680da4c7e5a3170c8e9c",
+        "coords": "f43ae0b5f589b72042ae06bbe2808eff9a4b4241a78eb7c9418b315c613e97b3",
+        "region_labels": "16c340069b1ba4eb522b2aa8719ac12cf6c18ebc0916860a3ba292c5c4efb6cb"
+      },
+      "B": {
+        "expr": "8f38d16555555f890ab7e390459be1edca7b015bc13653d831814df940593694",
+        "coords": "c590c9b92d33eeb2828d5ea8cc7ac9f567350cb1a33979c686eee222e597386f",
+        "region_labels": "ba7cd72a6f3912e23726d44002e2dc581fa52945c69854e813ef8ece623ab160"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "20e16fac6b075b9985776606eec9b0ae7bd9c8d0dbb3680da4c7e5a3170c8e9c",
+        "spatial_hash": "f43ae0b5f589b72042ae06bbe2808eff9a4b4241a78eb7c9418b315c613e97b3",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "8f38d16555555f890ab7e390459be1edca7b015bc13653d831814df940593694",
+        "spatial_hash": "c590c9b92d33eeb2828d5ea8cc7ac9f567350cb1a33979c686eee222e597386f",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed11": {
+    "dataset": "realistic-seed11",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "5cdc3903b696376f0fd946e6666e2c42cf653c63449e7c204462d6d86b55bd5d",
+        "coords": "91e5c55a6f689dede6f23d11ef437e514a0930f0f3224fac4bfdd7f38c1056c8",
+        "region_labels": "7577eb409d750399c74f8beabc5c0f940c0c71c2f2b957c9c6c025941a97e65a"
+      },
+      "B": {
+        "expr": "3b5b31524725c01e842ba662906f76fbf541c1b23735ee905ff04b2851316931",
+        "coords": "c2eaca627454139c2edbb38ad6c393112abe59bc3ef91527df44f8e9676a3fec",
+        "region_labels": "bbfdf2017744e0afd9ceebdc1323a278d0d66dd9c3d90295363eae76505f9050"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "5cdc3903b696376f0fd946e6666e2c42cf653c63449e7c204462d6d86b55bd5d",
+        "spatial_hash": "91e5c55a6f689dede6f23d11ef437e514a0930f0f3224fac4bfdd7f38c1056c8",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "3b5b31524725c01e842ba662906f76fbf541c1b23735ee905ff04b2851316931",
+        "spatial_hash": "c2eaca627454139c2edbb38ad6c393112abe59bc3ef91527df44f8e9676a3fec",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed12": {
+    "dataset": "realistic-seed12",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "ad8315080f2fea31d0774c2bcfcbba18e45720d1b06ee8e1b1fd23b15c477d6a",
+        "coords": "1e949cb84db3ebd4659951dfa30d6aafad7bee2258765d402fbbf7e9685689f7",
+        "region_labels": "1065fc74be5e4628220457d9382520aa1d1077da658a4ce5411753aa149473ac"
+      },
+      "B": {
+        "expr": "5b714c883b64368e7d722317c881c9911c6ca7e2e9a93d0d84b71f2ad30ddddc",
+        "coords": "0a6b8c96155da1076ba9148ab3c674c8d39e15ffca9d1068e23ffc54b08bc56e",
+        "region_labels": "2bc09aea31e98774dbd4228949f78a6966f679ecb66bc5555c88f633081337b6"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "ad8315080f2fea31d0774c2bcfcbba18e45720d1b06ee8e1b1fd23b15c477d6a",
+        "spatial_hash": "1e949cb84db3ebd4659951dfa30d6aafad7bee2258765d402fbbf7e9685689f7",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "5b714c883b64368e7d722317c881c9911c6ca7e2e9a93d0d84b71f2ad30ddddc",
+        "spatial_hash": "0a6b8c96155da1076ba9148ab3c674c8d39e15ffca9d1068e23ffc54b08bc56e",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed13": {
+    "dataset": "realistic-seed13",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "f7ee7373fac54c003f23bdf17299af26e3279ea0d2d09e9c5aac0869113d81c1",
+        "coords": "45badd62f9b0648ea182706d491e769d2c24c5718f69fc1622e81efc7c1d4299",
+        "region_labels": "05298638e5c83f02516d6b6be963edc9e746a74325f3341f405df04f8c720612"
+      },
+      "B": {
+        "expr": "8a3a6734208d100b9effe585123b7f63392eb5d3df06706a29a1fb2e5951c6db",
+        "coords": "47d484db0b2905538211262bddfdff08201b5c9a96ce04a19aee9ac9ebc5d1db",
+        "region_labels": "4c7855433b60d42ae1dd78d4f82ca6f446d1a63cd07e2bb65bc1be60dc43747e"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "f7ee7373fac54c003f23bdf17299af26e3279ea0d2d09e9c5aac0869113d81c1",
+        "spatial_hash": "45badd62f9b0648ea182706d491e769d2c24c5718f69fc1622e81efc7c1d4299",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "8a3a6734208d100b9effe585123b7f63392eb5d3df06706a29a1fb2e5951c6db",
+        "spatial_hash": "47d484db0b2905538211262bddfdff08201b5c9a96ce04a19aee9ac9ebc5d1db",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed14": {
+    "dataset": "realistic-seed14",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "66ec3ccc3a7293955278fe760f3d42485d7bad1cd8691b8d3034ef42d1ff50cc",
+        "coords": "8317e771e05f978cb039f342a982f8060783ac0625424de2ff8856a5d4244e06",
+        "region_labels": "7fb95e77aa39f62d4f93cb14d6305fb13576fbaa747b99925675b46379b160dc"
+      },
+      "B": {
+        "expr": "f767493a6c55ef0f99d410ff5600a7d74649e27b78b652530f01a0f049a30339",
+        "coords": "7a3903506c552e715576ef32cc7ad8b85eeeb8558c11d034f3e35eddfcf51cde",
+        "region_labels": "148f01dc74ab170bb4d12bc0024de3e353f77cdf9556537f7cf3fe3d834e6864"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "66ec3ccc3a7293955278fe760f3d42485d7bad1cd8691b8d3034ef42d1ff50cc",
+        "spatial_hash": "8317e771e05f978cb039f342a982f8060783ac0625424de2ff8856a5d4244e06",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "f767493a6c55ef0f99d410ff5600a7d74649e27b78b652530f01a0f049a30339",
+        "spatial_hash": "7a3903506c552e715576ef32cc7ad8b85eeeb8558c11d034f3e35eddfcf51cde",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed15": {
+    "dataset": "realistic-seed15",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "ae01811d7ba727f316d152faab6ed2f55bed01d514c81900821ec28845a7da44",
+        "coords": "40b1903ea53e1eaf3b72b73ce24d365c0f9e80dcb69b75ab871ead8d9971b048",
+        "region_labels": "4b5c433cd4d426c591d910592ee61af651ded8e7d9344a7c7f3bef222e090bfd"
+      },
+      "B": {
+        "expr": "6669f2a316a39db66f16a9d10c5390eb047147ab945d37432b9753e373f1583b",
+        "coords": "52e6b72481533f272f24aa6e037695a664427265ddd4c1e2cfd24a3ac95205cd",
+        "region_labels": "06824d7e5045e480258ca4745f345214a0e32af53851190c958ce270c2e7efa9"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "ae01811d7ba727f316d152faab6ed2f55bed01d514c81900821ec28845a7da44",
+        "spatial_hash": "40b1903ea53e1eaf3b72b73ce24d365c0f9e80dcb69b75ab871ead8d9971b048",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "6669f2a316a39db66f16a9d10c5390eb047147ab945d37432b9753e373f1583b",
+        "spatial_hash": "52e6b72481533f272f24aa6e037695a664427265ddd4c1e2cfd24a3ac95205cd",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed16": {
+    "dataset": "realistic-seed16",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "5a48ade065994bdc72ac79b9722791c26bf194a4ffadd4e7181c89c5303bf09b",
+        "coords": "1f93fc2622253aff5eb907c84d1c6e866413a55729e45e264043c7af68b5f338",
+        "region_labels": "e40db480cb5fd5b8ad70824b5171566d662f2f2ddff08dfd91cca090b5e2dbd7"
+      },
+      "B": {
+        "expr": "62d3961e50e1396785a67d79e4978d34786ff6931b4721070da8a6ff89ff3b5b",
+        "coords": "9496bbfe9bdc7c0f717922e80da918ae16a4f4a8df4a9f35134bb74f95e063cb",
+        "region_labels": "91c9168f62a4d8a9b020dbb653bf9fe63e124bda546a3b3dd7e7919653d1294a"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "5a48ade065994bdc72ac79b9722791c26bf194a4ffadd4e7181c89c5303bf09b",
+        "spatial_hash": "1f93fc2622253aff5eb907c84d1c6e866413a55729e45e264043c7af68b5f338",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "62d3961e50e1396785a67d79e4978d34786ff6931b4721070da8a6ff89ff3b5b",
+        "spatial_hash": "9496bbfe9bdc7c0f717922e80da918ae16a4f4a8df4a9f35134bb74f95e063cb",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed17": {
+    "dataset": "realistic-seed17",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "c82ddcad0c9d907cb42dfbfbd19ced8995e1c1c9f04eef02462625332cfbb7fc",
+        "coords": "c322f58077d11f4bb460725acb69c9d7cf32d1df65a9f1d8810b1e2ab554a35a",
+        "region_labels": "8766f34df5de18cbfae4df35865864863d4de054a34ddd210f655773d49c7807"
+      },
+      "B": {
+        "expr": "d88ac0d09a37a71a7a3bdded3d0d4586e734d2bb2fc41ad7511d53209070428f",
+        "coords": "b8b570aa0af56b2115c6d5c6a17117fd65a09727dd72cff7643a0f3c266a2474",
+        "region_labels": "6d8131a4215b390ffb8809fd8dc897bdb199dfa70d3c7ecfc4bf3b89ed9b6a49"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "c82ddcad0c9d907cb42dfbfbd19ced8995e1c1c9f04eef02462625332cfbb7fc",
+        "spatial_hash": "c322f58077d11f4bb460725acb69c9d7cf32d1df65a9f1d8810b1e2ab554a35a",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "d88ac0d09a37a71a7a3bdded3d0d4586e734d2bb2fc41ad7511d53209070428f",
+        "spatial_hash": "b8b570aa0af56b2115c6d5c6a17117fd65a09727dd72cff7643a0f3c266a2474",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed18": {
+    "dataset": "realistic-seed18",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "28b2d54444b9f74b772eddb782552f4e47447fe9c38d40f697153f23936013bc",
+        "coords": "938f8b0adbd5bacaa2045f9625d9f78d84939428b5f02e756772ac2b00049b7a",
+        "region_labels": "d57f927c46ee18b393850e2ba66be44d591150e8f337f98b2c2090fd2c40fb4e"
+      },
+      "B": {
+        "expr": "1fed1a22ac2a76370a75fc8658b1e3aea9bb989f7629cc89b24628f06d9092ac",
+        "coords": "6ba70a9c58f8a3cd0a933e428695374b80320f5acd6cb86882cb7888dae6e602",
+        "region_labels": "987189fbbbe600ae22cb57ddd790300b3290230ea2f03024d35840cb316f76d6"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "28b2d54444b9f74b772eddb782552f4e47447fe9c38d40f697153f23936013bc",
+        "spatial_hash": "938f8b0adbd5bacaa2045f9625d9f78d84939428b5f02e756772ac2b00049b7a",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "1fed1a22ac2a76370a75fc8658b1e3aea9bb989f7629cc89b24628f06d9092ac",
+        "spatial_hash": "6ba70a9c58f8a3cd0a933e428695374b80320f5acd6cb86882cb7888dae6e602",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed19": {
+    "dataset": "realistic-seed19",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "eba337da227833b8a6ab46a5a529878711c53fdf58d628f5f4b18b1faca5e32a",
+        "coords": "e2f1eb1d952de412f1a8f13f086d55e81f63820796b9efb2046b83423b664a53",
+        "region_labels": "1378be490443c1c21cad4df9b44d97c937461bcc92010fea7bcf58c56f275453"
+      },
+      "B": {
+        "expr": "ae11e181d2b81c039ae264aaba7c895545ad6641d1b41caefba61975656f5acd",
+        "coords": "edcabbd6bf8ad225cc28d326cfbd0cfc350bec71f93e6bd46a4b09b752100403",
+        "region_labels": "437c663c05e715ddf64d2852740ee2eeae02c1f53d541a4b943028438c05fd8e"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "eba337da227833b8a6ab46a5a529878711c53fdf58d628f5f4b18b1faca5e32a",
+        "spatial_hash": "e2f1eb1d952de412f1a8f13f086d55e81f63820796b9efb2046b83423b664a53",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "ae11e181d2b81c039ae264aaba7c895545ad6641d1b41caefba61975656f5acd",
+        "spatial_hash": "edcabbd6bf8ad225cc28d326cfbd0cfc350bec71f93e6bd46a4b09b752100403",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "realistic-seed20": {
+    "dataset": "realistic-seed20",
+    "raw_sampling": null,
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "95e0adf5748fbe921f446879736c2f6d2823a4c752fcb961b0d8f63155e420ff",
+        "coords": "1966c591de82fa3c5c18b313c75b2ddfdac5b95cddfb4f2e5964cbdad120bf02",
+        "region_labels": "230002e906f861377cd3e9c116ef3c20a644ffd645f521c9300c45132ba8ecce"
+      },
+      "B": {
+        "expr": "367dfe9615f563a3f80ab42ecb3d55a35bc4e7a5ecb6cf2d58dbb763a57711ae",
+        "coords": "dac015c316020fdbbf003b5499f4b39077994a07c9897e38b8b47e6e52154376",
+        "region_labels": "1a6b7eea4f9f04d64c4f7a5250698f97d178d33089e08125827362623ec2d0e6"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "95e0adf5748fbe921f446879736c2f6d2823a4c752fcb961b0d8f63155e420ff",
+        "spatial_hash": "1966c591de82fa3c5c18b313c75b2ddfdac5b95cddfb4f2e5964cbdad120bf02",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      },
+      {
+        "expression_hash": "367dfe9615f563a3f80ab42ecb3d55a35bc4e7a5ecb6cf2d58dbb763a57711ae",
+        "spatial_hash": "dac015c316020fdbbf003b5499f4b39077994a07c9897e38b8b47e6e52154376",
+        "gene_order_sha256": "db573374a3491c28fea43bbaaf538959bb03184b815a489719a9dccbae123269",
+        "shape": [
+          1000,
+          150
+        ]
+      }
+    ],
+    "generator_source_sha256": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d"
+  },
+  "151507-151508": {
+    "dataset": "151507-151508",
+    "raw_sampling": {
+      "A": {
+        "sample": "151507",
+        "seed": 42,
+        "spots": 1000,
+        "eligible_spots": 4221,
+        "raw_files": {
+          "151507_filtered_feature_bc_matrix.h5": "686521ab02a68dfdd810c3cde26daea2257d016c8047859877ffb8c7ac5bdd01",
+          "151507_tissue_positions_list.txt": "5c5be4dcd51c914bad02634f1ed2d96bd0c200ae487e236f644d94ded983efd0",
+          "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+        },
+        "arrays": {
+          "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+          "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+          "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+        },
+        "gene_names_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+        "barcodes_sha256": "05f3b5f51f4208d02ff1c515d717701abda43afa1157dadff30974d657a654c2"
+      },
+      "B": {
+        "sample": "151508",
+        "seed": 99,
+        "spots": 1000,
+        "eligible_spots": 4381,
+        "raw_files": {
+          "151508_filtered_feature_bc_matrix.h5": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+          "151508_tissue_positions_list.txt": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+          "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+        },
+        "arrays": {
+          "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+          "coords": "31b68f7744b16d5ed570a517260372d9123dd2c0bdf39e8c8c85c2698b60fbc1",
+          "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+        },
+        "gene_names_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+        "barcodes_sha256": "3bbfdf89aa44f68fe1d3e34710f9d91aa7a45a43f54fac3d14f7c721be84c2a7"
+      }
+    },
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+        "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+        "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+      },
+      "B": {
+        "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+        "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+        "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "208471361713266f0ad2300defb1983573470ac11535645fe47bf6b02f81b6b2",
+        "spatial_hash": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+        "gene_order_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+        "shape": [
+          1000,
+          33538
+        ]
+      },
+      {
+        "expression_hash": "033efb7dcc6c112791e5719f2223e208db6d9e012f8bbb9e52c14dd641280899",
+        "spatial_hash": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+        "gene_order_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+        "shape": [
+          1000,
+          33538
+        ]
+      }
+    ],
+    "generator_source_sha256": null
+  },
+  "151508-151509": {
+    "dataset": "151508-151509",
+    "raw_sampling": {
+      "A": {
+        "sample": "151508",
+        "seed": 42,
+        "spots": 1000,
+        "eligible_spots": 4381,
+        "raw_files": {
+          "151508_filtered_feature_bc_matrix.h5": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+          "151508_tissue_positions_list.txt": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+          "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+        },
+        "arrays": {
+          "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+          "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+          "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+        },
+        "gene_names_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+        "barcodes_sha256": "2e88e8a6be07858446bfe3934a4fbb63e24ab32294a71d23c1003844519a0c5c"
+      },
+      "B": {
+        "sample": "151509",
+        "seed": 99,
+        "spots": 1000,
+        "eligible_spots": 4788,
+        "raw_files": {
+          "151509_filtered_feature_bc_matrix.h5": "35a4850aebdfdccb9fdf2f79cebeebc037684a79c03adb4bcdffa7c7c68486fc",
+          "151509_tissue_positions_list.txt": "badca077b07d5268bb222e7bfdd0b31d179fa97f51870e28f562ef4f961e8d6a",
+          "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+        },
+        "arrays": {
+          "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+          "coords": "a649d01a009ce2b751ac30dbf16855ca8eca8ba5ef02637d665f325af3dda885",
+          "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+        },
+        "gene_names_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+        "barcodes_sha256": "fec40ce80192bf7736f9d0f3b5d851f95bb9a3bfbe65a94016653287dd81917f"
+      }
+    },
+    "ordered_input_hashes": {
+      "A": {
+        "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+        "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+        "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+      },
+      "B": {
+        "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+        "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+        "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+      }
+    },
+    "package_input_hashes": [
+      {
+        "expression_hash": "bb4ddc8b7596d71e645dfaa0b0a7f4dded2cd804af1c2dc8e272351ce53c25fa",
+        "spatial_hash": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+        "gene_order_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+        "shape": [
+          1000,
+          33538
+        ]
+      },
+      {
+        "expression_hash": "6e56599ced21b28f687c0504c8e589ef67525b4d4936ae1fd35437a15b1142bb",
+        "spatial_hash": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+        "gene_order_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+        "shape": [
+          1000,
+          33538
+        ]
+      }
+    ],
+    "generator_source_sha256": null
+  }
+}

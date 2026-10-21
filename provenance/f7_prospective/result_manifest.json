@@ -1,0 +1,35 @@
+{
+  "scope": "One prospective raw-input F7 run; local outputs are not bundled, and old historical image provenance is not proved",
+  "local_result_directory_name": "F7_prospective_protocol_20261011",
+  "file_sha256": {
+    "F7_new_same_run.png": "d1f9a0c611d8641bdd7b96514fe92a2bb54ee23e9c2961bceef313ba0e61923b",
+    "FGW_plan.npz": "9e2547e44c80dcaf4cb49b1f6b6f5cc74993b5f4da294b326918549fc79dfe92",
+    "LROT_plan.npz": "73c670b6943881b42ff7417dbfd4ab87b7b766a411e082bcf3a46a71deef43d2",
+    "independent_plan_check.json": "dcf911c155ede3454ca55ff4bef7f8828c6b27b944ad139baddffb3d3b97920d",
+    "input_identity.json": "12359bed9599d7f561142f2992d1440b066a6f684ad64bcb97f6b97fcf2c9904",
+    "new_same_run_metrics.json": "b81e82c248180b06ad133afbcc27276391156d36bddd8621c694542507729d5f",
+    "new_same_run_plot_input.npz": "b9362846144551bab436d498e5569ea0e73f9651d18c0684388dae992697d917",
+    "prepared_f7_raw_input.npz": "42c65c7c0ded3f1e08d6114600ae006d0efb7bfa4829dc62f18704a369b9953a",
+    "prespecified_solver_plan.json": "2e88d36b1e70b162b4391e7aa6fde8c3c28962a5bc1dd3baf70b999155351e2c",
+    "prospective_outcome.json": "125100c7e677704170684105351fc92672ecc8022b0b1c273fe4b0fe53b05a07",
+    "solver_console_attempt1_import_failure.log": "f0b28194cd9281dc787a053cdbd585dd3d61d1b06dc9aad3e631b6627e1915db",
+    "solver_console_attempt2.log": "72d014c2d8341806a90d71ecc51d8f5e224eb42e3d028e5b0bf600315afc5820"
+  },
+  "solver_fingerprint": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132",
+  "accepted": {
+    "FGW": true,
+    "LROT": true
+  },
+  "outer_steps": {
+    "FGW": 9,
+    "LROT": 9
+  },
+  "entropy": {
+    "FGW": 5.849532811322741,
+    "LROT": 5.817596024603023
+  },
+  "reduction_percent": 0.5459715801217444,
+  "approved_document_image_sha256": "9b642e65963e32c09aa74f19bfcc14e4e4c9833a22f308e7d0995792004c3e37",
+  "new_candidate_image_pixel_difference_percent": 0.0738059574,
+  "approved_document_image_replaced": false
+}

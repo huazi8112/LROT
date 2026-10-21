@@ -1,0 +1,24 @@
+{
+  "data_seed": 42,
+  "spots_per_slice": 1000,
+  "original_genes": 150,
+  "PCA_components": 50,
+  "spatial_graph": "KNN6 append reversed edges retain duplicates",
+  "knn_neigh": 50,
+  "initialization_seed": 666,
+  "pretrain_epochs": 500,
+  "joint_epochs": 500,
+  "lr": 0.001,
+  "scoring": "A-to-B Euclidean latent NN",
+  "numerical_execution": {
+    "threads": 1,
+    "interop_threads": 1,
+    "PYTHONHASHSEED": "0",
+    "torch_use_deterministic_algorithms": true,
+    "warn_only": false,
+    "cudnn_benchmark": false,
+    "mkldnn_deterministic": true
+  },
+  "baseline_origin": "new complete deterministic execution; historical .934 not restored",
+  "verification_scope": "one fixed realistic-seed42 case; two technical repeats; not all experiments"
+}

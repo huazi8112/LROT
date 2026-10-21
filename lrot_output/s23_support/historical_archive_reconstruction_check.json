@@ -1,0 +1,16 @@
+{
+  "A": {
+    "coords_exact": true,
+    "labels_exact": true,
+    "gene_names_exact_after_alias_canonicalization": true,
+    "expr_equal_after_archival_float16": true,
+    "expr_max_abs_diff_after_float16": 0.0
+  },
+  "B": {
+    "coords_exact": true,
+    "labels_exact": true,
+    "gene_names_exact_after_alias_canonicalization": true,
+    "expr_equal_after_archival_float16": true,
+    "expr_max_abs_diff_after_float16": 0.0
+  }
+}

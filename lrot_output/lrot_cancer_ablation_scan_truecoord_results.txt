@@ -1,0 +1,43 @@
+========================================================================
+  乳腺癌通路级系统消融扫描（leave-one-out）
+========================================================================
+  Reused matched-mask FGW/full-library checkpoints from lrot_output/lrot_cancer_erbb2_ablation_truecoord_results.json
+  Matched-mask FGW entropy: 5.849533
+  完整LR库(68对): 熵降 0.5460%
+  Top LR 信号: ['ERBB2-ERBB2', 'CDH1-CDH1', 'ERBB2-ERBB3', 'COL1A1-ITGA2', 'SEMA3F-NRP2']
+
+  家族级消融: 移除每个信号家族后的熵降% (Δ=熵降-完整库)
+  移除的家族                    对数     熵降%        Δ          判定
+  --------------------------------------------------------------
+  ERBB2/HER                9      1.026      +0.480     removal raises
+  Neurotrophin/Growth      18     0.555      +0.009     within ±0.1 pp
+  Wnt                      4      0.546      +0.000     within ±0.1 pp
+  Notch                    4      0.549      +0.003     within ±0.1 pp
+  Ephrin                   4      0.551      +0.005     within ±0.1 pp
+  Semaphorin               4      0.562      +0.016     within ±0.1 pp
+  Slit/Robo                3      0.547      +0.001     within ±0.1 pp
+  Chemokine/Cytokine       8      0.543      -0.003     within ±0.1 pp
+  BMP                      3      0.546      +0.000     within ±0.1 pp
+  Cell Adhesion            6      0.776      +0.230     removal raises
+  Hedgehog                 3      0.546      +0.000     within ±0.1 pp
+  Reelin                   2      0.546      -0.000     within ±0.1 pp
+
+========================================================================
+  消融谱（Δ=移除家族后的熵降变化，单位为百分点；仅作描述）
+========================================================================
+  Chemokine/Cytokine       熵降0.543% Δ=-0.003 pp within ±0.1 pp
+  Reelin                   熵降0.546% Δ=-0.000 pp within ±0.1 pp
+  Hedgehog                 熵降0.546% Δ=+0.000 pp within ±0.1 pp
+  Wnt                      熵降0.546% Δ=+0.000 pp within ±0.1 pp
+  BMP                      熵降0.546% Δ=+0.000 pp within ±0.1 pp
+  Slit/Robo                熵降0.547% Δ=+0.001 pp within ±0.1 pp
+  Notch                    熵降0.549% Δ=+0.003 pp within ±0.1 pp
+  Ephrin                   熵降0.551% Δ=+0.005 pp within ±0.1 pp
+  Neurotrophin/Growth      熵降0.555% Δ=+0.009 pp within ±0.1 pp
+  Semaphorin               熵降0.562% Δ=+0.016 pp within ±0.1 pp
+  Cell Adhesion            熵降0.776% Δ=+0.230 pp removal raises
+  ERBB2/HER                熵降1.026% Δ=+0.480 pp removal raises
+
+  Δ < -0.1 pp: 0 families; Δ > +0.1 pp: 2; within band: 10
+  This is a descriptive sensitivity analysis; the ±0.1 percentage-point band is not a
+  statistical test and does not establish a causal or mechanistic pathway contribution.

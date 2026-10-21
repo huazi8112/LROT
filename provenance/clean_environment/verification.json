@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-15",
+  "Python": "3.10.11",
+  "platform_scope": "Windows AMD64 CPU on the same computer; fresh venv with independently downloaded dependencies",
+  "system_site_packages_inherited": false,
+  "user_site_packages_enabled": false,
+  "original_research_environment_modified": false,
+  "F2_saved_drawing_byte_equal": true,
+  "F2_drawing_sha256": "58cf7a8c9f49f2c83c3608621a13ad46959dd96f8d0b7aa6a41bc3ce5f2ba978",
+  "F2_fresh_curve_comparison": {
+    "saved_main_gamma_0_10": {
+      "length": 123,
+      "max_abs_difference": 0.0,
+      "exact_equal": true
+    },
+    "gamma_0.00": {
+      "length": 80,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "exact_equal": false
+    },
+    "gamma_0.05": {
+      "length": 80,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "exact_equal": false
+    },
+    "gamma_0.10": {
+      "length": 80,
+      "max_abs_difference": 2.220446049250313e-16,
+      "exact_equal": false
+    },
+    "gamma_0.20": {
+      "length": 80,
+      "max_abs_difference": 2.220446049250313e-16,
+      "exact_equal": false
+    }
+  },
+  "F3_saved_embedding_scoring_passed": true,
+  "F3_clean_full_training_steps": 1000,
+  "F3_accuracy": 0.93,
+  "F3_ARI": 0.8535028559314339,
+  "F3_input_sha256": "4e1fd5aa27872896217b7189ccec2b0eb139b1bf2a0356f76bb3fb5342595c10",
+  "F3_embedding_sha256": "7b70ead45e37f2d16a18fc268000e351f9a169a5d27b3ab84d67281aac3a0a43",
+  "F3_all_losses_exact_equal": true,
+  "F3_all_final_weight_tensors_exact_equal": true,
+  "F3_returned_embedding_exact_equal": true,
+  "source_recipe_used": true,
+  "six_training_source_hashes_unchanged": true,
+  "seed_or_protocol_changed": false,
+  "fresh_dependency_installation_tested": true,
+  "all_paper_experiments_certified": false,
+  "cross_platform_certified": false,
+  "CellChat_clean_environment_byte_exact_rebuild_passed": true,
+  "three_dependency_profiles_checked_against_installed_versions": true
+}

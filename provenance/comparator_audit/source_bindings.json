@@ -1,0 +1,26 @@
+{
+  "run_dlpfc_baselines": {
+    "driver_sha256": "3bb7ddde5dd7d1e066994ce9715d4d3a6180da40bab63e58c162165fcc203035",
+    "driver": "experiments/run_dlpfc_baselines.py"
+  },
+  "run_official_paste2": {
+    "driver_sha256": "2312289094285cef344acb5814ff055b441ed5b7eeed1ac5aa6ebaf4d5c9913c",
+    "driver": "experiments/run_official_paste2.py"
+  },
+  "run_paste2_multiseed": {
+    "driver_sha256": "54f1a1aa2c8712cf9b25e04a7962458c3f30ab46913af400232ac71e68788b66",
+    "driver": "experiments/run_paste2_multiseed.py"
+  },
+  "run_paste2_multiseed_euclid": {
+    "driver_sha256": "6502e21024744e275fa4db0689a7dd90c51425f57584263acd8a84f655cb46df",
+    "driver": "experiments/run_paste2_multiseed_euclid.py"
+  },
+  "external_convergence_audit": {
+    "driver_sha256": "f43048776edc69ee4e6f5a704884a9c4059626797c94287d3737738e0266c2d7",
+    "driver": "experiments/external_convergence_audit.py"
+  },
+  "serial_runtime_audit": {
+    "driver_sha256": "16319751a062164ce79a2129ca6cc9b5b968342b366aa418e368ab14cde809d6",
+    "driver": "experiments/serial_runtime_audit.py"
+  }
+}

@@ -1,0 +1,9 @@
+Matched-mask ERBB2/HER2 ablation; same HUMAN_ALL_LR expression mask in every arm.
+FGW entropy=5.849533; cost=0.114507; iterations=9
+Full LR library: pairs=68/68; entropy=5.817596; reduction=0.545973%; delta_vs_full=+0.000000 pp; cost=0.114293; iterations=9
+  top pairs: ERBB2-ERBB2, CDH1-CDH1, ERBB2-ERBB3, COL1A1-ITGA2, SEMA3F-NRP2
+Remove ERBB2/HER2: pairs=59/68; entropy=5.789498; reduction=1.026326%; delta_vs_full=+0.480353 pp; cost=0.114270; iterations=9
+  top pairs: CDH1-CDH1, COL1A1-ITGA2, SEMA3F-NRP2, SEMA4D-PLXNB1, CXCL12-CXCR4
+ERBB2/HER2 only: pairs=9/68; entropy=5.806861; reduction=0.729499%; delta_vs_full=+0.183526 pp; cost=0.114268; iterations=9
+  top pairs: ERBB2-ERBB2, ERBB2-ERBB3, NRG1-ERBB3, HBEGF-EGFR, TGFA-EGFR
+No spot-level accuracy: the breast sections lack true spot labels. Descriptive single-pair ablation; no causal or mechanistic inference.

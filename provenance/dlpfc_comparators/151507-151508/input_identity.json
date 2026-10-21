@@ -1,0 +1,43 @@
+{
+  "A": {
+    "sample": "151507",
+    "seed": 42,
+    "spots": 1000,
+    "eligible_spots": 4221,
+    "raw_files": {
+      "151507_filtered_feature_bc_matrix.h5": "686521ab02a68dfdd810c3cde26daea2257d016c8047859877ffb8c7ac5bdd01",
+      "151507_tissue_positions_list.txt": "5c5be4dcd51c914bad02634f1ed2d96bd0c200ae487e236f644d94ded983efd0",
+      "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+    },
+    "arrays": {
+      "expr": "97ac8a42f787db22fed9a5db8e5cd70665b82df9fb7c34a6866a4fef7c4eacee",
+      "coords": "a4909a0fb216d8d0bf65cf2faedc4105b38d6abb9074f2ec45d29227ec23c24a",
+      "region_labels": "af1b99fdf30b7bf7b044e220524ab7da7545fb012fe0b304c1c04121a61b1dd6"
+    },
+    "gene_names_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+    "barcodes_sha256": "05f3b5f51f4208d02ff1c515d717701abda43afa1157dadff30974d657a654c2"
+  },
+  "B": {
+    "sample": "151508",
+    "seed": 99,
+    "spots": 1000,
+    "eligible_spots": 4381,
+    "raw_files": {
+      "151508_filtered_feature_bc_matrix.h5": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+      "151508_tissue_positions_list.txt": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+      "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+    },
+    "arrays": {
+      "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+      "coords": "31b68f7744b16d5ed570a517260372d9123dd2c0bdf39e8c8c85c2698b60fbc1",
+      "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+    },
+    "gene_names_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+    "barcodes_sha256": "3bbfdf89aa44f68fe1d3e34710f9d91aa7a45a43f54fac3d14f7c721be84c2a7",
+    "arrays_after_target_transform": {
+      "expr": "7915c53ff5618163b0beba48652376210949051ac8bcc73e090f02d76a58ddc3",
+      "coords": "42a8e5917d455de8408523ccb1433e4b937d8ccc9d294efd16aad560829e3745",
+      "region_labels": "03b85a4d77045df02fe9fd575b207b40a8d2f031a746375b03379a19ee95fe2d"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "analysis": "matched-mask leave-one-family-out sensitivity",
+  "expression_mask": "HUMAN_ALL_LR (frozen for FGW and all LROT variants)",
+  "expression_mask_symbols": 115,
+  "sample_size_per_section": 3000,
+  "seeds": {
+    "A": 42,
+    "B": 99
+  },
+  "gamma": 0.1,
+  "fgw_entropy": 5.849533191729423,
+  "full_library_entropy": 5.817596322440952,
+  "full_library_reduction_percent": 0.545972956160427,
+  "delta_definition": "reduction after family removal minus full-library reduction, percentage points",
+  "descriptive_band_pp": 0.1,
+  "family_ablations": [
+    {
+      "family": "ERBB2/HER",
+      "pairs_removed": 9,
+      "entropy": 5.789497899524955,
+      "reduction_percent": 1.0263262082066804,
+      "delta_percentage_points": 0.48035325204625345,
+      "descriptive_band": "removal raises"
+    },
+    {
+      "family": "Neurotrophin/Growth",
+      "pairs_removed": 18,
+      "entropy": 5.817089471455753,
+      "reduction_percent": 0.5546377669852623,
+      "delta_percentage_points": 0.00866481082483539,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "Wnt",
+      "pairs_removed": 4,
+      "entropy": 5.817585789403329,
+      "reduction_percent": 0.5461530224542354,
+      "delta_percentage_points": 0.00018006629380840078,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "Notch",
+      "pairs_removed": 4,
+      "entropy": 5.817442471209961,
+      "reduction_percent": 0.5486031016087692,
+      "delta_percentage_points": 0.0026301454483422804,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "Ephrin",
+      "pairs_removed": 4,
+      "entropy": 5.817289676029693,
+      "reduction_percent": 0.5512151934673705,
+      "delta_percentage_points": 0.005242237306943509,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "Semaphorin",
+      "pairs_removed": 4,
+      "entropy": 5.816659361651523,
+      "reduction_percent": 0.5619906580644607,
+      "delta_percentage_points": 0.016017701904033732,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "Slit/Robo",
+      "pairs_removed": 3,
+      "entropy": 5.817556777869649,
+      "reduction_percent": 0.5466489856828981,
+      "delta_percentage_points": 0.0006760295224711443,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "Chemokine/Cytokine",
+      "pairs_removed": 8,
+      "entropy": 5.817783005408399,
+      "reduction_percent": 0.5427815396605389,
+      "delta_percentage_points": -0.003191416499888078,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "BMP",
+      "pairs_removed": 3,
+      "entropy": 5.81757900563574,
+      "reduction_percent": 0.5462689935474185,
+      "delta_percentage_points": 0.00029603738699157667,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "Cell Adhesion",
+      "pairs_removed": 6,
+      "entropy": 5.804133362735146,
+      "reduction_percent": 0.7761273849760651,
+      "delta_percentage_points": 0.2301544288156382,
+      "descriptive_band": "removal raises"
+    },
+    {
+      "family": "Hedgehog",
+      "pairs_removed": 3,
+      "entropy": 5.817596018538888,
+      "reduction_percent": 0.5459781514820781,
+      "delta_percentage_points": 5.195321651108031e-06,
+      "descriptive_band": "within ±0.1 pp"
+    },
+    {
+      "family": "Reelin",
+      "pairs_removed": 2,
+      "entropy": 5.817596434477405,
+      "reduction_percent": 0.5459710408545498,
+      "delta_percentage_points": -1.91530587712041e-06,
+      "descriptive_band": "within ±0.1 pp"
+    }
+  ]
+}

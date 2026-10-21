@@ -1,0 +1,23 @@
+{
+  "scope": "Final-document image identity and packaging only; no numerical experiments or prose/formula modifications.",
+  "documents": {
+    "main": {
+      "docx_sha256": "004a8b69184464b60b4e137594ff5a52f9750533b081e7605672acfc8b113781",
+      "pdf_sha256": "ee7a3888df0b61ad08f3a9bc0df95555f465abd0428d9c44c68dc5f6a9203176",
+      "formula_objects": 123,
+      "manuscript_distributed": false
+    },
+    "supplement": {
+      "docx_sha256": "e5ffa2849d1d028a580f74667efafa3ce2965979d3d5f746c7f87ca874a4c62e",
+      "pdf_sha256": "0c8a7a9a4c50db839c00aee70abd0406e1d7b1a02d8a65434ff41fd29c38d4c0",
+      "formula_objects": 77,
+      "manuscript_distributed": false
+    }
+  },
+  "main_images_matched": 8,
+  "supplement_images_matched": 23,
+  "all_selected_image_bytes_unchanged": true,
+  "scientific_sources_unchanged": true,
+  "current_verification": "provenance/reproduction_acceptance/summary.json",
+  "full_repository_end_to_end_certified": false
+}

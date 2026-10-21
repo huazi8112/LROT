@@ -1,0 +1,17 @@
+{
+  "scope": "Fresh full run from the actual repository entrypoint, not saved embedding reuse",
+  "completed_epochs": 1000,
+  "accuracy": 0.93,
+  "ARI": 0.8535028559314339,
+  "actual_training_input_sha256": "4e1fd5aa27872896217b7189ccec2b0eb139b1bf2a0356f76bb3fb5342595c10",
+  "embedding_sha256": "7b70ead45e37f2d16a18fc268000e351f9a169a5d27b3ab84d67281aac3a0a43",
+  "regression": {
+    "passed": true,
+    "fresh_embedding_exact_equal": true,
+    "accuracy": 0.93,
+    "ARI": 0.8535028559314339,
+    "scope": "fixed case only"
+  },
+  "entrypoint_sha256": "ae1d4d0937125a12f446129d2ac81c5f3ea621ae423b8f6382f2c344a2ab5bfd",
+  "historical_934_restored": false
+}

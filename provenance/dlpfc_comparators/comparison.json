@@ -1,0 +1,64 @@
+{
+  "historical_saved_embedding_rescoring": [
+    {
+      "pair": "151507-151508",
+      "accuracy": 0.58,
+      "ARI": 0.3839375530144127,
+      "matches_paper_archive": true,
+      "two_scoring_implementations_agree": true,
+      "historical_embedding_sha256": "303188e0e847e053cbd9975e7c4563a72254fe0a9153e46355823dcf52cc5e8e",
+      "contemporaneous_OT_input_identity_matches": [
+        "5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed.json",
+        "d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c.json"
+      ],
+      "historical_STAligner_training_input_hash_captured": false,
+      "scope": "Independent scoring in reconstructed section/barcode order; historical training input was not directly recorded."
+    },
+    {
+      "pair": "151508-151509",
+      "accuracy": 0.518,
+      "ARI": 0.3153082702781694,
+      "matches_paper_archive": true,
+      "two_scoring_implementations_agree": true,
+      "historical_embedding_sha256": "b3f6338dfdb36e9bceed2c481f1174a777c24425619b486fe9a10c4107a4b3cf",
+      "contemporaneous_OT_input_identity_matches": [
+        "3a040e7c23d554be9e56f318621c103cdd9837b05b3a017570acbed3b7c07b75.json",
+        "7c1dd2ea5c32d6aea649332e0106dc3b8c729137370cdbbeaf728b4978f7a093.json"
+      ],
+      "historical_STAligner_training_input_hash_captured": false,
+      "scope": "Independent scoring in reconstructed section/barcode order; historical training input was not directly recorded."
+    }
+  ],
+  "fresh_input_bound_training": [
+    {
+      "pair": "151507-151508",
+      "accuracy": 0.586,
+      "ARI": 0.3778071969611368,
+      "training_steps": 1000,
+      "pretrain_steps": 500,
+      "joint_steps": 500,
+      "seconds": 273.77538320000167,
+      "actual_training_input_sha256": "8f409da6b1468e01b1edfe8514f6b234a9a09b6d5744068c29cc11efcbc6576b",
+      "embedding_sha256": "500eb7af0a3bd620d8d52407a4ff79f93fbd0a0b77803b0b49a5e7d6fec0212f",
+      "labels_withheld_from_training": true,
+      "scope": "One prescribed deterministic single-thread fresh run; not a claim of exact historical training repeatability."
+    },
+    {
+      "pair": "151508-151509",
+      "accuracy": 0.525,
+      "ARI": 0.3029705148169838,
+      "training_steps": 1000,
+      "pretrain_steps": 500,
+      "joint_steps": 500,
+      "seconds": 279.7512707999849,
+      "actual_training_input_sha256": "19f1dfd27d3ae0b8b02c5457ed7bf1677522ae2ff69f0688f3fa7eed0fef44f3",
+      "embedding_sha256": "10b2cdcfa0b1d474562a0e698d87edb42c40b2a7269d410889708254ac8576b4",
+      "labels_withheld_from_training": true,
+      "scope": "One prescribed deterministic single-thread fresh run; not a claim of exact historical training repeatability."
+    }
+  ],
+  "adopted_table_S9_S22": "fresh input-bound single-thread runs",
+  "old_results_retained": true,
+  "historical_incoming_training_matrices_not_captured": true,
+  "accuracy_ordering_unchanged": true
+}

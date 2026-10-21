@@ -1,0 +1,25 @@
+Figure 8: descriptive DLPFC score-ranking analysis.
+Dataset: Human DLPFC Visium, donor Br8325; source data: spatialLIBD / HumanPilot.
+Sections: 151507(seed=42), 151508(seed=99), 151509(seed=99); up to 1,000 labelled spots per section.
+Pairs: 151507->151508 and 151508->151509; the pairs share section 151508 and are not independent replicates.
+Target-coordinate perturbation: rotation=2 degrees, translation=0.5 pixels.
+Solver: alpha=0.5, beta=0.3, max_iter=200; FGW gamma=0, LROT gamma=0.1.
+Score: maximum layer vote after row-normalizing P and aggregating by target-section layer labels.
+Panels A-C use target labels to evaluate a retrospective annotation-derived ranking score; they are not label-free confidence or calibration analyses.
+Panel D reports row entropy from P and is label-free.
+Pooled summaries are descriptive; no spot-level inferential test or confidence interval is reported.
+
+PAIR	151507->151508	FGW	n=1000	spearman_rho=0.518	accuracy=0.570	top20_accuracy=0.935
+PAIR	151507->151508	LROT	n=1000	spearman_rho=0.413	accuracy=0.555	top20_accuracy=0.875
+PAIR	151508->151509	FGW	n=1000	spearman_rho=0.382	accuracy=0.496	top20_accuracy=0.760
+PAIR	151508->151509	LROT	n=1000	spearman_rho=0.334	accuracy=0.473	top20_accuracy=0.740
+POOLED	FGW	n=2000	spearman_rho=0.445	accuracy=0.533	top20_accuracy=0.828
+POOLED	LROT	n=2000	spearman_rho=0.363	accuracy=0.514	top20_accuracy=0.782
+THRESHOLD	LROT	threshold=0.4	coverage=70.3%	retained_accuracy=0.600
+THRESHOLD	LROT	threshold=0.5	coverage=35.4%	retained_accuracy=0.718
+THRESHOLD	LROT	threshold=0.6	coverage=17.4%	retained_accuracy=0.805
+THRESHOLD	LROT	threshold=0.7	coverage=8.1%	retained_accuracy=0.907
+THRESHOLD	FGW	threshold=0.4	coverage=68.7%	retained_accuracy=0.653
+THRESHOLD	FGW	threshold=0.5	coverage=30.2%	retained_accuracy=0.801
+THRESHOLD	FGW	threshold=0.6	coverage=13.6%	retained_accuracy=0.868
+THRESHOLD	FGW	threshold=0.7	coverage=5.9%	retained_accuracy=0.949

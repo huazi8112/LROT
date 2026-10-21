@@ -1,0 +1,25 @@
+{
+  "fresh_independent_metrics": {
+    "accuracy": 0.93,
+    "ARI": 0.8535028559314339
+  },
+  "archived_embedding_conditional_metrics": {
+    "accuracy": 0.934,
+    "ARI": 0.8596162121374112
+  },
+  "same_reported_accuracy": false,
+  "same_reported_ARI": false,
+  "embedding_array_equal": false,
+  "embedding_max_abs_difference": 3.4440560340881348,
+  "completed_epochs": 1000,
+  "pretrain_epochs": 500,
+  "joint_epochs": 500,
+  "training_shape": [
+    2000,
+    50
+  ],
+  "graph_edges": 24000,
+  "original_graph_reconstruction_exact": true,
+  "spot_order_checked": true,
+  "scope": "One fixed realistic-seed42 synthetic F3 baseline; does not certify every manuscript experiment or recover missing historical training input files"
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "Independent raw preparation matched frozen accepted input bytes; existing two plans independently checked and rescored. No fresh F7 solver execution; historical approved raster provenance remains qualified.",
+  "new_solver_execution": false,
+  "evidence": {
+    "input_sha256": "42c65c7c0ded3f1e08d6114600ae006d0efb7bfa4829dc62f18704a369b9953a",
+    "methods": {
+      "FGW": {
+        "record_sha256": "82bf50fd42e66b6ec717dea133034e8ea97588c857efc4eed2218989857c5a3a",
+        "plan_npz_sha256": "9e2547e44c80dcaf4cb49b1f6b6f5cc74993b5f4da294b326918549fc79dfe92",
+        "entropy": 5.849532811322741,
+        "outer_steps": 9
+      },
+      "LROT": {
+        "record_sha256": "53ad803dfd71599827a62baf12214066a6f743bb85e495d77d972dc11b5ca026",
+        "plan_npz_sha256": "73c670b6943881b42ff7417dbfd4ab87b7b766a411e082bcf3a46a71deef43d2",
+        "entropy": 5.817596024603023,
+        "outer_steps": 9
+      }
+    },
+    "plot_input_sha256": "b9362846144551bab436d498e5569ea0e73f9651d18c0684388dae992697d917",
+    "metrics_json_sha256": "16ed03723f36418c3994eb616005b08ee802615cb7fda5f75f96c23e1a1a20d5"
+  },
+  "metrics": {
+    "FGW_entropy": 5.849532811322741,
+    "LROT_entropy": 5.817596024603023,
+    "reduction_percent": 0.5459715801217444,
+    "FGW_evidence_npz_sha256": "9e2547e44c80dcaf4cb49b1f6b6f5cc74993b5f4da294b326918549fc79dfe92",
+    "LROT_evidence_npz_sha256": "73c670b6943881b42ff7417dbfd4ab87b7b766a411e082bcf3a46a71deef43d2",
+    "plot_input_sha256": "b9362846144551bab436d498e5569ea0e73f9651d18c0684388dae992697d917",
+    "solver_fingerprint": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132",
+    "scope": "One prospective accepted raw-input run; does not prove historical same-run provenance"
+  }
+}

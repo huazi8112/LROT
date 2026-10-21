@@ -1,0 +1,14 @@
+{
+  "pair": "151507-151508",
+  "accuracy": 0.58,
+  "ARI": 0.3839375530144127,
+  "matches_paper_archive": true,
+  "two_scoring_implementations_agree": true,
+  "historical_embedding_sha256": "303188e0e847e053cbd9975e7c4563a72254fe0a9153e46355823dcf52cc5e8e",
+  "contemporaneous_OT_input_identity_matches": [
+    "5739e78ed247d69cb95b9f9bd14c2b715e2c689955cbfae3613ae6edc3fdafed.json",
+    "d8ced41736d26d061ef2020c6dc56199328a3d27b0e851a6919f716c7c77b17c.json"
+  ],
+  "historical_STAligner_training_input_hash_captured": false,
+  "scope": "Independent scoring in reconstructed section/barcode order; historical training input was not directly recorded."
+}

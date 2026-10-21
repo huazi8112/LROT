@@ -1,0 +1,13 @@
+{
+  "pair": "151507-151508",
+  "accuracy": 0.586,
+  "ARI": 0.3778071969611368,
+  "training_steps": 1000,
+  "pretrain_steps": 500,
+  "joint_steps": 500,
+  "seconds": 273.77538320000167,
+  "actual_training_input_sha256": "8f409da6b1468e01b1edfe8514f6b234a9a09b6d5744068c29cc11efcbc6576b",
+  "embedding_sha256": "500eb7af0a3bd620d8d52407a4ff79f93fbd0a0b77803b0b49a5e7d6fec0212f",
+  "labels_withheld_from_training": true,
+  "scope": "One prescribed deterministic single-thread fresh run; not a claim of exact historical training repeatability."
+}

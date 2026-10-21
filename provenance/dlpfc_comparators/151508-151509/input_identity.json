@@ -1,0 +1,43 @@
+{
+  "A": {
+    "sample": "151508",
+    "seed": 42,
+    "spots": 1000,
+    "eligible_spots": 4381,
+    "raw_files": {
+      "151508_filtered_feature_bc_matrix.h5": "48ab74b340c79f19070e433b8b7db67932a6e889d421a691f70293587fff0621",
+      "151508_tissue_positions_list.txt": "cf10de46b124381a2cd28dbe3e8bdcfa469ceb5659f26de1039c9a5b9da1a257",
+      "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+    },
+    "arrays": {
+      "expr": "a1e5214b48b6185bf154306983762ae74dcea4d85d2ca1dba43405cdffb70951",
+      "coords": "5af8a439e7d3c36e72771a00683ed06b2638c659ece31bfd33fb3ea0f3103c7e",
+      "region_labels": "8659b5af43c7727c787d5cffe9b741cd8f6e996754643e080ff59fea70fd2e9a"
+    },
+    "gene_names_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+    "barcodes_sha256": "2e88e8a6be07858446bfe3934a4fbb63e24ab32294a71d23c1003844519a0c5c"
+  },
+  "B": {
+    "sample": "151509",
+    "seed": 99,
+    "spots": 1000,
+    "eligible_spots": 4788,
+    "raw_files": {
+      "151509_filtered_feature_bc_matrix.h5": "35a4850aebdfdccb9fdf2f79cebeebc037684a79c03adb4bcdffa7c7c68486fc",
+      "151509_tissue_positions_list.txt": "badca077b07d5268bb222e7bfdd0b31d179fa97f51870e28f562ef4f961e8d6a",
+      "barcode_level_layer_map.tsv": "b5d81f0e61810bb74d8a02495eda8f84e0eb9335211dcdd03513d747036e5ca9"
+    },
+    "arrays": {
+      "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+      "coords": "a649d01a009ce2b751ac30dbf16855ca8eca8ba5ef02637d665f325af3dda885",
+      "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+    },
+    "gene_names_sha256": "d437a41c1db9c26c3a6edb9aec997fe51cf5f23d5adbc9898ea0220bd8dd7f75",
+    "barcodes_sha256": "fec40ce80192bf7736f9d0f3b5d851f95bb9a3bfbe65a94016653287dd81917f",
+    "arrays_after_target_transform": {
+      "expr": "fdcfc6b30f17dc857504fce8d9a054122ed4c6502693d42f7dbc8c8f27cad523",
+      "coords": "6f2d4281fa6445009e32adc8cee101e4fdd406a25d6dd6a2bdc654c00c86cd96",
+      "region_labels": "c1f4295be546a7cf7ab453ce1244734c29e986d62bd01004481ce3b048312686"
+    }
+  }
+}

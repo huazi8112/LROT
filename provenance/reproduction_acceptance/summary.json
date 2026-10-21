@@ -1,0 +1,346 @@
+{
+  "scope": "Fresh primary-case execution and current 30 controlled pairs; not certification of every supplementary condition",
+  "source_repo_identity": "LROT_code",
+  "network_used": false,
+  "experimental_reference_files_modified": false,
+  "F2": {
+    "curves": {
+      "saved_main_gamma_0_10": {
+        "length": 123,
+        "max_absolute_difference": 0.0,
+        "freshly_solved": false
+      },
+      "gamma_0.00": {
+        "length": 80,
+        "max_absolute_difference": 1.1102230246251565e-16,
+        "freshly_solved": true
+      },
+      "gamma_0.05": {
+        "length": 80,
+        "max_absolute_difference": 1.1102230246251565e-16,
+        "freshly_solved": true
+      },
+      "gamma_0.10": {
+        "length": 80,
+        "max_absolute_difference": 1.1102230246251565e-16,
+        "freshly_solved": true
+      },
+      "gamma_0.20": {
+        "length": 80,
+        "max_absolute_difference": 2.220446049250313e-16,
+        "freshly_solved": true
+      }
+    },
+    "retained_main_trace_not_freshly_solved": true,
+    "scope": "Four 80-update current-code histories; retained 123-value trace is copied, not independently solved here"
+  },
+  "F3_STAligner": {
+    "passed": true,
+    "fresh_embedding_exact_equal": true,
+    "accuracy": 0.93,
+    "ARI": 0.8535028559314339,
+    "scope": "fixed case only"
+  },
+  "mouse_raw_case": {
+    "entropy": {
+      "LROT": 0.31742212652078955,
+      "FGW": 0.33416344300279666
+    },
+    "raw_sha256": "fdae7180e8a2727737429e492053cd1f1900eece3a31807516f0ccdc4146430e",
+    "accuracy_not_applicable": true
+  },
+  "F5_raw_case": {
+    "independent_per_spot_statistics": {
+      "LROT": {
+        "top20_accuracy": 0.7825,
+        "rho": 0.362967163396697
+      },
+      "FGW": {
+        "top20_accuracy": 0.8275,
+        "rho": 0.4450839217880346
+      }
+    },
+    "accepted_solves": 4
+  },
+  "F7_raw_case": {
+    "methods": {
+      "LROT": {
+        "entropy": 5.817596024603023,
+        "absolute_difference_current_reference": 0.0,
+        "fresh_plan_array_sha256": "d88a6ce5860a570db140292c00b5bb967704c22b2499bea5c5afc31a02a09f0a"
+      },
+      "FGW": {
+        "entropy": 5.849532811322741,
+        "absolute_difference_current_reference": 0.0,
+        "fresh_plan_array_sha256": "e7fedf9bba7f69de99ad7f1ff92d37107c5d35c279d4ffb0391127e186521425"
+      }
+    },
+    "fresh_raw_preparation_and_two_solves": true,
+    "historical_raster_same_run_origin_not_authenticated": true
+  },
+  "controlled_30": {
+    "fresh_accepted_solves": 60,
+    "all_current_seed_pairs_exactly_matched": true,
+    "FGW_mean": 0.26526666666666665,
+    "LROT_mean": 0.40543333333333337,
+    "paired_mean_difference": 0.1401666666666667,
+    "ci95_t": [
+      0.056030504573476664,
+      0.22430282875985671
+    ],
+    "positive": 24,
+    "negative": 6,
+    "independently_rescored_from_fresh_plans": true,
+    "pairs": [
+      {
+        "seed_A": 1000,
+        "seed_B": 2000,
+        "FGW": 0.04,
+        "LROT": 0.159,
+        "difference": 0.119
+      },
+      {
+        "seed_A": 1001,
+        "seed_B": 2001,
+        "FGW": 0.655,
+        "LROT": 0.649,
+        "difference": -0.006000000000000005
+      },
+      {
+        "seed_A": 1002,
+        "seed_B": 2002,
+        "FGW": 0.315,
+        "LROT": 0.619,
+        "difference": 0.304
+      },
+      {
+        "seed_A": 1003,
+        "seed_B": 2003,
+        "FGW": 0.124,
+        "LROT": 0.177,
+        "difference": 0.05299999999999999
+      },
+      {
+        "seed_A": 1004,
+        "seed_B": 2004,
+        "FGW": 0.645,
+        "LROT": 0.656,
+        "difference": 0.01100000000000001
+      },
+      {
+        "seed_A": 1005,
+        "seed_B": 2005,
+        "FGW": 0.34,
+        "LROT": 0.149,
+        "difference": -0.19100000000000003
+      },
+      {
+        "seed_A": 1006,
+        "seed_B": 2006,
+        "FGW": 0.133,
+        "LROT": 0.178,
+        "difference": 0.044999999999999984
+      },
+      {
+        "seed_A": 1007,
+        "seed_B": 2007,
+        "FGW": 0.202,
+        "LROT": 0.634,
+        "difference": 0.432
+      },
+      {
+        "seed_A": 1008,
+        "seed_B": 2008,
+        "FGW": 0.197,
+        "LROT": 0.653,
+        "difference": 0.456
+      },
+      {
+        "seed_A": 1009,
+        "seed_B": 2009,
+        "FGW": 0.325,
+        "LROT": 0.662,
+        "difference": 0.337
+      },
+      {
+        "seed_A": 1010,
+        "seed_B": 2010,
+        "FGW": 0.382,
+        "LROT": 0.394,
+        "difference": 0.01200000000000001
+      },
+      {
+        "seed_A": 1011,
+        "seed_B": 2011,
+        "FGW": 0.143,
+        "LROT": 0.652,
+        "difference": 0.509
+      },
+      {
+        "seed_A": 1012,
+        "seed_B": 2012,
+        "FGW": 0.174,
+        "LROT": 0.202,
+        "difference": 0.028000000000000025
+      },
+      {
+        "seed_A": 1013,
+        "seed_B": 2013,
+        "FGW": 0.181,
+        "LROT": 0.235,
+        "difference": 0.05399999999999999
+      },
+      {
+        "seed_A": 1014,
+        "seed_B": 2014,
+        "FGW": 0.66,
+        "LROT": 0.665,
+        "difference": 0.0050000000000000044
+      },
+      {
+        "seed_A": 1015,
+        "seed_B": 2015,
+        "FGW": 0.144,
+        "LROT": 0.204,
+        "difference": 0.06
+      },
+      {
+        "seed_A": 1016,
+        "seed_B": 2016,
+        "FGW": 0.155,
+        "LROT": 0.642,
+        "difference": 0.487
+      },
+      {
+        "seed_A": 1017,
+        "seed_B": 2017,
+        "FGW": 0.133,
+        "LROT": 0.66,
+        "difference": 0.527
+      },
+      {
+        "seed_A": 1018,
+        "seed_B": 2018,
+        "FGW": 0.144,
+        "LROT": 0.642,
+        "difference": 0.498
+      },
+      {
+        "seed_A": 1019,
+        "seed_B": 2019,
+        "FGW": 0.05,
+        "LROT": 0.184,
+        "difference": 0.134
+      },
+      {
+        "seed_A": 1020,
+        "seed_B": 2020,
+        "FGW": 0.606,
+        "LROT": 0.611,
+        "difference": 0.0050000000000000044
+      },
+      {
+        "seed_A": 1021,
+        "seed_B": 2021,
+        "FGW": 0.346,
+        "LROT": 0.2,
+        "difference": -0.14599999999999996
+      },
+      {
+        "seed_A": 1022,
+        "seed_B": 2022,
+        "FGW": 0.138,
+        "LROT": 0.149,
+        "difference": 0.010999999999999982
+      },
+      {
+        "seed_A": 1023,
+        "seed_B": 2023,
+        "FGW": 0.126,
+        "LROT": 0.659,
+        "difference": 0.533
+      },
+      {
+        "seed_A": 1024,
+        "seed_B": 2024,
+        "FGW": 0.347,
+        "LROT": 0.194,
+        "difference": -0.15299999999999997
+      },
+      {
+        "seed_A": 1025,
+        "seed_B": 2025,
+        "FGW": 0.336,
+        "LROT": 0.214,
+        "difference": -0.12200000000000003
+      },
+      {
+        "seed_A": 1026,
+        "seed_B": 2026,
+        "FGW": 0.128,
+        "LROT": 0.186,
+        "difference": 0.057999999999999996
+      },
+      {
+        "seed_A": 1027,
+        "seed_B": 2027,
+        "FGW": 0.625,
+        "LROT": 0.623,
+        "difference": -0.0020000000000000018
+      },
+      {
+        "seed_A": 1028,
+        "seed_B": 2028,
+        "FGW": 0.044,
+        "LROT": 0.125,
+        "difference": 0.081
+      },
+      {
+        "seed_A": 1029,
+        "seed_B": 2029,
+        "FGW": 0.12,
+        "LROT": 0.186,
+        "difference": 0.066
+      }
+    ]
+  },
+  "entrypoint_regression": [
+    {
+      "case": "valid_no_timing",
+      "expected_rejection": false,
+      "passed": true,
+      "diagnostic": null
+    },
+    {
+      "case": "wrong_seed_order",
+      "expected_rejection": true,
+      "passed": true,
+      "diagnostic": "Unexpected seed/replicate order in row 1"
+    },
+    {
+      "case": "wrong_scientific_value",
+      "expected_rejection": true,
+      "passed": true,
+      "diagnostic": "Current CSV and F3 differ for fgw_accuracy in row 1"
+    },
+    {
+      "case": "nan_accuracy",
+      "expected_rejection": true,
+      "passed": true,
+      "diagnostic": "Nonfinite value in row 1"
+    },
+    {
+      "case": "wrong_archived_summary",
+      "expected_rejection": true,
+      "passed": true,
+      "diagnostic": "Archived summary mismatch: delta_mean"
+    }
+  ],
+  "all_experiments_end_to_end_certified": false,
+  "remaining_scope_limits": [
+    "DLPFC external neural training-to-label identity is not independently authenticated here",
+    "Historical same-run raster provenance for selected F5/F7/F6 assets remains qualified",
+    "Not every supplementary seed/parameter/ablation configuration was rerun",
+    "Timing values are hardware/load dependent; no numerical identity claim for runtimes"
+  ]
+}

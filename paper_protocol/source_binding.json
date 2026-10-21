@@ -1,0 +1,37 @@
+{
+  "source_files": {
+    "provenance/numerical_validation_snapshot/code/lrot_core.py": "6badb096892216f014a3574c2d100380d9e3145dcc75c25678223225dbb1c5cc",
+    "provenance/numerical_validation_snapshot/code/lrot_numerics.py": "20c225da967b0ef2ca274103ec774ac238b4691b746c43d173fd4c89cc7b1a01",
+    "provenance/numerical_validation_snapshot/code/lrot_numerics_certified.py": "9801625639b6a93f49e58740b617400b09e1abd4409b059af6cbf32ac1d703a7",
+    "provenance/numerical_validation_snapshot/code/real_st_loader.py": "0e80b4486401e29c46ce28bc3ccc4c084a440bca38ff40b86b5e0ea679a1ee9d",
+    "provenance/numerical_validation_snapshot/portable_run_driver.py": "a009271308ec0a9827b72e9f59c81efb63a5f47e3c392703002405f7e03fafc9",
+    "provenance/numerical_validation_snapshot/portable_execute_suite.py": "7948e5603a137ca25b9fe7c58972e7defcd299763919221281707dfba279de69"
+  },
+  "extracted_definitions": {
+    "RejectedPlan": "be8c148db83272a244f8b59076e6055bb580e76fbef3fd9f39702c823940fafa",
+    "arrayhash": "ecaafaeb31d0456e75327209affc3fd52d67486d31e3ed28d240ce67e0d233ab",
+    "clean": "017c5de9d7a66e638698a22d9b89d7012c5a1b12e6ac70fd32d368997f620ce2",
+    "context": "6b8ba4eec1c81f7c5d7193d003efa6227c22b772b3b481408666d0753e4feaae",
+    "evaluate": "c379c302f0991521cbc5c614de5136bb497755c58eac6a59212add28399d8f17",
+    "solver": "7947aab80b368afa967fce81cc3f312b848a3bf712e5c929ccde9823a735f044"
+  },
+  "solver_fingerprint": "2a6841164acdc771ebc8bcddb24ac766f17adea723852478dd8db6599f5cb132",
+  "scope": "Portable derivatives of the driver/orchestrator plus unchanged computational sources and wrapper definitions. Historical original identities are recorded separately; no claim that portable files are the original archive bytes or that all experiments were reproduced.",
+  "binding": "Original core.balanced_sinkhorn=cert.balanced_sinkhorn assignment made explicitly by binding.py; original solver function definitions unchanged.",
+  "historical_source_identities": {
+    "provenance/numerical_validation_snapshot/run_driver.py": "f82e928c2a6845b0187ba84f79fc4f904d37df88236318fe7c21e3b571611b5c",
+    "provenance/numerical_validation_snapshot/execute_suite.py": "ccf480dd808afe4d50bb678be021bfcd0f47dcbb30a54e0cf7b9016a8f8369bf"
+  },
+  "portable_derivation": {
+    "status": "portable source revision, not original archive bytes",
+    "driver": "provenance/numerical_validation_snapshot/portable_run_driver.py",
+    "changes": [
+      "explicit LROT_DATA_ROOT; no personal default",
+      "batch orchestration requires explicit opt-in"
+    ],
+    "computational_definitions": "all original top-level function and class source segments preserved exactly",
+    "four_computational_sources_unchanged": true,
+    "solver_fingerprint_unchanged": true,
+    "numerical_regression_for_this_revision": "not executed; no solver call in this portability check"
+  }
+}
